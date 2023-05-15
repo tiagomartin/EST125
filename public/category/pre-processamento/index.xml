@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pré-processamento | Introdução à Mineração de Dados</title>
-    <link>https://est125imd.netlify.app/category/pre-processamento/</link>
-      <atom:link href="https://est125imd.netlify.app/category/pre-processamento/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tiagomartin.github.io/EST125/category/pre-processamento/</link>
+      <atom:link href="https://tiagomartin.github.io/EST125/category/pre-processamento/index.xml" rel="self" type="application/rss+xml" />
     <description>Pré-processamento</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>pt-br</language><lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://est125imd.netlify.app/media/icon_hua3979484500520cd28bce95abdc02363_106305_512x512_fill_lanczos_center_3.png</url>
+      <url>https://tiagomartin.github.io/EST125/media/icon_hua3979484500520cd28bce95abdc02363_106305_512x512_fill_lanczos_center_3.png</url>
       <title>Pré-processamento</title>
-      <link>https://est125imd.netlify.app/category/pre-processamento/</link>
+      <link>https://tiagomartin.github.io/EST125/category/pre-processamento/</link>
     </image>
     
     <item>
       <title>Transformações de variáveis: o que são e quando usá-las na análise de dados</title>
-      <link>https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/</link>
+      <link>https://tiagomartin.github.io/EST125/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/</guid>
+      <guid>https://tiagomartin.github.io/EST125/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/</guid>
       <description>&lt;p&gt;Olá pessoal, beleza?&lt;/p&gt;
 &lt;p&gt;Hoje vamos falar sobre um conceito muito importante no contexto de análise de dados: as transformações!&lt;/p&gt;
 &lt;p&gt;As transformações de variáveis são técnicas amplamente utilizadas na estatística e em outras áreas das ciências, como a economia, a psicologia e a medicina, além de ajudar na obtenção de modelos preditivos mais precisos. Neste post, vamos discutir o que são transformações de variáveis, quando elas são usadas e quais são as principais técnicas de transformação.&lt;/p&gt;
@@ -31,7 +31,7 @@
 &lt;h2 id=&#34;principais-técnicas-de-transformação&#34;&gt;Principais técnicas de transformação&lt;/h2&gt;
 &lt;h3 id=&#34;transformação-logarítmica&#34;&gt;Transformação logarítmica&lt;/h3&gt;
 &lt;p&gt;A transformação logarítmica é uma técnica que é amplamente utilizada em situações em que a variável tem uma distribuição assimétrica e/ou uma grande variância.&lt;/p&gt;
-&lt;img src=&#34;https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://tiagomartin.github.io/EST125/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;A transformação logarítmica é definida pela seguinte equação:&lt;/p&gt;
 
 
@@ -47,7 +47,7 @@ $x$ é a variável a ser transformada e
 $y$ é a variável transformada. A transformação logarítmica é uma transformação monotônica, o que significa que não afeta a ordem dos dados. Isso é importante para modelos preditivos porque garante que a transformação não afete a capacidade do modelo de capturar a relação entre as variáveis.&lt;/p&gt;
 &lt;h3 id=&#34;transformação-raiz-quadrada&#34;&gt;Transformação raiz quadrada&lt;/h3&gt;
 &lt;p&gt;Assim como a transformação logarítmica, a transformação de raiz quadrada é uma transformação matemática simples e não paramétrica que pode ser facilmente aplicada em modelos preditivos.&lt;/p&gt;
-&lt;img src=&#34;https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://tiagomartin.github.io/EST125/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;A transformação de raiz quadrada é definida pela seguinte equação:&lt;/p&gt;
 
 
@@ -63,7 +63,7 @@ $x$ é a variável a ser transformada e
 $y$ é a variável transformada. Assim como a transformação logarítimica, a transformação de raiz quadrada é uma transformação monotônica, o que significa que não afeta a ordem dos dados.&lt;/p&gt;
 &lt;h3 id=&#34;transformação-de-box-cox&#34;&gt;Transformação de Box-Cox&lt;/h3&gt;
 &lt;p&gt;A transformação de Box-Cox é uma técnica para transformar variáveis em modelos preditivos que é amplamente utilizada para melhorar a qualidade da modelagem e a precisão das previsões. É uma técnica paramétrica que depende de um parâmetro lambda que é estimado a partir dos dados, podendo ser usada apenas com variáveis não negativas..&lt;/p&gt;
-&lt;img src=&#34;https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://tiagomartin.github.io/EST125/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;A transformação de Box-Cox é definida pela seguinte equação:&lt;/p&gt;
 
 
@@ -83,7 +83,7 @@ $x$ é a variável a ser transformada e
 $y$ é a variável transformada. Esta é uma técnica de transformação de dados útil usada para estabilizar a variância, tornar os dados mais semelhantes à distribuição normal, por exemplo, quando um atributo tem a aparência de uma curva normal mas está descolado para a direita ou esquerda, melhorar a validade das medidas de associação e para outros procedimentos de estabilização de dados.&lt;/p&gt;
 &lt;h3 id=&#34;transformação-yeo-johnson&#34;&gt;Transformação Yeo-Johnson&lt;/h3&gt;
 &lt;p&gt;A transformação Yeo-Johnson é uma técnica de transformação semelhante à transformação de Box-Cox. No entanto, a transformação Yeo-Johnson é mais flexível porque pode ser usada para variáveis que podem assumir valores negativos.&lt;/p&gt;
-&lt;img src=&#34;https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://tiagomartin.github.io/EST125/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;A transformação Yeo-Johnson é definida pela seguinte equação:&lt;/p&gt;
 
 
@@ -112,9 +112,9 @@ $y$ é a variável transformada.&lt;/p&gt;
     
     <item>
       <title>Pré-processamento usando a base de dados Space Titanic</title>
-      <link>https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/</link>
+      <link>https://tiagomartin.github.io/EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/</link>
       <pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/</guid>
+      <guid>https://tiagomartin.github.io/EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/</guid>
       <description>&lt;p&gt;Olá pessoal, beleza?&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Bem-vindo ao ano de 2912, onde suas habilidades em ciência de dados são necessárias para resolver um mistério cósmico. Recebemos uma transmissão de quatro anos-luz de distância e as coisas não parecem boas.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;A espaçonave Titanic foi um transatlântico interestelar lançado há um mês. Com quase 13.000 passageiros a bordo, a embarcação partiu em sua viagem inaugural transportando emigrantes de nosso sistema solar para três exoplanetas recém-habitáveis orbitando estrelas próximas.&lt;/em&gt;&lt;/p&gt;
@@ -242,26 +242,26 @@ $y$ é a variável transformada.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;select_if&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;is.numeric&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&amp;gt;%&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;GGally&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;ggscatmat&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;color&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;Transported&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;corMethod&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;pearson&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;theme_pubclean&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://tiagomartin.github.io/EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;Note que fica clara a necessidade de transformações para as variáveis &lt;strong&gt;RoomService&lt;/strong&gt;, &lt;strong&gt;FoodCourt&lt;/strong&gt;, &lt;strong&gt;ShoppingMall&lt;/strong&gt;, &lt;strong&gt;Spa&lt;/strong&gt; e &lt;strong&gt;VRDeck&lt;/strong&gt;, devido à sua distribuição assimétrica. Um fato interessante acontece com a variável &lt;strong&gt;Age&lt;/strong&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Age &lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;dados&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&amp;gt;%&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;ggplot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;aes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Age&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;fill&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Transported&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;geom_density&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;alpha&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;theme&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;legend.position&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#39;bottom&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://tiagomartin.github.io/EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;Observe que, para passageiros com idade menor de 10 anos, aproximadamente, a probabilidade do passageiro ser transportado é maior que não ser transportado. Isso sugere, talvez, a criação de um atributo captando essa informação.&lt;/p&gt;
 &lt;h3 id=&#34;de-onde-vieram-os-passageiros-e-qual-a-relação-disso-com-ser-transportado-ou-não&#34;&gt;De onde vieram os passageiros e qual a relação disso com ser transportado ou não?&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;dados&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&amp;gt;%&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;ggplot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;aes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;HomePlanet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;geom_bar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stat&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;count&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;steelblue&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://tiagomartin.github.io/EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;Note que a maioria dos passageiros embarcaram na Terra (Earth). Além disso, existem observações ausentes. Qual a relação da origem dos passageiros com o fato de ser transportado ou não?&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;dados&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&amp;gt;%&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;ggplot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;aes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;HomePlanet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;fill&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Transported&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;geom_bar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stat&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;count&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;theme&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;legend.position&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#39;bottom&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://tiagomartin.github.io/EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;Quem veio da Terra tem menos chances de ser transportado?&lt;/p&gt;
 &lt;h2 id=&#34;em-que-cabine-estavam-os-passageiros-e-qual-a-relação-disso-com-ser-transportado-ou-não&#34;&gt;Em que cabine estavam os passageiros e qual a relação disso com ser transportado ou não?&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;p1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;dados&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&amp;gt;%&lt;/span&gt; 
@@ -273,7 +273,7 @@ $y$ é a variável transformada.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;geom_bar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stat&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;count&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;steelblue&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;p1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;p2&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://tiagomartin.github.io/EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;A maioria dos passageiros estavam alocados nos decks F e G. Existem observações faltantes. Os passageiros foram alocados em ambos os lados (estibordo e bombordo) de forma semelhante. Qual a relação disso com ser transportado ou não?&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;p1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;dados&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&amp;gt;%&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;ggplot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;aes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;CabinDeck&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;fill&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Transported&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;
@@ -285,33 +285,33 @@ $y$ é a variável transformada.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;p1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;p2&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;plot_layout&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;guides&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;collect&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;theme&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;legend.position&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#39;bottom&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://tiagomartin.github.io/EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;Aparentemente, quem está alocando nos decks B e C tem mais chance de ser transportado. O mesmo acontece para quem está situado no estibordo.&lt;/p&gt;
 &lt;h2 id=&#34;para-onde-iriam-os-passageiros-e-qual-a-relação-disso-com-ser-transportado-ou-não&#34;&gt;Para onde iriam os passageiros e qual a relação disso com ser transportado ou não?&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;dados&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&amp;gt;%&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;ggplot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;aes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Destination&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;geom_bar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stat&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;count&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;steelblue&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-12-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://tiagomartin.github.io/EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-12-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;A maioria dos passageiros tinham como destino o Planeta &amp;ldquo;TRAPPIST-1e&amp;rdquo;. Qual a relação disso com ser transportado ou não?&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;dados&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&amp;gt;%&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;ggplot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;aes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Destination&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Transported&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;geom_bar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stat&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;count&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;theme&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;legend.position&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#39;bottom&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-13-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://tiagomartin.github.io/EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-13-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;Quem iria para o Planeta &amp;ldquo;55 Cancri e&amp;rdquo; teria mais chances de ser transportado?&lt;/p&gt;
 &lt;h2 id=&#34;quem-estava-sozinho-e-quem-estava-em-grupo&#34;&gt;Quem estava sozinho e quem estava em grupo?&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;dados&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&amp;gt;%&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;add_count&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;PassGroup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;name&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;GroupSize&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&amp;gt;%&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;mutate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;IsAlone&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;ifelse&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;GroupSize&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;yes&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;no&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&amp;gt;%&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;ggplot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;aes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;IsAlone&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;geom_bar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stat&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;count&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;steelblue&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://tiagomartin.github.io/EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;A maioria dos passageiros estavam viajando sozinho. Viajar sozinho influencia no fato de ser transportado?&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;dados&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&amp;gt;%&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;add_count&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;PassGroup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;name&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;GroupSize&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&amp;gt;%&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;mutate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;IsAlone&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;ifelse&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;GroupSize&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;yes&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;no&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&amp;gt;%&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;ggplot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;aes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;IsAlone&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Transported&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;geom_bar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stat&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;count&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;theme&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;legend.position&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#39;bottom&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-15-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://tiagomartin.github.io/EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-15-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;Talvez seja uma boa estar sozinho neste momento! 😃&lt;/p&gt;
 &lt;h2 id=&#34;estar-em-sono-profundo-era-uma-boa-ideia&#34;&gt;Estar em sono profundo era uma boa ideia?&lt;/h2&gt;
 &lt;p&gt;
@@ -333,10 +333,10 @@ $y$ é a variável transformada.&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;cryosleep&#34; srcset=&#34;
-               /scripts/pr-processamento-usando-a-base-de-dados-space-titanic/cryo_hue31b209044e9132dda75d586ac076309_96662_e59b8e9ae5ee1f8b29804d1a1a5f91ba.webp 400w,
-               /scripts/pr-processamento-usando-a-base-de-dados-space-titanic/cryo_hue31b209044e9132dda75d586ac076309_96662_a01d678b3c109043d529894daa8fdf00.webp 760w,
-               /scripts/pr-processamento-usando-a-base-de-dados-space-titanic/cryo_hue31b209044e9132dda75d586ac076309_96662_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/cryo_hue31b209044e9132dda75d586ac076309_96662_e59b8e9ae5ee1f8b29804d1a1a5f91ba.webp&#34;
+               /EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/cryo_hue31b209044e9132dda75d586ac076309_96662_e59b8e9ae5ee1f8b29804d1a1a5f91ba.webp 400w,
+               /EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/cryo_hue31b209044e9132dda75d586ac076309_96662_a01d678b3c109043d529894daa8fdf00.webp 760w,
+               /EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/cryo_hue31b209044e9132dda75d586ac076309_96662_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/cryo_hue31b209044e9132dda75d586ac076309_96662_e59b8e9ae5ee1f8b29804d1a1a5f91ba.webp&#34;
                width=&#34;752&#34;
                height=&#34;423&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -345,25 +345,25 @@ $y$ é a variável transformada.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;dados&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&amp;gt;%&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;ggplot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;aes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;CryoSleep&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;geom_bar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stat&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;count&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;steelblue&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://tiagomartin.github.io/EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;A maioria dos passageiros não estavam em sono profundo. Isso influenciou no fato de ser transportado?&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;dados&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&amp;gt;%&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;ggplot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;aes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;CryoSleep&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Transported&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;geom_bar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stat&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;count&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;theme&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;legend.position&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#39;bottom&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-17-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://tiagomartin.github.io/EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-17-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;Estar em sono profundo não me pereceu ser uma boa ideia!&lt;/p&gt;
 &lt;h2 id=&#34;passageiros-vip-tem-menor-risco-de-ser-transportado&#34;&gt;Passageiros VIP tem menor risco de ser transportado?&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;dados&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&amp;gt;%&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;ggplot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;aes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;VIP&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;geom_bar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stat&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;count&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;steelblue&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-18-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://tiagomartin.github.io/EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-18-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;A grande maioria dos passageiros não eram VIPs. Isso influenciou no fato de ser transportado?&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;dados&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&amp;gt;%&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;ggplot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;aes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;VIP&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Transported&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;geom_bar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stat&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;count&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;theme&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;legend.position&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#39;bottom&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-19-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://tiagomartin.github.io/EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-19-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;O fato de ser VIP aparentemente não possui relação com o fato de ser transportado!&lt;/p&gt;
 &lt;h2 id=&#34;que-fatores-ajudaram-alguém-a-não-ser-transportado&#34;&gt;Que fatores ajudaram alguém a não ser transportado?&lt;/h2&gt;
 &lt;p&gt;Vamos analisar os gastos dos passageiros.&lt;/p&gt;
@@ -387,7 +387,7 @@ $y$ é a variável transformada.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;p1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;p2&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;p3&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;plot_layout&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;guides&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;collect&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;theme&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;legend.position&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#39;bottom&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-20-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://tiagomartin.github.io/EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-20-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;Gastos com RoomService, Spa e VRDeck aumentam a chance do passageiro não ser transportado!&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# FoodCourt&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;p1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;dados&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&amp;gt;%&lt;/span&gt; 
@@ -403,7 +403,7 @@ $y$ é a variável transformada.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;p1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;p2&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;plot_layout&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;guides&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;collect&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;theme&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;legend.position&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#39;bottom&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-21-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://tiagomartin.github.io/EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-21-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;Já os gastos com FoodCourt e ShoppingMall aumentam a chance do passageiro ser transportado. Outra informação interessante pode ser obtida quando analisamos as variáveis HomePlanet e CryoSleep.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# HomePlanet e CryoSleep&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;dados&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&amp;gt;%&lt;/span&gt; 
@@ -411,7 +411,7 @@ $y$ é a variável transformada.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;geom_bar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stat&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;count&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;facet_grid&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;~&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;CryoSleep&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;theme&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;legend.position&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#39;bottom&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-22-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://tiagomartin.github.io/EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-22-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;Note que, para os passageiros em suspensão profunda, o fato de não terem embarcados em Earth aumenta muito a chance de ser transportado para a dimesão alternativa!&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -457,7 +457,7 @@ $y$ é a variável transformada.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## 18  Transported    3236   49.64    0 0.00     0     0   logical      2
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## 19    GroupSize       0    0.00    0 0.00     0     0   integer      8
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;miss&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;summary&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;aggr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;dados_treino&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;sortVar&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;TRUE&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;combinations&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-26-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://tiagomartin.github.io/EST125/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-26-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;##  Variables sorted by number of missings: 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;##      Variable      Count
@@ -595,9 +595,9 @@ $y$ é a variável transformada.&lt;/p&gt;
     
     <item>
       <title>Pré-processamento - parte 02</title>
-      <link>https://est125imd.netlify.app/slides/pr-processamento-parte-02/</link>
+      <link>https://tiagomartin.github.io/EST125/slides/pr-processamento-parte-02/</link>
       <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/slides/pr-processamento-parte-02/</guid>
+      <guid>https://tiagomartin.github.io/EST125/slides/pr-processamento-parte-02/</guid>
       <description>
 &lt;section data-noprocess data-shortcode-slide
   
@@ -847,10 +847,10 @@ $y$ é a variável transformada.&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Inconsistência&#34; srcset=&#34;
-               /slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_62cad6d558238f06067af9c12cf63f86.webp 400w,
-               /slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_3603cff5b19d917fb9397df2c3f4e69d.webp 760w,
-               /slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_62cad6d558238f06067af9c12cf63f86.webp&#34;
+               /EST125/slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_62cad6d558238f06067af9c12cf63f86.webp 400w,
+               /EST125/slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_3603cff5b19d917fb9397df2c3f4e69d.webp 760w,
+               /EST125/slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_62cad6d558238f06067af9c12cf63f86.webp&#34;
                width=&#34;725&#34;
                height=&#34;294&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -897,9 +897,9 @@ $y$ é a variável transformada.&lt;/p&gt;
     
     <item>
       <title>Pré-processamento - parte 03</title>
-      <link>https://est125imd.netlify.app/slides/pr-processamento-parte-03/</link>
+      <link>https://tiagomartin.github.io/EST125/slides/pr-processamento-parte-03/</link>
       <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/slides/pr-processamento-parte-03/</guid>
+      <guid>https://tiagomartin.github.io/EST125/slides/pr-processamento-parte-03/</guid>
       <description>
 &lt;section data-noprocess data-shortcode-slide
   
@@ -1100,10 +1100,10 @@ $y$ é a variável transformada.&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Filtro&#34; srcset=&#34;
-               /slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_a33c91194242f82f1a696650b526b006.webp 400w,
-               /slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_59e08447c88a83180be634131aa32392.webp 760w,
-               /slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_a33c91194242f82f1a696650b526b006.webp&#34;
+               /EST125/slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_a33c91194242f82f1a696650b526b006.webp 400w,
+               /EST125/slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_59e08447c88a83180be634131aa32392.webp 760w,
+               /EST125/slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_a33c91194242f82f1a696650b526b006.webp&#34;
                width=&#34;760&#34;
                height=&#34;57&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1136,10 +1136,10 @@ $y$ é a variável transformada.&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Wrapper&#34; srcset=&#34;
-               /slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_47d26fe3b3ad0181361f8367ccf67872.webp 400w,
-               /slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_8c6c1b9b84296f365b3c5e451e7671b3.webp 760w,
-               /slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_47d26fe3b3ad0181361f8367ccf67872.webp&#34;
+               /EST125/slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_47d26fe3b3ad0181361f8367ccf67872.webp 400w,
+               /EST125/slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_8c6c1b9b84296f365b3c5e451e7671b3.webp 760w,
+               /EST125/slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_47d26fe3b3ad0181361f8367ccf67872.webp&#34;
                width=&#34;760&#34;
                height=&#34;147&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1177,10 +1177,10 @@ $y$ é a variável transformada.&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Wrapper&#34; srcset=&#34;
-               /slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_50f597aa965802a1ca71700b89752a7d.webp 400w,
-               /slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_54cf4763a21a54be2a74936e7d27c4a7.webp 760w,
-               /slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_50f597aa965802a1ca71700b89752a7d.webp&#34;
+               /EST125/slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_50f597aa965802a1ca71700b89752a7d.webp 400w,
+               /EST125/slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_54cf4763a21a54be2a74936e7d27c4a7.webp 760w,
+               /EST125/slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_50f597aa965802a1ca71700b89752a7d.webp&#34;
                width=&#34;591&#34;
                height=&#34;152&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1191,9 +1191,9 @@ $y$ é a variável transformada.&lt;/p&gt;
     
     <item>
       <title>Pré-processamento - parte 04</title>
-      <link>https://est125imd.netlify.app/slides/pr-processamento-parte-04/</link>
+      <link>https://tiagomartin.github.io/EST125/slides/pr-processamento-parte-04/</link>
       <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/slides/pr-processamento-parte-04/</guid>
+      <guid>https://tiagomartin.github.io/EST125/slides/pr-processamento-parte-04/</guid>
       <description>
 &lt;section data-noprocess data-shortcode-slide
   
@@ -1444,10 +1444,10 @@ $y$ é a variável transformada.&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Binarização&#34; srcset=&#34;
-               /slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_e1a9655242eec606d577c408f55ea7c9.webp 400w,
-               /slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_91fdac6ed31c1b73c1add7b78bd0caf4.webp 760w,
-               /slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_e1a9655242eec606d577c408f55ea7c9.webp&#34;
+               /EST125/slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_e1a9655242eec606d577c408f55ea7c9.webp 400w,
+               /EST125/slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_91fdac6ed31c1b73c1add7b78bd0caf4.webp 760w,
+               /EST125/slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_e1a9655242eec606d577c408f55ea7c9.webp&#34;
                width=&#34;410&#34;
                height=&#34;498&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1478,10 +1478,10 @@ $y$ é a variável transformada.&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;OHE&#34; srcset=&#34;
-               /slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_f188e515d74eea0bdbbe1d1bb1bb3531.webp 400w,
-               /slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_6ac49b5ca25303f918575b1986350417.webp 760w,
-               /slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_f188e515d74eea0bdbbe1d1bb1bb3531.webp&#34;
+               /EST125/slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_f188e515d74eea0bdbbe1d1bb1bb3531.webp 400w,
+               /EST125/slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_6ac49b5ca25303f918575b1986350417.webp 760w,
+               /EST125/slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_f188e515d74eea0bdbbe1d1bb1bb3531.webp&#34;
                width=&#34;760&#34;
                height=&#34;277&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1492,9 +1492,9 @@ $y$ é a variável transformada.&lt;/p&gt;
     
     <item>
       <title>Pré-processamento - parte 01</title>
-      <link>https://est125imd.netlify.app/slides/introdu-o/</link>
+      <link>https://tiagomartin.github.io/EST125/slides/introdu-o/</link>
       <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/slides/introdu-o/</guid>
+      <guid>https://tiagomartin.github.io/EST125/slides/introdu-o/</guid>
       <description>
 &lt;section data-noprocess data-shortcode-slide
   
@@ -1666,10 +1666,10 @@ $y$ é a variável transformada.&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Principais problemas&#34; srcset=&#34;
-               /slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_c00bd2e75c637541db204e5d95bd12d8.webp 400w,
-               /slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_c9fcdbecc073d3e348652dfb72f57e7e.webp 760w,
-               /slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_c00bd2e75c637541db204e5d95bd12d8.webp&#34;
+               /EST125/slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_c00bd2e75c637541db204e5d95bd12d8.webp 400w,
+               /EST125/slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_c9fcdbecc073d3e348652dfb72f57e7e.webp 760w,
+               /EST125/slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_c00bd2e75c637541db204e5d95bd12d8.webp&#34;
                width=&#34;760&#34;
                height=&#34;191&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1720,10 +1720,10 @@ $y$ é a variável transformada.&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Preparação da base de dados&#34; srcset=&#34;
-               /slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_086e6e28bb3c6727d670ab0d64c57c4e.webp 400w,
-               /slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_d067a00a0db0a1628f8f5fcb476f3a34.webp 760w,
-               /slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_086e6e28bb3c6727d670ab0d64c57c4e.webp&#34;
+               /EST125/slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_086e6e28bb3c6727d670ab0d64c57c4e.webp 400w,
+               /EST125/slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_d067a00a0db0a1628f8f5fcb476f3a34.webp 760w,
+               /EST125/slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_086e6e28bb3c6727d670ab0d64c57c4e.webp&#34;
                width=&#34;687&#34;
                height=&#34;134&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 | Introdução à Mineração de Dados</title>
-    <link>https://est125imd.netlify.app/publication-type/1/</link>
-      <atom:link href="https://est125imd.netlify.app/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tiagomartin.github.io/EST125/publication-type/1/</link>
+      <atom:link href="https://tiagomartin.github.io/EST125/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>pt-br</language><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://est125imd.netlify.app/media/icon_hua3979484500520cd28bce95abdc02363_106305_512x512_fill_lanczos_center_3.png</url>
+      <url>https://tiagomartin.github.io/EST125/media/icon_hua3979484500520cd28bce95abdc02363_106305_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
-      <link>https://est125imd.netlify.app/publication-type/1/</link>
+      <link>https://tiagomartin.github.io/EST125/publication-type/1/</link>
     </image>
     
     <item>
       <title>An example conference paper</title>
-      <link>https://est125imd.netlify.app/publication/conference-paper/</link>
+      <link>https://tiagomartin.github.io/EST125/publication/conference-paper/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/publication/conference-paper/</guid>
+      <guid>https://tiagomartin.github.io/EST125/publication/conference-paper/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

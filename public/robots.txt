@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: https://est125imd.netlify.app/sitemap.xml
+Sitemap: https://tiagomartin.github.io/EST125/sitemap.xml

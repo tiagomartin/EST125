@@ -1,0 +1,253 @@
+---
+title: 'Transformações de variáveis: o que são e quando usá-las na análise de dados'
+author: Tiago Pereira
+date: '2023-05-01'
+slug: transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados
+categories:
+  - Pré-processamento
+  - Transformações
+tags:
+  - Conceitos
+  - Pre
+subtitle: 'O uso de transformações de variáveis em modelos preditivos é importante para melhorar a qualidade do modelo, corrigindo problemas como assimetria, instabilidade de variância e falta de linearidade.'
+summary: 'O uso de transformações de variáveis em modelos preditivos é importante para melhorar a qualidade do modelo, corrigindo problemas como assimetria, instabilidade de variância e falta de linearidade.'
+authors: []
+lastmod: '2023-05-01T10:12:16-03:00'
+featured: no
+draft: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+Olá pessoal, beleza?
+
+Hoje vamos falar sobre um conceito muito importante no contexto de análise de dados: as transformações!
+
+
+As transformações de variáveis são técnicas amplamente utilizadas na estatística e em outras áreas das ciências, como a economia, a psicologia e a medicina, além de ajudar na obtenção de modelos preditivos mais precisos. Neste post, vamos discutir o que são transformações de variáveis, quando elas são usadas e quais são as principais técnicas de transformação.
+
+## O que são transformações de variáveis?
+
+As transformações de variáveis envolvem um conjunto de métodos utilizados para alterar a distribuição dos dados, a fim de torná-los mais adequados para uma análise específica. Isso envolve aplicar uma função matemática aos dados originais, em uma ou mais variáveis dentro do conjunto de dados, com a finalidade de normalizar a distribuição dos dados, reduzir a variância, linearizar relações ou tornar a relação entre variáveis mais clara.
+
+
+
+<a href="http://www.gifbay.com/gif/baller-16126/" target="_blank" rel="noopener noreferrer"><img src="https://media0.giphy.com/media/Nda9GjMZ6BQpa/giphy.gif"  width="700" height="400"></a>
+
+
+{{% callout note %}}
+Aplicar uma transformação adequada em modelos preditivos pode melhorar a qualidade do modelo, pois pode corrigir problemas como assimetria, instabilidade de variância e falta de linearidade, permitindo que o modelo se ajuste melhor aos dados e produza previsões mais precisas.
+{{% /callout %}} 
+
+## Principais técnicas de transformação
+
+
+### Transformação logarítmica
+
+A transformação logarítmica é uma técnica que é amplamente utilizada em situações em que a variável tem uma distribuição assimétrica e/ou uma grande variância. 
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(patchwork)
+library(ggplot2)
+library(ggpubr)
+set.seed(123)
+x = 1:1000
+v <- 0.5 + 0.005*x
+var_het <- rnorm(n = length(x), mean = x, sd = sqrt(v))
+dados_assimetricos <- rgamma(1000, 1, 1)
+
+dados = tibble(dados_assimetricos, var_het)
+p1 = dados %>% 
+  ggplot(aes(x=dados_assimetricos, after_stat(density)))+ 
+  geom_histogram(color = "white", fill = "steelblue")+
+  xlab('Atributo Assimétrico')+
+  theme(legend.position='none')+
+  theme_pubclean()
+
+p2 = dados %>% 
+  mutate(dados_simetricos = log10(dados_assimetricos)) %>% 
+  ggplot(aes(x=dados_simetricos, after_stat(density)))+
+  geom_histogram(color = "white", fill = "steelblue")+
+  xlab('Atributo Transformado')+
+  theme(legend.position='none')+
+  theme_pubclean()
+
+p1 + p2
+```
+
+A transformação logarítmica é definida pela seguinte equação:
+
+{{< math >}}
+$$
+y = \log(x)
+$$
+{{< /math >}}
+
+onde {{< math >}}$x${{< /math >}} é a variável a ser transformada e {{< math >}}$y${{< /math >}} é a variável transformada. A transformação logarítmica é uma transformação monotônica, o que significa que não afeta a ordem dos dados. Isso é importante para modelos preditivos porque garante que a transformação não afete a capacidade do modelo de capturar a relação entre as variáveis.
+
+### Transformação raiz quadrada
+
+Assim como a transformação logarítmica, a transformação de raiz quadrada é uma transformação matemática simples e não paramétrica que pode ser facilmente aplicada em modelos preditivos.
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(patchwork)
+library(ggplot2)
+library(ggpubr)
+set.seed(123)
+x = 1:1000
+v <- 0.5 + 0.005*x
+var_het <- rnorm(n = length(x), mean = x, sd = sqrt(v))
+dados_assimetricos <- rgamma(1000, 1, 1)
+
+dados = tibble(dados_assimetricos, var_het)
+p1 = dados %>% 
+  ggplot(aes(x=dados_assimetricos, after_stat(density)))+ 
+  geom_histogram(color = "white", fill = "steelblue")+
+  xlab('Atributo Assimétrico')+
+  theme(legend.position='none')+
+  theme_pubclean()
+
+p2 = dados %>% 
+  mutate(dados_simetricos = sqrt(dados_assimetricos)) %>% 
+  ggplot(aes(x=dados_simetricos, after_stat(density)))+
+  geom_histogram(color = "white", fill = "steelblue")+
+  xlab('Atributo Transformado')+
+  theme(legend.position='none')+
+  theme_pubclean()
+
+p1 + p2
+```
+
+A transformação de raiz quadrada é definida pela seguinte equação:
+
+{{< math >}}
+$$
+y = \sqrt x
+$$
+{{< /math >}}
+
+onde {{< math >}}$x${{< /math >}} é a variável a ser transformada e {{< math >}}$y${{< /math >}} é a variável transformada. Assim como a transformação logarítimica, a transformação de raiz quadrada é uma transformação monotônica, o que significa que não afeta a ordem dos dados.
+
+### Transformação de Box-Cox
+
+A transformação de Box-Cox é uma técnica para transformar variáveis em modelos preditivos que é amplamente utilizada para melhorar a qualidade da modelagem e a precisão das previsões. É uma técnica paramétrica que depende de um parâmetro lambda que é estimado a partir dos dados, podendo ser usada apenas com variáveis não negativas..
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(patchwork)
+library(ggplot2)
+library(ggpubr)
+library(caret)
+library(bestNormalize)
+
+set.seed(123)
+x = 1:1000
+v <- 0.5 + 0.005*x
+var_het <- rnorm(n = length(x), mean = x, sd = sqrt(v))
+dados_assimetricos <- rgamma(1000, 1, 1)
+
+dados = tibble(dados_assimetricos, var_het)
+p1 = dados %>% 
+  ggplot(aes(x=dados_assimetricos, after_stat(density)))+
+  geom_histogram(color = "white", fill = "steelblue")+
+  xlab('Atributo Assimétrico')+
+  theme(legend.position='none')+
+  theme_pubclean()
+
+p2 = dados %>% 
+  mutate(dados_simetricos = predict(boxcox(dados_assimetricos))) %>% 
+  ggplot(aes(x=dados_simetricos, after_stat(density)))+
+  geom_histogram(color = "white", fill = "steelblue")+
+  xlab('Atributo Transformado')+
+  theme(legend.position='none')+
+  theme_pubclean()
+
+p1 + p2
+```
+
+
+A transformação de Box-Cox é definida pela seguinte equação:
+
+{{< math >}}
+$$
+y = 
+  \begin{cases}
+      \dfrac{(x^\lambda - 1)}{\lambda}, & se \ \lambda \neq  0 \\
+      \log(x), & se \ \lambda = 0 
+  \end{cases}
+$$
+{{< /math >}}
+
+onde {{< math >}}$x${{< /math >}} é a variável a ser transformada e {{< math >}}$y${{< /math >}} é a variável transformada. Esta é uma técnica de transformação de dados útil usada para estabilizar a variância, tornar os dados mais semelhantes à distribuição normal, por exemplo, quando um atributo tem a aparência de uma curva normal mas está descolado para a direita ou esquerda, melhorar a validade das medidas de associação e para outros procedimentos de estabilização de dados.
+
+### Transformação Yeo-Johnson
+
+
+A transformação Yeo-Johnson é uma técnica de transformação semelhante à transformação de Box-Cox. No entanto, a transformação Yeo-Johnson é mais flexível porque pode ser usada para variáveis que podem assumir valores negativos. 
+
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(patchwork)
+library(ggplot2)
+library(ggpubr)
+library(caret)
+library(bestNormalize)
+
+set.seed(123)
+x = 1:1000
+v <- 0.5 + 0.005*x
+var_het <- rnorm(n = length(x), mean = x, sd = sqrt(v))
+dados_assimetricos <- rgamma(1000, 1, 1)
+
+dados = data.frame(dados_assimetricos, var_het)
+p1 = dados %>% 
+  ggplot(aes(x=dados_assimetricos, after_stat(density)))+
+  geom_histogram(color = "white", fill = "steelblue")+
+  xlab('Atributo Assimétrico')+
+  theme(legend.position='none')+
+  theme_pubclean()
+
+p2 = dados %>% 
+  mutate(dados_simetricos = predict(yeojohnson(dados_assimetricos))) %>% 
+  ggplot(aes(x=dados_simetricos, after_stat(density)))+
+  geom_histogram(color = "white", fill = "steelblue")+
+  xlab('Atributo Transformado')+
+  theme(legend.position='none')+
+  theme_pubclean()
+
+p1 + p2
+```
+
+A transformação Yeo-Johnson é definida pela seguinte equação:
+
+{{< math >}}
+$$
+y = 
+  \begin{cases}
+      \dfrac{(x + 1)^\lambda - 1}{\lambda}, & se \ x \geq  0, \ \lambda \neq 0 \\
+      \ln(x + 1), & se \ x \geq 0 \ \lambda = 0 \\
+      \dfrac{-((-x + 1)^{(2 - \lambda)} - 1)}{(2 - \lambda)}, & se \ x <  0, \ \lambda \neq 2 \\
+      -\ln(-x+1) & se \ x <  0, \ \lambda = 2 
+  \end{cases}
+$$
+{{< /math >}}
+
+onde {{< math >}}$x${{< /math >}} é a variável a ser transformada e {{< math >}}$y${{< /math >}} é a variável transformada.
+
+
+### Em resumo...
+
+Transformar variáveis é útil para melhorar a qualidade da modelagem e a precisão das previsões em modelos preditivos. As transformações são aplicadas às variáveis independentes para melhorar a distribuição, escala e relação com a variável de saída. Existem várias técnicas de transformação disponíveis, incluindo transformação logarítmica, transformação de raiz quadrada, transformação de Box-Cox e a  transformação de Yeo-Johnson. 
+
+Não há uma única transformação de variáveis que seja a melhor para todos os casos. É importante lembrar que a escolha da transformação deve ser baseada em uma avaliação cuidadosa da natureza dos dados e da relação entre as variáveis. A transformação escolhida deve ajudar a reduzir a heterogeneidade de variância e normalizar a distribuição dos dados, mas também deve ser interpretável e fazer sentido do ponto de vista teórico.
+
+
+Até breve! 👋

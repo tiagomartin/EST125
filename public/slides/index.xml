@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slides | Introdução à Mineração de Dados</title>
-    <link>https://est125imd.netlify.app/slides/</link>
-      <atom:link href="https://est125imd.netlify.app/slides/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tiagomartin.github.io/EST125/slides/</link>
+      <atom:link href="https://tiagomartin.github.io/EST125/slides/index.xml" rel="self" type="application/rss+xml" />
     <description>Slides</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>pt-br</language><lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate>
     <item>
       <title>O que é machine learning?</title>
-      <link>https://est125imd.netlify.app/slides/o-que-machine-learning/</link>
+      <link>https://tiagomartin.github.io/EST125/slides/o-que-machine-learning/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/slides/o-que-machine-learning/</guid>
+      <guid>https://tiagomartin.github.io/EST125/slides/o-que-machine-learning/</guid>
       <description>
 &lt;section data-noprocess data-shortcode-slide
   
@@ -121,9 +121,9 @@
     
     <item>
       <title>Tarefa de classificação - parte 01</title>
-      <link>https://est125imd.netlify.app/slides/tarefa-de-classifica-o-parte-01/</link>
+      <link>https://tiagomartin.github.io/EST125/slides/tarefa-de-classifica-o-parte-01/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/slides/tarefa-de-classifica-o-parte-01/</guid>
+      <guid>https://tiagomartin.github.io/EST125/slides/tarefa-de-classifica-o-parte-01/</guid>
       <description>
 &lt;section data-noprocess data-shortcode-slide
   
@@ -179,10 +179,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;class&#34; srcset=&#34;
-               /slides/tarefa-de-classifica-o-parte-01/class_hu06e0df98ee5fde33acf4ecbad930b93d_1423997_dfcc1beb680a783f22c89bd98ac0caa2.webp 400w,
-               /slides/tarefa-de-classifica-o-parte-01/class_hu06e0df98ee5fde33acf4ecbad930b93d_1423997_98ead36b858dee3ba28687413189df7e.webp 760w,
-               /slides/tarefa-de-classifica-o-parte-01/class_hu06e0df98ee5fde33acf4ecbad930b93d_1423997_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/tarefa-de-classifica-o-parte-01/class_hu06e0df98ee5fde33acf4ecbad930b93d_1423997_dfcc1beb680a783f22c89bd98ac0caa2.webp&#34;
+               /EST125/slides/tarefa-de-classifica-o-parte-01/class_hu06e0df98ee5fde33acf4ecbad930b93d_1423997_dfcc1beb680a783f22c89bd98ac0caa2.webp 400w,
+               /EST125/slides/tarefa-de-classifica-o-parte-01/class_hu06e0df98ee5fde33acf4ecbad930b93d_1423997_98ead36b858dee3ba28687413189df7e.webp 760w,
+               /EST125/slides/tarefa-de-classifica-o-parte-01/class_hu06e0df98ee5fde33acf4ecbad930b93d_1423997_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/tarefa-de-classifica-o-parte-01/class_hu06e0df98ee5fde33acf4ecbad930b93d_1423997_dfcc1beb680a783f22c89bd98ac0caa2.webp&#34;
                width=&#34;760&#34;
                height=&#34;406&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -259,10 +259,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;knn&#34; srcset=&#34;
-               /slides/tarefa-de-classifica-o-parte-01/knn_hu80f42adc2e80136362f30f85bcae56d4_47835_26652f275443611cf78b08ac9d688d5f.webp 400w,
-               /slides/tarefa-de-classifica-o-parte-01/knn_hu80f42adc2e80136362f30f85bcae56d4_47835_a8fd24e91c1f7a2660d7e9827c71a593.webp 760w,
-               /slides/tarefa-de-classifica-o-parte-01/knn_hu80f42adc2e80136362f30f85bcae56d4_47835_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/tarefa-de-classifica-o-parte-01/knn_hu80f42adc2e80136362f30f85bcae56d4_47835_26652f275443611cf78b08ac9d688d5f.webp&#34;
+               /EST125/slides/tarefa-de-classifica-o-parte-01/knn_hu80f42adc2e80136362f30f85bcae56d4_47835_26652f275443611cf78b08ac9d688d5f.webp 400w,
+               /EST125/slides/tarefa-de-classifica-o-parte-01/knn_hu80f42adc2e80136362f30f85bcae56d4_47835_a8fd24e91c1f7a2660d7e9827c71a593.webp 760w,
+               /EST125/slides/tarefa-de-classifica-o-parte-01/knn_hu80f42adc2e80136362f30f85bcae56d4_47835_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/tarefa-de-classifica-o-parte-01/knn_hu80f42adc2e80136362f30f85bcae56d4_47835_26652f275443611cf78b08ac9d688d5f.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -364,9 +364,9 @@
     
     <item>
       <title>Pré-processamento - parte 02</title>
-      <link>https://est125imd.netlify.app/slides/pr-processamento-parte-02/</link>
+      <link>https://tiagomartin.github.io/EST125/slides/pr-processamento-parte-02/</link>
       <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/slides/pr-processamento-parte-02/</guid>
+      <guid>https://tiagomartin.github.io/EST125/slides/pr-processamento-parte-02/</guid>
       <description>
 &lt;section data-noprocess data-shortcode-slide
   
@@ -616,10 +616,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Inconsistência&#34; srcset=&#34;
-               /slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_62cad6d558238f06067af9c12cf63f86.webp 400w,
-               /slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_3603cff5b19d917fb9397df2c3f4e69d.webp 760w,
-               /slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_62cad6d558238f06067af9c12cf63f86.webp&#34;
+               /EST125/slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_62cad6d558238f06067af9c12cf63f86.webp 400w,
+               /EST125/slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_3603cff5b19d917fb9397df2c3f4e69d.webp 760w,
+               /EST125/slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_62cad6d558238f06067af9c12cf63f86.webp&#34;
                width=&#34;725&#34;
                height=&#34;294&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -666,9 +666,9 @@
     
     <item>
       <title>Pré-processamento - parte 03</title>
-      <link>https://est125imd.netlify.app/slides/pr-processamento-parte-03/</link>
+      <link>https://tiagomartin.github.io/EST125/slides/pr-processamento-parte-03/</link>
       <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/slides/pr-processamento-parte-03/</guid>
+      <guid>https://tiagomartin.github.io/EST125/slides/pr-processamento-parte-03/</guid>
       <description>
 &lt;section data-noprocess data-shortcode-slide
   
@@ -869,10 +869,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Filtro&#34; srcset=&#34;
-               /slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_a33c91194242f82f1a696650b526b006.webp 400w,
-               /slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_59e08447c88a83180be634131aa32392.webp 760w,
-               /slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_a33c91194242f82f1a696650b526b006.webp&#34;
+               /EST125/slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_a33c91194242f82f1a696650b526b006.webp 400w,
+               /EST125/slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_59e08447c88a83180be634131aa32392.webp 760w,
+               /EST125/slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_a33c91194242f82f1a696650b526b006.webp&#34;
                width=&#34;760&#34;
                height=&#34;57&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -905,10 +905,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Wrapper&#34; srcset=&#34;
-               /slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_47d26fe3b3ad0181361f8367ccf67872.webp 400w,
-               /slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_8c6c1b9b84296f365b3c5e451e7671b3.webp 760w,
-               /slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_47d26fe3b3ad0181361f8367ccf67872.webp&#34;
+               /EST125/slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_47d26fe3b3ad0181361f8367ccf67872.webp 400w,
+               /EST125/slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_8c6c1b9b84296f365b3c5e451e7671b3.webp 760w,
+               /EST125/slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_47d26fe3b3ad0181361f8367ccf67872.webp&#34;
                width=&#34;760&#34;
                height=&#34;147&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -946,10 +946,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Wrapper&#34; srcset=&#34;
-               /slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_50f597aa965802a1ca71700b89752a7d.webp 400w,
-               /slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_54cf4763a21a54be2a74936e7d27c4a7.webp 760w,
-               /slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_50f597aa965802a1ca71700b89752a7d.webp&#34;
+               /EST125/slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_50f597aa965802a1ca71700b89752a7d.webp 400w,
+               /EST125/slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_54cf4763a21a54be2a74936e7d27c4a7.webp 760w,
+               /EST125/slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_50f597aa965802a1ca71700b89752a7d.webp&#34;
                width=&#34;591&#34;
                height=&#34;152&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -960,9 +960,9 @@
     
     <item>
       <title>Pré-processamento - parte 04</title>
-      <link>https://est125imd.netlify.app/slides/pr-processamento-parte-04/</link>
+      <link>https://tiagomartin.github.io/EST125/slides/pr-processamento-parte-04/</link>
       <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/slides/pr-processamento-parte-04/</guid>
+      <guid>https://tiagomartin.github.io/EST125/slides/pr-processamento-parte-04/</guid>
       <description>
 &lt;section data-noprocess data-shortcode-slide
   
@@ -1213,10 +1213,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Binarização&#34; srcset=&#34;
-               /slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_e1a9655242eec606d577c408f55ea7c9.webp 400w,
-               /slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_91fdac6ed31c1b73c1add7b78bd0caf4.webp 760w,
-               /slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_e1a9655242eec606d577c408f55ea7c9.webp&#34;
+               /EST125/slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_e1a9655242eec606d577c408f55ea7c9.webp 400w,
+               /EST125/slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_91fdac6ed31c1b73c1add7b78bd0caf4.webp 760w,
+               /EST125/slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_e1a9655242eec606d577c408f55ea7c9.webp&#34;
                width=&#34;410&#34;
                height=&#34;498&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1247,10 +1247,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;OHE&#34; srcset=&#34;
-               /slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_f188e515d74eea0bdbbe1d1bb1bb3531.webp 400w,
-               /slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_6ac49b5ca25303f918575b1986350417.webp 760w,
-               /slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_f188e515d74eea0bdbbe1d1bb1bb3531.webp&#34;
+               /EST125/slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_f188e515d74eea0bdbbe1d1bb1bb3531.webp 400w,
+               /EST125/slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_6ac49b5ca25303f918575b1986350417.webp 760w,
+               /EST125/slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_f188e515d74eea0bdbbe1d1bb1bb3531.webp&#34;
                width=&#34;760&#34;
                height=&#34;277&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1261,9 +1261,9 @@
     
     <item>
       <title>Pré-processamento - parte 01</title>
-      <link>https://est125imd.netlify.app/slides/introdu-o/</link>
+      <link>https://tiagomartin.github.io/EST125/slides/introdu-o/</link>
       <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/slides/introdu-o/</guid>
+      <guid>https://tiagomartin.github.io/EST125/slides/introdu-o/</guid>
       <description>
 &lt;section data-noprocess data-shortcode-slide
   
@@ -1435,10 +1435,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Principais problemas&#34; srcset=&#34;
-               /slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_c00bd2e75c637541db204e5d95bd12d8.webp 400w,
-               /slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_c9fcdbecc073d3e348652dfb72f57e7e.webp 760w,
-               /slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_c00bd2e75c637541db204e5d95bd12d8.webp&#34;
+               /EST125/slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_c00bd2e75c637541db204e5d95bd12d8.webp 400w,
+               /EST125/slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_c9fcdbecc073d3e348652dfb72f57e7e.webp 760w,
+               /EST125/slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_c00bd2e75c637541db204e5d95bd12d8.webp&#34;
                width=&#34;760&#34;
                height=&#34;191&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1489,10 +1489,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Preparação da base de dados&#34; srcset=&#34;
-               /slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_086e6e28bb3c6727d670ab0d64c57c4e.webp 400w,
-               /slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_d067a00a0db0a1628f8f5fcb476f3a34.webp 760w,
-               /slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_086e6e28bb3c6727d670ab0d64c57c4e.webp&#34;
+               /EST125/slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_086e6e28bb3c6727d670ab0d64c57c4e.webp 400w,
+               /EST125/slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_d067a00a0db0a1628f8f5fcb476f3a34.webp 760w,
+               /EST125/slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_086e6e28bb3c6727d670ab0d64c57c4e.webp&#34;
                width=&#34;687&#34;
                height=&#34;134&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1503,9 +1503,9 @@
     
     <item>
       <title>Conceitos Iniciais - parte 01</title>
-      <link>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/</link>
+      <link>https://tiagomartin.github.io/EST125/slides/conceitos-iniciais-parte-01/</link>
       <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/</guid>
+      <guid>https://tiagomartin.github.io/EST125/slides/conceitos-iniciais-parte-01/</guid>
       <description>&lt;p&gt;
 
 
@@ -1525,10 +1525,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;John Naisbitt&#34; srcset=&#34;
-               /slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_a39dfb17a1d3d712929cdb1e8fd89594.webp 400w,
-               /slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_84044041fa00906613643b66fb83e921.webp 760w,
-               /slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_a39dfb17a1d3d712929cdb1e8fd89594.webp&#34;
+               /EST125/slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_a39dfb17a1d3d712929cdb1e8fd89594.webp 400w,
+               /EST125/slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_84044041fa00906613643b66fb83e921.webp 760w,
+               /EST125/slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_a39dfb17a1d3d712929cdb1e8fd89594.webp&#34;
                width=&#34;760&#34;
                height=&#34;358&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1628,10 +1628,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Dados brutos&#34; srcset=&#34;
-               /slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8351f7e2f141e7292be0b05599490b24.webp 400w,
-               /slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8e563cb469bc998aa5321e04ff4df25b.webp 760w,
-               /slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8351f7e2f141e7292be0b05599490b24.webp&#34;
+               /EST125/slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8351f7e2f141e7292be0b05599490b24.webp 400w,
+               /EST125/slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8e563cb469bc998aa5321e04ff4df25b.webp 760w,
+               /EST125/slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8351f7e2f141e7292be0b05599490b24.webp&#34;
                width=&#34;760&#34;
                height=&#34;149&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1658,10 +1658,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Informação&#34; srcset=&#34;
-               /slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_da83e4ab20ff38ce89fa1d37d194f7d3.webp 400w,
-               /slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_4120b8b087a6eedd16eaccfa0db5423d.webp 760w,
-               /slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_da83e4ab20ff38ce89fa1d37d194f7d3.webp&#34;
+               /EST125/slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_da83e4ab20ff38ce89fa1d37d194f7d3.webp 400w,
+               /EST125/slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_4120b8b087a6eedd16eaccfa0db5423d.webp 760w,
+               /EST125/slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_da83e4ab20ff38ce89fa1d37d194f7d3.webp&#34;
                width=&#34;760&#34;
                height=&#34;299&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1688,10 +1688,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Conhecimento&#34; srcset=&#34;
-               /slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_84abeb711a0a38699ea0ba5a32b013d4.webp 400w,
-               /slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_48ccff4b1ec29dd443835d3b11ff3dcc.webp 760w,
-               /slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_84abeb711a0a38699ea0ba5a32b013d4.webp&#34;
+               /EST125/slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_84abeb711a0a38699ea0ba5a32b013d4.webp 400w,
+               /EST125/slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_48ccff4b1ec29dd443835d3b11ff3dcc.webp 760w,
+               /EST125/slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_84abeb711a0a38699ea0ba5a32b013d4.webp&#34;
                width=&#34;760&#34;
                height=&#34;448&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1705,9 +1705,9 @@
     
     <item>
       <title>Conceitos Iniciais - parte 02</title>
-      <link>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-02/</link>
+      <link>https://tiagomartin.github.io/EST125/slides/conceitos-iniciais-parte-02/</link>
       <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-02/</guid>
+      <guid>https://tiagomartin.github.io/EST125/slides/conceitos-iniciais-parte-02/</guid>
       <description>
 &lt;section data-noprocess data-shortcode-slide
   
@@ -1991,9 +1991,9 @@
     
     <item>
       <title>Conceitos Iniciais - parte 03</title>
-      <link>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-03/</link>
+      <link>https://tiagomartin.github.io/EST125/slides/conceitos-iniciais-parte-03/</link>
       <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-03/</guid>
+      <guid>https://tiagomartin.github.io/EST125/slides/conceitos-iniciais-parte-03/</guid>
       <description>
 &lt;section data-noprocess data-shortcode-slide
   
@@ -2209,10 +2209,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Cavalo&#34; srcset=&#34;
-               /slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_8afc1d8bda34332d163f4477c9d97267.webp 400w,
-               /slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_1e8417a62b3c3a832c987923397ff0e7.webp 760w,
-               /slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_8afc1d8bda34332d163f4477c9d97267.webp&#34;
+               /EST125/slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_8afc1d8bda34332d163f4477c9d97267.webp 400w,
+               /EST125/slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_1e8417a62b3c3a832c987923397ff0e7.webp 760w,
+               /EST125/slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_8afc1d8bda34332d163f4477c9d97267.webp&#34;
                width=&#34;531&#34;
                height=&#34;402&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2239,10 +2239,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Avião&#34; srcset=&#34;
-               /slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_5456a814768e7a190d82279af61bda69.webp 400w,
-               /slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_2f05f39ba95978f4838ede9a46158e18.webp 760w,
-               /slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_5456a814768e7a190d82279af61bda69.webp&#34;
+               /EST125/slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_5456a814768e7a190d82279af61bda69.webp 400w,
+               /EST125/slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_2f05f39ba95978f4838ede9a46158e18.webp 760w,
+               /EST125/slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_5456a814768e7a190d82279af61bda69.webp&#34;
                width=&#34;625&#34;
                height=&#34;389&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2269,10 +2269,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;AviãoPotente&#34; srcset=&#34;
-               /slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_2666198dfb7a2cb30d65edae4bed2968.webp 400w,
-               /slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_cb9f7df986655821c175da5cfdba7e59.webp 760w,
-               /slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_2666198dfb7a2cb30d65edae4bed2968.webp&#34;
+               /EST125/slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_2666198dfb7a2cb30d65edae4bed2968.webp 400w,
+               /EST125/slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_cb9f7df986655821c175da5cfdba7e59.webp 760w,
+               /EST125/slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_2666198dfb7a2cb30d65edae4bed2968.webp&#34;
                width=&#34;539&#34;
                height=&#34;396&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

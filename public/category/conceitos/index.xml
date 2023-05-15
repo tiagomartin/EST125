@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Conceitos | Introdução à Mineração de Dados</title>
-    <link>https://est125imd.netlify.app/category/conceitos/</link>
-      <atom:link href="https://est125imd.netlify.app/category/conceitos/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tiagomartin.github.io/EST125/category/conceitos/</link>
+      <atom:link href="https://tiagomartin.github.io/EST125/category/conceitos/index.xml" rel="self" type="application/rss+xml" />
     <description>Conceitos</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>pt-br</language><lastBuildDate>Mon, 15 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://est125imd.netlify.app/media/icon_hua3979484500520cd28bce95abdc02363_106305_512x512_fill_lanczos_center_3.png</url>
+      <url>https://tiagomartin.github.io/EST125/media/icon_hua3979484500520cd28bce95abdc02363_106305_512x512_fill_lanczos_center_3.png</url>
       <title>Conceitos</title>
-      <link>https://est125imd.netlify.app/category/conceitos/</link>
+      <link>https://tiagomartin.github.io/EST125/category/conceitos/</link>
     </image>
     
     <item>
       <title>Como a técnica dos cinco porquês e a metodologia SMART podem transformar a resolução de problemas</title>
-      <link>https://est125imd.netlify.app/post/como-a-t-cnica-dos-cinco-porqu-s-e-a-metodologia-smart-podem-transformar-a-resolu-o-de-problemas/</link>
+      <link>https://tiagomartin.github.io/EST125/post/como-a-t-cnica-dos-cinco-porqu-s-e-a-metodologia-smart-podem-transformar-a-resolu-o-de-problemas/</link>
       <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/post/como-a-t-cnica-dos-cinco-porqu-s-e-a-metodologia-smart-podem-transformar-a-resolu-o-de-problemas/</guid>
+      <guid>https://tiagomartin.github.io/EST125/post/como-a-t-cnica-dos-cinco-porqu-s-e-a-metodologia-smart-podem-transformar-a-resolu-o-de-problemas/</guid>
       <description>&lt;p&gt;Olá pessoal, beleza?&lt;/p&gt;
 &lt;p&gt;Quando enfrentamos um problema, muitas vezes é difícil identificar a raiz do problema e traçar um plano para resolvê-lo. A técnica dos cinco porquês e a metodologia SMART são duas ferramentas que podem ser usadas em conjunto para ajudar na definição clara do problema e objetivo.&lt;/p&gt;
 &lt;p&gt;A técnica dos cinco porquês é uma técnica de análise de causa e efeito, desenvolvida pelo fundador da Toyota, &lt;a href=&#34;https://pt.wikipedia.org/wiki/Sakichi_Toyoda&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sakichi Toyoda&lt;/a&gt;, para ajudar na identificação da causa raiz de um problema. Essa técnica consiste em perguntar &amp;ldquo;por que?&amp;rdquo; repetidamente até que se chegue à causa raiz do problema. Essas perguntas ajudam a aprofundar a análise, ajudando a entender melhor as conexões entre as causas e efeitos. A técnica dos cinco porquês é uma ferramenta simples e poderosa que pode ser aplicada em vários campos.&lt;/p&gt;
@@ -71,9 +71,9 @@
     
     <item>
       <title>Conceitos Iniciais - parte 01</title>
-      <link>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/</link>
+      <link>https://tiagomartin.github.io/EST125/slides/conceitos-iniciais-parte-01/</link>
       <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/</guid>
+      <guid>https://tiagomartin.github.io/EST125/slides/conceitos-iniciais-parte-01/</guid>
       <description>&lt;p&gt;
 
 
@@ -93,10 +93,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;John Naisbitt&#34; srcset=&#34;
-               /slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_a39dfb17a1d3d712929cdb1e8fd89594.webp 400w,
-               /slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_84044041fa00906613643b66fb83e921.webp 760w,
-               /slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_a39dfb17a1d3d712929cdb1e8fd89594.webp&#34;
+               /EST125/slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_a39dfb17a1d3d712929cdb1e8fd89594.webp 400w,
+               /EST125/slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_84044041fa00906613643b66fb83e921.webp 760w,
+               /EST125/slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_a39dfb17a1d3d712929cdb1e8fd89594.webp&#34;
                width=&#34;760&#34;
                height=&#34;358&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -196,10 +196,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Dados brutos&#34; srcset=&#34;
-               /slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8351f7e2f141e7292be0b05599490b24.webp 400w,
-               /slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8e563cb469bc998aa5321e04ff4df25b.webp 760w,
-               /slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8351f7e2f141e7292be0b05599490b24.webp&#34;
+               /EST125/slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8351f7e2f141e7292be0b05599490b24.webp 400w,
+               /EST125/slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8e563cb469bc998aa5321e04ff4df25b.webp 760w,
+               /EST125/slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8351f7e2f141e7292be0b05599490b24.webp&#34;
                width=&#34;760&#34;
                height=&#34;149&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -226,10 +226,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Informação&#34; srcset=&#34;
-               /slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_da83e4ab20ff38ce89fa1d37d194f7d3.webp 400w,
-               /slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_4120b8b087a6eedd16eaccfa0db5423d.webp 760w,
-               /slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_da83e4ab20ff38ce89fa1d37d194f7d3.webp&#34;
+               /EST125/slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_da83e4ab20ff38ce89fa1d37d194f7d3.webp 400w,
+               /EST125/slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_4120b8b087a6eedd16eaccfa0db5423d.webp 760w,
+               /EST125/slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_da83e4ab20ff38ce89fa1d37d194f7d3.webp&#34;
                width=&#34;760&#34;
                height=&#34;299&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -256,10 +256,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Conhecimento&#34; srcset=&#34;
-               /slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_84abeb711a0a38699ea0ba5a32b013d4.webp 400w,
-               /slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_48ccff4b1ec29dd443835d3b11ff3dcc.webp 760w,
-               /slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_84abeb711a0a38699ea0ba5a32b013d4.webp&#34;
+               /EST125/slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_84abeb711a0a38699ea0ba5a32b013d4.webp 400w,
+               /EST125/slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_48ccff4b1ec29dd443835d3b11ff3dcc.webp 760w,
+               /EST125/slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_84abeb711a0a38699ea0ba5a32b013d4.webp&#34;
                width=&#34;760&#34;
                height=&#34;448&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -273,9 +273,9 @@
     
     <item>
       <title>Conceitos Iniciais - parte 02</title>
-      <link>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-02/</link>
+      <link>https://tiagomartin.github.io/EST125/slides/conceitos-iniciais-parte-02/</link>
       <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-02/</guid>
+      <guid>https://tiagomartin.github.io/EST125/slides/conceitos-iniciais-parte-02/</guid>
       <description>
 &lt;section data-noprocess data-shortcode-slide
   
@@ -559,9 +559,9 @@
     
     <item>
       <title>Conceitos Iniciais - parte 03</title>
-      <link>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-03/</link>
+      <link>https://tiagomartin.github.io/EST125/slides/conceitos-iniciais-parte-03/</link>
       <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-03/</guid>
+      <guid>https://tiagomartin.github.io/EST125/slides/conceitos-iniciais-parte-03/</guid>
       <description>
 &lt;section data-noprocess data-shortcode-slide
   
@@ -777,10 +777,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Cavalo&#34; srcset=&#34;
-               /slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_8afc1d8bda34332d163f4477c9d97267.webp 400w,
-               /slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_1e8417a62b3c3a832c987923397ff0e7.webp 760w,
-               /slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_8afc1d8bda34332d163f4477c9d97267.webp&#34;
+               /EST125/slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_8afc1d8bda34332d163f4477c9d97267.webp 400w,
+               /EST125/slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_1e8417a62b3c3a832c987923397ff0e7.webp 760w,
+               /EST125/slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_8afc1d8bda34332d163f4477c9d97267.webp&#34;
                width=&#34;531&#34;
                height=&#34;402&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -807,10 +807,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Avião&#34; srcset=&#34;
-               /slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_5456a814768e7a190d82279af61bda69.webp 400w,
-               /slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_2f05f39ba95978f4838ede9a46158e18.webp 760w,
-               /slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_5456a814768e7a190d82279af61bda69.webp&#34;
+               /EST125/slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_5456a814768e7a190d82279af61bda69.webp 400w,
+               /EST125/slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_2f05f39ba95978f4838ede9a46158e18.webp 760w,
+               /EST125/slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_5456a814768e7a190d82279af61bda69.webp&#34;
                width=&#34;625&#34;
                height=&#34;389&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -837,10 +837,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;AviãoPotente&#34; srcset=&#34;
-               /slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_2666198dfb7a2cb30d65edae4bed2968.webp 400w,
-               /slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_cb9f7df986655821c175da5cfdba7e59.webp 760w,
-               /slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_2666198dfb7a2cb30d65edae4bed2968.webp&#34;
+               /EST125/slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_2666198dfb7a2cb30d65edae4bed2968.webp 400w,
+               /EST125/slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_cb9f7df986655821c175da5cfdba7e59.webp 760w,
+               /EST125/slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_2666198dfb7a2cb30d65edae4bed2968.webp&#34;
                width=&#34;539&#34;
                height=&#34;396&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -933,9 +933,9 @@
     
     <item>
       <title>Entenda as principais metodologias de mineração de dados: CRISP-DM, SEMMA e KDD</title>
-      <link>https://est125imd.netlify.app/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/</link>
+      <link>https://tiagomartin.github.io/EST125/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/</link>
       <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/</guid>
+      <guid>https://tiagomartin.github.io/EST125/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/</guid>
       <description>&lt;p&gt;Olá pessoal, beleza?&lt;/p&gt;
 &lt;p&gt;Quando o assunto é mineração de dados, existem várias metodologias amplamente utilizadas para orientar o processo de extração do conhecimento, incluindo CRISP-DM, SEMMA e KDD.&lt;/p&gt;
 &lt;p&gt;Essas metodologias são utilizadas na área de mineração de dados para auxiliar no processo de descoberta de conhecimento a partir dos dados. Cada uma dessas metodologias segue uma abordagem sistemática e orientada por etapas para conduzir um projeto de mineração de dados, desde a compreensão do problema até a implantação dos resultados.&lt;/p&gt;
@@ -960,10 +960,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;CRISP-DM&#34; srcset=&#34;
-               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/crisp_hu8e4c7630b1c86417ec477460bbe901f3_256557_8c4c6ef64c9da6c315faa8e25e31ca03.webp 400w,
-               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/crisp_hu8e4c7630b1c86417ec477460bbe901f3_256557_574232d4f44153b8745bc6e8b5230103.webp 760w,
-               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/crisp_hu8e4c7630b1c86417ec477460bbe901f3_256557_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/crisp_hu8e4c7630b1c86417ec477460bbe901f3_256557_8c4c6ef64c9da6c315faa8e25e31ca03.webp&#34;
+               /EST125/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/crisp_hu8e4c7630b1c86417ec477460bbe901f3_256557_8c4c6ef64c9da6c315faa8e25e31ca03.webp 400w,
+               /EST125/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/crisp_hu8e4c7630b1c86417ec477460bbe901f3_256557_574232d4f44153b8745bc6e8b5230103.webp 760w,
+               /EST125/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/crisp_hu8e4c7630b1c86417ec477460bbe901f3_256557_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/crisp_hu8e4c7630b1c86417ec477460bbe901f3_256557_8c4c6ef64c9da6c315faa8e25e31ca03.webp&#34;
                width=&#34;760&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -997,10 +997,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;SEMMA&#34; srcset=&#34;
-               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/semma_hu87cf17859b230bc1d0bd2687dd723441_340143_84d6a8dd527eda9f16f362db1a3e45c5.webp 400w,
-               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/semma_hu87cf17859b230bc1d0bd2687dd723441_340143_c918c19ba4249bd863863d7f4c8570d9.webp 760w,
-               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/semma_hu87cf17859b230bc1d0bd2687dd723441_340143_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/semma_hu87cf17859b230bc1d0bd2687dd723441_340143_84d6a8dd527eda9f16f362db1a3e45c5.webp&#34;
+               /EST125/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/semma_hu87cf17859b230bc1d0bd2687dd723441_340143_84d6a8dd527eda9f16f362db1a3e45c5.webp 400w,
+               /EST125/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/semma_hu87cf17859b230bc1d0bd2687dd723441_340143_c918c19ba4249bd863863d7f4c8570d9.webp 760w,
+               /EST125/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/semma_hu87cf17859b230bc1d0bd2687dd723441_340143_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/semma_hu87cf17859b230bc1d0bd2687dd723441_340143_84d6a8dd527eda9f16f362db1a3e45c5.webp&#34;
                width=&#34;760&#34;
                height=&#34;609&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1033,10 +1033,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;KDD&#34; srcset=&#34;
-               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/kdd_hu1376582816733baadb9e68fd1010061b_337965_a02c905c0c5b6c112e9f3a79c3872c2d.webp 400w,
-               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/kdd_hu1376582816733baadb9e68fd1010061b_337965_5568521ffa05a9a0c183cb6a215634a8.webp 760w,
-               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/kdd_hu1376582816733baadb9e68fd1010061b_337965_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/kdd_hu1376582816733baadb9e68fd1010061b_337965_a02c905c0c5b6c112e9f3a79c3872c2d.webp&#34;
+               /EST125/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/kdd_hu1376582816733baadb9e68fd1010061b_337965_a02c905c0c5b6c112e9f3a79c3872c2d.webp 400w,
+               /EST125/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/kdd_hu1376582816733baadb9e68fd1010061b_337965_5568521ffa05a9a0c183cb6a215634a8.webp 760w,
+               /EST125/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/kdd_hu1376582816733baadb9e68fd1010061b_337965_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/kdd_hu1376582816733baadb9e68fd1010061b_337965_a02c905c0c5b6c112e9f3a79c3872c2d.webp&#34;
                width=&#34;760&#34;
                height=&#34;481&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1059,9 +1059,9 @@
     
     <item>
       <title>Transformando dados em sabedoria: a jornada de dados para decisões informadas.</title>
-      <link>https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/</link>
+      <link>https://tiagomartin.github.io/EST125/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/</link>
       <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/</guid>
+      <guid>https://tiagomartin.github.io/EST125/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/</guid>
       <description>&lt;p&gt;Olá pessoal, beleza?&lt;/p&gt;
 &lt;p&gt;Dados, informação, conhecimento e sabedoria são conceitos fundamentais na era da informação. Embora muitas vezes sejam usados de forma intercambiável, eles representam etapas distintas no processo de transformação de informações em conhecimento.&lt;/p&gt;
 &lt;p&gt;E aí? Voce sabe a diferênça entre eles? Vamos explorar cada um deles em mais detalhes.&lt;/p&gt;
@@ -1086,10 +1086,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Dados brutos&#34; srcset=&#34;
-               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8351f7e2f141e7292be0b05599490b24.webp 400w,
-               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8e563cb469bc998aa5321e04ff4df25b.webp 760w,
-               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8351f7e2f141e7292be0b05599490b24.webp&#34;
+               /EST125/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8351f7e2f141e7292be0b05599490b24.webp 400w,
+               /EST125/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8e563cb469bc998aa5321e04ff4df25b.webp 760w,
+               /EST125/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8351f7e2f141e7292be0b05599490b24.webp&#34;
                width=&#34;760&#34;
                height=&#34;149&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1116,10 +1116,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Informação&#34; srcset=&#34;
-               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/info_hu16cfb768c099dda148a26e58081e7ea7_135401_da83e4ab20ff38ce89fa1d37d194f7d3.webp 400w,
-               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/info_hu16cfb768c099dda148a26e58081e7ea7_135401_4120b8b087a6eedd16eaccfa0db5423d.webp 760w,
-               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/info_hu16cfb768c099dda148a26e58081e7ea7_135401_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/info_hu16cfb768c099dda148a26e58081e7ea7_135401_da83e4ab20ff38ce89fa1d37d194f7d3.webp&#34;
+               /EST125/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/info_hu16cfb768c099dda148a26e58081e7ea7_135401_da83e4ab20ff38ce89fa1d37d194f7d3.webp 400w,
+               /EST125/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/info_hu16cfb768c099dda148a26e58081e7ea7_135401_4120b8b087a6eedd16eaccfa0db5423d.webp 760w,
+               /EST125/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/info_hu16cfb768c099dda148a26e58081e7ea7_135401_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/info_hu16cfb768c099dda148a26e58081e7ea7_135401_da83e4ab20ff38ce89fa1d37d194f7d3.webp&#34;
                width=&#34;760&#34;
                height=&#34;299&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1146,10 +1146,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Conhecimento&#34; srcset=&#34;
-               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_84abeb711a0a38699ea0ba5a32b013d4.webp 400w,
-               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_48ccff4b1ec29dd443835d3b11ff3dcc.webp 760w,
-               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_84abeb711a0a38699ea0ba5a32b013d4.webp&#34;
+               /EST125/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_84abeb711a0a38699ea0ba5a32b013d4.webp 400w,
+               /EST125/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_48ccff4b1ec29dd443835d3b11ff3dcc.webp 760w,
+               /EST125/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_84abeb711a0a38699ea0ba5a32b013d4.webp&#34;
                width=&#34;760&#34;
                height=&#34;448&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1176,10 +1176,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Sabedoria&#34; srcset=&#34;
-               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/sabedoria_hu7347c2b5bb691b03d1e6d3cb6bcb3332_275474_d172c43ece3e15ae226c2deab3221df8.webp 400w,
-               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/sabedoria_hu7347c2b5bb691b03d1e6d3cb6bcb3332_275474_d8c2b5a16a96c357113458406b009e27.webp 760w,
-               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/sabedoria_hu7347c2b5bb691b03d1e6d3cb6bcb3332_275474_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/sabedoria_hu7347c2b5bb691b03d1e6d3cb6bcb3332_275474_d172c43ece3e15ae226c2deab3221df8.webp&#34;
+               /EST125/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/sabedoria_hu7347c2b5bb691b03d1e6d3cb6bcb3332_275474_d172c43ece3e15ae226c2deab3221df8.webp 400w,
+               /EST125/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/sabedoria_hu7347c2b5bb691b03d1e6d3cb6bcb3332_275474_d8c2b5a16a96c357113458406b009e27.webp 760w,
+               /EST125/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/sabedoria_hu7347c2b5bb691b03d1e6d3cb6bcb3332_275474_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/sabedoria_hu7347c2b5bb691b03d1e6d3cb6bcb3332_275474_d172c43ece3e15ae226c2deab3221df8.webp&#34;
                width=&#34;760&#34;
                height=&#34;597&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

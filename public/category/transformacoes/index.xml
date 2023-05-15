@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Transformações | Introdução à Mineração de Dados</title>
-    <link>https://est125imd.netlify.app/category/transformacoes/</link>
-      <atom:link href="https://est125imd.netlify.app/category/transformacoes/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tiagomartin.github.io/EST125/category/transformacoes/</link>
+      <atom:link href="https://tiagomartin.github.io/EST125/category/transformacoes/index.xml" rel="self" type="application/rss+xml" />
     <description>Transformações</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>pt-br</language><lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://est125imd.netlify.app/media/icon_hua3979484500520cd28bce95abdc02363_106305_512x512_fill_lanczos_center_3.png</url>
+      <url>https://tiagomartin.github.io/EST125/media/icon_hua3979484500520cd28bce95abdc02363_106305_512x512_fill_lanczos_center_3.png</url>
       <title>Transformações</title>
-      <link>https://est125imd.netlify.app/category/transformacoes/</link>
+      <link>https://tiagomartin.github.io/EST125/category/transformacoes/</link>
     </image>
     
     <item>
       <title>Transformações de variáveis: o que são e quando usá-las na análise de dados</title>
-      <link>https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/</link>
+      <link>https://tiagomartin.github.io/EST125/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/</guid>
+      <guid>https://tiagomartin.github.io/EST125/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/</guid>
       <description>&lt;p&gt;Olá pessoal, beleza?&lt;/p&gt;
 &lt;p&gt;Hoje vamos falar sobre um conceito muito importante no contexto de análise de dados: as transformações!&lt;/p&gt;
 &lt;p&gt;As transformações de variáveis são técnicas amplamente utilizadas na estatística e em outras áreas das ciências, como a economia, a psicologia e a medicina, além de ajudar na obtenção de modelos preditivos mais precisos. Neste post, vamos discutir o que são transformações de variáveis, quando elas são usadas e quais são as principais técnicas de transformação.&lt;/p&gt;
@@ -31,7 +31,7 @@
 &lt;h2 id=&#34;principais-técnicas-de-transformação&#34;&gt;Principais técnicas de transformação&lt;/h2&gt;
 &lt;h3 id=&#34;transformação-logarítmica&#34;&gt;Transformação logarítmica&lt;/h3&gt;
 &lt;p&gt;A transformação logarítmica é uma técnica que é amplamente utilizada em situações em que a variável tem uma distribuição assimétrica e/ou uma grande variância.&lt;/p&gt;
-&lt;img src=&#34;https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://tiagomartin.github.io/EST125/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;A transformação logarítmica é definida pela seguinte equação:&lt;/p&gt;
 
 
@@ -47,7 +47,7 @@ $x$ é a variável a ser transformada e
 $y$ é a variável transformada. A transformação logarítmica é uma transformação monotônica, o que significa que não afeta a ordem dos dados. Isso é importante para modelos preditivos porque garante que a transformação não afete a capacidade do modelo de capturar a relação entre as variáveis.&lt;/p&gt;
 &lt;h3 id=&#34;transformação-raiz-quadrada&#34;&gt;Transformação raiz quadrada&lt;/h3&gt;
 &lt;p&gt;Assim como a transformação logarítmica, a transformação de raiz quadrada é uma transformação matemática simples e não paramétrica que pode ser facilmente aplicada em modelos preditivos.&lt;/p&gt;
-&lt;img src=&#34;https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://tiagomartin.github.io/EST125/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;A transformação de raiz quadrada é definida pela seguinte equação:&lt;/p&gt;
 
 
@@ -63,7 +63,7 @@ $x$ é a variável a ser transformada e
 $y$ é a variável transformada. Assim como a transformação logarítimica, a transformação de raiz quadrada é uma transformação monotônica, o que significa que não afeta a ordem dos dados.&lt;/p&gt;
 &lt;h3 id=&#34;transformação-de-box-cox&#34;&gt;Transformação de Box-Cox&lt;/h3&gt;
 &lt;p&gt;A transformação de Box-Cox é uma técnica para transformar variáveis em modelos preditivos que é amplamente utilizada para melhorar a qualidade da modelagem e a precisão das previsões. É uma técnica paramétrica que depende de um parâmetro lambda que é estimado a partir dos dados, podendo ser usada apenas com variáveis não negativas..&lt;/p&gt;
-&lt;img src=&#34;https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://tiagomartin.github.io/EST125/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;A transformação de Box-Cox é definida pela seguinte equação:&lt;/p&gt;
 
 
@@ -83,7 +83,7 @@ $x$ é a variável a ser transformada e
 $y$ é a variável transformada. Esta é uma técnica de transformação de dados útil usada para estabilizar a variância, tornar os dados mais semelhantes à distribuição normal, por exemplo, quando um atributo tem a aparência de uma curva normal mas está descolado para a direita ou esquerda, melhorar a validade das medidas de associação e para outros procedimentos de estabilização de dados.&lt;/p&gt;
 &lt;h3 id=&#34;transformação-yeo-johnson&#34;&gt;Transformação Yeo-Johnson&lt;/h3&gt;
 &lt;p&gt;A transformação Yeo-Johnson é uma técnica de transformação semelhante à transformação de Box-Cox. No entanto, a transformação Yeo-Johnson é mais flexível porque pode ser usada para variáveis que podem assumir valores negativos.&lt;/p&gt;
-&lt;img src=&#34;https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://tiagomartin.github.io/EST125/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;A transformação Yeo-Johnson é definida pela seguinte equação:&lt;/p&gt;
 
 

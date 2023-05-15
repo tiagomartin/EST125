@@ -1,0 +1,288 @@
+---
+title: Conceitos Iniciais - parte 03
+author: Tiago Pereira
+date: '2023-04-14'
+slug: conceitos-iniciais-parte-03
+categories:
+  - Conceitos
+tags:
+  - Conceitos
+summary: 'Tarefas, técnicas, definição do objetivo e técnica dos cinco porquês'
+authors: []
+slides:
+  widescreen: true
+  theme: white
+  highlight_style: dracula
+  diagram: yes
+  diagram_options:
+    theme: base
+  reveal_options:
+    controls: yes
+    progress: yes
+    slide_number: c/t
+    center: yes
+    rtl: no
+    mouse_wheel: yes
+    transition: fade
+    transitionSpeed: default
+    background_transition: slide
+    touch: yes
+    loop: no
+    menu_enabled: yes
+---
+
+{{<slide background-color="#54787d">}}
+
+## Tarefas e técnicas de mineração de dados
+
+---
+
+Uma **tarefa** de mineração de dados determina o **tipo de problema** que será resolvido pelo processo de mineração de dados. Podem ser **descritivas** ou **preditivas**.
+
+&nbsp;
+
+Já a **técnica**, representa o **algoritmo** que pode ser empregado para a execução da tarefa.
+
+---
+
+- As tarefas de mineração de dados incluem: classificação, clustering, regressão, associação e detecção de anomalias.
+
+&nbsp;
+
+- Cada uma dessas tarefas tem um objetivo específico na análise de dados.
+
+---
+
+{{<slide background-color="#54787d">}}
+
+## Classificação
+
+---
+
+- A **classificação** é uma tarefa de mineração de dados que envolve a atribuição de um rótulo a um conjunto de dados com base em um conjunto de características.
+
+&nbsp;
+
+- As técnicas de classificação incluem: árvores de decisão, redes neurais, SVM, Naive Bayes, etc.
+
+---
+
+{{<slide background-color="#54787d">}}
+
+## Clusterização
+
+---
+
+- O **clustering** é uma tarefa de mineração de dados que envolve a organização de um conjunto de dados em grupos com base em suas características.
+
+&nbsp;
+
+- As técnicas de clustering incluem: k-means, DBSCAN, aglomeração hierárquica, etc.
+
+---
+
+{{<slide background-color="#54787d">}}
+
+## Regressão ou predição
+
+---
+
+- A **regressão** é uma tarefa de mineração de dados que envolve a identificação de uma relação entre uma variável dependente e uma ou mais variáveis independentes.
+
+&nbsp;
+
+- As técnicas de regressão incluem: regressão linear, regressão logística, etc.
+
+---
+
+{{<slide background-color="#54787d">}}
+
+## Associação
+
+---
+
+- A **associação** é uma tarefa de mineração de dados que envolve a descoberta de relações entre itens em um conjunto de dados.
+
+&nbsp;
+
+- As técnicas de associação incluem: regras de associação, análise de cesta de compras, etc.
+
+---
+
+{{<slide background-color="#54787d">}}
+
+## Detecção de anomalias
+
+---
+
+- A **detecção de anomalias** é uma tarefa de mineração de dados que envolve a identificação de pontos de dados incomuns em um conjunto de dados.
+
+&nbsp;
+
+- As técnicas de detecção de anomalias incluem: análise de desvio, detecção de outliers, etc.
+
+---
+
+{{<slide background-color="#54787d">}}
+
+## Importância da definição dos objetivos
+
+---
+
+#### Enquanto isso, no país das maravilhas...
+
+
+<a href="https://pt.wikipedia.org/wiki/Lewis_Carroll" target="_blank" rel="noopener noreferrer"><img src="alice.jpeg"  width="800" height="500"></a>
+
+---
+
+### Definição dos objetivos
+
+- Definir claramente os objetivos da análise de dados é fundamental para o sucesso do projeto.
+
+&nbsp;
+
+- Os objetivos devem ser específicos, mensuráveis, alcançáveis, relevantes e ter um prazo estabelecido ([SMART](https://deolhonofuturo.uninter.com/metodologia-smart/?gclid=CjwKCAjw8-OhBhB5EiwADyoY1TeU-iDp_vyUvve_TLMgNiTOO2t_ZZKzN3bCyLVwzB52-c6NrwJLBhoC3tEQAvD_BwE)).
+
+---
+
+- Por exemplo, suponha que uma empresa queira aumentar as vendas em uma determinada região. 
+
+  - Usando a metodologia SMART, a empresa pode definir o objetivo da seguinte maneira: 
+
+---
+
+- **Específico:** O objetivo deve ser específico e detalhado. Por exemplo, "Aumentar as vendas de determinada categoria de produtos na região em 10% no próximo trimestre".
+
+- **Mensurável:** O objetivo deve ser mensurável para que possa ser avaliado. Por exemplo, a empresa pode usar dados de vendas para medir o progresso em relação à meta.
+
+---
+
+- **Alcançável:** O objetivo deve ser alcançável para evitar frustração e desânimo da equipe. A empresa pode avaliar a capacidade da equipe, recursos disponíveis e condições de mercado para determinar se a meta é alcançável.
+
+- **Relevante:** O objetivo deve ser relevante para os objetivos de negócios da empresa. A meta de aumentar as vendas em uma determinada região deve estar alinhada com os objetivos de negócios da empresa.
+
+---
+
+**Temporal:** O objetivo deve ser definido em um prazo determinado. Por exemplo, a meta deve ser alcançada em três meses.
+
+---
+
+- Com a definição clara do objetivo usando a metodologia SMART, a empresa pode traçar um plano de ação, coletar dados relevantes, realizar análises para identificar as causas da queda nas vendas, e implementar medidas para atingir a meta. 
+
+- A empresa também pode monitorar o progresso e ajustar as medidas se necessário para garantir que a meta seja alcançada no prazo estabelecido.
+
+---
+
+{{<slide background-color="#54787d">}} 
+
+![whats+the+problem?](https://media3.giphy.com/media/3ohjV3jMa3xK4Reg5G/giphy.gif) 
+
+## Entenda o problema e depois pense em como resolvê-lo
+
+---
+
+Qual o problema nessa foto?
+
+![Cavalo](fig_01.png)
+
+---
+
+Sendo o cavalo, vamos trocá-lo por um avião!
+
+![Avião](fig_02.png)
+
+---
+
+Compre um mais potente...
+
+![AviãoPotente](fig_03.png)
+
+---
+
+{{<slide background-color="#54787d">}} 
+
+## Técnica dos cinco porquês
+
+---
+
+A **técnica dos cinco porquês** é uma técnica de análise de **causalidade** que pode ser usada para identificar a causa raiz de um problema, através de perguntas sucessivas. 
+
+
+---
+
+- O processo da técnica dos cinco porquês pode ser resumido nas seguintes etapas:
+
+  1. **Identificar o problema:** Comece identificando o problema que precisa ser resolvido.
+  
+  2. **Fazer a primeira pergunta:** Pergunte "Por que o problema ocorreu?" e identifique a causa mais provável.
+
+---
+
+  3. **Fazer a segunda pergunta:** Pergunte "Por que a causa identificada na pergunta anterior ocorreu?" e identifique a causa mais provável.
+  
+  4. **Continuar com as perguntas subsequentes:** Continue fazendo perguntas sucessivas até que a causa raiz seja identificada.
+
+---
+
+  5. **Resolver o problema:** Uma vez que a causa raiz é identificada, é possível implementar soluções para resolver o problema.
+  
+---
+
+É importante notar que, embora a técnica dos cinco porquês seja uma técnica útil, ela não é uma solução universal para todos os problemas. Às vezes, a causa raiz de um problema pode ser mais complexa e exigir técnicas de análise mais avançadas. Além disso, é importante não se limitar a apenas cinco perguntas se necessário para chegar à causa raiz do problema.
+
+---
+
+### Exemplo do uso da técnica dos cinco porquês
+
+&nbsp;
+
+**Problema:** O faturamento da empresa diminuiu no último trimestre.
+
+---
+
+1. Por que o faturamento da empresa diminuiu no último trimestre?
+
+&nbsp;
+
+**Resposta:** Porque as vendas de um dos produtos mais vendidos caíram.
+
+---
+
+2. Por que as vendas do produto mais vendido caíram?
+
+&nbsp;
+
+**Resposta:** Porque a concorrência começou a oferecer preços mais baixos.
+
+---
+
+3. Por que a concorrência começou a oferecer preços mais baixos?
+
+&nbsp;
+
+**Resposta:** Porque um novo concorrente entrou no mercado e começou a oferecer preços mais baixos para ganhar participação de mercado.
+
+---
+
+4. Por que o novo concorrente conseguiu oferecer preços mais baixos?
+
+&nbsp;
+
+**Resposta:** Porque ele tem custos de produção mais baixos do que a nossa empresa.
+
+---
+
+5. Por que nossos custos de produção são mais altos do que os do novo concorrente?
+
+&nbsp;
+
+**Resposta:** Porque não atualizamos nossos equipamentos de produção há anos, o que torna nosso processo menos eficiente e mais caro.
+
+---
+
+- Com essa análise, a causa raiz do problema do faturamento da empresa ter diminuído no último trimestre foi identificada: **a falta de atualização dos equipamentos de produção**. 
+
+&nbsp;
+
+- Com essa informação, a empresa pode agora tomar medidas para atualizar seus equipamentos de produção e aumentar sua eficiência para voltar a ter um faturamento maior.

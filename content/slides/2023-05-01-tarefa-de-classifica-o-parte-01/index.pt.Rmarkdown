@@ -1,0 +1,194 @@
+---
+title: Tarefa de classificação - parte 01
+author: Tiago Pereira
+date: '2023-05-01'
+slug: tarefa-de-classifica-o-parte-01
+categories:
+  - Classificação
+tags:
+  - Classificação
+summary: 'Tarefa de classificação, KNN e Naive Bayes'
+authors: []
+slides:
+  theme: white
+  highlight_style: dracula
+  diagram: yes
+  diagram_options:
+    theme: base
+  reveal_options:
+    controls: yes
+    progress: yes
+    slide_number: c/t
+    center: yes
+    rtl: no
+    mouse_wheel: yes
+    transition: fade
+    transitionSpeed: default
+    background_transition: slide
+    touch: yes
+    loop: no
+    menu_enabled: yes
+---
+
+{{<slide background-color="#54787d">}} 
+
+## Tarefa de Classificação
+
+---
+
+### O que são problemas de classificação?
+
+Os problemas de **classificação** são aqueles que envolvem a classificação de objetos ou instâncias em uma ou mais categorias pré-definidas.
+
+---
+
+- Em problemas de classificação, o objetivo é **"aprender"** um modelo que possa **mapear** as características de um objeto para uma categoria correspondente.
+
+
+- O modelo é treinado com **dados rotulados**, ou seja, dados onde a categoria ou classe de cada objeto é **conhecida**.
+
+---
+
+- O modelo é então usado para classificar **novos objetos** com base em suas características.
+
+- Exemplos de problemas de classificação incluem:
+
+  - Classificar e-mails como **spam** ou **não spam**.
+  - Classificar transações de cartão de crédito como **fraudulentas** ou **legítimas**.
+  - Classificar imagens de objetos como **carros**, **animais**, **plantas**, etc.
+  
+---
+
+#### Problema de classificação
+
+![class](class.png)
+
+---
+
+- Podem ser divididos em **classificação binária** e **classificação multiclasse**
+
+- Em problemas de classificação binária, existem apenas **duas classes** possíveis (por exemplo, sim ou não).
+
+- Para os multiclasse, existem **três** ou **mais classes** possíveis (por exemplo, vermelho, azul ou verde).
+
+---
+
+{{<slide background-color="#54787d">}} 
+
+## Algoritmos de classificação
+
+---
+
+- Algoritmos mais comuns usados para problemas de classificação:
+
+  - K-Nearest Neighbors (KNN)
+  - Naive Bayes
+  - Árvores de decisão
+  - Random Forests
+  - Máquinas de Vetores de Suporte (SVM)
+  - Redes Neurais Artificiais (ANN)
+
+---
+
+{{<slide background-color="#54787d">}} 
+
+## K-Nearest Neighbors (KNN)
+
+---
+
+O KNN é um algoritmo de aprendizado supervisionado de classificação e regressão, que usa a proximidade dos objetos para classificar novas instâncias.
+
+---
+
+É um dos algoritmos mais simples e intuitivos de aprendizado de máquina. Utiliza a ideia do "vizinho mais próximo", o que significa que ele determina a classe de uma instância com base nas classes de seus vizinhos mais próximos.
+
+---
+
+Em outras palavras, se a maioria dos vizinhos mais próximos de uma instância pertence a uma classe específica, então a instância também é classificada como pertencente a essa classe.
+
+--- 
+
+### Algoritmo KNN
+
+![knn](knn.jpg)
+
+---
+
+O valor de K é um **parâmetro** importante em KNN. Ele determina o número de vizinhos mais próximos que são usados para classificar uma nova instância.
+
+---
+
+Um valor de K pequeno pode levar a um modelo muito **sensível** ao **ruído** nos dados, enquanto um valor grande de K pode levar a uma **perda** de detalhes importantes nos dados.
+
+---
+
+A escolha do valor K ideal é frequentemente realizada por meio de técnicas de **validação cruzada**.
+
+---
+
+- KNN é usado para problemas de classificação e regressão.
+
+  - Em problemas de **classificação**, a classe mais comum entre os K vizinhos mais próximos é escolhida como a classe da nova instância.
+
+  - Em problemas de **regressão**, a média ou mediana dos valores alvo dos K vizinhos mais próximos é escolhida como o valor alvo da nova instância.
+
+---
+
+É **computacionalmente caro** para grandes conjuntos de dados, pois ele precisa calcular a distância entre a nova instância e todos os pontos de dados no conjunto de treinamento.
+
+---
+
+Além disso, o KNN é **sensível à escala** dos dados, portanto, a **normalização dos dados** é importante antes de aplicar o algoritmo.
+
+
+Finalmente, o KNN pode ser usado como um modelo de referência para problemas de classificação e regressão antes de explorar modelos mais complexos.
+
+---
+
+{{<slide background-color="#54787d">}} 
+
+## Classificador Naïve Bayes
+
+---
+
+- O **Classificador Naïve Bayes** é um algoritmo de aprendizagem supervisionada utilizado para classificação de dados.
+
+
+- Ele se baseia no **Teorema de Bayes**, que afirma que a probabilidade de um evento ocorrer dado que outro evento já ocorreu é proporcional à probabilidade deste último evento ocorrer dado o primeiro.
+
+---
+
+- Este método estima a probabilidade de cada classe (categoria) dada as **características** dos dados.
+
+- Ele assume que as características são **independentes entre si**, ou seja, não há interdependência entre elas.
+
+- Com base nessa **probabilidade**, ele classifica novos dados em uma das categorias pré-definidas.
+
+
+---
+
+### Exemplo de uso
+
+  - O Classificador Naïve Bayes pode ser utilizado em tarefas de **análise de sentimentos**, por exemplo, para determinar se um comentário é positivo ou negativo com base em suas palavras-chave.
+
+  - Ele também pode ser usado em tarefas de **classificação de e-mails**, onde é preciso determinar se um e-mail é spam ou não-spam.
+  
+---
+
+### Vantagens
+
+- O Classificador Naïve Bayes é um algoritmo simples e rápido.
+
+- Ele funciona bem em conjuntos de dados com muitas características e com pouco dados.
+
+- É um algoritmo eficiente em tarefas de classificação de texto.
+
+---
+
+### Desvantagens
+
+- O Classificador Naïve Bayes assume que as características são independentes entre si, o que nem sempre é verdade.
+
+- Ele pode ser afetado por dados faltantes ou incorretos.
+
+- Não é um bom algoritmo para tarefas que envolvem classes dependentes.

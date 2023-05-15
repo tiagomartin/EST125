@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Classificação | Introdução à Mineração de Dados</title>
-    <link>https://est125imd.netlify.app/tag/classificacao/</link>
-      <atom:link href="https://est125imd.netlify.app/tag/classificacao/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tiagomartin.github.io/EST125/tag/classificacao/</link>
+      <atom:link href="https://tiagomartin.github.io/EST125/tag/classificacao/index.xml" rel="self" type="application/rss+xml" />
     <description>Classificação</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>pt-br</language><lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://est125imd.netlify.app/media/icon_hua3979484500520cd28bce95abdc02363_106305_512x512_fill_lanczos_center_3.png</url>
+      <url>https://tiagomartin.github.io/EST125/media/icon_hua3979484500520cd28bce95abdc02363_106305_512x512_fill_lanczos_center_3.png</url>
       <title>Classificação</title>
-      <link>https://est125imd.netlify.app/tag/classificacao/</link>
+      <link>https://tiagomartin.github.io/EST125/tag/classificacao/</link>
     </image>
     
     <item>
       <title>O que é machine learning?</title>
-      <link>https://est125imd.netlify.app/slides/o-que-machine-learning/</link>
+      <link>https://tiagomartin.github.io/EST125/slides/o-que-machine-learning/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/slides/o-que-machine-learning/</guid>
+      <guid>https://tiagomartin.github.io/EST125/slides/o-que-machine-learning/</guid>
       <description>
 &lt;section data-noprocess data-shortcode-slide
   
@@ -127,9 +127,9 @@
     
     <item>
       <title>Tarefa de classificação - parte 01</title>
-      <link>https://est125imd.netlify.app/slides/tarefa-de-classifica-o-parte-01/</link>
+      <link>https://tiagomartin.github.io/EST125/slides/tarefa-de-classifica-o-parte-01/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://est125imd.netlify.app/slides/tarefa-de-classifica-o-parte-01/</guid>
+      <guid>https://tiagomartin.github.io/EST125/slides/tarefa-de-classifica-o-parte-01/</guid>
       <description>
 &lt;section data-noprocess data-shortcode-slide
   
@@ -185,10 +185,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;class&#34; srcset=&#34;
-               /slides/tarefa-de-classifica-o-parte-01/class_hu06e0df98ee5fde33acf4ecbad930b93d_1423997_dfcc1beb680a783f22c89bd98ac0caa2.webp 400w,
-               /slides/tarefa-de-classifica-o-parte-01/class_hu06e0df98ee5fde33acf4ecbad930b93d_1423997_98ead36b858dee3ba28687413189df7e.webp 760w,
-               /slides/tarefa-de-classifica-o-parte-01/class_hu06e0df98ee5fde33acf4ecbad930b93d_1423997_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/tarefa-de-classifica-o-parte-01/class_hu06e0df98ee5fde33acf4ecbad930b93d_1423997_dfcc1beb680a783f22c89bd98ac0caa2.webp&#34;
+               /EST125/slides/tarefa-de-classifica-o-parte-01/class_hu06e0df98ee5fde33acf4ecbad930b93d_1423997_dfcc1beb680a783f22c89bd98ac0caa2.webp 400w,
+               /EST125/slides/tarefa-de-classifica-o-parte-01/class_hu06e0df98ee5fde33acf4ecbad930b93d_1423997_98ead36b858dee3ba28687413189df7e.webp 760w,
+               /EST125/slides/tarefa-de-classifica-o-parte-01/class_hu06e0df98ee5fde33acf4ecbad930b93d_1423997_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/tarefa-de-classifica-o-parte-01/class_hu06e0df98ee5fde33acf4ecbad930b93d_1423997_dfcc1beb680a783f22c89bd98ac0caa2.webp&#34;
                width=&#34;760&#34;
                height=&#34;406&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -265,10 +265,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;knn&#34; srcset=&#34;
-               /slides/tarefa-de-classifica-o-parte-01/knn_hu80f42adc2e80136362f30f85bcae56d4_47835_26652f275443611cf78b08ac9d688d5f.webp 400w,
-               /slides/tarefa-de-classifica-o-parte-01/knn_hu80f42adc2e80136362f30f85bcae56d4_47835_a8fd24e91c1f7a2660d7e9827c71a593.webp 760w,
-               /slides/tarefa-de-classifica-o-parte-01/knn_hu80f42adc2e80136362f30f85bcae56d4_47835_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://est125imd.netlify.app/slides/tarefa-de-classifica-o-parte-01/knn_hu80f42adc2e80136362f30f85bcae56d4_47835_26652f275443611cf78b08ac9d688d5f.webp&#34;
+               /EST125/slides/tarefa-de-classifica-o-parte-01/knn_hu80f42adc2e80136362f30f85bcae56d4_47835_26652f275443611cf78b08ac9d688d5f.webp 400w,
+               /EST125/slides/tarefa-de-classifica-o-parte-01/knn_hu80f42adc2e80136362f30f85bcae56d4_47835_a8fd24e91c1f7a2660d7e9827c71a593.webp 760w,
+               /EST125/slides/tarefa-de-classifica-o-parte-01/knn_hu80f42adc2e80136362f30f85bcae56d4_47835_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://tiagomartin.github.io/EST125/EST125/slides/tarefa-de-classifica-o-parte-01/knn_hu80f42adc2e80136362f30f85bcae56d4_47835_26652f275443611cf78b08ac9d688d5f.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

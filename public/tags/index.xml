@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Introdução à Mineração de Dados</title>
-    <link>https://est125imd.netlify.app/tags/</link>
-      <atom:link href="https://est125imd.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tiagomartin.github.io/EST125/tags/</link>
+      <atom:link href="https://tiagomartin.github.io/EST125/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>pt-br</language><lastBuildDate>Mon, 15 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://est125imd.netlify.app/media/icon_hua3979484500520cd28bce95abdc02363_106305_512x512_fill_lanczos_center_3.png</url>
+      <url>https://tiagomartin.github.io/EST125/media/icon_hua3979484500520cd28bce95abdc02363_106305_512x512_fill_lanczos_center_3.png</url>
       <title>Tags</title>
-      <link>https://est125imd.netlify.app/tags/</link>
+      <link>https://tiagomartin.github.io/EST125/tags/</link>
     </image>
     
   </channel>
