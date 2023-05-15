@@ -1,0 +1,2367 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slides | Introdução à Mineração de Dados</title>
+    <link>https://est125imd.netlify.app/slides/</link>
+      <atom:link href="https://est125imd.netlify.app/slides/index.xml" rel="self" type="application/rss+xml" />
+    <description>Slides</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt-br</language><lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>O que é machine learning?</title>
+      <link>https://est125imd.netlify.app/slides/o-que-machine-learning/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://est125imd.netlify.app/slides/o-que-machine-learning/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;o-que-é-machine-learning&#34;&gt;O que é Machine Learning?&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Machine Learning (Aprendizado de Máquina) é um ramo da Inteligência Artificial que se concentra no desenvolvimento de algoritmos que permitem que as máquinas aprendam a partir de dados.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;O objetivo do Machine Learning é permitir que as máquinas identifiquem padrões nos dados e, com base nesses padrões, façam previsões ou tomem decisões.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;como-as-máquinas-aprendem&#34;&gt;Como as máquinas aprendem?&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;O aprendizado de máquina depende essencialmente de três elementos:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.datageeks.com.br/machine-learning/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;img src=&#34;fig07.png&#34;  width=&#34;500&#34; height=&#34;400&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;o-mapa-do-aprendizado-de-máquina&#34;&gt;O mapa do aprendizado de máquina&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.datageeks.com.br/machine-learning/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;img src=&#34;fig02a.png&#34;  width=&#34;800&#34; height=&#34;600&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;tipos-de-machine-learning&#34;&gt;Tipos de Machine Learning&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Aprendizado Supervisionado:&lt;/strong&gt; os algoritmos são treinados com um conjunto de dados rotulados para prever a saída para novos dados.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Aprendizado Não-Supervisionado:&lt;/strong&gt; os algoritmos são treinados com um conjunto de dados não rotulados para encontrar padrões e estruturas nos dados.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Aprendizado por Reforço:&lt;/strong&gt; os algoritmos são treinados para tomar decisões em um ambiente dinâmico, recebendo feedback positivo ou negativo com base em suas decisões.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;vantagens-do-machine-learning&#34;&gt;Vantagens do Machine Learning&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A capacidade de lidar com &lt;strong&gt;grandes volumes&lt;/strong&gt; de dados&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A capacidade de encontrar &lt;strong&gt;padrões e tendências&lt;/strong&gt; nos dados&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A capacidade de &lt;strong&gt;automatizar&lt;/strong&gt; tarefas repetitivas e monótonas&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A capacidade de fazer &lt;strong&gt;previsões precisas&lt;/strong&gt; com base em dados históricos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;desafios-do-machine-learning&#34;&gt;Desafios do Machine Learning&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Dados de &lt;strong&gt;baixa qualidade&lt;/strong&gt; ou incompletos&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dificuldade em &lt;strong&gt;escolher o algoritmo correto&lt;/strong&gt; para um determinado problema&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;O &lt;strong&gt;sobreajuste do modelo&lt;/strong&gt;, que ocorre quando o modelo se adapta demais aos dados de treinamento e não consegue generalizar bem para novos dados.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A &lt;strong&gt;interpretabilidade&lt;/strong&gt; do modelo, ou seja, a capacidade de entender como o modelo toma decisões.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tarefa de classificação - parte 01</title>
+      <link>https://est125imd.netlify.app/slides/tarefa-de-classifica-o-parte-01/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://est125imd.netlify.app/slides/tarefa-de-classifica-o-parte-01/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;tarefa-de-classificação&#34;&gt;Tarefa de Classificação&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;o-que-são-problemas-de-classificação&#34;&gt;O que são problemas de classificação?&lt;/h3&gt;
+&lt;p&gt;Os problemas de &lt;strong&gt;classificação&lt;/strong&gt; são aqueles que envolvem a classificação de objetos ou instâncias em uma ou mais categorias pré-definidas.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Em problemas de classificação, o objetivo é &lt;strong&gt;&amp;ldquo;aprender&amp;rdquo;&lt;/strong&gt; um modelo que possa &lt;strong&gt;mapear&lt;/strong&gt; as características de um objeto para uma categoria correspondente.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;O modelo é treinado com &lt;strong&gt;dados rotulados&lt;/strong&gt;, ou seja, dados onde a categoria ou classe de cada objeto é &lt;strong&gt;conhecida&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;O modelo é então usado para classificar &lt;strong&gt;novos objetos&lt;/strong&gt; com base em suas características.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Exemplos de problemas de classificação incluem:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Classificar e-mails como &lt;strong&gt;spam&lt;/strong&gt; ou &lt;strong&gt;não spam&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Classificar transações de cartão de crédito como &lt;strong&gt;fraudulentas&lt;/strong&gt; ou &lt;strong&gt;legítimas&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Classificar imagens de objetos como &lt;strong&gt;carros&lt;/strong&gt;, &lt;strong&gt;animais&lt;/strong&gt;, &lt;strong&gt;plantas&lt;/strong&gt;, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;problema-de-classificação&#34;&gt;Problema de classificação&lt;/h4&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;class&#34; srcset=&#34;
+               /slides/tarefa-de-classifica-o-parte-01/class_hu06e0df98ee5fde33acf4ecbad930b93d_1423997_dfcc1beb680a783f22c89bd98ac0caa2.webp 400w,
+               /slides/tarefa-de-classifica-o-parte-01/class_hu06e0df98ee5fde33acf4ecbad930b93d_1423997_98ead36b858dee3ba28687413189df7e.webp 760w,
+               /slides/tarefa-de-classifica-o-parte-01/class_hu06e0df98ee5fde33acf4ecbad930b93d_1423997_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/tarefa-de-classifica-o-parte-01/class_hu06e0df98ee5fde33acf4ecbad930b93d_1423997_dfcc1beb680a783f22c89bd98ac0caa2.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Podem ser divididos em &lt;strong&gt;classificação binária&lt;/strong&gt; e &lt;strong&gt;classificação multiclasse&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Em problemas de classificação binária, existem apenas &lt;strong&gt;duas classes&lt;/strong&gt; possíveis (por exemplo, sim ou não).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para os multiclasse, existem &lt;strong&gt;três&lt;/strong&gt; ou &lt;strong&gt;mais classes&lt;/strong&gt; possíveis (por exemplo, vermelho, azul ou verde).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;algoritmos-de-classificação&#34;&gt;Algoritmos de classificação&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Algoritmos mais comuns usados para problemas de classificação:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;K-Nearest Neighbors (KNN)&lt;/li&gt;
+&lt;li&gt;Naive Bayes&lt;/li&gt;
+&lt;li&gt;Árvores de decisão&lt;/li&gt;
+&lt;li&gt;Random Forests&lt;/li&gt;
+&lt;li&gt;Máquinas de Vetores de Suporte (SVM)&lt;/li&gt;
+&lt;li&gt;Redes Neurais Artificiais (ANN)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;k-nearest-neighbors-knn&#34;&gt;K-Nearest Neighbors (KNN)&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;O KNN é um algoritmo de aprendizado supervisionado de classificação e regressão, que usa a proximidade dos objetos para classificar novas instâncias.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;É um dos algoritmos mais simples e intuitivos de aprendizado de máquina. Utiliza a ideia do &amp;ldquo;vizinho mais próximo&amp;rdquo;, o que significa que ele determina a classe de uma instância com base nas classes de seus vizinhos mais próximos.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Em outras palavras, se a maioria dos vizinhos mais próximos de uma instância pertence a uma classe específica, então a instância também é classificada como pertencente a essa classe.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;algoritmo-knn&#34;&gt;Algoritmo KNN&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;knn&#34; srcset=&#34;
+               /slides/tarefa-de-classifica-o-parte-01/knn_hu80f42adc2e80136362f30f85bcae56d4_47835_26652f275443611cf78b08ac9d688d5f.webp 400w,
+               /slides/tarefa-de-classifica-o-parte-01/knn_hu80f42adc2e80136362f30f85bcae56d4_47835_a8fd24e91c1f7a2660d7e9827c71a593.webp 760w,
+               /slides/tarefa-de-classifica-o-parte-01/knn_hu80f42adc2e80136362f30f85bcae56d4_47835_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/tarefa-de-classifica-o-parte-01/knn_hu80f42adc2e80136362f30f85bcae56d4_47835_26652f275443611cf78b08ac9d688d5f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;570&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;O valor de K é um &lt;strong&gt;parâmetro&lt;/strong&gt; importante em KNN. Ele determina o número de vizinhos mais próximos que são usados para classificar uma nova instância.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Um valor de K pequeno pode levar a um modelo muito &lt;strong&gt;sensível&lt;/strong&gt; ao &lt;strong&gt;ruído&lt;/strong&gt; nos dados, enquanto um valor grande de K pode levar a uma &lt;strong&gt;perda&lt;/strong&gt; de detalhes importantes nos dados.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A escolha do valor K ideal é frequentemente realizada por meio de técnicas de &lt;strong&gt;validação cruzada&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;KNN é usado para problemas de classificação e regressão.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Em problemas de &lt;strong&gt;classificação&lt;/strong&gt;, a classe mais comum entre os K vizinhos mais próximos é escolhida como a classe da nova instância.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Em problemas de &lt;strong&gt;regressão&lt;/strong&gt;, a média ou mediana dos valores alvo dos K vizinhos mais próximos é escolhida como o valor alvo da nova instância.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;É &lt;strong&gt;computacionalmente caro&lt;/strong&gt; para grandes conjuntos de dados, pois ele precisa calcular a distância entre a nova instância e todos os pontos de dados no conjunto de treinamento.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Além disso, o KNN é &lt;strong&gt;sensível à escala&lt;/strong&gt; dos dados, portanto, a &lt;strong&gt;normalização dos dados&lt;/strong&gt; é importante antes de aplicar o algoritmo.&lt;/p&gt;
+&lt;p&gt;Finalmente, o KNN pode ser usado como um modelo de referência para problemas de classificação e regressão antes de explorar modelos mais complexos.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;classificador-naïve-bayes&#34;&gt;Classificador Naïve Bayes&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;O &lt;strong&gt;Classificador Naïve Bayes&lt;/strong&gt; é um algoritmo de aprendizagem supervisionada utilizado para classificação de dados.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ele se baseia no &lt;strong&gt;Teorema de Bayes&lt;/strong&gt;, que afirma que a probabilidade de um evento ocorrer dado que outro evento já ocorreu é proporcional à probabilidade deste último evento ocorrer dado o primeiro.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Este método estima a probabilidade de cada classe (categoria) dada as &lt;strong&gt;características&lt;/strong&gt; dos dados.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ele assume que as características são &lt;strong&gt;independentes entre si&lt;/strong&gt;, ou seja, não há interdependência entre elas.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Com base nessa &lt;strong&gt;probabilidade&lt;/strong&gt;, ele classifica novos dados em uma das categorias pré-definidas.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;exemplo-de-uso&#34;&gt;Exemplo de uso&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;O Classificador Naïve Bayes pode ser utilizado em tarefas de &lt;strong&gt;análise de sentimentos&lt;/strong&gt;, por exemplo, para determinar se um comentário é positivo ou negativo com base em suas palavras-chave.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ele também pode ser usado em tarefas de &lt;strong&gt;classificação de e-mails&lt;/strong&gt;, onde é preciso determinar se um e-mail é spam ou não-spam.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;vantagens&#34;&gt;Vantagens&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;O Classificador Naïve Bayes é um algoritmo simples e rápido.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ele funciona bem em conjuntos de dados com muitas características e com pouco dados.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;É um algoritmo eficiente em tarefas de classificação de texto.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;desvantagens&#34;&gt;Desvantagens&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;O Classificador Naïve Bayes assume que as características são independentes entre si, o que nem sempre é verdade.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ele pode ser afetado por dados faltantes ou incorretos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Não é um bom algoritmo para tarefas que envolvem classes dependentes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pré-processamento - parte 02</title>
+      <link>https://est125imd.netlify.app/slides/pr-processamento-parte-02/</link>
+      <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://est125imd.netlify.app/slides/pr-processamento-parte-02/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;limpeza-de-dados&#34;&gt;Limpeza de dados&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;o-que-é-limpeza-de-dados&#34;&gt;O que é limpeza de dados?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Limpeza de dados&lt;/strong&gt; é o processo de identificar, remover ou corrigir dados imprecisos, incompletos, inconsistentes, duplicados ou irrelevantes em um conjunto de dados.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;É uma etapa importante no processo de análise de dados, uma vez que dados sujos podem afetar negativamente a qualidade e confiabilidade dos resultados da análise.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;identificação-de-problemas&#34;&gt;Identificação de problemas&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Existem várias técnicas para identificar problemas de limpeza de dados em um conjunto de dados. Algumas das técnicas mais comuns incluem:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Análise visual:&lt;/strong&gt; pode-se inspecionar o conjunto de dados para identificar erros óbvios, como valores ausentes, valores que não fazem sentido ou valores extremos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Estatística descritiva:&lt;/strong&gt; realizar uma boa análise descritiva. Valores extremos ou valores que estão muito longe do intervalo interquartil, por exemplo, podem ser indicativos de problemas de limpeza de dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gráficos de distribuição:&lt;/strong&gt; analisar os gráficos de distribuição para cada variável e observar padrões incomuns na distribuição dos valores, como bimodalidade, assimetria ou outliers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Análise de correlação:&lt;/strong&gt; analisar as correlações entre as variáveis e procurar relações que não fazem sentido ou que não deveriam existir.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Análise de consistência:&lt;/strong&gt; comparar valores em diferentes variáveis para ver se eles são consistentes entre si. Por exemplo, se uma pessoa é descrita como tendo 2 metros de altura e 30 kg de peso, pode haver um problema de limpeza de dados.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;tratamento-de-dados-faltantes&#34;&gt;Tratamento de dados faltantes&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;https://gph.is/2Tz7gn7&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;img src=&#34;https://media2.giphy.com/media/3s0OTExhi8qzSC3nHC/giphy.gif&#34;  width=&#34;800&#34; height=&#34;500&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;“The idea of imputation is both seductive and dangerous” (R.J.A Little &amp;amp; D.B. Rubin)&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A escolha do método de tratamento de valor ausente depende do tipo de valor ausente identificado.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Basicamente, existem dois tipos de valores ausentes: aleatórios e não aleatórios&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;MCAR (missing completely at random):&lt;/strong&gt; ocorrem de forma completamente aleatória e não estão relacionados com as outras variáveis do conjunto de dados.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Por exemplo, em uma pesquisa por telefone algumas das respostas não foram registradas devido a problemas técnicos que ocorreram aleatoriamente durante a coleta dos dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;MNAR (missing not at random):&lt;/strong&gt; são valores ausentes que estão relacionados com outras variáveis do conjunto de dados e podem levar a enviesamento na análise dos dados.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Por exemplo, em uma pesquisa sobre saúde mental, as pessoas que sofrem de depressão tendem a não responder perguntas sobre sua condição de saúde mental.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;como-identificar-o-mecanismo-gerador-dos-dados-faltantes&#34;&gt;Como identificar o mecanismo gerador dos dados faltantes?&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Para identificar valores ausentes MCAR, uma técnica é analisar a distribuição de valores ausentes em relação às outras variáveis do conjunto de dados.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Se não houver correlação entre a ausência de valores e outras variáveis, é provável que os valores ausentes sejam MCAR.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Também é possível realizar testes estatísticos para verificar se a distribuição dos valores ausentes é aleatória ou não.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Já a identificação de valores ausentes MNAR é mais complexa, pois eles estão relacionados a outras variáveis do conjunto de dados e, portanto, é mais difícil determinar se eles são completamente aleatórios ou não.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Algumas técnicas para identificar valores ausentes MNAR incluem:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Análise de padrões de resposta:&lt;/strong&gt; é possível analisar como objetos com valores ausentes se diferenciam daqueles que não têm valores ausentes, em termos dos atributos. Se os indivíduos com valores ausentes são significativamente diferentes em relação a essas variáveis, é provável que os valores ausentes sejam MNAR.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Análise de correlação:&lt;/strong&gt; é possível analisar a correlação entre as variáveis com valores ausentes e outras variáveis no conjunto de dados. Se houver uma correlação significativa entre as variáveis, é possível que os valores ausentes sejam MNAR.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Análise visual:&lt;/strong&gt; é possível realizar análises gráficas para verificar se há algum padrão de valores ausentes que sugira que eles não são aleatórios.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Por exemplo, pode-se criar um gráfico de dispersão de uma variável em relação a outra, marcando as observações com valores ausentes. Se houver um padrão na localização dos valores ausentes no gráfico, é possível que eles sejam MNAR.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;tratamento-de-valores-ausentes-completamente-aleatórios&#34;&gt;Tratamento de valores ausentes completamente aleatórios&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;O tratamento de valores ausentes completamente aleatórios (MCAR) é relativamente simples, pois os valores ausentes são independentes das demais variáveis e podem ser tratados sem viés.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Algumas técnicas comuns para lidar com valores ausentes MCAR incluem&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Exclusão de registros com valores ausentes:&lt;/strong&gt; Se a proporção de valores ausentes é pequena em relação ao tamanho do conjunto de dados, é possível excluir os registros que contêm valores ausentes sem comprometer a análise.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No entanto, isso pode levar a uma perda de informações valiosas e reduzir o tamanho do conjunto de dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Imputação de valores:&lt;/strong&gt; Se o número de valores ausentes é grande, é possível imputar os valores ausentes usando métodos estatísticos, como a média, mediana ou regressão.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Esses métodos são simples e rápidos, mas podem introduzir um viés nos resultados, dependendo da distribuição dos valores ausentes e da escolha do método de imputação.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Modelagem com técnicas de aprendizado de máquina:&lt;/strong&gt; As técnicas de aprendizado de máquina podem ajudar a prever valores ausentes com base em outros dados disponíveis.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Essa abordagem pode ser mais precisa do que a imputação de valores, mas também pode ser mais complexa e exigir um conjunto de dados de treinamento grande o suficiente para o modelo aprender a relação entre as variáveis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;tratamento-de-valores-ausentes-não-aleatórios&#34;&gt;Tratamento de valores ausentes não aleatórios&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;O tratamento de valores ausentes não aleatórios (MNAR) é mais complexo do que o tratamento de valores ausentes completamente aleatórios (MCAR), pois os valores ausentes estão relacionados a outras variáveis do conjunto de dados e podem levar a um viés na análise se não forem tratados adequadamente.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Algumas técnicas comuns para lidar com valores ausentes MNAR incluem:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Modelagem com técnicas de aprendizado de máquina:&lt;/strong&gt; Como os valores ausentes MNAR estão relacionados a outras variáveis do conjunto de dados, a modelagem com técnicas de aprendizado de máquina pode ser uma abordagem útil para prever os valores ausentes com base nas informações disponíveis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Imputação baseada em modelos:&lt;/strong&gt; A imputação baseada em modelos é uma técnica que envolve a construção de um modelo estatístico para prever os valores ausentes com base nas informações disponíveis.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Essa abordagem requer um conhecimento prévio da relação entre as variáveis e pode ser mais complexa do que outros métodos de imputação.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Análise de sensibilidade:&lt;/strong&gt; A análise de sensibilidade é uma técnica que envolve testar diferentes cenários e valores de imputação para avaliar o impacto nos resultados da análise.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Essa abordagem pode ajudar a identificar os valores mais plausíveis para a imputação e a avaliar a robustez dos resultados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;tratamento-de-valores-inconsistentes&#34;&gt;Tratamento de valores inconsistentes&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;O tratamento de valores inconsistentes é importante para garantir a qualidade e a confiabilidade dos dados, pois valores inconsistentes podem afetar negativamente a análise e a interpretação dos resultados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Inconsistência&#34; srcset=&#34;
+               /slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_62cad6d558238f06067af9c12cf63f86.webp 400w,
+               /slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_3603cff5b19d917fb9397df2c3f4e69d.webp 760w,
+               /slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_62cad6d558238f06067af9c12cf63f86.webp&#34;
+               width=&#34;725&#34;
+               height=&#34;294&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Algumas técnicas comuns para lidar com valores inconsistentes incluem:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Identificação de valores inconsistentes:&lt;/strong&gt; Verifica-se os valores em cada variável, comparando-os com os valores esperados ou com outras fontes de dados. Também é possível usar técnicas de detecção de outliers para identificar valores inconsistentes automaticamente.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Correção manual:&lt;/strong&gt; Para valores inconsistentes que podem ser facilmente corrigidos, a correção manual pode ser uma abordagem eficaz.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Isso pode incluir a revisão manual dos dados e a correção de erros, como erros de digitação ou valores fora do intervalo esperado.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Imputação de valores:&lt;/strong&gt; Para valores inconsistentes que não podem ser facilmente corrigidos, a imputação de valores pode ser uma abordagem útil.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Isso envolve a substituição de valores inconsistentes por valores estimados com base em outras informações disponíveis no conjunto de dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Exclusão de registros:&lt;/strong&gt; Para valores inconsistentes que não podem ser corrigidos e não podem ser imputados com precisão, a exclusão de registros pode ser uma abordagem apropriada.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Isso envolve a remoção dos registros com valores inconsistentes do conjunto de dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pré-processamento - parte 03</title>
+      <link>https://est125imd.netlify.app/slides/pr-processamento-parte-03/</link>
+      <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://est125imd.netlify.app/slides/pr-processamento-parte-03/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;tratamento-de-ruídos&#34;&gt;Tratamento de ruídos&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;https://gph.is/g/ZPBYYOp&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;img src=&#34;https://media2.giphy.com/media/QFuBzoQdijNFztFEp6/giphy.gif&#34;  width=&#34;800&#34; height=&#34;500&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;O ruído pode ser causado por vários fatores, como erros de entrada de dados, erros de medição, valores atípicos, variabilidade aleatória ou viés.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Existem algumas abordagens comuns para o tratamento de ruídos em um conjunto de dados, incluindo:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Identificação e remoção de valores atípicos:&lt;/strong&gt; valores que são muito diferentes dos outros valores no conjunto de dados podem ser identificados como valores atípicos.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Esses valores podem ser removidos do conjunto de dados ou tratados separadamente para minimizar o impacto no resultado da análise.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Correção de erros de entrada de dados:&lt;/strong&gt; erros de entrada de dados podem ser corrigidos por meio da revisão manual dos dados ou por meio de algoritmos de detecção e correção automática de erros.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Normalização ou padronização de dados:&lt;/strong&gt; a normalização ou a padronização de dados pode ser usada para tornar os dados comparáveis e interpretáveis, especialmente quando os dados têm unidades diferentes ou escalas diferentes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Utilização de técnicas de suavização de dados:&lt;/strong&gt; técnicas de suavização, como média móvel ou suavização exponencial, podem ser usadas para reduzir o impacto do ruído nos dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Utilização de técnicas de agrupamento:&lt;/strong&gt; técnicas de agrupamento, como análise de cluster, podem ser usadas para identificar padrões em um conjunto de dados e reduzir o impacto do ruído.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;como-identificar-um-valor-atípico&#34;&gt;Como identificar um valor atípico?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Gráfico box-plot&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Z-score:&lt;/strong&gt; valores com um z-score maior do que um limite (geralmente 3) são considerados valores atípicos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Intervalo interquartil (IQR):&lt;/strong&gt; valores abaixo de Q1 - 1,5 x IQR ou acima de Q3 + 1,5 x IQR são considerados valores atípicos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Método de DBSCAN:&lt;/strong&gt; é um algoritmo de clusterização que agrupa pontos de dados que estão próximos uns dos outros e identifica valores que não estão próximos a nenhum cluster, o que pode ser um sinal de valores atípicos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;Quaisquer que sejam as técnicas empregadas, a documentação e o registro das etapas de limpeza de dados são essenciais para garantir a reprodutibilidade, transparência, colaboração, auditabilidade e controle de qualidade em análises de dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;integração-de-dados&#34;&gt;Integração de dados&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Integração de dados é o processo de combinar dados de múltiplas fontes em um único conjunto de dados coerente e integrado.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;O objetivo da integração de dados é criar um conjunto de dados mais completo e preciso, permitindo análises mais abrangentes e informadas.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Algumas técnicas comuns para integração de dados são:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Fusão de dados:&lt;/strong&gt; é o processo de combinar dois ou mais conjuntos de dados com base em uma chave comum.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Por exemplo, dados de clientes de uma empresa podem ser fundidos com dados de vendas, com base no número de identificação de cliente.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Análise de correspondência:&lt;/strong&gt; é uma técnica de integração de dados que permite combinar informações de diferentes fontes, com base em uma análise de correspondência de variáveis.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Por exemplo, dados de vendas de uma empresa podem ser combinados com dados demográficos, com base em correspondências de variáveis, como localização geográfica ou faixa etária.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;Independentemente da técnica usada, é importante lembrar que a integração de dados pode ser complexa e demorada e pode envolver a identificação e correção de inconsistências nos dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;redução-de-dados&#34;&gt;Redução de dados&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A redução de dados é uma técnica usada para diminuir a dimensão de um conjunto de dados, ou seja, reduzir o número de variáveis ​​ou características que compõem o conjunto de dados.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Existem várias razões para reduzir os dados, incluindo:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;Simplificar a análise de dados, tornando-a mais fácil e mais rápida de ser executada;&lt;/li&gt;
+&lt;li&gt;Reduzir o tempo de processamento e armazenamento dos dados;&lt;/li&gt;
+&lt;li&gt;Melhorar a qualidade dos dados, eliminando variáveis irrelevantes ou redundantes que possam afetar negativamente a análise;&lt;/li&gt;
+&lt;li&gt;Preparar os dados para a entrada em um modelo de aprendizado de máquina.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Algumas técnicas comuns para redução de dados:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Análise de Componentes Principais&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Seleção de atributos&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Amostragem&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;seleção-de-atributos&#34;&gt;Seleção de atributos&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A seleção de atributos é um processo de pré-processamento de dados que envolve a escolha dos atributos (variáveis) mais relevantes para a análise.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;O objetivo da seleção de atributos é reduzir a dimensionalidade dos dados, eliminando características irrelevantes e redundantes, e, assim, melhorar a precisão e a eficiência da análise.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Seleção baseada em filtro:&lt;/strong&gt; Essa técnica usa métricas estatísticas para avaliar a relevância dos atributos e seleciona aqueles que têm maior correlação com a variável de interesse.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Métodos de filtragem:&lt;/strong&gt; coeficiente de correlação, ganho de informação e o teste de qui-quadrado.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Filtro&#34; srcset=&#34;
+               /slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_a33c91194242f82f1a696650b526b006.webp 400w,
+               /slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_59e08447c88a83180be634131aa32392.webp 760w,
+               /slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_a33c91194242f82f1a696650b526b006.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;57&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Seleção baseada em wrapper:&lt;/strong&gt; Essa técnica envolve a seleção de atributos por meio de um modelo de aprendizado de máquina, que é treinado em um conjunto de atributos selecionados. O modelo é avaliado usando validação cruzada e as atributos são selecionados com base no desempenho do modelo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Métodos wrapper:&lt;/strong&gt; Forward stepwise selection, Backward Elimination, Bi-directional stepwise selection &amp;amp; elimination.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Wrapper&#34; srcset=&#34;
+               /slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_47d26fe3b3ad0181361f8367ccf67872.webp 400w,
+               /slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_8c6c1b9b84296f365b3c5e451e7671b3.webp 760w,
+               /slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_47d26fe3b3ad0181361f8367ccf67872.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;147&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Seleção baseada em incorporação:&lt;/strong&gt; Essa técnica envolve a seleção de atributos durante o processo de treinamento do modelo de aprendizado de máquina.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;O modelo é treinado com todas os atributos e, em seguida, os atributos são removidos com base em sua importância para o modelo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Métodos de incorporação:&lt;/strong&gt; Regressão LASSO, Árvores de decisão&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Wrapper&#34; srcset=&#34;
+               /slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_50f597aa965802a1ca71700b89752a7d.webp 400w,
+               /slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_54cf4763a21a54be2a74936e7d27c4a7.webp 760w,
+               /slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_50f597aa965802a1ca71700b89752a7d.webp&#34;
+               width=&#34;591&#34;
+               height=&#34;152&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pré-processamento - parte 04</title>
+      <link>https://est125imd.netlify.app/slides/pr-processamento-parte-04/</link>
+      <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://est125imd.netlify.app/slides/pr-processamento-parte-04/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;transformação-de-dados&#34;&gt;Transformação de dados&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;As bases de dados brutas e integradas a partir de bases distintas podem sofrer, além de valores ausentes, ruídos e inconsistências, de dados não ou pouco padronizados.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Por exemplo, pode haver valores de um mesmo atributo escritos em maiúsculo e outros em minúsculo, e os formatos e as unidades podem ser diferentes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Outro tipo de problema encontrado é a não uniformidade dos atributos, ou seja, alguns atributos podem ser numéricos, outros categóricos, e os domínios de cada atributo podem ser muito diferentes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Como podemos resolver esses problemas?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;http://gph.is/1Vp16TL&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;img src=&#34;https://media3.giphy.com/media/P4TqKx6NHyLnO/giphy.gif&#34;  width=&#34;800&#34; height=&#34;500&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Padronização:&lt;/strong&gt; Resolver as diferenças de unidades e escalas dos dados.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Capitalização:&lt;/strong&gt; é usual padronizar as fontes,	normalmente para maiúsculo.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Padronização de formatos:&lt;/strong&gt; observar e padronizar o formato de cada atributo da base, principalmente quando diferentes bases precisam ser integradas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Conversão de unidades:&lt;/strong&gt; todos os dados devem ser convertidos e padronizados em uma mesma unidade de medida.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Normalização:&lt;/strong&gt; tornar os dados mais apropriados à aplicação de algum algoritmo de mineração.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;tipos-de-normalização&#34;&gt;Tipos de normalização&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Normalização Max-Min:&lt;/strong&gt; Realiza uma transformação linear nos dados originais&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;$$X&#39; = \dfrac{X - \min(X)}{\max(X) - \min(X)}$$&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Normalização pelo escore-z:&lt;/strong&gt; Útil quando os valores máximo e mínimo de um atributo forem desconhecidos ou quando existe outliers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;$$X&#39; = \dfrac{X - \bar{X}}{s_X}$$&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Normalização pelo escalonamento decimal:&lt;/strong&gt; Move a casa decimal de um atributo &lt;code&gt;\(X\)&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;$$X&#39; = \dfrac{X}{10^j}$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;em que &lt;code&gt;\(j\)&lt;/code&gt; é o menor inteiro tal que &lt;code&gt;\(\max(|X&#39;|)&amp;lt; 1\)&lt;/code&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Normalização pela distância interquartilica:&lt;/strong&gt; Toma o valor do atributo, subtrai a mediana e divide pela distância interquartílica ($DIQ = Q_3 - Q_1$)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;$$X&#39; =  \dfrac{X - Q_2}{DIQ}$$&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;exemplo-de-uso-das-diferentes-normalizações&#34;&gt;Exemplo de uso das diferentes normalizações&lt;/h4&gt;
+&lt;style type=&#34;text/css&#34;&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-34fe{background-color:#c0c0c0;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+&lt;/style&gt;
+&lt;table class=&#34;tg&#34;&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th class=&#34;tg-34fe&#34;&gt;ID&lt;/th&gt;
+    &lt;th class=&#34;tg-34fe&#34;&gt;Valor original&lt;/th&gt;
+    &lt;th class=&#34;tg-34fe&#34;&gt;Max-Min&lt;/th&gt;
+    &lt;th class=&#34;tg-34fe&#34;&gt;Escore-z&lt;/th&gt;
+    &lt;th class=&#34;tg-34fe&#34;&gt;Escalonamento decimal&lt;/th&gt;
+    &lt;th class=&#34;tg-34fe&#34;&gt;Distância interquartílica&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;1&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;67&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,85&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,73&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,67&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,40&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;2&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;43&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,33&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;-0,92&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,43&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;-0,80&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;3&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;58&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,65&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,11&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,58&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;-0,05&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;4&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;28&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,00&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;-1,96&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,28&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;-1,55&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;5&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;74&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;1,00&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;1,21&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,74&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,75&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;6&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;65&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,80&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,59&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,65&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,30&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;7&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;70&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,91&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,94&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,70&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,55&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;8&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;42&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,30&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;-0,99&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,42&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;-0,85&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;9&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;57&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,63&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,04&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,57&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;-0,10&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;10&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;60&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,70&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,25&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,60&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;0,05&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Transformação logarítmica:&lt;/strong&gt; Usada para reduzir a assimetria e a variância dos dados. É especialmente útil quando os dados estão distribuídos de forma exponencial ou quando há um grande intervalo de valores entre as observações.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Transformação de raiz quadrada:&lt;/strong&gt; Similar à transformação logarítmica, com o benefício de manter a escala original dos dados, facilitando a interpretação.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;A transformação logarítmica é mais adequada para dados com caudas longas e uma grande variação, enquanto a transformação da raiz quadrada é mais adequada para dados com uma variação moderada. Além disso, a o uso de logarítmos tem o efeito de estabilizar a variância dos dados, enquanto a o uso da raiz quadrada tem o efeito de reduzir a variância dos dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;discretização-de-dados&#34;&gt;Discretização de dados&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Discretização&lt;/strong&gt; é o processo de transformar uma variável contínua em uma variável categórica ou discreta.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;É útil quando se deseja agrupar valores contínuos em categorias ou intervalos para simplificar a análise ou reduzir o efeito de valores extremos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Algumas das técnicas comuns de discretização incluem:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Discretização equi-probabilística:&lt;/strong&gt; Essa técnica envolve a divisão dos dados em intervalos de tamanho igual, de modo que cada intervalo contenha aproximadamente a mesma quantidade de observações.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Discretização equi-distante:&lt;/strong&gt; Nessa técnica, os dados são divididos em intervalos de tamanho igual, com base em uma distância predefinida.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Discretização por quartis:&lt;/strong&gt; Os dados são divididos em quartis, com base nos valores de corte que dividem os dados em quatro partes iguais.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Discretização por frequência:&lt;/strong&gt; Os dados são divididos em intervalos com base na frequência de observações em cada intervalo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Binarização:&lt;/strong&gt; A binarização é uma técnica de transformação de dados que converte valores quantitativos em valores binários (0 ou 1) com base em um valor de corte.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;exemplo-de-binarização&#34;&gt;Exemplo de binarização&lt;/h4&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Binarização&#34; srcset=&#34;
+               /slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_e1a9655242eec606d577c408f55ea7c9.webp 400w,
+               /slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_91fdac6ed31c1b73c1add7b78bd0caf4.webp 760w,
+               /slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_e1a9655242eec606d577c408f55ea7c9.webp&#34;
+               width=&#34;410&#34;
+               height=&#34;498&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;One-Hot Encoding:&lt;/strong&gt; O One-Hot Encoding é uma técnica de transformação de dados que converte variáveis categóricas em vetores binários para permitir a análise em modelos de machine learning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;exemplo-de-one-hot-enconding&#34;&gt;Exemplo de one-hot enconding&lt;/h4&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;OHE&#34; srcset=&#34;
+               /slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_f188e515d74eea0bdbbe1d1bb1bb3531.webp 400w,
+               /slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_6ac49b5ca25303f918575b1986350417.webp 760w,
+               /slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_f188e515d74eea0bdbbe1d1bb1bb3531.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;277&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pré-processamento - parte 01</title>
+      <link>https://est125imd.netlify.app/slides/introdu-o/</link>
+      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://est125imd.netlify.app/slides/introdu-o/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;pré-processamento-de-dados&#34;&gt;Pré-processamento de dados&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Pré-processamento&lt;/strong&gt; de dados se define como um conjunto de técnicas e procedimentos aplicados aos dados &lt;strong&gt;antes&lt;/strong&gt; de sua utilização em um modelo ou algoritmo de análise.&lt;/p&gt;
+&lt;p&gt;É uma etapa fundamental na análise de dados, pois visa garantir que os dados estejam &lt;strong&gt;corretos&lt;/strong&gt;, &lt;strong&gt;completos&lt;/strong&gt;, &lt;strong&gt;coerentes&lt;/strong&gt; e em um &lt;strong&gt;formato&lt;/strong&gt; apropriado para serem analisados.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;O pré-processamento de dados inclui diversas atividades, como limpeza de dados, transformação de dados, redução de dimensão, seleção de recursos, normalização e amostragem.&lt;/p&gt;
+&lt;p&gt;O objetivo geral do pré-processamento de dados é aumentar a qualidade e a precisão da análise de dados, minimizando a influência de ruídos e inconsistências nos resultados finais.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;importância-do-pré-processamento&#34;&gt;Importância do pré-processamento&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;O pré-processamento de dados é uma etapa importante e crítica no processo de análise de dados. Algumas razões pelas quais é importante realizar o pré-processamento são&amp;hellip;&lt;/p&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Melhoria da qualidade dos dados:&lt;/strong&gt; O pré-processamento de dados pode ajudar a melhorar a qualidade dos dados, eliminando dados duplicados, ausentes ou inconsistentes. Isso resulta em dados mais precisos e confiáveis para análise.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Ajuste dos dados para a análise:&lt;/strong&gt; Muitos modelos e algoritmos de análise de dados requerem que os dados estejam em um formato específico. Na etapa do pré-processamento de dados ajusta-se os dados para que estejam em um formato adequado para a análise.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Eliminação de ruídos:&lt;/strong&gt; Os dados geralmente contêm ruídos, como outliers e valores extremos, que podem afetar negativamente a precisão dos resultados finais. Nesta etapa, elimina-se esses ruídos, tornando os resultados mais precisos.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Redução da complexidade dos dados:&lt;/strong&gt; Podemos reduzir a complexidade dos dados, eliminando variáveis desnecessárias e reduzindo o número de dimensões do conjunto de dados. Isso torna mais fácil a análise e interpretação dos dados.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Melhoria do desempenho do modelo:&lt;/strong&gt; O pré-processamento de dados pode ajudar a melhorar o desempenho do modelo, ao remover dados redundantes, normalizar os dados e selecionar os recursos mais importantes. Isso resulta em modelos mais precisos e confiáveis.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.forbes.com/sites/gilpress/2016/03/23/data-preparation-most-time-consuming-least-enjoyable-data-science-task-survey-says/?sh=34ce9abe6f63&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;img src=&#34;time.jpg&#34;  width=&#34;1000&#34; height=&#34;400&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;https://gph.is/g/Eq2rpxa&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;img src=&#34;https://media3.giphy.com/media/9u514UZd57mRhnBCEk/giphy.gif&#34;  width=&#34;800&#34; height=&#34;500&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;o-que-há-de-errado-nessa-base&#34;&gt;O que há de errado nessa base?&lt;/h4&gt;
+&lt;style type=&#34;text/css&#34;&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-34fe{background-color:#c0c0c0;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+&lt;/style&gt;
+&lt;table class=&#34;tg&#34;&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th class=&#34;tg-34fe&#34;&gt;Usuário&lt;/th&gt;
+    &lt;th class=&#34;tg-34fe&#34;&gt;Idade&lt;/th&gt;
+    &lt;th class=&#34;tg-34fe&#34;&gt;Cidade&lt;/th&gt;
+    &lt;th class=&#34;tg-34fe&#34;&gt;Data&lt;/th&gt;
+    &lt;th class=&#34;tg-34fe&#34;&gt;Salário&lt;/th&gt;
+    &lt;th class=&#34;tg-34fe&#34;&gt;Npáginas&lt;/th&gt;
+    &lt;th class=&#34;tg-34fe&#34;&gt;Nsessões&lt;/th&gt;
+    &lt;th class=&#34;tg-34fe&#34;&gt;Nprodutos&lt;/th&gt;
+    &lt;th class=&#34;tg-34fe&#34;&gt;Clique&lt;/th&gt;
+    &lt;th class=&#34;tg-34fe&#34;&gt;Comprou&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;user1&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;22&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;Belo Horizonte&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;22/10/21&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;1200&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;5&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;2&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;5&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;no&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;no&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;user2&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;1&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;São paulo&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;20/09/22&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;5000&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;21&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;4&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;11&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;yes&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;yes&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;user 3&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;41&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;BH&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;23 de dezembro 2022&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;12000&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;2&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;1&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;3&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;NA&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;yes&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;user 4&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;32&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;Miami&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;22/10/01&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;50000&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;NA&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;5&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;2&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;yes&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;no&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;user5&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;20&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;Tokyo&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;23/01/25&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;12220&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;5&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;5&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;8&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;no&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;yes&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;user6&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;28&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;NY&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;March 14, 2018&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;250000&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;8&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;NA&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;NA&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;no&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;yes&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;principais-problemas-com-dados-reais&#34;&gt;Principais problemas com dados reais&lt;/h4&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Principais problemas&#34; srcset=&#34;
+               /slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_c00bd2e75c637541db204e5d95bd12d8.webp 400w,
+               /slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_c9fcdbecc073d3e348652dfb72f57e7e.webp 760w,
+               /slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_c00bd2e75c637541db204e5d95bd12d8.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;191&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;tipos-de-dados&#34;&gt;Tipos de dados&lt;/h4&gt;
+&lt;p&gt;Os dados podem ser classificados em três tipos principais: estruturados, semiestruturados e não estruturados&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;estruturados&#34;&gt;Estruturados&lt;/h4&gt;
+&lt;p&gt;São dados organizados em uma estrutura definida, como tabelas, colunas e linhas em um banco de dados.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Exemplos:&lt;/strong&gt; informações de vendas, cadastros de clientes, registros de transações financeiras, entre outros.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Para dados estruturados, a técnica de pré-processamento mais comum é a &lt;strong&gt;limpeza de dados&lt;/strong&gt;, além da &lt;strong&gt;seleção de atributos relevantes&lt;/strong&gt;, &lt;strong&gt;normalização&lt;/strong&gt; e &lt;strong&gt;transformação&lt;/strong&gt; de dados.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;semiestruturados&#34;&gt;Semiestruturados&lt;/h4&gt;
+&lt;p&gt;São dados que não possuem uma estrutura rígida como os dados estruturados, mas possuem algumas formas de organização, como marcadores, tags ou atributos.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Exemplos:&lt;/strong&gt; arquivos XML, JSON, HTML, entre outros.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Para dados semiestruturados, a técnica de pré-processamento mais comum é a &lt;strong&gt;extração de informações relevantes&lt;/strong&gt;, que envolve a identificação de padrões e estruturas em dados como XML, JSON ou HTML, além da &lt;strong&gt;extração de dados&lt;/strong&gt; a partir dessas estruturas.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;não-estruturados&#34;&gt;Não estruturados&lt;/h4&gt;
+&lt;p&gt;São dados que não possuem uma estrutura definida e estão em formato livre, como texto, imagens, vídeos, áudios, e-mails, redes sociais, entre outros. Exigem o uso de técnicas mais avançadas de &lt;strong&gt;processamento de linguagem natural&lt;/strong&gt;, &lt;strong&gt;reconhecimento de padrões&lt;/strong&gt; e &lt;strong&gt;aprendizado de máquina&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Com o aumento da quantidade de dados gerados diariamente, a análise de &lt;strong&gt;dados semiestruturados&lt;/strong&gt; e &lt;strong&gt;não estruturados&lt;/strong&gt; tem se tornado cada vez mais importante para empresas que desejam obter insights valiosos sobre seus clientes, mercado e tendências.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;processo-de-preparação-da-base-de-dados&#34;&gt;Processo de preparação da base de dados&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Preparação da base de dados&#34; srcset=&#34;
+               /slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_086e6e28bb3c6727d670ab0d64c57c4e.webp 400w,
+               /slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_d067a00a0db0a1628f8f5fcb476f3a34.webp 760w,
+               /slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_086e6e28bb3c6727d670ab0d64c57c4e.webp&#34;
+               width=&#34;687&#34;
+               height=&#34;134&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Conceitos Iniciais - parte 01</title>
+      <link>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/</link>
+      <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;John Naisbitt&#34; srcset=&#34;
+               /slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_a39dfb17a1d3d712929cdb1e8fd89594.webp 400w,
+               /slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_84044041fa00906613643b66fb83e921.webp 760w,
+               /slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_a39dfb17a1d3d712929cdb1e8fd89594.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;358&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h1 id=&#34;motivação&#34;&gt;Motivação&lt;/h1&gt;
+&lt;hr&gt;
+&lt;p&gt;A quantidade de dados gerados diariamente vem aumentando exponencialmente, tornando a análise de dados cada vez mais importante&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://media1.giphy.com/media/xT9C25UNTwfZuk85WP/giphy-downsized-medium.gif&#34; alt=&#34;data&amp;#43;analysis&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Negócios:&lt;/strong&gt; tomada de decisões baseadas em dados&lt;/p&gt;
+&lt;img src=&#34;neg.jpg&#34; width=&#34;700&#34; height=&#34;400&#34;&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Saúde:&lt;/strong&gt; descobrir novos tratamentos e medicamentos&lt;/p&gt;
+&lt;img src=&#34;med.jpg&#34; width=&#34;700&#34; height=&#34;400&#34;&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Segurança:&lt;/strong&gt; prever e prevenir crimes e ameaças&lt;/p&gt;
+&lt;img src=&#34;crimes.jpg&#34; width=&#34;700&#34; height=&#34;400&#34;&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Marketing:&lt;/strong&gt; segmentação de clientes e personalização de produtos/serviços&lt;/p&gt;
+&lt;img src=&#34;cliente.png&#34; width=&#34;800&#34; height=&#34;400&#34;&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;o-que-é-mineração-de-dados&#34;&gt;O que é mineração de dados?&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;A &lt;strong&gt;mineração de dados&lt;/strong&gt; é o processo de descobrir conhecimentos ocultos e padrões em grandes volumes de dados.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;O &lt;strong&gt;objetivo&lt;/strong&gt; da mineração de dados é transformar dados brutos em informações úteis e conhecimentos para a tomada de decisão.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Ela usa técnicas de aprendizado de máquina, estatística e inteligência artificial para analisar dados e extrair insights.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Essas técnicas transformam, de maneira inteligente e automática, os &lt;strong&gt;dados&lt;/strong&gt; disponíveis em &lt;strong&gt;informações&lt;/strong&gt; úteis, que representem o &lt;strong&gt;conhecimento&lt;/strong&gt; para ser usado com &lt;strong&gt;sabedoria&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Informação&lt;/strong&gt;, e não dados, valem dinheiro/tempo/conhecimento!&lt;/p&gt;
+&lt;img src=&#34;infodin.jpg&#34; width=&#34;700&#34; height=&#34;400&#34;&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;dado-informação-conhecimento-e-sabedoria&#34;&gt;Dado, informação, conhecimento e sabedoria&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Dado:&lt;/strong&gt; são fatos brutos, sem significado ou contexto, que podem ser registrados e armazenados.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Dados brutos&#34; srcset=&#34;
+               /slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8351f7e2f141e7292be0b05599490b24.webp 400w,
+               /slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8e563cb469bc998aa5321e04ff4df25b.webp 760w,
+               /slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8351f7e2f141e7292be0b05599490b24.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;149&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Informação:&lt;/strong&gt; é o resultado da organização e interpretação dos dados, dando-lhes significado e contexto.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Informação&#34; srcset=&#34;
+               /slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_da83e4ab20ff38ce89fa1d37d194f7d3.webp 400w,
+               /slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_4120b8b087a6eedd16eaccfa0db5423d.webp 760w,
+               /slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_da83e4ab20ff38ce89fa1d37d194f7d3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;299&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Conhecimento:&lt;/strong&gt;  é a compreensão dos relacionamentos entre as informações e a capacidade de aplicar essas informações em uma situação específica.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Conhecimento&#34; srcset=&#34;
+               /slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_84abeb711a0a38699ea0ba5a32b013d4.webp 400w,
+               /slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_48ccff4b1ec29dd443835d3b11ff3dcc.webp 760w,
+               /slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_84abeb711a0a38699ea0ba5a32b013d4.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;448&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;img align=&#34;right&#34; width=&#34;600&#34; height=&#34;500&#34; src=&#34;sabedoria.png&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Sabedoria:&lt;/strong&gt;  é a habilidade de usar o conhecimento de forma ética e eficaz para tomar decisões sábias.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Conceitos Iniciais - parte 02</title>
+      <link>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-02/</link>
+      <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-02/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;crisp-dm-semma-e-kdd&#34;&gt;CRISP-DM, SEMMA e KDD&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Existem várias metodologias para gerenciar projetos de mineração de dados.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Três das metodologias mais comuns são CRISP-DM, SEMMA e KDD.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;crisp-dm&#34;&gt;CRISP-DM&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;CRISP-DM (&lt;strong&gt;CR&lt;/strong&gt;oss &lt;strong&gt;I&lt;/strong&gt;ndustry &lt;strong&gt;S&lt;/strong&gt;tandard &lt;strong&gt;P&lt;/strong&gt;rocess for &lt;strong&gt;D&lt;/strong&gt;ata &lt;strong&gt;M&lt;/strong&gt;ining) é uma metodologia de mineração de dados amplamente utilizada.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Envolve &lt;strong&gt;seis etapas&lt;/strong&gt;: compreensão do negócio, compreensão dos dados, preparação dos dados, modelagem, avaliação e implementação.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;É uma abordagem iterativa e pode ser adaptada para atender a necessidades específicas do projeto.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;crisp-dm-1&#34;&gt;CRISP-DM&lt;/h3&gt;
+&lt;img src=&#34;crisp.png&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;compreensão-do-negócio&#34;&gt;Compreensão do negócio&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é entender os objetivos do projeto, identificar as necessidades do usuário e definir os critérios de sucesso.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante definir claramente o escopo do projeto e entender os recursos disponíveis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;compreensão-dos-dados&#34;&gt;Compreensão dos Dados&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é coletar, limpar, integrar e explorar os dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante identificar a qualidade dos dados, definir as variáveis relevantes e compreender a estrutura dos dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;preparação-dos-dados&#34;&gt;Preparação dos Dados&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é selecionar as variáveis relevantes, transformar os dados e criar conjuntos de dados de treinamento e teste.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante garantir que os dados estejam limpos, completos e estruturados de maneira adequada para a modelagem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;modelagem&#34;&gt;Modelagem&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é construir e avaliar modelos que possam prever ou classificar novos casos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante selecionar as técnicas de modelagem apropriadas e avaliar a eficácia do modelo usando conjuntos de dados de treinamento e teste.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;avaliação&#34;&gt;Avaliação&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é avaliar a eficácia do modelo em relação aos critérios de sucesso definidos na fase de compreensão do negócio.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante avaliar o modelo em conjuntos de dados de teste independentes e garantir que ele atenda aos requisitos do usuário.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;implantação&#34;&gt;Implantação&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é implantar o modelo em um ambiente de produção e monitorá-lo regularmente para garantir que continue a atender aos requisitos do usuário.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante desenvolver um plano de implantação e treinamento para garantir que o modelo seja adotado pelos usuários.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;semma&#34;&gt;SEMMA&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;SEMMA (&lt;strong&gt;S&lt;/strong&gt;ample, &lt;strong&gt;E&lt;/strong&gt;xplore, &lt;strong&gt;M&lt;/strong&gt;odify, &lt;strong&gt;M&lt;/strong&gt;odel, &lt;strong&gt;A&lt;/strong&gt;ssess) é uma metodologia de mineração de dados desenvolvida pela SAS.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Envolve &lt;strong&gt;cinco etapas&lt;/strong&gt;: amostragem, exploração, modificação, modelagem e avaliação.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SEMMA é uma abordagem focada no modelo e pode ser usada em conjunção com outras metodologias de gerenciamento de projetos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;semma-1&#34;&gt;SEMMA&lt;/h3&gt;
+&lt;img src=&#34;semma.png&#34; width=&#34;650&#34; height=&#34;500&#34;&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;amostragem&#34;&gt;Amostragem&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é selecionar um subconjunto representativo dos dados originais.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante garantir que a amostra seja grande o suficiente para fornecer resultados precisos e confiáveis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;exploração&#34;&gt;Exploração&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é explorar os dados selecionados na etapa anterior e identificar padrões ou tendências.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante visualizar os dados para identificar padrões facilmente e identificar outliers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;modificação&#34;&gt;Modificação&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é transformar os dados de forma apropriada para que possam ser usados na modelagem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante realizar a limpeza dos dados, selecionar as variáveis relevantes e transformar os dados para que possam ser usados na modelagem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;modelagem-1&#34;&gt;Modelagem&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é criar e testar modelos usando os dados preparados na etapa anterior.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante selecionar as técnicas de modelagem apropriadas e avaliar a eficácia do modelo usando conjuntos de dados de treinamento e teste.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;avaliação-1&#34;&gt;Avaliação&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é avaliar a eficácia do modelo em relação aos critérios de sucesso definidos na fase de amostragem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante avaliar o modelo em conjuntos de dados de teste independentes e garantir que ele atenda aos requisitos do usuário.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;kdd&#34;&gt;KDD&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;KDD (&lt;strong&gt;K&lt;/strong&gt;nowledge &lt;strong&gt;D&lt;/strong&gt;iscovery in &lt;strong&gt;D&lt;/strong&gt;atabases) é uma metodologia mais ampla que CRISP-DM e SEMMA.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Envolve basicamente &lt;strong&gt;três etapas&lt;/strong&gt;: pré-processamento, mineração de dados e pós-processamento.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Pré-processamento inclui limpeza, integração e transformação de dados. A mineração de dados inclui seleção, pré-processamento e modelagem de dados. O pós-processamento inclui interpretação e avaliação dos resultados.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;kdd-1&#34;&gt;KDD&lt;/h3&gt;
+&lt;img src=&#34;kdd.png&#34; width=&#34;850&#34; height=&#34;500&#34;&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;seleção&#34;&gt;Seleção&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é selecionar os dados relevantes para o problema de mineração.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante identificar as fontes de dados relevantes e escolher as variáveis de interesse.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;pré-processamento&#34;&gt;Pré-processamento&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é preparar os dados para análise.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante lidar com valores ausentes, tratar outliers e realizar normalização ou padronização de variáveis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;limpeza&#34;&gt;Limpeza&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é identificar e corrigir erros nos dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante lidar com dados duplicados, corrigir erros de digitação e identificar e tratar valores discrepantes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;transformação&#34;&gt;Transformação&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é transformar os dados em uma forma que seja adequada para a análise.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante realizar transformações como discretização, agregação, e normalização para que os dados possam ser usados com sucesso na modelagem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;mineração-de-dados&#34;&gt;Mineração de dados&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é aplicar técnicas de mineração de dados para identificar padrões e relacionamentos nos dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante escolher as técnicas de mineração de dados apropriadas e avaliar a eficácia dos modelos gerados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;interpretação-e-avaliação&#34;&gt;Interpretação e avaliação&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é interpretar os resultados da mineração de dados e avaliar sua relevância para o problema de negócio.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante avaliar a eficácia dos modelos gerados e determinar se as descobertas são significativas e úteis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://media1.giphy.com/media/XeH1MFu4x3etVsllUN/giphy.gif&#34; alt=&#34;dúvida&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;qual-metodologia-utilizar&#34;&gt;Qual metodologia utilizar?&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;CRISP-DM, SEMMA e KDD são todas metodologias amplamente utilizadas para gerenciamento de projetos de mineração de dados.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;CRISP-DM é uma abordagem iterativa em cascata, SEMMA é uma abordagem em cascata focada no modelo e KDD é uma metodologia mais ampla com três etapas principais.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A escolha da metodologia dependerá das necessidades específicas do projeto e dos recursos disponíveis para o gerenciamento do projeto.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Conceitos Iniciais - parte 03</title>
+      <link>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-03/</link>
+      <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-03/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;tarefas-e-técnicas-de-mineração-de-dados&#34;&gt;Tarefas e técnicas de mineração de dados&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Uma &lt;strong&gt;tarefa&lt;/strong&gt; de mineração de dados determina o &lt;strong&gt;tipo de problema&lt;/strong&gt; que será resolvido pelo processo de mineração de dados. Podem ser &lt;strong&gt;descritivas&lt;/strong&gt; ou &lt;strong&gt;preditivas&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Já a &lt;strong&gt;técnica&lt;/strong&gt;, representa o &lt;strong&gt;algoritmo&lt;/strong&gt; que pode ser empregado para a execução da tarefa.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;As tarefas de mineração de dados incluem: classificação, clustering, regressão, associação e detecção de anomalias.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cada uma dessas tarefas tem um objetivo específico na análise de dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;classificação&#34;&gt;Classificação&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;A &lt;strong&gt;classificação&lt;/strong&gt; é uma tarefa de mineração de dados que envolve a atribuição de um rótulo a um conjunto de dados com base em um conjunto de características.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;As técnicas de classificação incluem: árvores de decisão, redes neurais, SVM, Naive Bayes, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;clusterização&#34;&gt;Clusterização&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;O &lt;strong&gt;clustering&lt;/strong&gt; é uma tarefa de mineração de dados que envolve a organização de um conjunto de dados em grupos com base em suas características.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;As técnicas de clustering incluem: k-means, DBSCAN, aglomeração hierárquica, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;regressão-ou-predição&#34;&gt;Regressão ou predição&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;A &lt;strong&gt;regressão&lt;/strong&gt; é uma tarefa de mineração de dados que envolve a identificação de uma relação entre uma variável dependente e uma ou mais variáveis independentes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;As técnicas de regressão incluem: regressão linear, regressão logística, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;associação&#34;&gt;Associação&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;A &lt;strong&gt;associação&lt;/strong&gt; é uma tarefa de mineração de dados que envolve a descoberta de relações entre itens em um conjunto de dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;As técnicas de associação incluem: regras de associação, análise de cesta de compras, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;detecção-de-anomalias&#34;&gt;Detecção de anomalias&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;A &lt;strong&gt;detecção de anomalias&lt;/strong&gt; é uma tarefa de mineração de dados que envolve a identificação de pontos de dados incomuns em um conjunto de dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;As técnicas de detecção de anomalias incluem: análise de desvio, detecção de outliers, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;importância-da-definição-dos-objetivos&#34;&gt;Importância da definição dos objetivos&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;enquanto-isso-no-país-das-maravilhas&#34;&gt;Enquanto isso, no país das maravilhas&amp;hellip;&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://pt.wikipedia.org/wiki/Lewis_Carroll&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;img src=&#34;alice.jpeg&#34;  width=&#34;800&#34; height=&#34;500&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;definição-dos-objetivos&#34;&gt;Definição dos objetivos&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Definir claramente os objetivos da análise de dados é fundamental para o sucesso do projeto.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Os objetivos devem ser específicos, mensuráveis, alcançáveis, relevantes e ter um prazo estabelecido (&lt;a href=&#34;https://deolhonofuturo.uninter.com/metodologia-smart/?gclid=CjwKCAjw8-OhBhB5EiwADyoY1TeU-iDp_vyUvve_TLMgNiTOO2t_ZZKzN3bCyLVwzB52-c6NrwJLBhoC3tEQAvD_BwE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SMART&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Por exemplo, suponha que uma empresa queira aumentar as vendas em uma determinada região.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Usando a metodologia SMART, a empresa pode definir o objetivo da seguinte maneira:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Específico:&lt;/strong&gt; O objetivo deve ser específico e detalhado. Por exemplo, &amp;ldquo;Aumentar as vendas de determinada categoria de produtos na região em 10% no próximo trimestre&amp;rdquo;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Mensurável:&lt;/strong&gt; O objetivo deve ser mensurável para que possa ser avaliado. Por exemplo, a empresa pode usar dados de vendas para medir o progresso em relação à meta.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Alcançável:&lt;/strong&gt; O objetivo deve ser alcançável para evitar frustração e desânimo da equipe. A empresa pode avaliar a capacidade da equipe, recursos disponíveis e condições de mercado para determinar se a meta é alcançável.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Relevante:&lt;/strong&gt; O objetivo deve ser relevante para os objetivos de negócios da empresa. A meta de aumentar as vendas em uma determinada região deve estar alinhada com os objetivos de negócios da empresa.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Temporal:&lt;/strong&gt; O objetivo deve ser definido em um prazo determinado. Por exemplo, a meta deve ser alcançada em três meses.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Com a definição clara do objetivo usando a metodologia SMART, a empresa pode traçar um plano de ação, coletar dados relevantes, realizar análises para identificar as causas da queda nas vendas, e implementar medidas para atingir a meta.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A empresa também pode monitorar o progresso e ajustar as medidas se necessário para garantir que a meta seja alcançada no prazo estabelecido.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://media3.giphy.com/media/3ohjV3jMa3xK4Reg5G/giphy.gif&#34; alt=&#34;whats&amp;#43;the&amp;#43;problem?&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;entenda-o-problema-e-depois-pense-em-como-resolvê-lo&#34;&gt;Entenda o problema e depois pense em como resolvê-lo&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Qual o problema nessa foto?&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Cavalo&#34; srcset=&#34;
+               /slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_8afc1d8bda34332d163f4477c9d97267.webp 400w,
+               /slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_1e8417a62b3c3a832c987923397ff0e7.webp 760w,
+               /slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_8afc1d8bda34332d163f4477c9d97267.webp&#34;
+               width=&#34;531&#34;
+               height=&#34;402&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Sendo o cavalo, vamos trocá-lo por um avião!&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Avião&#34; srcset=&#34;
+               /slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_5456a814768e7a190d82279af61bda69.webp 400w,
+               /slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_2f05f39ba95978f4838ede9a46158e18.webp 760w,
+               /slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_5456a814768e7a190d82279af61bda69.webp&#34;
+               width=&#34;625&#34;
+               height=&#34;389&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Compre um mais potente&amp;hellip;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;AviãoPotente&#34; srcset=&#34;
+               /slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_2666198dfb7a2cb30d65edae4bed2968.webp 400w,
+               /slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_cb9f7df986655821c175da5cfdba7e59.webp 760w,
+               /slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_2666198dfb7a2cb30d65edae4bed2968.webp&#34;
+               width=&#34;539&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;técnica-dos-cinco-porquês&#34;&gt;Técnica dos cinco porquês&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;A &lt;strong&gt;técnica dos cinco porquês&lt;/strong&gt; é uma técnica de análise de &lt;strong&gt;causalidade&lt;/strong&gt; que pode ser usada para identificar a causa raiz de um problema, através de perguntas sucessivas.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;O processo da técnica dos cinco porquês pode ser resumido nas seguintes etapas:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Identificar o problema:&lt;/strong&gt; Comece identificando o problema que precisa ser resolvido.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Fazer a primeira pergunta:&lt;/strong&gt; Pergunte &amp;ldquo;Por que o problema ocorreu?&amp;rdquo; e identifique a causa mais provável.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Fazer a segunda pergunta:&lt;/strong&gt; Pergunte &amp;ldquo;Por que a causa identificada na pergunta anterior ocorreu?&amp;rdquo; e identifique a causa mais provável.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Continuar com as perguntas subsequentes:&lt;/strong&gt; Continue fazendo perguntas sucessivas até que a causa raiz seja identificada.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Resolver o problema:&lt;/strong&gt; Uma vez que a causa raiz é identificada, é possível implementar soluções para resolver o problema.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;É importante notar que, embora a técnica dos cinco porquês seja uma técnica útil, ela não é uma solução universal para todos os problemas. Às vezes, a causa raiz de um problema pode ser mais complexa e exigir técnicas de análise mais avançadas. Além disso, é importante não se limitar a apenas cinco perguntas se necessário para chegar à causa raiz do problema.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;exemplo-do-uso-da-técnica-dos-cinco-porquês&#34;&gt;Exemplo do uso da técnica dos cinco porquês&lt;/h3&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Problema:&lt;/strong&gt; O faturamento da empresa diminuiu no último trimestre.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;Por que o faturamento da empresa diminuiu no último trimestre?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resposta:&lt;/strong&gt; Porque as vendas de um dos produtos mais vendidos caíram.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Por que as vendas do produto mais vendido caíram?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resposta:&lt;/strong&gt; Porque a concorrência começou a oferecer preços mais baixos.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Por que a concorrência começou a oferecer preços mais baixos?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resposta:&lt;/strong&gt; Porque um novo concorrente entrou no mercado e começou a oferecer preços mais baixos para ganhar participação de mercado.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Por que o novo concorrente conseguiu oferecer preços mais baixos?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resposta:&lt;/strong&gt; Porque ele tem custos de produção mais baixos do que a nossa empresa.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Por que nossos custos de produção são mais altos do que os do novo concorrente?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resposta:&lt;/strong&gt; Porque não atualizamos nossos equipamentos de produção há anos, o que torna nosso processo menos eficiente e mais caro.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;Com essa análise, a causa raiz do problema do faturamento da empresa ter diminuído no último trimestre foi identificada: &lt;strong&gt;a falta de atualização dos equipamentos de produção&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Com essa informação, a empresa pode agora tomar medidas para atualizar seus equipamentos de produção e aumentar sua eficiência para voltar a ter um faturamento maior.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

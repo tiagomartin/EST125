@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conceitos | Introdução à Mineração de Dados</title>
+    <link>https://est125imd.netlify.app/category/conceitos/</link>
+      <atom:link href="https://est125imd.netlify.app/category/conceitos/index.xml" rel="self" type="application/rss+xml" />
+    <description>Conceitos</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt-br</language><lastBuildDate>Mon, 15 May 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://est125imd.netlify.app/media/icon_hua3979484500520cd28bce95abdc02363_106305_512x512_fill_lanczos_center_3.png</url>
+      <title>Conceitos</title>
+      <link>https://est125imd.netlify.app/category/conceitos/</link>
+    </image>
+    
+    <item>
+      <title>Como a técnica dos cinco porquês e a metodologia SMART podem transformar a resolução de problemas</title>
+      <link>https://est125imd.netlify.app/post/como-a-t-cnica-dos-cinco-porqu-s-e-a-metodologia-smart-podem-transformar-a-resolu-o-de-problemas/</link>
+      <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://est125imd.netlify.app/post/como-a-t-cnica-dos-cinco-porqu-s-e-a-metodologia-smart-podem-transformar-a-resolu-o-de-problemas/</guid>
+      <description>&lt;p&gt;Olá pessoal, beleza?&lt;/p&gt;
+&lt;p&gt;Quando enfrentamos um problema, muitas vezes é difícil identificar a raiz do problema e traçar um plano para resolvê-lo. A técnica dos cinco porquês e a metodologia SMART são duas ferramentas que podem ser usadas em conjunto para ajudar na definição clara do problema e objetivo.&lt;/p&gt;
+&lt;p&gt;A técnica dos cinco porquês é uma técnica de análise de causa e efeito, desenvolvida pelo fundador da Toyota, &lt;a href=&#34;https://pt.wikipedia.org/wiki/Sakichi_Toyoda&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sakichi Toyoda&lt;/a&gt;, para ajudar na identificação da causa raiz de um problema. Essa técnica consiste em perguntar &amp;ldquo;por que?&amp;rdquo; repetidamente até que se chegue à causa raiz do problema. Essas perguntas ajudam a aprofundar a análise, ajudando a entender melhor as conexões entre as causas e efeitos. A técnica dos cinco porquês é uma ferramenta simples e poderosa que pode ser aplicada em vários campos.&lt;/p&gt;
+&lt;p&gt;A metodologia SMART, por sua vez, é um acrônimo para Specific (específico), Measurable (mensurável), Achievable (alcançável), Relevant (relevante) e Time-bound (temporalmente definido). É uma técnica para definir objetivos de forma clara e específica, com prazos realistas e mensuráveis. Isso ajuda a definir metas claras e alcançáveis, tornando mais fácil avaliar o progresso e fazer ajustes quando necessário.&lt;/p&gt;
+&lt;p&gt;Quando usadas juntas, a técnica dos cinco porquês e a metodologia SMART podem ajudar a definir e resolver problemas de forma eficiente. Veja como:&lt;/p&gt;
+&lt;p&gt;Imagine que uma empresa está enfrentando problemas com a produtividade dos funcionários. Os gerentes notaram que os funcionários estão produzindo menos do que o esperado e isso está afetando a qualidade do trabalho. Vamos utilizar a técnica dos cinco porquês e a metodologia SMART para definir o problema e o objetivo.&lt;/p&gt;
+&lt;p&gt;Passo 1: Identifique o problema  -  O problema é a baixa produtividade dos funcionários&lt;/p&gt;
+&lt;p&gt;Passo 2: Utilize a técnica dos cinco porquês&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Por que os funcionários estão produzindo menos do que o esperado? Porque estão demorando muito tempo para concluir as tarefas.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Por que estão demorando muito tempo para concluir as tarefas? Porque estão interrompendo constantemente o trabalho para responder e-mails e telefonemas.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Por que estão interrompendo constantemente o trabalho para responder e-mails e telefonemas? Porque não têm um horário definido para fazer essas tarefas.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Por que não têm um horário definido para fazer essas tarefas? Porque não receberam orientação clara sobre como gerenciar seu tempo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Por que não receberam orientação clara sobre como gerenciar seu tempo? Porque a empresa não tem uma política de gestão de tempo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Passo 3: Identifique o objetivo  -  O objetivo é implementar uma política de gestão de tempo para melhorar a produtividade dos funcionários.&lt;/p&gt;
+&lt;p&gt;Passo 4: Utilize a metodologia SMART&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Específico: Implementar uma política de gestão de tempo para definir quando os funcionários devem responder e-mails e telefonemas.&lt;/li&gt;
+&lt;li&gt;Mensurável: A produtividade será medida pela quantidade de tarefas concluídas em um dia de trabalho.&lt;/li&gt;
+&lt;li&gt;Alcançável: A empresa pode contratar um especialista em gestão de tempo para ajudar a desenvolver a política.&lt;/li&gt;
+&lt;li&gt;Relevante: Melhorar a produtividade dos funcionários é um objetivo importante para a empresa.&lt;/li&gt;
+&lt;li&gt;Temporalmente definido: A política será implementada em um prazo de 3 meses.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Passo 5: Desenvolva um plano de ação&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Contratar um especialista em gestão de tempo para desenvolver a política.&lt;/li&gt;
+&lt;li&gt;Treinar os gerentes e funcionários sobre a nova política.&lt;/li&gt;
+&lt;li&gt;Estabelecer um horário específico para responder e-mails e telefonemas.&lt;/li&gt;
+&lt;li&gt;Monitorar a produtividade dos funcionários e fazer ajustes quando necessário.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Passo 6: Avalie e ajuste&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Avaliar regularmente a produtividade dos funcionários e a eficácia da política de gestão de tempo.&lt;/li&gt;
+&lt;li&gt;Fazer ajustes quando necessário para garantir que o objetivo seja alcançado.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;em-resumo&#34;&gt;Em resumo&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;Ao utilizar a técnica dos cinco porquês e a metodologia SMART juntas, a empresa conseguiu definir claramente o problema e o objetivo, além de desenvolver um plano de ação específico para melhorar a produtividade dos funcionários. A empresa também pode avaliar regularmente a eficácia da política de gestão de tempo e fazer ajustes quando necessário para garantir que o objetivo seja alcançado.&lt;/p&gt;
+&lt;p&gt;Até breve! 👋&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Conceitos Iniciais - parte 01</title>
+      <link>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/</link>
+      <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;John Naisbitt&#34; srcset=&#34;
+               /slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_a39dfb17a1d3d712929cdb1e8fd89594.webp 400w,
+               /slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_84044041fa00906613643b66fb83e921.webp 760w,
+               /slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/naisb_hubac3a70b5c8d0e4c2194997ccdf8c8e1_51872_a39dfb17a1d3d712929cdb1e8fd89594.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;358&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h1 id=&#34;motivação&#34;&gt;Motivação&lt;/h1&gt;
+&lt;hr&gt;
+&lt;p&gt;A quantidade de dados gerados diariamente vem aumentando exponencialmente, tornando a análise de dados cada vez mais importante&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://media1.giphy.com/media/xT9C25UNTwfZuk85WP/giphy-downsized-medium.gif&#34; alt=&#34;data&amp;#43;analysis&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Negócios:&lt;/strong&gt; tomada de decisões baseadas em dados&lt;/p&gt;
+&lt;img src=&#34;neg.jpg&#34; width=&#34;700&#34; height=&#34;400&#34;&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Saúde:&lt;/strong&gt; descobrir novos tratamentos e medicamentos&lt;/p&gt;
+&lt;img src=&#34;med.jpg&#34; width=&#34;700&#34; height=&#34;400&#34;&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Segurança:&lt;/strong&gt; prever e prevenir crimes e ameaças&lt;/p&gt;
+&lt;img src=&#34;crimes.jpg&#34; width=&#34;700&#34; height=&#34;400&#34;&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Marketing:&lt;/strong&gt; segmentação de clientes e personalização de produtos/serviços&lt;/p&gt;
+&lt;img src=&#34;cliente.png&#34; width=&#34;800&#34; height=&#34;400&#34;&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;o-que-é-mineração-de-dados&#34;&gt;O que é mineração de dados?&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;A &lt;strong&gt;mineração de dados&lt;/strong&gt; é o processo de descobrir conhecimentos ocultos e padrões em grandes volumes de dados.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;O &lt;strong&gt;objetivo&lt;/strong&gt; da mineração de dados é transformar dados brutos em informações úteis e conhecimentos para a tomada de decisão.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Ela usa técnicas de aprendizado de máquina, estatística e inteligência artificial para analisar dados e extrair insights.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Essas técnicas transformam, de maneira inteligente e automática, os &lt;strong&gt;dados&lt;/strong&gt; disponíveis em &lt;strong&gt;informações&lt;/strong&gt; úteis, que representem o &lt;strong&gt;conhecimento&lt;/strong&gt; para ser usado com &lt;strong&gt;sabedoria&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Informação&lt;/strong&gt;, e não dados, valem dinheiro/tempo/conhecimento!&lt;/p&gt;
+&lt;img src=&#34;infodin.jpg&#34; width=&#34;700&#34; height=&#34;400&#34;&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;dado-informação-conhecimento-e-sabedoria&#34;&gt;Dado, informação, conhecimento e sabedoria&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Dado:&lt;/strong&gt; são fatos brutos, sem significado ou contexto, que podem ser registrados e armazenados.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Dados brutos&#34; srcset=&#34;
+               /slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8351f7e2f141e7292be0b05599490b24.webp 400w,
+               /slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8e563cb469bc998aa5321e04ff4df25b.webp 760w,
+               /slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8351f7e2f141e7292be0b05599490b24.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;149&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Informação:&lt;/strong&gt; é o resultado da organização e interpretação dos dados, dando-lhes significado e contexto.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Informação&#34; srcset=&#34;
+               /slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_da83e4ab20ff38ce89fa1d37d194f7d3.webp 400w,
+               /slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_4120b8b087a6eedd16eaccfa0db5423d.webp 760w,
+               /slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/info_hu16cfb768c099dda148a26e58081e7ea7_135401_da83e4ab20ff38ce89fa1d37d194f7d3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;299&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Conhecimento:&lt;/strong&gt;  é a compreensão dos relacionamentos entre as informações e a capacidade de aplicar essas informações em uma situação específica.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Conhecimento&#34; srcset=&#34;
+               /slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_84abeb711a0a38699ea0ba5a32b013d4.webp 400w,
+               /slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_48ccff4b1ec29dd443835d3b11ff3dcc.webp 760w,
+               /slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-01/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_84abeb711a0a38699ea0ba5a32b013d4.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;448&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;img align=&#34;right&#34; width=&#34;600&#34; height=&#34;500&#34; src=&#34;sabedoria.png&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Sabedoria:&lt;/strong&gt;  é a habilidade de usar o conhecimento de forma ética e eficaz para tomar decisões sábias.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Conceitos Iniciais - parte 02</title>
+      <link>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-02/</link>
+      <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-02/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;crisp-dm-semma-e-kdd&#34;&gt;CRISP-DM, SEMMA e KDD&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Existem várias metodologias para gerenciar projetos de mineração de dados.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Três das metodologias mais comuns são CRISP-DM, SEMMA e KDD.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;crisp-dm&#34;&gt;CRISP-DM&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;CRISP-DM (&lt;strong&gt;CR&lt;/strong&gt;oss &lt;strong&gt;I&lt;/strong&gt;ndustry &lt;strong&gt;S&lt;/strong&gt;tandard &lt;strong&gt;P&lt;/strong&gt;rocess for &lt;strong&gt;D&lt;/strong&gt;ata &lt;strong&gt;M&lt;/strong&gt;ining) é uma metodologia de mineração de dados amplamente utilizada.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Envolve &lt;strong&gt;seis etapas&lt;/strong&gt;: compreensão do negócio, compreensão dos dados, preparação dos dados, modelagem, avaliação e implementação.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;É uma abordagem iterativa e pode ser adaptada para atender a necessidades específicas do projeto.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;crisp-dm-1&#34;&gt;CRISP-DM&lt;/h3&gt;
+&lt;img src=&#34;crisp.png&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;compreensão-do-negócio&#34;&gt;Compreensão do negócio&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é entender os objetivos do projeto, identificar as necessidades do usuário e definir os critérios de sucesso.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante definir claramente o escopo do projeto e entender os recursos disponíveis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;compreensão-dos-dados&#34;&gt;Compreensão dos Dados&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é coletar, limpar, integrar e explorar os dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante identificar a qualidade dos dados, definir as variáveis relevantes e compreender a estrutura dos dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;preparação-dos-dados&#34;&gt;Preparação dos Dados&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é selecionar as variáveis relevantes, transformar os dados e criar conjuntos de dados de treinamento e teste.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante garantir que os dados estejam limpos, completos e estruturados de maneira adequada para a modelagem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;modelagem&#34;&gt;Modelagem&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é construir e avaliar modelos que possam prever ou classificar novos casos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante selecionar as técnicas de modelagem apropriadas e avaliar a eficácia do modelo usando conjuntos de dados de treinamento e teste.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;avaliação&#34;&gt;Avaliação&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é avaliar a eficácia do modelo em relação aos critérios de sucesso definidos na fase de compreensão do negócio.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante avaliar o modelo em conjuntos de dados de teste independentes e garantir que ele atenda aos requisitos do usuário.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;implantação&#34;&gt;Implantação&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é implantar o modelo em um ambiente de produção e monitorá-lo regularmente para garantir que continue a atender aos requisitos do usuário.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante desenvolver um plano de implantação e treinamento para garantir que o modelo seja adotado pelos usuários.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;semma&#34;&gt;SEMMA&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;SEMMA (&lt;strong&gt;S&lt;/strong&gt;ample, &lt;strong&gt;E&lt;/strong&gt;xplore, &lt;strong&gt;M&lt;/strong&gt;odify, &lt;strong&gt;M&lt;/strong&gt;odel, &lt;strong&gt;A&lt;/strong&gt;ssess) é uma metodologia de mineração de dados desenvolvida pela SAS.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Envolve &lt;strong&gt;cinco etapas&lt;/strong&gt;: amostragem, exploração, modificação, modelagem e avaliação.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SEMMA é uma abordagem focada no modelo e pode ser usada em conjunção com outras metodologias de gerenciamento de projetos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;semma-1&#34;&gt;SEMMA&lt;/h3&gt;
+&lt;img src=&#34;semma.png&#34; width=&#34;650&#34; height=&#34;500&#34;&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;amostragem&#34;&gt;Amostragem&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é selecionar um subconjunto representativo dos dados originais.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante garantir que a amostra seja grande o suficiente para fornecer resultados precisos e confiáveis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;exploração&#34;&gt;Exploração&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é explorar os dados selecionados na etapa anterior e identificar padrões ou tendências.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante visualizar os dados para identificar padrões facilmente e identificar outliers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;modificação&#34;&gt;Modificação&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é transformar os dados de forma apropriada para que possam ser usados na modelagem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante realizar a limpeza dos dados, selecionar as variáveis relevantes e transformar os dados para que possam ser usados na modelagem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;modelagem-1&#34;&gt;Modelagem&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é criar e testar modelos usando os dados preparados na etapa anterior.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante selecionar as técnicas de modelagem apropriadas e avaliar a eficácia do modelo usando conjuntos de dados de treinamento e teste.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;avaliação-1&#34;&gt;Avaliação&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é avaliar a eficácia do modelo em relação aos critérios de sucesso definidos na fase de amostragem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante avaliar o modelo em conjuntos de dados de teste independentes e garantir que ele atenda aos requisitos do usuário.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;kdd&#34;&gt;KDD&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;KDD (&lt;strong&gt;K&lt;/strong&gt;nowledge &lt;strong&gt;D&lt;/strong&gt;iscovery in &lt;strong&gt;D&lt;/strong&gt;atabases) é uma metodologia mais ampla que CRISP-DM e SEMMA.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Envolve basicamente &lt;strong&gt;três etapas&lt;/strong&gt;: pré-processamento, mineração de dados e pós-processamento.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Pré-processamento inclui limpeza, integração e transformação de dados. A mineração de dados inclui seleção, pré-processamento e modelagem de dados. O pós-processamento inclui interpretação e avaliação dos resultados.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;kdd-1&#34;&gt;KDD&lt;/h3&gt;
+&lt;img src=&#34;kdd.png&#34; width=&#34;850&#34; height=&#34;500&#34;&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;seleção&#34;&gt;Seleção&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é selecionar os dados relevantes para o problema de mineração.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante identificar as fontes de dados relevantes e escolher as variáveis de interesse.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;pré-processamento&#34;&gt;Pré-processamento&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é preparar os dados para análise.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante lidar com valores ausentes, tratar outliers e realizar normalização ou padronização de variáveis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;limpeza&#34;&gt;Limpeza&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é identificar e corrigir erros nos dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante lidar com dados duplicados, corrigir erros de digitação e identificar e tratar valores discrepantes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;transformação&#34;&gt;Transformação&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é transformar os dados em uma forma que seja adequada para a análise.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante realizar transformações como discretização, agregação, e normalização para que os dados possam ser usados com sucesso na modelagem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;mineração-de-dados&#34;&gt;Mineração de dados&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é aplicar técnicas de mineração de dados para identificar padrões e relacionamentos nos dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante escolher as técnicas de mineração de dados apropriadas e avaliar a eficácia dos modelos gerados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;interpretação-e-avaliação&#34;&gt;Interpretação e avaliação&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesta fase, o objetivo é interpretar os resultados da mineração de dados e avaliar sua relevância para o problema de negócio.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;É importante avaliar a eficácia dos modelos gerados e determinar se as descobertas são significativas e úteis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://media1.giphy.com/media/XeH1MFu4x3etVsllUN/giphy.gif&#34; alt=&#34;dúvida&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;qual-metodologia-utilizar&#34;&gt;Qual metodologia utilizar?&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;CRISP-DM, SEMMA e KDD são todas metodologias amplamente utilizadas para gerenciamento de projetos de mineração de dados.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;CRISP-DM é uma abordagem iterativa em cascata, SEMMA é uma abordagem em cascata focada no modelo e KDD é uma metodologia mais ampla com três etapas principais.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A escolha da metodologia dependerá das necessidades específicas do projeto e dos recursos disponíveis para o gerenciamento do projeto.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Conceitos Iniciais - parte 03</title>
+      <link>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-03/</link>
+      <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://est125imd.netlify.app/slides/conceitos-iniciais-parte-03/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;tarefas-e-técnicas-de-mineração-de-dados&#34;&gt;Tarefas e técnicas de mineração de dados&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Uma &lt;strong&gt;tarefa&lt;/strong&gt; de mineração de dados determina o &lt;strong&gt;tipo de problema&lt;/strong&gt; que será resolvido pelo processo de mineração de dados. Podem ser &lt;strong&gt;descritivas&lt;/strong&gt; ou &lt;strong&gt;preditivas&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Já a &lt;strong&gt;técnica&lt;/strong&gt;, representa o &lt;strong&gt;algoritmo&lt;/strong&gt; que pode ser empregado para a execução da tarefa.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;As tarefas de mineração de dados incluem: classificação, clustering, regressão, associação e detecção de anomalias.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cada uma dessas tarefas tem um objetivo específico na análise de dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;classificação&#34;&gt;Classificação&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;A &lt;strong&gt;classificação&lt;/strong&gt; é uma tarefa de mineração de dados que envolve a atribuição de um rótulo a um conjunto de dados com base em um conjunto de características.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;As técnicas de classificação incluem: árvores de decisão, redes neurais, SVM, Naive Bayes, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;clusterização&#34;&gt;Clusterização&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;O &lt;strong&gt;clustering&lt;/strong&gt; é uma tarefa de mineração de dados que envolve a organização de um conjunto de dados em grupos com base em suas características.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;As técnicas de clustering incluem: k-means, DBSCAN, aglomeração hierárquica, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;regressão-ou-predição&#34;&gt;Regressão ou predição&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;A &lt;strong&gt;regressão&lt;/strong&gt; é uma tarefa de mineração de dados que envolve a identificação de uma relação entre uma variável dependente e uma ou mais variáveis independentes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;As técnicas de regressão incluem: regressão linear, regressão logística, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;associação&#34;&gt;Associação&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;A &lt;strong&gt;associação&lt;/strong&gt; é uma tarefa de mineração de dados que envolve a descoberta de relações entre itens em um conjunto de dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;As técnicas de associação incluem: regras de associação, análise de cesta de compras, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;detecção-de-anomalias&#34;&gt;Detecção de anomalias&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;A &lt;strong&gt;detecção de anomalias&lt;/strong&gt; é uma tarefa de mineração de dados que envolve a identificação de pontos de dados incomuns em um conjunto de dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;As técnicas de detecção de anomalias incluem: análise de desvio, detecção de outliers, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;importância-da-definição-dos-objetivos&#34;&gt;Importância da definição dos objetivos&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;enquanto-isso-no-país-das-maravilhas&#34;&gt;Enquanto isso, no país das maravilhas&amp;hellip;&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://pt.wikipedia.org/wiki/Lewis_Carroll&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;img src=&#34;alice.jpeg&#34;  width=&#34;800&#34; height=&#34;500&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;definição-dos-objetivos&#34;&gt;Definição dos objetivos&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Definir claramente os objetivos da análise de dados é fundamental para o sucesso do projeto.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Os objetivos devem ser específicos, mensuráveis, alcançáveis, relevantes e ter um prazo estabelecido (&lt;a href=&#34;https://deolhonofuturo.uninter.com/metodologia-smart/?gclid=CjwKCAjw8-OhBhB5EiwADyoY1TeU-iDp_vyUvve_TLMgNiTOO2t_ZZKzN3bCyLVwzB52-c6NrwJLBhoC3tEQAvD_BwE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SMART&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Por exemplo, suponha que uma empresa queira aumentar as vendas em uma determinada região.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Usando a metodologia SMART, a empresa pode definir o objetivo da seguinte maneira:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Específico:&lt;/strong&gt; O objetivo deve ser específico e detalhado. Por exemplo, &amp;ldquo;Aumentar as vendas de determinada categoria de produtos na região em 10% no próximo trimestre&amp;rdquo;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Mensurável:&lt;/strong&gt; O objetivo deve ser mensurável para que possa ser avaliado. Por exemplo, a empresa pode usar dados de vendas para medir o progresso em relação à meta.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Alcançável:&lt;/strong&gt; O objetivo deve ser alcançável para evitar frustração e desânimo da equipe. A empresa pode avaliar a capacidade da equipe, recursos disponíveis e condições de mercado para determinar se a meta é alcançável.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Relevante:&lt;/strong&gt; O objetivo deve ser relevante para os objetivos de negócios da empresa. A meta de aumentar as vendas em uma determinada região deve estar alinhada com os objetivos de negócios da empresa.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Temporal:&lt;/strong&gt; O objetivo deve ser definido em um prazo determinado. Por exemplo, a meta deve ser alcançada em três meses.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Com a definição clara do objetivo usando a metodologia SMART, a empresa pode traçar um plano de ação, coletar dados relevantes, realizar análises para identificar as causas da queda nas vendas, e implementar medidas para atingir a meta.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A empresa também pode monitorar o progresso e ajustar as medidas se necessário para garantir que a meta seja alcançada no prazo estabelecido.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://media3.giphy.com/media/3ohjV3jMa3xK4Reg5G/giphy.gif&#34; alt=&#34;whats&amp;#43;the&amp;#43;problem?&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;entenda-o-problema-e-depois-pense-em-como-resolvê-lo&#34;&gt;Entenda o problema e depois pense em como resolvê-lo&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Qual o problema nessa foto?&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Cavalo&#34; srcset=&#34;
+               /slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_8afc1d8bda34332d163f4477c9d97267.webp 400w,
+               /slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_1e8417a62b3c3a832c987923397ff0e7.webp 760w,
+               /slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-03/fig_01_hu24622c91e3637f0aca06c244f5897096_268513_8afc1d8bda34332d163f4477c9d97267.webp&#34;
+               width=&#34;531&#34;
+               height=&#34;402&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Sendo o cavalo, vamos trocá-lo por um avião!&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Avião&#34; srcset=&#34;
+               /slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_5456a814768e7a190d82279af61bda69.webp 400w,
+               /slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_2f05f39ba95978f4838ede9a46158e18.webp 760w,
+               /slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-03/fig_02_hudc7b6348afcde26f7005cb8844b5a544_342165_5456a814768e7a190d82279af61bda69.webp&#34;
+               width=&#34;625&#34;
+               height=&#34;389&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Compre um mais potente&amp;hellip;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;AviãoPotente&#34; srcset=&#34;
+               /slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_2666198dfb7a2cb30d65edae4bed2968.webp 400w,
+               /slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_cb9f7df986655821c175da5cfdba7e59.webp 760w,
+               /slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/slides/conceitos-iniciais-parte-03/fig_03_hu94f30fafda4c0e437cbb40a25f74d7b1_180984_2666198dfb7a2cb30d65edae4bed2968.webp&#34;
+               width=&#34;539&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#54787d&#34;
+  &gt;
+
+&lt;h2 id=&#34;técnica-dos-cinco-porquês&#34;&gt;Técnica dos cinco porquês&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;A &lt;strong&gt;técnica dos cinco porquês&lt;/strong&gt; é uma técnica de análise de &lt;strong&gt;causalidade&lt;/strong&gt; que pode ser usada para identificar a causa raiz de um problema, através de perguntas sucessivas.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;O processo da técnica dos cinco porquês pode ser resumido nas seguintes etapas:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Identificar o problema:&lt;/strong&gt; Comece identificando o problema que precisa ser resolvido.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Fazer a primeira pergunta:&lt;/strong&gt; Pergunte &amp;ldquo;Por que o problema ocorreu?&amp;rdquo; e identifique a causa mais provável.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Fazer a segunda pergunta:&lt;/strong&gt; Pergunte &amp;ldquo;Por que a causa identificada na pergunta anterior ocorreu?&amp;rdquo; e identifique a causa mais provável.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Continuar com as perguntas subsequentes:&lt;/strong&gt; Continue fazendo perguntas sucessivas até que a causa raiz seja identificada.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Resolver o problema:&lt;/strong&gt; Uma vez que a causa raiz é identificada, é possível implementar soluções para resolver o problema.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;É importante notar que, embora a técnica dos cinco porquês seja uma técnica útil, ela não é uma solução universal para todos os problemas. Às vezes, a causa raiz de um problema pode ser mais complexa e exigir técnicas de análise mais avançadas. Além disso, é importante não se limitar a apenas cinco perguntas se necessário para chegar à causa raiz do problema.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;exemplo-do-uso-da-técnica-dos-cinco-porquês&#34;&gt;Exemplo do uso da técnica dos cinco porquês&lt;/h3&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Problema:&lt;/strong&gt; O faturamento da empresa diminuiu no último trimestre.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;Por que o faturamento da empresa diminuiu no último trimestre?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resposta:&lt;/strong&gt; Porque as vendas de um dos produtos mais vendidos caíram.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Por que as vendas do produto mais vendido caíram?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resposta:&lt;/strong&gt; Porque a concorrência começou a oferecer preços mais baixos.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Por que a concorrência começou a oferecer preços mais baixos?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resposta:&lt;/strong&gt; Porque um novo concorrente entrou no mercado e começou a oferecer preços mais baixos para ganhar participação de mercado.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Por que o novo concorrente conseguiu oferecer preços mais baixos?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resposta:&lt;/strong&gt; Porque ele tem custos de produção mais baixos do que a nossa empresa.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Por que nossos custos de produção são mais altos do que os do novo concorrente?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resposta:&lt;/strong&gt; Porque não atualizamos nossos equipamentos de produção há anos, o que torna nosso processo menos eficiente e mais caro.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;Com essa análise, a causa raiz do problema do faturamento da empresa ter diminuído no último trimestre foi identificada: &lt;strong&gt;a falta de atualização dos equipamentos de produção&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Com essa informação, a empresa pode agora tomar medidas para atualizar seus equipamentos de produção e aumentar sua eficiência para voltar a ter um faturamento maior.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Entenda as principais metodologias de mineração de dados: CRISP-DM, SEMMA e KDD</title>
+      <link>https://est125imd.netlify.app/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/</link>
+      <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://est125imd.netlify.app/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/</guid>
+      <description>&lt;p&gt;Olá pessoal, beleza?&lt;/p&gt;
+&lt;p&gt;Quando o assunto é mineração de dados, existem várias metodologias amplamente utilizadas para orientar o processo de extração do conhecimento, incluindo CRISP-DM, SEMMA e KDD.&lt;/p&gt;
+&lt;p&gt;Essas metodologias são utilizadas na área de mineração de dados para auxiliar no processo de descoberta de conhecimento a partir dos dados. Cada uma dessas metodologias segue uma abordagem sistemática e orientada por etapas para conduzir um projeto de mineração de dados, desde a compreensão do problema até a implantação dos resultados.&lt;/p&gt;
+&lt;h2 id=&#34;crisp-dm&#34;&gt;CRISP-DM&lt;/h2&gt;
+&lt;p&gt;O CRISP-DM (Cross-Industry Standard Process for Data Mining) é uma metodologia amplamente utilizada na indústria e em projetos de mineração de dados. Ela é composta por seis fases: compreensão do problema, compreensão dos dados, preparação dos dados, modelagem, avaliação e implantação. Cada fase é crítica para o sucesso do projeto e envolve atividades específicas para alcançar os objetivos do projeto.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;CRISP-DM&#34; srcset=&#34;
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/crisp_hu8e4c7630b1c86417ec477460bbe901f3_256557_8c4c6ef64c9da6c315faa8e25e31ca03.webp 400w,
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/crisp_hu8e4c7630b1c86417ec477460bbe901f3_256557_574232d4f44153b8745bc6e8b5230103.webp 760w,
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/crisp_hu8e4c7630b1c86417ec477460bbe901f3_256557_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/crisp_hu8e4c7630b1c86417ec477460bbe901f3_256557_8c4c6ef64c9da6c315faa8e25e31ca03.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;A primeira fase do Crisp-DM é a compreensão do problema, que envolve a definição clara do problema de negócios e dos objetivos do projeto. É importante entender o contexto em que os dados estão sendo coletados e quais são as questões-chave que precisam ser respondidas para ajudar na tomada de decisão.&lt;/p&gt;
+&lt;p&gt;A segunda fase é a compreensão dos dados, que envolve a coleta dos dados relevantes e a sua análise para entender a qualidade, a estrutura e as limitações dos dados. Nesta fase, é importante identificar quais dados estão disponíveis, quais são as fontes de dados e quais variáveis podem ser úteis para a análise.&lt;/p&gt;
+&lt;p&gt;A terceira fase é a preparação dos dados, que envolve a limpeza, a integração e a transformação dos dados em um formato que possa ser usado para análise. Nesta fase, também é importante selecionar as variáveis que serão usadas para análise e tratar os dados ausentes ou inconsistentes.&lt;/p&gt;
+&lt;p&gt;A quarta fase é a modelagem, que envolve a aplicação de técnicas de modelagem estatística ou de aprendizado de máquina para criar um modelo preditivo ou descritivo. Nesta fase, também é importante avaliar a adequação do modelo e otimizá-lo para melhorar sua precisão e eficácia.&lt;/p&gt;
+&lt;p&gt;A quinta fase é a avaliação, que envolve a avaliação do modelo e a sua validação em um conjunto de dados de teste. Nesta fase, é importante avaliar a precisão, a confiabilidade e a robustez do modelo, além de identificar possíveis problemas e limitações.&lt;/p&gt;
+&lt;p&gt;Por fim, a sexta fase é a implantação, que envolve a integração do modelo em sistemas de produção e a sua utilização para tomada de decisão. Nesta fase, é importante garantir que o modelo seja facilmente acessível e utilizável pelos usuários finais.&lt;/p&gt;
+&lt;p&gt;O Crisp-DM é uma metodologia flexível e adaptável, que pode ser usada em uma ampla gama de projetos de mineração de dados. Ele ajuda a garantir que os projetos de mineração de dados sejam conduzidos de forma sistemática e eficiente, maximizando a chance de sucesso e minimizando os riscos.&lt;/p&gt;
+&lt;h2 id=&#34;semma&#34;&gt;SEMMA&lt;/h2&gt;
+&lt;p&gt;O SEMMA (Sample, Explore, Modify, Model, Assess) é outra metodologia popular de mineração de dados que é amplamente utilizada em projetos de análise preditiva. O SEMMA segue um processo sequencial de cinco etapas: amostragem, exploração, modificação, modelagem e avaliação. Cada uma dessas etapas ajuda a refinar o modelo preditivo e garantir que os resultados sejam precisos e confiáveis.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;SEMMA&#34; srcset=&#34;
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/semma_hu87cf17859b230bc1d0bd2687dd723441_340143_84d6a8dd527eda9f16f362db1a3e45c5.webp 400w,
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/semma_hu87cf17859b230bc1d0bd2687dd723441_340143_c918c19ba4249bd863863d7f4c8570d9.webp 760w,
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/semma_hu87cf17859b230bc1d0bd2687dd723441_340143_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/semma_hu87cf17859b230bc1d0bd2687dd723441_340143_84d6a8dd527eda9f16f362db1a3e45c5.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;609&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;A primeira fase do SEMMA é a amostragem, que envolve a seleção de um conjunto representativo de dados para análise. É importante garantir que a amostra selecionada seja suficientemente grande e representativa para a análise.&lt;/p&gt;
+&lt;p&gt;A segunda fase é a exploração, que envolve a análise exploratória dos dados para identificar possíveis padrões e relacionamentos. Nesta fase, é importante visualizar os dados em gráficos e tabelas e identificar quais variáveis são relevantes para a análise.&lt;/p&gt;
+&lt;p&gt;A terceira fase é a modificação, que envolve a transformação e limpeza dos dados para melhorar a qualidade e prepará-los para a modelagem. Nesta fase, é importante tratar dados ausentes ou inconsistentes e selecionar as variáveis que serão usadas para análise.&lt;/p&gt;
+&lt;p&gt;A quarta fase é a modelagem, que envolve a criação de um modelo preditivo utilizando técnicas estatísticas ou de aprendizado de máquina. Nesta fase, é importante avaliar a adequação do modelo e otimizá-lo para melhorar sua precisão e eficácia.&lt;/p&gt;
+&lt;p&gt;Por fim, a quinta fase é a avaliação, que envolve a avaliação do modelo e a sua validação em um conjunto de dados de teste. Nesta fase, é importante avaliar a precisão, a confiabilidade e a robustez do modelo, além de identificar possíveis problemas e limitações.&lt;/p&gt;
+&lt;p&gt;O SEMMA é uma metodologia flexível e adaptável, que pode ser usada em uma ampla gama de projetos de análise preditiva. Ele ajuda a garantir que os projetos de mineração de dados sejam conduzidos de forma sistemática e eficiente, maximizando a chance de sucesso e minimizando os riscos. O SEMMA é especialmente útil em projetos de análise preditiva, em que a precisão e a confiabilidade do modelo são fundamentais para a tomada de decisão.&lt;/p&gt;
+&lt;h2 id=&#34;kdd&#34;&gt;KDD&lt;/h2&gt;
+&lt;p&gt;Por fim, o KDD (Knowledge Discovery in Databases) é uma abordagem mais ampla para a descoberta de conhecimento a partir de dados, que inclui várias técnicas de mineração de dados e outras etapas, como pré-processamento de dados, seleção de atributos e pós-processamento de resultados. O KDD tem como objetivo descobrir padrões e relacionamentos nos dados que possam levar a insights valiosos e tomadas de decisão informadas.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;KDD&#34; srcset=&#34;
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/kdd_hu1376582816733baadb9e68fd1010061b_337965_a02c905c0c5b6c112e9f3a79c3872c2d.webp 400w,
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/kdd_hu1376582816733baadb9e68fd1010061b_337965_5568521ffa05a9a0c183cb6a215634a8.webp 760w,
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/kdd_hu1376582816733baadb9e68fd1010061b_337965_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/kdd_hu1376582816733baadb9e68fd1010061b_337965_a02c905c0c5b6c112e9f3a79c3872c2d.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;481&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;O processo de KDD é composto por diversas etapas interligadas. A primeira etapa é a seleção de dados, que envolve a identificação dos conjuntos de dados relevantes para a análise. É importante que os dados selecionados sejam representativos e adequados para o objetivo do projeto.&lt;/p&gt;
+&lt;p&gt;A segunda etapa é a pré-processamento de dados, que envolve a limpeza, a transformação e a redução dos dados para melhorar sua qualidade e utilidade. Nesta etapa, também é importante selecionar as variáveis que serão usadas para análise e tratar os dados ausentes ou inconsistentes.&lt;/p&gt;
+&lt;p&gt;A terceira etapa é a mineração de dados, que envolve a aplicação de técnicas de aprendizado de máquina e análise estatística para descobrir padrões e relacionamentos nos dados. Nesta etapa, é importante utilizar as técnicas mais adequadas para o objetivo do projeto e avaliar a qualidade e a utilidade dos resultados obtidos.&lt;/p&gt;
+&lt;p&gt;A quarta etapa é a avaliação dos resultados, que envolve a interpretação e a validação dos padrões e relacionamentos descobertos na etapa anterior. Nesta etapa, é importante avaliar a relevância e a precisão dos resultados obtidos e identificar possíveis limitações e problemas.&lt;/p&gt;
+&lt;p&gt;Por fim, a quinta etapa é a utilização dos resultados, que envolve a aplicação do conhecimento descoberto na tomada de decisão ou no desenvolvimento de sistemas inteligentes. Nesta etapa, é importante garantir que o conhecimento descoberto seja facilmente acessível e utilizável pelos usuários finais.&lt;/p&gt;
+&lt;p&gt;O KDD é um processo complexo que envolve diversas técnicas e metodologias. Ele é utilizado em diversas áreas, como saúde, finanças, marketing, entre outras, para descobrir informações úteis e significativas a partir de grandes conjuntos de dados. O KDD é especialmente útil em projetos em que a precisão e a confiabilidade do conhecimento descoberto são fundamentais para a tomada de decisão.&lt;/p&gt;
+&lt;h2 id=&#34;mas-e-aí-qual-metodologia-utilizar&#34;&gt;Mas e aí? Qual metodologia utilizar?&lt;/h2&gt;
+&lt;p&gt;A escolha da metodologia mais adequada depende das necessidades e objetivos do projeto em questão, bem como do contexto em que está sendo desenvolvido. As três metodologias compartilham alguns elementos em comum. Todas elas envolvem o processo de coleta, preparação, limpeza e transformação de dados brutos em um formato mais útil para a análise de dados. Elas também enfatizam a importância de se ter uma compreensão clara do problema ou objetivo de negócios, antes de iniciar o processo de análise de dados.&lt;/p&gt;
+&lt;p&gt;A metodologia CRISP-DM enfatiza a importância do ciclo de vida do projeto e é usada principalmente para projetos de mineração de dados de grande escala. A metodologia SEMMA é semelhante ao CRISP-DM em termos de abordagem iterativa, mas enfatiza mais a exploração de dados e o desenvolvimento de modelos estatísticos. Além disso, é especialmente útil para projetos de análise de dados de pequena a média escala. Já o KDD é mais ampla em escopo e inclui etapas que vão além da análise de dados, como a apresentação do conhecimento descoberto para o usuário final, sendo utilizada para projetos de mineração de dados de grande escala.&lt;/p&gt;
+&lt;h2 id=&#34;em-resumo&#34;&gt;Em resumo&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;A escolha da metodologia mais adequada depende das características do projeto em questão, das habilidades e recursos disponíveis da equipe e das necessidades específicas do negócio. É importante avaliar cuidadosamente as diferentes metodologias disponíveis e escolher a que melhor atenda às necessidades do projeto.&lt;/p&gt;
+&lt;p&gt;Até breve! 👋&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Transformando dados em sabedoria: a jornada de dados para decisões informadas.</title>
+      <link>https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/</link>
+      <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/</guid>
+      <description>&lt;p&gt;Olá pessoal, beleza?&lt;/p&gt;
+&lt;p&gt;Dados, informação, conhecimento e sabedoria são conceitos fundamentais na era da informação. Embora muitas vezes sejam usados de forma intercambiável, eles representam etapas distintas no processo de transformação de informações em conhecimento.&lt;/p&gt;
+&lt;p&gt;E aí? Voce sabe a diferênça entre eles? Vamos explorar cada um deles em mais detalhes.&lt;/p&gt;
+&lt;h2 id=&#34;o-que-são-os-dados&#34;&gt;O que são os dados?&lt;/h2&gt;
+&lt;p&gt;Dados são fatos brutos, sem contexto ou significado. Eles podem ser representados por números, palavras ou imagens, mas por si só, eles não possuem nenhuma informação útil. Representam apenas o resultado de uma medição. Por exemplo, uma lista de números não informa nada até que sejam interpretados em um contexto específico.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Dados brutos&#34; srcset=&#34;
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8351f7e2f141e7292be0b05599490b24.webp 400w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8e563cb469bc998aa5321e04ff4df25b.webp 760w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8351f7e2f141e7292be0b05599490b24.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;149&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;informação-dando-significado-aos-dados&#34;&gt;Informação: dando significado aos dados&lt;/h2&gt;
+&lt;p&gt;Informação é o próximo passo na transformação de dados. É quando os dados são organizados e interpretados, adicionando um contexto significativo. A informação pode ser usada para responder a perguntas específicas ou para fornecer insights úteis. Por exemplo, ao adicionar rótulos a uma lista de números, pode-se entender que eles representam preços de produtos em uma loja.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Informação&#34; srcset=&#34;
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/info_hu16cfb768c099dda148a26e58081e7ea7_135401_da83e4ab20ff38ce89fa1d37d194f7d3.webp 400w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/info_hu16cfb768c099dda148a26e58081e7ea7_135401_4120b8b087a6eedd16eaccfa0db5423d.webp 760w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/info_hu16cfb768c099dda148a26e58081e7ea7_135401_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/info_hu16cfb768c099dda148a26e58081e7ea7_135401_da83e4ab20ff38ce89fa1d37d194f7d3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;299&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;familiarizando-se-com-a-informação-conhecimento&#34;&gt;Familiarizando-se com a informação: Conhecimento&lt;/h2&gt;
+&lt;p&gt;Conhecimento é o entendimento adquirido a partir da informação. É quando a informação é compreendida e aplicada de forma significativa. O conhecimento pode ser usado para tomar decisões, resolver problemas ou criar novas ideias. Por exemplo, ao analisar os preços dos produtos em uma loja, pode-se determinar a melhor estratégia de precificação para maximizar os lucros.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Conhecimento&#34; srcset=&#34;
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_84abeb711a0a38699ea0ba5a32b013d4.webp 400w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_48ccff4b1ec29dd443835d3b11ff3dcc.webp 760w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_84abeb711a0a38699ea0ba5a32b013d4.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;448&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;após-reflexão-sabedoria&#34;&gt;Após reflexão&amp;hellip; Sabedoria!&lt;/h2&gt;
+&lt;p&gt;Sabedoria é o nível mais elevado de compreensão, que é obtido a partir da reflexão e da experiência. É quando o conhecimento é aplicado de forma ética e com perspectiva de longo prazo. A sabedoria envolve o julgamento e a tomada de decisões informadas, levando em consideração valores, contexto e consequências. Por exemplo, ao considerar a estratégia de precificação, pode-se optar por aumentar os preços para maximizar os lucros no curto prazo, mas ao mesmo tempo, prejudicar a imagem da empresa no longo prazo.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Sabedoria&#34; srcset=&#34;
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/sabedoria_hu7347c2b5bb691b03d1e6d3cb6bcb3332_275474_d172c43ece3e15ae226c2deab3221df8.webp 400w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/sabedoria_hu7347c2b5bb691b03d1e6d3cb6bcb3332_275474_d8c2b5a16a96c357113458406b009e27.webp 760w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/sabedoria_hu7347c2b5bb691b03d1e6d3cb6bcb3332_275474_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/sabedoria_hu7347c2b5bb691b03d1e6d3cb6bcb3332_275474_d172c43ece3e15ae226c2deab3221df8.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;597&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;em-resumo&#34;&gt;Em resumo&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;A transformação de dados em sabedoria é uma jornada que requer tempo, esforço e reflexão. Cada etapa é essencial para a próxima, e o resultado final é um entendimento profundo que pode ser aplicado para resolver problemas complexos, melhorar a vida das pessoas e promover um mundo melhor. Então, vamos continuar explorando e transformando nossos dados em sabedoria.&lt;/p&gt;
+&lt;p&gt;Até breve! 👋&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

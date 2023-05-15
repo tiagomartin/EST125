@@ -1,0 +1,1742 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: 15 de maio de 2023 --><html lang="pt-br" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.0f229d4b7ebad1917a9a357cba2effab.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Introdução à Mineração de Dados" />
+
+
+
+
+
+  
+
+<meta name="description" content="Exemplo do uso de técnicas de pré-processamento no conjunto de dados &#34;Space Titanic&#34;, de forma a garantir resultados mais precisos e confiáveis" />
+
+
+
+<link rel="alternate" hreflang="pt-br" href="https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/" />
+<link rel="canonical" href="https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hua3979484500520cd28bce95abdc02363_106305_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hua3979484500520cd28bce95abdc02363_106305_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary_large_image" />
+
+  <meta property="twitter:site" content="@wowchemy" />
+  <meta property="twitter:creator" content="@wowchemy" />
+<meta property="twitter:image" content="https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/featured.jpg" />
+<meta property="og:site_name" content="Introdução à Mineração de Dados" />
+<meta property="og:url" content="https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/" />
+<meta property="og:title" content="Pré-processamento usando a base de dados Space Titanic | Introdução à Mineração de Dados" />
+<meta property="og:description" content="Exemplo do uso de técnicas de pré-processamento no conjunto de dados &#34;Space Titanic&#34;, de forma a garantir resultados mais precisos e confiáveis" /><meta property="og:image" content="https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/featured.jpg" /><meta property="og:locale" content="pt-br" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2023-04-29T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2023-04-29T12:33:17-03:00">
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Pré-processamento usando a base de dados Space Titanic | Introdução à Mineração de Dados</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="cd574a80c620e9156bfadf3d357f3a5e" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.fe8634e7d00f14d07fb33caf14cc8e55.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Pesquisar</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Pesquisar..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Pesquisar...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Introdução à Mineração de Dados</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Alterar navegação">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Introdução à Mineração de Dados</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#skills-1"><span>Habilidades</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#aulas"><span>Aulas</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#scripts"><span>Scripts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projetos</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/uploads/ementa.pdf"><span>Ementa</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="/"  aria-label="">
+                <i class="fas fa-" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Pesquisar"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Pré-processamento usando a base de dados Space Titanic</h1>
+
+  
+  <p class="page-subtitle">Exemplo do uso de técnicas de pré-processamento no conjunto de dados &ldquo;Space Titanic&rdquo;, de forma a garantir resultados mais precisos e confiáveis.</p>
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Última atualização em
+      
+    
+    29 de abril de 2023
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/pre-processamento/">Pré-processamento</a>, <a href="/category/r/">R</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 570px;">
+  <div style="position: relative">
+    <img src="/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/featured_hu0ef7a43cd2207754330c91fc55913d9b_168814_720x2500_fit_q75_h2_lanczos.webp" width="720" height="570" alt="" class="featured-image">
+    <span class="article-header-caption">Crédito da imagem: <a href="https://unsplash.com/pt-br/@joelfilip?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" rel="noopener"><strong>Joel Filipe</strong></a>, <a href="https://unsplash.com/pt-br/@uncle_rickie?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" rel="noopener"><strong>Richard Gatley</strong></a> e <a href="https://unsplash.com/pt-br/@actionvance?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" rel="noopener"><strong>ActionVance</strong></a></span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Olá pessoal, beleza?</p>
+<p><em>Bem-vindo ao ano de 2912, onde suas habilidades em ciência de dados são necessárias para resolver um mistério cósmico. Recebemos uma transmissão de quatro anos-luz de distância e as coisas não parecem boas.</em></p>
+<p><em>A espaçonave Titanic foi um transatlântico interestelar lançado há um mês. Com quase 13.000 passageiros a bordo, a embarcação partiu em sua viagem inaugural transportando emigrantes de nosso sistema solar para três exoplanetas recém-habitáveis orbitando estrelas próximas.</em></p>
+<p><em>Ao contornar Alpha Centauri a caminho de seu primeiro destino - o tórrido 55 Cancri E - a incauta nave espacial Titanic colidiu com uma anomalia do espaço-tempo escondida dentro de uma nuvem de poeira. Infelizmente, ele teve um destino semelhante ao de seu homônimo de 1000 anos antes. Embora a nave tenha permanecido intacta, quase metade dos passageiros foram transportados para uma dimensão alternativa!</em></p>
+<p><em>Para ajudar as equipes de resgate e recuperar os passageiros perdidos, você é desafiado a prever quais passageiros foram transportados pela anomalia usando registros recuperados do sistema de computador danificado da espaçonave.</em></p>
+<p><em>Ajude a salvá-los e mude a história!</em></p>
+<p>O conjunto de dados <strong>&ldquo;Space Titanic&rdquo;</strong> disponível no <a href="https://www.kaggle.com/competitions/spaceship-titanic/data" target="_blank" rel="noopener">Kaggle</a> é uma coleção de informações sobre uma hipotética tragédia espacial em uma nave chamada &ldquo;Starship Titanic&rdquo; e sua tarefa é prever se um passageiro foi transportado para uma dimensão alternativa durante a colisão da espaçonave com a anomalia do espaço-tempo. Para ajudá-lo a fazer essas previsões, você recebe um conjunto de registros pessoais recuperados do sistema de computador danificado da nave.</p>
+<h2 id="sobre-os-dados">Sobre os dados</h2>
+<p>O conjunto de dados refere-se aos registros pessoais de cerca de 8700 passageiros, mensurados nas seguintes características:</p>
+<ul>
+<li>
+<p><strong>PassengerId</strong> - Um ID exclusivo para cada passageiro. Cada Id assume a forma <em>gggg_pp</em> onde <em>gggg</em> indica um grupo com o qual o passageiro está viajando e <em>pp</em> é seu número dentro do grupo. As pessoas em um grupo geralmente são membros da família, mas nem sempre.</p>
+</li>
+<li>
+<p><strong>HomePlanet</strong> - O planeta do qual o passageiro partiu, normalmente seu planeta de residência permanente.</p>
+</li>
+<li>
+<p><strong>CryoSleep</strong> - Indica se o passageiro optou por ser colocado em animação suspensa durante a viagem. Os passageiros em sono criogênico estão confinados em suas cabines.</p>
+</li>
+<li>
+<p><strong>Cabine</strong> - O número da cabine onde o passageiro está hospedado. Assume a forma <em>deck/num/side</em>, onde <em>side</em> pode ser <em>P</em> para bombordo ou <em>S</em> para estibordo.</p>
+</li>
+<li>
+<p><strong>Destination</strong> - O planeta para o qual o passageiro irá desembarcar.</p>
+</li>
+<li>
+<p><strong>Idade</strong> - A idade do passageiro.</p>
+</li>
+<li>
+<p><strong>VIP</strong> - Se o passageiro pagou pelo serviço VIP especial durante a viagem.</p>
+</li>
+<li>
+<p><strong>RoomService</strong>, <strong>FoodCourt</strong>, <strong>ShoppingMall</strong>, <strong>Spa</strong>, <strong>VRDeck</strong> - Valor que o passageiro pagou em cada uma das muitas comodidades de luxo do Titanic.</p>
+</li>
+<li>
+<p><strong>Nome</strong> - O nome e o sobrenome do passageiro.</p>
+</li>
+<li>
+<p><strong>Transported</strong> - Se o passageiro foi transportado para outra dimensão. Este é o alvo, a coluna que você está tentando prever.</p>
+</li>
+</ul>
+<p>Apesar desse conjunto de dados destinar-se ao aprendizado de máquina supervisionado, faremos, neste <em>sript</em>, apenas a parte de pré-processamento, incluindo algumas análises exploratórias. Tentaremos responder às seguintes questões:</p>
+<ul>
+<li>De onde vieram os passageiros e qual a relação disso com ser transportado ou não?</li>
+<li>Em que cabine estavam os passageiros e qual a relação disso com ser transportado ou não?</li>
+<li>Para onde iriam os passageiros e qual a relação disso com ser transportado ou não?</li>
+<li>Quem estava sozinho e quem estava em grupo?</li>
+<li>Estar em sono profundo era uma boa ideia?</li>
+<li>Passageiros VIP tem menor risco de ser transportado?</li>
+<li>Que fatores ajudaram alguém a não ser transportado?</li>
+</ul>
+<h2 id="pacotes-utilizados">Pacotes utilizados</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">load</span> <span class="o">&lt;-</span> <span class="nf">function</span><span class="p">(</span><span class="n">pkg</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">  <span class="n">new.pkg</span> <span class="o">&lt;-</span> <span class="n">pkg[</span><span class="o">!</span><span class="p">(</span><span class="n">pkg</span> <span class="o">%in%</span> <span class="nf">installed.packages</span><span class="p">()</span><span class="n">[</span><span class="p">,</span> <span class="s">&#34;Package&#34;</span><span class="n">]</span><span class="p">)</span><span class="n">]</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">if </span><span class="p">(</span><span class="nf">length</span><span class="p">(</span><span class="n">new.pkg</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">install.packages</span><span class="p">(</span><span class="n">new.pkg</span><span class="p">,</span> <span class="n">dependencies</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">sapply</span><span class="p">(</span><span class="n">pkg</span><span class="p">,</span> <span class="n">require</span><span class="p">,</span> <span class="n">character.only</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">## Pacotes utilizados nessa análise</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">packages</span> <span class="o">&lt;-</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;tidyverse&#34;</span><span class="p">,</span><span class="s">&#39;tidymodels&#39;</span><span class="p">,</span> <span class="s">&#39;janitor&#39;</span><span class="p">,</span> <span class="s">&#39;ggpubr&#39;</span><span class="p">,</span> <span class="s">&#39;funModeling&#39;</span><span class="p">,</span> <span class="s">&#39;ggalluvial&#39;</span><span class="p">,</span> <span class="s">&#39;vip&#39;</span><span class="p">,</span> <span class="s">&#39;skimr&#39;</span><span class="p">,</span> <span class="s">&#39;VIM&#39;</span><span class="p">,</span> <span class="s">&#39;patchwork&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">load</span><span class="p">(</span><span class="n">packages</span><span class="p">)</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">##   tidyverse  tidymodels     janitor      ggpubr funModeling  ggalluvial 
+</span></span><span class="line"><span class="cl">##        TRUE        TRUE        TRUE        TRUE        TRUE        TRUE 
+</span></span><span class="line"><span class="cl">##         vip       skimr         VIM   patchwork 
+</span></span><span class="line"><span class="cl">##        TRUE        TRUE        TRUE        TRUE
+</span></span></code></pre></div><h2 id="leitura-dos-dados">Leitura dos dados</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1">## Leitura dos dados</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">dados</span> <span class="o">=</span> <span class="nf">read_csv</span><span class="p">(</span><span class="s">&#34;train.csv&#34;</span><span class="p">)</span> <span class="o">%&gt;%</span> <span class="nf">mutate_if</span><span class="p">(</span><span class="n">is.character</span><span class="p">,</span> <span class="n">as.factor</span><span class="p">)</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">## Rows: 8693 Columns: 14
+</span></span><span class="line"><span class="cl">## ── Column specification ────────────────────────────────────────────────────────
+</span></span><span class="line"><span class="cl">## Delimiter: &#34;,&#34;
+</span></span><span class="line"><span class="cl">## chr (5): PassengerId, HomePlanet, Cabin, Destination, Name
+</span></span><span class="line"><span class="cl">## dbl (6): Age, RoomService, FoodCourt, ShoppingMall, Spa, VRDeck
+</span></span><span class="line"><span class="cl">## lgl (3): CryoSleep, VIP, Transported
+</span></span><span class="line"><span class="cl">## 
+</span></span><span class="line"><span class="cl">## ℹ Use `spec()` to retrieve the full column specification for this data.
+</span></span><span class="line"><span class="cl">## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">dados</span> <span class="o">%&gt;%</span> <span class="nf">head</span><span class="p">()</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">## # A tibble: 6 × 14
+</span></span><span class="line"><span class="cl">##   PassengerId HomePl…¹ CryoS…² Cabin Desti…³   Age VIP   RoomS…⁴ FoodC…⁵ Shopp…⁶
+</span></span><span class="line"><span class="cl">##   &lt;fct&gt;       &lt;fct&gt;    &lt;lgl&gt;   &lt;fct&gt; &lt;fct&gt;   &lt;dbl&gt; &lt;lgl&gt;   &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;
+</span></span><span class="line"><span class="cl">## 1 0001_01     Europa   FALSE   B/0/P TRAPPI…    39 FALSE       0       0       0
+</span></span><span class="line"><span class="cl">## 2 0002_01     Earth    FALSE   F/0/S TRAPPI…    24 FALSE     109       9      25
+</span></span><span class="line"><span class="cl">## 3 0003_01     Europa   FALSE   A/0/S TRAPPI…    58 TRUE       43    3576       0
+</span></span><span class="line"><span class="cl">## 4 0003_02     Europa   FALSE   A/0/S TRAPPI…    33 FALSE       0    1283     371
+</span></span><span class="line"><span class="cl">## 5 0004_01     Earth    FALSE   F/1/S TRAPPI…    16 FALSE     303      70     151
+</span></span><span class="line"><span class="cl">## 6 0005_01     Earth    FALSE   F/0/P PSO J3…    44 FALSE       0     483       0
+</span></span><span class="line"><span class="cl">## # … with 4 more variables: Spa &lt;dbl&gt;, VRDeck &lt;dbl&gt;, Name &lt;fct&gt;,
+</span></span><span class="line"><span class="cl">## #   Transported &lt;lgl&gt;, and abbreviated variable names ¹​HomePlanet, ²​CryoSleep,
+</span></span><span class="line"><span class="cl">## #   ³​Destination, ⁴​RoomService, ⁵​FoodCourt, ⁶​ShoppingMall
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">dados</span> <span class="o">%&gt;%</span> <span class="nf">df_status</span><span class="p">()</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">##        variable q_zeros p_zeros q_na p_na q_inf p_inf    type unique
+</span></span><span class="line"><span class="cl">## 1   PassengerId       0    0.00    0 0.00     0     0  factor   8693
+</span></span><span class="line"><span class="cl">## 2    HomePlanet       0    0.00  201 2.31     0     0  factor      3
+</span></span><span class="line"><span class="cl">## 3     CryoSleep    5439   62.57  217 2.50     0     0 logical      2
+</span></span><span class="line"><span class="cl">## 4         Cabin       0    0.00  199 2.29     0     0  factor   6560
+</span></span><span class="line"><span class="cl">## 5   Destination       0    0.00  182 2.09     0     0  factor      3
+</span></span><span class="line"><span class="cl">## 6           Age     178    2.05  179 2.06     0     0 numeric     80
+</span></span><span class="line"><span class="cl">## 7           VIP    8291   95.38  203 2.34     0     0 logical      2
+</span></span><span class="line"><span class="cl">## 8   RoomService    5577   64.16  181 2.08     0     0 numeric   1273
+</span></span><span class="line"><span class="cl">## 9     FoodCourt    5456   62.76  183 2.11     0     0 numeric   1507
+</span></span><span class="line"><span class="cl">## 10 ShoppingMall    5587   64.27  208 2.39     0     0 numeric   1115
+</span></span><span class="line"><span class="cl">## 11          Spa    5324   61.24  183 2.11     0     0 numeric   1327
+</span></span><span class="line"><span class="cl">## 12       VRDeck    5495   63.21  188 2.16     0     0 numeric   1306
+</span></span><span class="line"><span class="cl">## 13         Name       0    0.00  200 2.30     0     0  factor   8473
+</span></span><span class="line"><span class="cl">## 14  Transported    4315   49.64    0 0.00     0     0 logical      2
+</span></span></code></pre></div><p>Podemos observar que, com exceção das variáveis <strong>PassengerId</strong> e <strong>Transported</strong>, todas as outras possuem dados ausentes, representando, em cada uma delas, aproximadamente 2,5% das observações.</p>
+<h2 id="explorando-os-dados">Explorando os dados</h2>
+<p>Na própria apresentação da base de dados, na descrição das variáveis, foi informado que o atributo <strong>PassengerId</strong> assume a forma <em>gggg_pp</em> onde <em>gggg</em> indica um grupo com o qual o passageiro está viajando e <em>pp</em> é seu número dentro do grupo. Dessa forma, vamos criar duas novas variáveis, <strong>PassGroup</strong> para o grupo e <strong>nGroup</strong> para o número do passageiro no grupo.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">dados</span> <span class="o">=</span> <span class="n">dados</span> <span class="o">%&gt;%</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">separate</span><span class="p">(</span><span class="n">PassengerId</span><span class="p">,</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;PassGroup&#34;</span><span class="p">,</span> <span class="s">&#34;nGroup&#34;</span><span class="p">),</span> <span class="n">sep</span> <span class="o">=</span> <span class="s">&#34;_&#34;</span><span class="p">,</span> <span class="n">remove</span> <span class="o">=</span> <span class="kc">FALSE</span><span class="p">)</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">mutate</span><span class="p">(</span><span class="n">PassGroup</span> <span class="o">=</span> <span class="nf">as.numeric</span><span class="p">(</span><span class="n">PassGroup</span><span class="p">))</span>
+</span></span></code></pre></div><p>Outra variável que possui mais de uma informação embutida é a variável <strong>Cabin</strong>. Vamos separá-la em <strong>CabinDeck</strong>, representando o <em>deck</em> da cabine, podendo assumir os valores A, B, C, D, E, F e T, e <strong>CabinSide</strong>, podendo assumir os valores P para bombordo e S para estibordo. Também criaremos a variável <strong>CabinNum</strong>, que representa os números das cabines.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">dados</span> <span class="o">=</span> <span class="n">dados</span> <span class="o">%&gt;%</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">separate</span><span class="p">(</span><span class="n">Cabin</span><span class="p">,</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;CabinDeck&#34;</span><span class="p">,</span> <span class="s">&#34;CabinNum&#34;</span><span class="p">,</span> <span class="s">&#34;CabinSide&#34;</span><span class="p">),</span> <span class="n">sep</span> <span class="o">=</span> <span class="s">&#34;/&#34;</span><span class="p">)</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">mutate</span><span class="p">(</span><span class="n">CabinDeck</span> <span class="o">=</span> <span class="nf">as.factor</span><span class="p">(</span><span class="n">CabinDeck</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">         <span class="n">CabinSide</span> <span class="o">=</span> <span class="nf">as.factor</span><span class="p">(</span><span class="n">CabinSide</span><span class="p">))</span>
+</span></span></code></pre></div><p>A função <code>ggscatmat()</code> é uma função do pacote <code>GGally</code> do R que cria uma matriz de gráficos de dispersão para visualizar a relação entre várias variáveis numéricas em um conjunto de dados. Essa função é útil para visualizar rapidamente as correlações entre as variáveis, bem como para detectar padrões e tendências. No gráfico abaixo, ainda separamos os elementos de acordo com a sua classe, descrita pela variável <strong>Transported</strong>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">dados</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">mutate</span><span class="p">(</span><span class="n">Transported</span> <span class="o">=</span> <span class="nf">as.numeric</span><span class="p">(</span><span class="n">Transported</span><span class="p">))</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">select_if</span><span class="p">(</span><span class="n">is.numeric</span><span class="p">)</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="n">GGally</span><span class="o">::</span><span class="nf">ggscatmat</span><span class="p">(</span><span class="n">color</span> <span class="o">=</span> <span class="s">&#34;Transported&#34;</span><span class="p">,</span> <span class="n">corMethod</span> <span class="o">=</span> <span class="s">&#34;pearson&#34;</span><span class="p">)</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">theme_pubclean</span><span class="p">()</span>
+</span></span></code></pre></div><img src="https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-6-1.png" width="672" />
+<p>Note que fica clara a necessidade de transformações para as variáveis <strong>RoomService</strong>, <strong>FoodCourt</strong>, <strong>ShoppingMall</strong>, <strong>Spa</strong> e <strong>VRDeck</strong>, devido à sua distribuição assimétrica. Um fato interessante acontece com a variável <strong>Age</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1"># Age </span>
+</span></span><span class="line"><span class="cl"><span class="n">dados</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">ggplot</span><span class="p">(</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">Age</span><span class="p">,</span> <span class="n">fill</span> <span class="o">=</span> <span class="n">Transported</span><span class="p">))</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_density</span><span class="p">(</span><span class="n">alpha</span> <span class="o">=</span><span class="m">0.5</span><span class="p">)</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">theme</span><span class="p">(</span><span class="n">legend.position</span><span class="o">=</span><span class="s">&#39;bottom&#39;</span><span class="p">)</span>
+</span></span></code></pre></div><img src="https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-7-1.png" width="672" />
+<p>Observe que, para passageiros com idade menor de 10 anos, aproximadamente, a probabilidade do passageiro ser transportado é maior que não ser transportado. Isso sugere, talvez, a criação de um atributo captando essa informação.</p>
+<h3 id="de-onde-vieram-os-passageiros-e-qual-a-relação-disso-com-ser-transportado-ou-não">De onde vieram os passageiros e qual a relação disso com ser transportado ou não?</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">dados</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">ggplot</span><span class="p">(</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">HomePlanet</span><span class="p">))</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_bar</span><span class="p">(</span><span class="n">stat</span> <span class="o">=</span> <span class="s">&#34;count&#34;</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="s">&#34;steelblue&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><img src="https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-8-1.png" width="672" />
+<p>Note que a maioria dos passageiros embarcaram na Terra (Earth). Além disso, existem observações ausentes. Qual a relação da origem dos passageiros com o fato de ser transportado ou não?</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">dados</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">ggplot</span><span class="p">(</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">HomePlanet</span><span class="p">,</span> <span class="n">fill</span> <span class="o">=</span> <span class="n">Transported</span><span class="p">))</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_bar</span><span class="p">(</span><span class="n">stat</span> <span class="o">=</span> <span class="s">&#34;count&#34;</span><span class="p">)</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">theme</span><span class="p">(</span><span class="n">legend.position</span><span class="o">=</span><span class="s">&#39;bottom&#39;</span><span class="p">)</span>
+</span></span></code></pre></div><img src="https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-9-1.png" width="672" />
+<p>Quem veio da Terra tem menos chances de ser transportado?</p>
+<h2 id="em-que-cabine-estavam-os-passageiros-e-qual-a-relação-disso-com-ser-transportado-ou-não">Em que cabine estavam os passageiros e qual a relação disso com ser transportado ou não?</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">p1</span> <span class="o">=</span> <span class="n">dados</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">ggplot</span><span class="p">((</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">CabinDeck</span><span class="p">)))</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_bar</span><span class="p">(</span><span class="n">stat</span> <span class="o">=</span> <span class="s">&#39;count&#39;</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span> <span class="s">&#39;steelblue&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">p2</span> <span class="o">=</span> <span class="n">dados</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">ggplot</span><span class="p">((</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">CabinSide</span><span class="p">)))</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_bar</span><span class="p">(</span><span class="n">stat</span> <span class="o">=</span> <span class="s">&#39;count&#39;</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span> <span class="s">&#39;steelblue&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">p1</span> <span class="o">+</span> <span class="n">p2</span>
+</span></span></code></pre></div><img src="https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-10-1.png" width="672" />
+<p>A maioria dos passageiros estavam alocados nos decks F e G. Existem observações faltantes. Os passageiros foram alocados em ambos os lados (estibordo e bombordo) de forma semelhante. Qual a relação disso com ser transportado ou não?</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">p1</span> <span class="o">=</span> <span class="n">dados</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">ggplot</span><span class="p">((</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">CabinDeck</span><span class="p">,</span> <span class="n">fill</span> <span class="o">=</span> <span class="n">Transported</span><span class="p">)))</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_bar</span><span class="p">(</span><span class="n">stat</span> <span class="o">=</span> <span class="s">&#39;count&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">p2</span> <span class="o">=</span> <span class="n">dados</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">ggplot</span><span class="p">((</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">CabinSide</span><span class="p">,</span> <span class="n">fill</span> <span class="o">=</span> <span class="n">Transported</span><span class="p">)))</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_bar</span><span class="p">(</span><span class="n">stat</span> <span class="o">=</span> <span class="s">&#39;count&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">p1</span> <span class="o">+</span> <span class="n">p2</span> <span class="o">+</span> <span class="nf">plot_layout</span><span class="p">(</span><span class="n">guides</span> <span class="o">=</span> <span class="s">&#34;collect&#34;</span><span class="p">)</span> <span class="o">&amp;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">theme</span><span class="p">(</span><span class="n">legend.position</span><span class="o">=</span><span class="s">&#39;bottom&#39;</span><span class="p">)</span>
+</span></span></code></pre></div><img src="https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-11-1.png" width="672" />
+<p>Aparentemente, quem está alocando nos decks B e C tem mais chance de ser transportado. O mesmo acontece para quem está situado no estibordo.</p>
+<h2 id="para-onde-iriam-os-passageiros-e-qual-a-relação-disso-com-ser-transportado-ou-não">Para onde iriam os passageiros e qual a relação disso com ser transportado ou não?</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">dados</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">ggplot</span><span class="p">((</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">Destination</span><span class="p">)))</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_bar</span><span class="p">(</span><span class="n">stat</span> <span class="o">=</span> <span class="s">&#39;count&#39;</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span> <span class="s">&#39;steelblue&#39;</span><span class="p">)</span>
+</span></span></code></pre></div><img src="https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-12-1.png" width="672" />
+<p>A maioria dos passageiros tinham como destino o Planeta &ldquo;TRAPPIST-1e&rdquo;. Qual a relação disso com ser transportado ou não?</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">dados</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">ggplot</span><span class="p">((</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">Destination</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span> <span class="n">Transported</span><span class="p">)))</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_bar</span><span class="p">(</span><span class="n">stat</span> <span class="o">=</span> <span class="s">&#39;count&#39;</span><span class="p">)</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">theme</span><span class="p">(</span><span class="n">legend.position</span><span class="o">=</span><span class="s">&#39;bottom&#39;</span><span class="p">)</span>
+</span></span></code></pre></div><img src="https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-13-1.png" width="672" />
+<p>Quem iria para o Planeta &ldquo;55 Cancri e&rdquo; teria mais chances de ser transportado?</p>
+<h2 id="quem-estava-sozinho-e-quem-estava-em-grupo">Quem estava sozinho e quem estava em grupo?</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">dados</span> <span class="o">%&gt;%</span> <span class="nf">add_count</span><span class="p">(</span><span class="n">PassGroup</span><span class="p">,</span> <span class="n">name</span> <span class="o">=</span> <span class="s">&#34;GroupSize&#34;</span><span class="p">)</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">mutate</span><span class="p">(</span><span class="n">IsAlone</span> <span class="o">=</span> <span class="nf">ifelse</span><span class="p">(</span><span class="n">GroupSize</span><span class="o">==</span><span class="m">1</span><span class="p">,</span> <span class="s">&#39;yes&#39;</span><span class="p">,</span> <span class="s">&#39;no&#39;</span><span class="p">))</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">ggplot</span><span class="p">(</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">IsAlone</span><span class="p">))</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_bar</span><span class="p">(</span><span class="n">stat</span> <span class="o">=</span> <span class="s">&#34;count&#34;</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span> <span class="s">&#39;steelblue&#39;</span><span class="p">)</span>
+</span></span></code></pre></div><img src="https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-14-1.png" width="672" />
+<p>A maioria dos passageiros estavam viajando sozinho. Viajar sozinho influencia no fato de ser transportado?</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">dados</span> <span class="o">%&gt;%</span> <span class="nf">add_count</span><span class="p">(</span><span class="n">PassGroup</span><span class="p">,</span> <span class="n">name</span> <span class="o">=</span> <span class="s">&#34;GroupSize&#34;</span><span class="p">)</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">mutate</span><span class="p">(</span><span class="n">IsAlone</span> <span class="o">=</span> <span class="nf">ifelse</span><span class="p">(</span><span class="n">GroupSize</span><span class="o">==</span><span class="m">1</span><span class="p">,</span> <span class="s">&#39;yes&#39;</span><span class="p">,</span> <span class="s">&#39;no&#39;</span><span class="p">))</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">ggplot</span><span class="p">(</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">IsAlone</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span> <span class="n">Transported</span><span class="p">))</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_bar</span><span class="p">(</span><span class="n">stat</span> <span class="o">=</span> <span class="s">&#34;count&#34;</span><span class="p">)</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">theme</span><span class="p">(</span><span class="n">legend.position</span><span class="o">=</span><span class="s">&#39;bottom&#39;</span><span class="p">)</span>
+</span></span></code></pre></div><img src="https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-15-1.png" width="672" />
+<p>Talvez seja uma boa estar sozinho neste momento! 😃</p>
+<h2 id="estar-em-sono-profundo-era-uma-boa-ideia">Estar em sono profundo era uma boa ideia?</h2>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="cryosleep" srcset="
+               /scripts/pr-processamento-usando-a-base-de-dados-space-titanic/cryo_hue31b209044e9132dda75d586ac076309_96662_e59b8e9ae5ee1f8b29804d1a1a5f91ba.webp 400w,
+               /scripts/pr-processamento-usando-a-base-de-dados-space-titanic/cryo_hue31b209044e9132dda75d586ac076309_96662_a01d678b3c109043d529894daa8fdf00.webp 760w,
+               /scripts/pr-processamento-usando-a-base-de-dados-space-titanic/cryo_hue31b209044e9132dda75d586ac076309_96662_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/cryo_hue31b209044e9132dda75d586ac076309_96662_e59b8e9ae5ee1f8b29804d1a1a5f91ba.webp"
+               width="752"
+               height="423"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">dados</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">ggplot</span><span class="p">(</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">CryoSleep</span><span class="p">))</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_bar</span><span class="p">(</span><span class="n">stat</span> <span class="o">=</span> <span class="s">&#34;count&#34;</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span> <span class="s">&#39;steelblue&#39;</span><span class="p">)</span>
+</span></span></code></pre></div><img src="https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-16-1.png" width="672" />
+<p>A maioria dos passageiros não estavam em sono profundo. Isso influenciou no fato de ser transportado?</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">dados</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">ggplot</span><span class="p">(</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">CryoSleep</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span> <span class="n">Transported</span><span class="p">))</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_bar</span><span class="p">(</span><span class="n">stat</span> <span class="o">=</span> <span class="s">&#34;count&#34;</span><span class="p">)</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">theme</span><span class="p">(</span><span class="n">legend.position</span><span class="o">=</span><span class="s">&#39;bottom&#39;</span><span class="p">)</span>
+</span></span></code></pre></div><img src="https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-17-1.png" width="672" />
+<p>Estar em sono profundo não me pereceu ser uma boa ideia!</p>
+<h2 id="passageiros-vip-tem-menor-risco-de-ser-transportado">Passageiros VIP tem menor risco de ser transportado?</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">dados</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">ggplot</span><span class="p">(</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">VIP</span><span class="p">))</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_bar</span><span class="p">(</span><span class="n">stat</span> <span class="o">=</span> <span class="s">&#34;count&#34;</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span> <span class="s">&#39;steelblue&#39;</span><span class="p">)</span>
+</span></span></code></pre></div><img src="https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-18-1.png" width="672" />
+<p>A grande maioria dos passageiros não eram VIPs. Isso influenciou no fato de ser transportado?</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">dados</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">ggplot</span><span class="p">(</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">VIP</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span> <span class="n">Transported</span><span class="p">))</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_bar</span><span class="p">(</span><span class="n">stat</span> <span class="o">=</span> <span class="s">&#34;count&#34;</span><span class="p">)</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">theme</span><span class="p">(</span><span class="n">legend.position</span><span class="o">=</span><span class="s">&#39;bottom&#39;</span><span class="p">)</span>
+</span></span></code></pre></div><img src="https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-19-1.png" width="672" />
+<p>O fato de ser VIP aparentemente não possui relação com o fato de ser transportado!</p>
+<h2 id="que-fatores-ajudaram-alguém-a-não-ser-transportado">Que fatores ajudaram alguém a não ser transportado?</h2>
+<p>Vamos analisar os gastos dos passageiros.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1"># RoomService </span>
+</span></span><span class="line"><span class="cl"><span class="n">p1</span> <span class="o">=</span> <span class="n">dados</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">mutate</span><span class="p">(</span><span class="n">RoomService</span> <span class="o">=</span> <span class="nf">log10</span><span class="p">(</span><span class="n">RoomService</span><span class="p">))</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">ggplot</span><span class="p">(</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">RoomService</span><span class="p">,</span> <span class="n">fill</span> <span class="o">=</span> <span class="n">Transported</span><span class="p">))</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_density</span><span class="p">(</span><span class="n">alpha</span> <span class="o">=</span><span class="m">0.5</span><span class="p">)</span> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Spa </span>
+</span></span><span class="line"><span class="cl"><span class="n">p2</span> <span class="o">=</span> <span class="n">dados</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">mutate</span><span class="p">(</span><span class="n">Spa</span> <span class="o">=</span> <span class="nf">log10</span><span class="p">(</span><span class="n">Spa</span><span class="p">))</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">ggplot</span><span class="p">(</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">Spa</span><span class="p">,</span> <span class="n">fill</span> <span class="o">=</span> <span class="n">Transported</span><span class="p">))</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_density</span><span class="p">(</span><span class="n">alpha</span> <span class="o">=</span><span class="m">0.5</span><span class="p">)</span> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># VRDeck </span>
+</span></span><span class="line"><span class="cl"><span class="n">p3</span> <span class="o">=</span> <span class="n">dados</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">mutate</span><span class="p">(</span><span class="n">VRDeck</span> <span class="o">=</span> <span class="nf">log10</span><span class="p">(</span><span class="n">VRDeck</span><span class="p">))</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">ggplot</span><span class="p">(</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">VRDeck</span><span class="p">,</span> <span class="n">fill</span> <span class="o">=</span> <span class="n">Transported</span><span class="p">))</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_density</span><span class="p">(</span><span class="n">alpha</span> <span class="o">=</span><span class="m">0.5</span><span class="p">)</span> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">p1</span> <span class="o">+</span> <span class="n">p2</span> <span class="o">+</span> <span class="n">p3</span> <span class="o">+</span> <span class="nf">plot_layout</span><span class="p">(</span><span class="n">guides</span> <span class="o">=</span> <span class="s">&#34;collect&#34;</span><span class="p">)</span> <span class="o">&amp;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">theme</span><span class="p">(</span><span class="n">legend.position</span><span class="o">=</span><span class="s">&#39;bottom&#39;</span><span class="p">)</span>
+</span></span></code></pre></div><img src="https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-20-1.png" width="672" />
+<p>Gastos com RoomService, Spa e VRDeck aumentam a chance do passageiro não ser transportado!</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1"># FoodCourt</span>
+</span></span><span class="line"><span class="cl"><span class="n">p1</span> <span class="o">=</span> <span class="n">dados</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">mutate</span><span class="p">(</span><span class="n">FoodCourt</span> <span class="o">=</span> <span class="nf">log10</span><span class="p">(</span><span class="n">FoodCourt</span><span class="p">))</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">ggplot</span><span class="p">(</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">FoodCourt</span><span class="p">,</span> <span class="n">fill</span> <span class="o">=</span> <span class="n">Transported</span><span class="p">))</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_density</span><span class="p">(</span><span class="n">alpha</span> <span class="o">=</span><span class="m">0.5</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># ShoppingMall</span>
+</span></span><span class="line"><span class="cl"><span class="n">p2</span> <span class="o">=</span> <span class="n">dados</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">mutate</span><span class="p">(</span><span class="n">ShoppingMall</span> <span class="o">=</span> <span class="nf">log10</span><span class="p">(</span><span class="n">ShoppingMall</span><span class="p">))</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">ggplot</span><span class="p">(</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">ShoppingMall</span><span class="p">,</span> <span class="n">fill</span> <span class="o">=</span> <span class="n">Transported</span><span class="p">))</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_density</span><span class="p">(</span><span class="n">alpha</span> <span class="o">=</span><span class="m">0.5</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">p1</span> <span class="o">+</span> <span class="n">p2</span> <span class="o">+</span> <span class="nf">plot_layout</span><span class="p">(</span><span class="n">guides</span> <span class="o">=</span> <span class="s">&#34;collect&#34;</span><span class="p">)</span> <span class="o">&amp;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">theme</span><span class="p">(</span><span class="n">legend.position</span><span class="o">=</span><span class="s">&#39;bottom&#39;</span><span class="p">)</span>
+</span></span></code></pre></div><img src="https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-21-1.png" width="672" />
+<p>Já os gastos com FoodCourt e ShoppingMall aumentam a chance do passageiro ser transportado. Outra informação interessante pode ser obtida quando analisamos as variáveis HomePlanet e CryoSleep.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1"># HomePlanet e CryoSleep</span>
+</span></span><span class="line"><span class="cl"><span class="n">dados</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">ggplot</span><span class="p">(</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">HomePlanet</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span> <span class="n">Transported</span><span class="p">))</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_bar</span><span class="p">(</span><span class="n">stat</span> <span class="o">=</span> <span class="s">&#34;count&#34;</span><span class="p">)</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">facet_grid</span><span class="p">(</span><span class="o">~</span><span class="n">CryoSleep</span><span class="p">)</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">theme</span><span class="p">(</span><span class="n">legend.position</span><span class="o">=</span><span class="s">&#39;bottom&#39;</span><span class="p">)</span>
+</span></span></code></pre></div><img src="https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-22-1.png" width="672" />
+<p>Note que, para os passageiros em suspensão profunda, o fato de não terem embarcados em Earth aumenta muito a chance de ser transportado para a dimesão alternativa!</p>
+<div class="alert alert-note">
+  <div>
+    <p>Após a fase de exploração dos dados, algumas sugestões de <em>feature engineering</em> foram aparecendo:</p>
+<ul>
+<li>Criar uma variável indicando se o passageiro é menor de 14 anos, por exemplo;</li>
+<li>Criar uma variável indicando se o passageiro é originário da Terra;</li>
+<li>Criar uma variável indicando se o passageiro viajava sozinho;</li>
+<li>Realizar transformação (raíz quadrada) nas variáveis RoomService, Spa, VRDeck, FoodCourt e ShoppingMall.</li>
+<li>Criar uma variável com o total de &ldquo;despesas supérfluas&rdquo; (RoomService + Spa + VRDeck);</li>
+<li>Criar uma variável com o total de &ldquo;despesas básicas&rdquo; (FoodCourt + ShoppingMall);</li>
+</ul>
+  </div>
+</div>
+<p>Para evitar problema de vazamento de dados, o passo inicial de qualquer análise é separar o conjunto de treinamento, validação e teste: os dados de treinamento devem ser usados exclusivamente para treinar o modelo, enquanto os dados de validação e teste devem ser usados para avaliar sua performance. Isso evita que informações de teste ou validação sejam usadas para treinar o modelo e comprometam os resultados.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">set.seed</span><span class="p">(</span><span class="m">12345</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">splits</span> <span class="o">=</span> <span class="n">dados</span> <span class="o">%&gt;%</span> <span class="nf">initial_split</span><span class="p">(</span><span class="n">strata</span> <span class="o">=</span> <span class="n">Transported</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">dados_treino</span> <span class="o">=</span> <span class="nf">training</span><span class="p">(</span><span class="n">splits</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">dados_teste</span> <span class="o">=</span> <span class="nf">testing</span><span class="p">(</span><span class="n">splits</span><span class="p">)</span>
+</span></span></code></pre></div><p>Criando a variável GroupSize apenas para o conjunto de dados de treinamento:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">dados_treino</span> <span class="o">=</span> <span class="n">dados_treino</span> <span class="o">%&gt;%</span> <span class="nf">add_count</span><span class="p">(</span><span class="n">PassGroup</span><span class="p">,</span> <span class="n">name</span> <span class="o">=</span> <span class="s">&#34;GroupSize&#34;</span><span class="p">)</span> 
+</span></span></code></pre></div><h2 id="tratamento-de-dados-faltantes">Tratamento de dados faltantes</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">dados_treino</span> <span class="o">%&gt;%</span> <span class="nf">df_status</span><span class="p">()</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">##        variable q_zeros p_zeros q_na p_na q_inf p_inf      type unique
+</span></span><span class="line"><span class="cl">## 1   PassengerId       0    0.00    0 0.00     0     0    factor   6519
+</span></span><span class="line"><span class="cl">## 2     PassGroup       0    0.00    0 0.00     0     0   numeric   4949
+</span></span><span class="line"><span class="cl">## 3        nGroup       0    0.00    0 0.00     0     0 character      8
+</span></span><span class="line"><span class="cl">## 4    HomePlanet       0    0.00  133 2.04     0     0    factor      3
+</span></span><span class="line"><span class="cl">## 5     CryoSleep    4075   62.51  164 2.52     0     0   logical      2
+</span></span><span class="line"><span class="cl">## 6     CabinDeck       0    0.00  153 2.35     0     0    factor      8
+</span></span><span class="line"><span class="cl">## 7      CabinNum      13    0.20  153 2.35     0     0 character   1722
+</span></span><span class="line"><span class="cl">## 8     CabinSide       0    0.00  153 2.35     0     0    factor      2
+</span></span><span class="line"><span class="cl">## 9   Destination       0    0.00  131 2.01     0     0    factor      3
+</span></span><span class="line"><span class="cl">## 10          Age     135    2.07  133 2.04     0     0   numeric     80
+</span></span><span class="line"><span class="cl">## 11          VIP    6213   95.31  158 2.42     0     0   logical      2
+</span></span><span class="line"><span class="cl">## 12  RoomService    4178   64.09  133 2.04     0     0   numeric   1088
+</span></span><span class="line"><span class="cl">## 13    FoodCourt    4096   62.83  137 2.10     0     0   numeric   1247
+</span></span><span class="line"><span class="cl">## 14 ShoppingMall    4187   64.23  161 2.47     0     0   numeric    951
+</span></span><span class="line"><span class="cl">## 15          Spa    3980   61.05  146 2.24     0     0   numeric   1103
+</span></span><span class="line"><span class="cl">## 16       VRDeck    4155   63.74  134 2.06     0     0   numeric   1086
+</span></span><span class="line"><span class="cl">## 17         Name       0    0.00  150 2.30     0     0    factor   6355
+</span></span><span class="line"><span class="cl">## 18  Transported    3236   49.64    0 0.00     0     0   logical      2
+</span></span><span class="line"><span class="cl">## 19    GroupSize       0    0.00    0 0.00     0     0   integer      8
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">miss</span> <span class="o">=</span> <span class="nf">summary</span><span class="p">(</span><span class="nf">aggr</span><span class="p">(</span><span class="n">dados_treino</span><span class="p">,</span> <span class="n">sortVar</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">))</span><span class="o">$</span><span class="n">combinations</span>
+</span></span></code></pre></div><img src="https://est125imd.netlify.app/scripts/pr-processamento-usando-a-base-de-dados-space-titanic/index.pt_files/figure-html/unnamed-chunk-26-1.png" width="672" />
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">## 
+</span></span><span class="line"><span class="cl">##  Variables sorted by number of missings: 
+</span></span><span class="line"><span class="cl">##      Variable      Count
+</span></span><span class="line"><span class="cl">##     CryoSleep 0.02515723
+</span></span><span class="line"><span class="cl">##  ShoppingMall 0.02469704
+</span></span><span class="line"><span class="cl">##           VIP 0.02423685
+</span></span><span class="line"><span class="cl">##     CabinDeck 0.02346986
+</span></span><span class="line"><span class="cl">##      CabinNum 0.02346986
+</span></span><span class="line"><span class="cl">##     CabinSide 0.02346986
+</span></span><span class="line"><span class="cl">##          Name 0.02300966
+</span></span><span class="line"><span class="cl">##           Spa 0.02239607
+</span></span><span class="line"><span class="cl">##     FoodCourt 0.02101549
+</span></span><span class="line"><span class="cl">##        VRDeck 0.02055530
+</span></span><span class="line"><span class="cl">##    HomePlanet 0.02040190
+</span></span><span class="line"><span class="cl">##           Age 0.02040190
+</span></span><span class="line"><span class="cl">##   RoomService 0.02040190
+</span></span><span class="line"><span class="cl">##   Destination 0.02009511
+</span></span><span class="line"><span class="cl">##   PassengerId 0.00000000
+</span></span><span class="line"><span class="cl">##     PassGroup 0.00000000
+</span></span><span class="line"><span class="cl">##        nGroup 0.00000000
+</span></span><span class="line"><span class="cl">##   Transported 0.00000000
+</span></span><span class="line"><span class="cl">##     GroupSize 0.00000000
+</span></span></code></pre></div><p>O gráfico acima mostra (à esquerda) mostra a proporção de <em>missing values</em> para cada variável da base de dados e todas as combinações de valores ausentes (vermelho) e observados (azul) presentes nos dados (gráfico à direita).</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">head</span><span class="p">(</span><span class="n">miss</span><span class="nf">[rev</span><span class="p">(</span><span class="nf">order</span><span class="p">(</span><span class="n">miss[</span><span class="p">,</span><span class="m">2</span><span class="n">]</span><span class="p">)),</span><span class="n">]</span><span class="p">)</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">##                             Combinations Count   Percent
+</span></span><span class="line"><span class="cl">## 1  0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0  4974 76.300046
+</span></span><span class="line"><span class="cl">## 23 0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0:0:0:0   128  1.963491
+</span></span><span class="line"><span class="cl">## 8  0:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0   128  1.963491
+</span></span><span class="line"><span class="cl">## 60 0:0:0:0:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0   124  1.902132
+</span></span><span class="line"><span class="cl">## 5  0:0:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0   121  1.856113
+</span></span><span class="line"><span class="cl">## 47 0:0:0:0:0:1:1:1:0:0:0:0:0:0:0:0:0:0:0   117  1.794754
+</span></span></code></pre></div><p>Note que, apesar de termos aproximadamente 2,5% de dados faltantes em cada variável, temos na base de dados aproximadamente 76% de casos completos, inviabilizando o descarte dessas observações incompletas.</p>
+<div class="alert alert-note">
+  <div>
+    Um consenso entre especialistas é que, se uma variável tem mais de 20% de seus dados faltantes, talvez seja melhor excluí-la e entender as razões dos valores ausentes. Se a proporção de valores ausentes é menor do que isso, é possível preencher esses dados utilizando alguma técnica de imputação, dependendo do tipo de dado. Já quando há menos de 2% de valores faltantes, a exclusão desses registros pode ser uma opção, já que não afetará significativamente a base de dados.
+  </div>
+</div>
+<p>No entanto, é importante avaliar os efeitos do tratamento dos valores ausentes na análise e nos resultados finais, para garantir que as decisões tomadas sejam embasadas e coerentes com os objetivos do estudo. Esse processo deverá ser feito com parcimônia, sob pena de causar um viés de informação. A imputação pode introduzir viés de informação na medida em que os valores imputados podem não ser representativos da realidade ou podem não capturar a variabilidade dos dados ausentes.</p>
+<div class="alert alert-note">
+  <div>
+    <p>Para realizar a imputação das variáveis usaremos as seguintes estratégias:</p>
+<ul>
+<li>
+<p>Para as variáveis <strong>CryoSleep</strong>, <strong>RoomService</strong>, <strong>FoodCourt</strong>, <strong>ShoppingMall</strong>, <strong>Spa</strong> e <strong>VRDeck</strong>: Se CryoSleep é <em>missing</em> e pelo menos uma das variáveis de gastos for maior que zero, então imputaremos CryoSleep como FALSE (Se tem gasto, significa que não está em suspensão profunda). Se CryoSleep é TRUE e alguma variável de gastos for <em>missing</em>, então essa variável será imputada com o valor zero (Quem está em suspensão profunda não tem gastos). Além disso, imputaremos o restante dos <em>missings</em> utilizando imputação knn, considerando 2 vizinhos e as variáveis PassGroup, CabinDeck, CabinNum, CabinSide.</p>
+</li>
+<li>
+<p>As demais variáveis serão imputadas utilizando bagged trees.</p>
+</li>
+</ul>
+  </div>
+</div>
+<p>Podemos então construir nossa receita para realizar todo o pré-processamento:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">STRecipe</span> <span class="o">=</span> <span class="nf">recipe</span><span class="p">(</span><span class="n">Transported</span> <span class="o">~</span> <span class="n">.,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">dados_treino</span><span class="p">)</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">update_role</span><span class="p">(</span><span class="n">PassengerId</span><span class="p">,</span> <span class="n">Name</span><span class="p">,</span> <span class="n">new_role</span> <span class="o">=</span> <span class="s">&#34;ID&#34;</span><span class="p">)</span> <span class="o">%&gt;%</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">step_mutate</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">IsAlone</span> <span class="o">=</span> <span class="nf">ifelse</span><span class="p">(</span><span class="n">GroupSize</span><span class="o">==</span><span class="m">1</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">0</span><span class="p">)</span> <span class="o">%&gt;%</span> <span class="nf">as.factor</span><span class="p">(),</span>
+</span></span><span class="line"><span class="cl">    <span class="n">CabinNum</span> <span class="o">=</span> <span class="nf">as.numeric</span><span class="p">(</span><span class="n">CabinNum</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">    <span class="n">nGroup</span> <span class="o">=</span> <span class="nf">as.numeric</span><span class="p">(</span><span class="n">nGroup</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">    <span class="n">VIP</span> <span class="o">=</span> <span class="nf">as.factor</span><span class="p">(</span><span class="n">VIP</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">    <span class="n">CryoSleep</span> <span class="o">=</span> <span class="nf">ifelse</span><span class="p">((</span><span class="n">RoomService</span> <span class="o">&gt;</span> <span class="m">0</span> <span class="o">|</span> <span class="n">FoodCourt</span> <span class="o">&gt;</span> <span class="m">0</span> <span class="o">|</span> <span class="n">ShoppingMall</span> <span class="o">&gt;</span> <span class="m">0</span> <span class="o">|</span> <span class="n">Spa</span> <span class="o">&gt;</span> <span class="m">0</span> <span class="o">|</span> <span class="n">VRDeck</span> <span class="o">&gt;</span> <span class="m">0</span><span class="p">),</span> <span class="nf">replace_na</span><span class="p">(</span><span class="n">CryoSleep</span><span class="p">,</span> <span class="kc">FALSE</span><span class="p">),</span><span class="kc">TRUE</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">    <span class="n">CryoSleep</span> <span class="o">=</span> <span class="nf">as.factor</span><span class="p">(</span><span class="n">CryoSleep</span><span class="p">))</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">step_impute_knn</span><span class="p">(</span><span class="n">CryoSleep</span><span class="p">,</span> <span class="n">neighbors</span> <span class="o">=</span> <span class="m">2</span><span class="p">,</span> <span class="n">impute_with</span> <span class="o">=</span> <span class="nf">imp_vars</span><span class="p">(</span><span class="n">PassGroup</span><span class="p">,</span> <span class="n">CabinDeck</span><span class="p">,</span> <span class="n">CabinNum</span><span class="p">,</span> <span class="n">CabinSide</span><span class="p">))</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">step_mutate</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">RoomService</span> <span class="o">=</span> <span class="nf">ifelse</span><span class="p">(</span><span class="n">CryoSleep</span><span class="o">==</span><span class="kc">TRUE</span><span class="p">,</span> <span class="nf">replace_na</span><span class="p">(</span><span class="n">RoomService</span><span class="p">,</span> <span class="m">0</span><span class="p">),</span><span class="n">RoomService</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">    <span class="n">FoodCourt</span> <span class="o">=</span> <span class="nf">ifelse</span><span class="p">(</span><span class="n">CryoSleep</span><span class="o">==</span><span class="kc">TRUE</span><span class="p">,</span> <span class="nf">replace_na</span><span class="p">(</span><span class="n">FoodCourt</span><span class="p">,</span> <span class="m">0</span><span class="p">),</span><span class="n">FoodCourt</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">    <span class="n">ShoppingMall</span> <span class="o">=</span> <span class="nf">ifelse</span><span class="p">(</span><span class="n">CryoSleep</span><span class="o">==</span><span class="kc">TRUE</span><span class="p">,</span> <span class="nf">replace_na</span><span class="p">(</span><span class="n">ShoppingMall</span><span class="p">,</span> <span class="m">0</span><span class="p">),</span> <span class="n">ShoppingMall</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Spa</span> <span class="o">=</span> <span class="nf">ifelse</span><span class="p">(</span><span class="n">CryoSleep</span><span class="o">==</span><span class="kc">TRUE</span><span class="p">,</span> <span class="nf">replace_na</span><span class="p">(</span><span class="n">Spa</span><span class="p">,</span> <span class="m">0</span><span class="p">),</span> <span class="n">Spa</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">    <span class="n">VRDeck</span> <span class="o">=</span> <span class="nf">ifelse</span><span class="p">(</span><span class="n">CryoSleep</span><span class="o">==</span><span class="kc">TRUE</span><span class="p">,</span> <span class="nf">replace_na</span><span class="p">(</span><span class="n">VRDeck</span><span class="p">,</span> <span class="m">0</span><span class="p">),</span> <span class="n">VRDeck</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">)</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">step_impute_knn</span><span class="p">(</span><span class="n">RoomService</span><span class="p">,</span> <span class="n">FoodCourt</span><span class="p">,</span> <span class="n">ShoppingMall</span><span class="p">,</span> <span class="n">Spa</span><span class="p">,</span> <span class="n">VRDeck</span><span class="p">,</span> <span class="n">neighbors</span> <span class="o">=</span> <span class="m">2</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">                  <span class="n">impute_with</span> <span class="o">=</span> <span class="nf">imp_vars</span><span class="p">(</span><span class="n">PassGroup</span><span class="p">,</span> <span class="n">CabinDeck</span><span class="p">,</span> <span class="n">CabinNum</span><span class="p">,</span> <span class="n">CabinSide</span><span class="p">))</span> <span class="o">%&gt;%</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">step_impute_bag</span><span class="p">(</span><span class="n">Age</span><span class="p">,</span> <span class="n">VIP</span><span class="p">,</span> <span class="n">CryoSleep</span><span class="p">,</span> <span class="n">Destination</span><span class="p">,</span> <span class="n">HomePlanet</span><span class="p">,</span> <span class="n">CabinDeck</span><span class="p">,</span> <span class="n">CabinNum</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">                  <span class="n">CabinSide</span><span class="p">)</span> <span class="o">%&gt;%</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">#step_YeoJohnson(RoomService:VRDeck) %&gt;% </span>
+</span></span><span class="line"><span class="cl">  <span class="nf">step_mutate_at</span><span class="p">(</span><span class="n">RoomService</span><span class="o">:</span><span class="n">VRDeck</span><span class="p">,</span> <span class="n">fn</span><span class="o">=</span> <span class="o">~</span><span class="nf">log10</span><span class="p">(</span><span class="n">. </span><span class="o">+</span> <span class="m">1</span><span class="p">))</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">step_mutate</span><span class="p">(</span><span class="n">despesasSuperfluas</span> <span class="o">=</span> <span class="n">RoomService</span> <span class="o">+</span> <span class="n">Spa</span> <span class="o">+</span> <span class="n">VRDeck</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">              <span class="n">despesasBasicas</span> <span class="o">=</span> <span class="n">FoodCourt</span> <span class="o">+</span> <span class="n">ShoppingMall</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">              <span class="n">Isearth</span> <span class="o">=</span> <span class="nf">ifelse</span><span class="p">(</span><span class="n">HomePlanet</span><span class="o">==</span><span class="s">&#39;Earth&#39;</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">0</span><span class="p">)</span> <span class="o">%&gt;%</span> <span class="nf">as.factor</span><span class="p">(),</span>
+</span></span><span class="line"><span class="cl">              <span class="n">Iskid</span> <span class="o">=</span> <span class="nf">ifelse</span><span class="p">(</span><span class="n">Age</span> <span class="o">&lt;</span> <span class="m">14</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">0</span><span class="p">)</span> <span class="o">%&gt;%</span> <span class="nf">as.factor</span><span class="p">())</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">prep</span><span class="p">(</span><span class="n">verbose</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">## oper 1 step mutate [training] 
+</span></span><span class="line"><span class="cl">## oper 2 step impute knn [training] 
+</span></span><span class="line"><span class="cl">## oper 3 step mutate [training] 
+</span></span><span class="line"><span class="cl">## oper 4 step impute knn [training] 
+</span></span><span class="line"><span class="cl">## oper 5 step impute bag [training] 
+</span></span><span class="line"><span class="cl">## oper 6 step mutate at [training] 
+</span></span><span class="line"><span class="cl">## oper 7 step mutate [training] 
+</span></span><span class="line"><span class="cl">## The retained training set is ~ 2.03 Mb  in memory.
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">dados_prep</span> <span class="o">=</span> <span class="nf">bake</span><span class="p">(</span><span class="n">STRecipe</span><span class="p">,</span> <span class="n">new_data</span> <span class="o">=</span> <span class="kc">NULL</span><span class="p">)</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">dados_prep</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">summary</span><span class="p">()</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">##   PassengerId     PassGroup        nGroup       HomePlanet   CryoSleep   
+</span></span><span class="line"><span class="cl">##  0002_01:   1   Min.   :   2   Min.   :1.000   Earth :3557   FALSE:3912  
+</span></span><span class="line"><span class="cl">##  0003_01:   1   1st Qu.:2306   1st Qu.:1.000   Europa:1643   TRUE :2607  
+</span></span><span class="line"><span class="cl">##  0004_01:   1   Median :4605   Median :1.000   Mars  :1319               
+</span></span><span class="line"><span class="cl">##  0005_01:   1   Mean   :4620   Mean   :1.515                             
+</span></span><span class="line"><span class="cl">##  0006_01:   1   3rd Qu.:6880   3rd Qu.:2.000                             
+</span></span><span class="line"><span class="cl">##  0006_02:   1   Max.   :9280   Max.   :8.000                             
+</span></span><span class="line"><span class="cl">##  (Other):6513                                                            
+</span></span><span class="line"><span class="cl">##    CabinDeck       CabinNum    CabinSide        Destination        Age       
+</span></span><span class="line"><span class="cl">##  F      :2155   Min.   :   1   P:3264    55 Cancri e  :1361   Min.   : 0.00  
+</span></span><span class="line"><span class="cl">##  G      :1952   1st Qu.: 487   S:3255    PSO J318.5-22: 608   1st Qu.:19.00  
+</span></span><span class="line"><span class="cl">##  E      : 649   Median : 922             TRAPPIST-1e  :4550   Median :27.00  
+</span></span><span class="line"><span class="cl">##  B      : 603   Mean   : 889                                  Mean   :28.72  
+</span></span><span class="line"><span class="cl">##  C      : 603   3rd Qu.:1256                                  3rd Qu.:37.00  
+</span></span><span class="line"><span class="cl">##  D      : 365   Max.   :1722                                  Max.   :79.00  
+</span></span><span class="line"><span class="cl">##  (Other): 192                                                                
+</span></span><span class="line"><span class="cl">##     VIP        RoomService       FoodCourt       ShoppingMall   
+</span></span><span class="line"><span class="cl">##  FALSE:6371   Min.   :0.0000   Min.   :0.0000   Min.   :0.0000  
+</span></span><span class="line"><span class="cl">##  TRUE : 148   1st Qu.:0.0000   1st Qu.:0.0000   1st Qu.:0.0000  
+</span></span><span class="line"><span class="cl">##               Median :0.0000   Median :0.0000   Median :0.0000  
+</span></span><span class="line"><span class="cl">##               Mean   :0.7804   Mean   :0.8486   Mean   :0.7144  
+</span></span><span class="line"><span class="cl">##               3rd Qu.:1.7324   3rd Qu.:1.9031   3rd Qu.:1.4771  
+</span></span><span class="line"><span class="cl">##               Max.   :4.1562   Max.   :4.4744   Max.   :4.3709  
+</span></span><span class="line"><span class="cl">##                                                                 
+</span></span><span class="line"><span class="cl">##       Spa             VRDeck                       Name        GroupSize    
+</span></span><span class="line"><span class="cl">##  Min.   :0.0000   Min.   :0.0000   Alraium Disivering:   2   Min.   :1.000  
+</span></span><span class="line"><span class="cl">##  1st Qu.:0.0000   1st Qu.:0.0000   Ankalik Nateansive:   2   1st Qu.:1.000  
+</span></span><span class="line"><span class="cl">##  Median :0.0000   Median :0.0000   Anton Woody       :   2   Median :1.000  
+</span></span><span class="line"><span class="cl">##  Mean   :0.8172   Mean   :0.7757   Apix Wala         :   2   Mean   :1.781  
+</span></span><span class="line"><span class="cl">##  3rd Qu.:1.7782   3rd Qu.:1.6532   Asch Stradick     :   2   3rd Qu.:2.000  
+</span></span><span class="line"><span class="cl">##  Max.   :4.3504   Max.   :4.3826   (Other)           :6359   Max.   :8.000  
+</span></span><span class="line"><span class="cl">##                                    NA&#39;s              : 150                  
+</span></span><span class="line"><span class="cl">##  Transported     IsAlone  despesasSuperfluas despesasBasicas  Isearth  Iskid   
+</span></span><span class="line"><span class="cl">##  Mode :logical   0:2563   Min.   : 0.000     Min.   :0.0000   0:2962   0:5795  
+</span></span><span class="line"><span class="cl">##  FALSE:3236      1:3956   1st Qu.: 0.000     1st Qu.:0.0000   1:3557   1: 724  
+</span></span><span class="line"><span class="cl">##  TRUE :3283               Median : 2.210     Median :0.6021                    
+</span></span><span class="line"><span class="cl">##                           Mean   : 2.373     Mean   :1.5629                    
+</span></span><span class="line"><span class="cl">##                           3rd Qu.: 4.394     3rd Qu.:2.9442                    
+</span></span><span class="line"><span class="cl">##                           Max.   :10.508     Max.   :7.6354                    
+</span></span><span class="line"><span class="cl">## 
+</span></span></code></pre></div><p>Outras transformações se fazem necessárias e serão realizadas em momento oportuno.</p>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/plot/">plot</a>
+  
+  <a class="badge badge-light" href="/tag/pre/">Pre</a>
+  
+  <a class="badge badge-light" href="/tag/r/">R</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://est125imd.netlify.app/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu9a8ec5fe3348faa62dfb3083e5d95d0c_47798_270x270_fill_lanczos_center_3.png" alt="Introdução à Mineração de Dados"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://est125imd.netlify.app/">Introdução à Mineração de Dados</a></h5>
+      <h6 class="card-subtitle">Semestre 2023-1</h6>
+      <p class="card-text">Disciplina eletiva oferecida pelo <a href="https://deest.ufop.br/" target="_blank" rel="noopener">Departamento de Estatística</a>.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/" >
+        <i class="fas fa-"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/tiagomartin/EST125" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/plano.pdf" >
+        <i class="fas fa-file-pdf"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2023 Tiago Pereira. Este trabalho está licenciado sob <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.d26509351aa0ff874abbee824e982e9b.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/pt/js/wowchemy.min.cb773e06e1906f5cce21cdad5b5cc243.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citação</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copiar
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

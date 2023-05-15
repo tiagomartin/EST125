@@ -1,0 +1,1372 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: 15 de maio de 2023 --><html lang="pt-br" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.0f229d4b7ebad1917a9a357cba2effab.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Introdução à Mineração de Dados" />
+
+
+
+
+
+  
+
+<meta name="description" content="Descubra como a combinação das técnicas dos cinco porquês e SMART pode ajudá-lo a identificar problemas com precisão e estabelecer objetivos claros e alcançáveis." />
+
+
+
+<link rel="alternate" hreflang="pt-br" href="https://est125imd.netlify.app/post/como-a-t-cnica-dos-cinco-porqu-s-e-a-metodologia-smart-podem-transformar-a-resolu-o-de-problemas/" />
+<link rel="canonical" href="https://est125imd.netlify.app/post/como-a-t-cnica-dos-cinco-porqu-s-e-a-metodologia-smart-podem-transformar-a-resolu-o-de-problemas/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hua3979484500520cd28bce95abdc02363_106305_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hua3979484500520cd28bce95abdc02363_106305_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary_large_image" />
+
+  <meta property="twitter:site" content="@wowchemy" />
+  <meta property="twitter:creator" content="@wowchemy" />
+<meta property="twitter:image" content="https://est125imd.netlify.app/post/como-a-t-cnica-dos-cinco-porqu-s-e-a-metodologia-smart-podem-transformar-a-resolu-o-de-problemas/featured.jpeg" />
+<meta property="og:site_name" content="Introdução à Mineração de Dados" />
+<meta property="og:url" content="https://est125imd.netlify.app/post/como-a-t-cnica-dos-cinco-porqu-s-e-a-metodologia-smart-podem-transformar-a-resolu-o-de-problemas/" />
+<meta property="og:title" content="Como a técnica dos cinco porquês e a metodologia SMART podem transformar a resolução de problemas | Introdução à Mineração de Dados" />
+<meta property="og:description" content="Descubra como a combinação das técnicas dos cinco porquês e SMART pode ajudá-lo a identificar problemas com precisão e estabelecer objetivos claros e alcançáveis." /><meta property="og:image" content="https://est125imd.netlify.app/post/como-a-t-cnica-dos-cinco-porqu-s-e-a-metodologia-smart-podem-transformar-a-resolu-o-de-problemas/featured.jpeg" /><meta property="og:locale" content="pt-br" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2023-05-15T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2023-05-15T13:52:24-03:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://est125imd.netlify.app/post/como-a-t-cnica-dos-cinco-porqu-s-e-a-metodologia-smart-podem-transformar-a-resolu-o-de-problemas/"
+  },
+  "headline": "Como a técnica dos cinco porquês e a metodologia SMART podem transformar a resolução de problemas",
+  
+  "image": [
+    "https://est125imd.netlify.app/post/como-a-t-cnica-dos-cinco-porqu-s-e-a-metodologia-smart-podem-transformar-a-resolu-o-de-problemas/featured.jpeg"
+  ],
+  
+  "datePublished": "2023-05-15T00:00:00Z",
+  "dateModified": "2023-05-15T13:52:24-03:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Introdução à Mineração de Dados"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Introdução à Mineração de Dados",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://est125imd.netlify.app/media/icon_hua3979484500520cd28bce95abdc02363_106305_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Descubra como a combinação das técnicas dos cinco porquês e SMART pode ajudá-lo a identificar problemas com precisão e estabelecer objetivos claros e alcançáveis."
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Como a técnica dos cinco porquês e a metodologia SMART podem transformar a resolução de problemas | Introdução à Mineração de Dados</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="9853aeb5497a257d1e83daa1431da737" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.fe8634e7d00f14d07fb33caf14cc8e55.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Pesquisar</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Pesquisar..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Pesquisar...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Introdução à Mineração de Dados</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Alterar navegação">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Introdução à Mineração de Dados</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#skills-1"><span>Habilidades</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#aulas"><span>Aulas</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#scripts"><span>Scripts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projetos</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/uploads/ementa.pdf"><span>Ementa</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="/"  aria-label="">
+                <i class="fas fa-" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Pesquisar"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Como a técnica dos cinco porquês e a metodologia SMART podem transformar a resolução de problemas</h1>
+
+  
+  <p class="page-subtitle">Descubra como a combinação das técnicas dos cinco porquês e SMART pode ajudá-lo a identificar problemas com precisão e estabelecer objetivos claros e alcançáveis.</p>
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Última atualização em
+      
+    
+    15 de abril de 2023
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 minutos de leitura
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/conceitos/">Conceitos</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 480px;">
+  <div style="position: relative">
+    <img src="/post/como-a-t-cnica-dos-cinco-porqu-s-e-a-metodologia-smart-podem-transformar-a-resolu-o-de-problemas/featured_hud8989679433f9c8c04ed2b7d9d346c69_2120552_720x2500_fit_q75_h2_lanczos.webp" width="720" height="480" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Olá pessoal, beleza?</p>
+<p>Quando enfrentamos um problema, muitas vezes é difícil identificar a raiz do problema e traçar um plano para resolvê-lo. A técnica dos cinco porquês e a metodologia SMART são duas ferramentas que podem ser usadas em conjunto para ajudar na definição clara do problema e objetivo.</p>
+<p>A técnica dos cinco porquês é uma técnica de análise de causa e efeito, desenvolvida pelo fundador da Toyota, <a href="https://pt.wikipedia.org/wiki/Sakichi_Toyoda" target="_blank" rel="noopener">Sakichi Toyoda</a>, para ajudar na identificação da causa raiz de um problema. Essa técnica consiste em perguntar &ldquo;por que?&rdquo; repetidamente até que se chegue à causa raiz do problema. Essas perguntas ajudam a aprofundar a análise, ajudando a entender melhor as conexões entre as causas e efeitos. A técnica dos cinco porquês é uma ferramenta simples e poderosa que pode ser aplicada em vários campos.</p>
+<p>A metodologia SMART, por sua vez, é um acrônimo para Specific (específico), Measurable (mensurável), Achievable (alcançável), Relevant (relevante) e Time-bound (temporalmente definido). É uma técnica para definir objetivos de forma clara e específica, com prazos realistas e mensuráveis. Isso ajuda a definir metas claras e alcançáveis, tornando mais fácil avaliar o progresso e fazer ajustes quando necessário.</p>
+<p>Quando usadas juntas, a técnica dos cinco porquês e a metodologia SMART podem ajudar a definir e resolver problemas de forma eficiente. Veja como:</p>
+<p>Imagine que uma empresa está enfrentando problemas com a produtividade dos funcionários. Os gerentes notaram que os funcionários estão produzindo menos do que o esperado e isso está afetando a qualidade do trabalho. Vamos utilizar a técnica dos cinco porquês e a metodologia SMART para definir o problema e o objetivo.</p>
+<p>Passo 1: Identifique o problema  -  O problema é a baixa produtividade dos funcionários</p>
+<p>Passo 2: Utilize a técnica dos cinco porquês</p>
+<ol>
+<li>
+<p>Por que os funcionários estão produzindo menos do que o esperado? Porque estão demorando muito tempo para concluir as tarefas.</p>
+</li>
+<li>
+<p>Por que estão demorando muito tempo para concluir as tarefas? Porque estão interrompendo constantemente o trabalho para responder e-mails e telefonemas.</p>
+</li>
+<li>
+<p>Por que estão interrompendo constantemente o trabalho para responder e-mails e telefonemas? Porque não têm um horário definido para fazer essas tarefas.</p>
+</li>
+<li>
+<p>Por que não têm um horário definido para fazer essas tarefas? Porque não receberam orientação clara sobre como gerenciar seu tempo.</p>
+</li>
+<li>
+<p>Por que não receberam orientação clara sobre como gerenciar seu tempo? Porque a empresa não tem uma política de gestão de tempo.</p>
+</li>
+</ol>
+<p>Passo 3: Identifique o objetivo  -  O objetivo é implementar uma política de gestão de tempo para melhorar a produtividade dos funcionários.</p>
+<p>Passo 4: Utilize a metodologia SMART</p>
+<ul>
+<li>Específico: Implementar uma política de gestão de tempo para definir quando os funcionários devem responder e-mails e telefonemas.</li>
+<li>Mensurável: A produtividade será medida pela quantidade de tarefas concluídas em um dia de trabalho.</li>
+<li>Alcançável: A empresa pode contratar um especialista em gestão de tempo para ajudar a desenvolver a política.</li>
+<li>Relevante: Melhorar a produtividade dos funcionários é um objetivo importante para a empresa.</li>
+<li>Temporalmente definido: A política será implementada em um prazo de 3 meses.</li>
+</ul>
+<p>Passo 5: Desenvolva um plano de ação</p>
+<ul>
+<li>Contratar um especialista em gestão de tempo para desenvolver a política.</li>
+<li>Treinar os gerentes e funcionários sobre a nova política.</li>
+<li>Estabelecer um horário específico para responder e-mails e telefonemas.</li>
+<li>Monitorar a produtividade dos funcionários e fazer ajustes quando necessário.</li>
+</ul>
+<p>Passo 6: Avalie e ajuste</p>
+<ul>
+<li>Avaliar regularmente a produtividade dos funcionários e a eficácia da política de gestão de tempo.</li>
+<li>Fazer ajustes quando necessário para garantir que o objetivo seja alcançado.</li>
+</ul>
+<h2 id="em-resumo">Em resumo&hellip;</h2>
+<p>Ao utilizar a técnica dos cinco porquês e a metodologia SMART juntas, a empresa conseguiu definir claramente o problema e o objetivo, além de desenvolver um plano de ação específico para melhorar a produtividade dos funcionários. A empresa também pode avaliar regularmente a eficácia da política de gestão de tempo e fazer ajustes quando necessário para garantir que o objetivo seja alcançado.</p>
+<p>Até breve! 👋</p>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/definicao-do-problema/">Definição do problema</a>
+  
+  <a class="badge badge-light" href="/tag/definicao-de-objetivos/">Definição de objetivos</a>
+  
+  <a class="badge badge-light" href="/tag/conceitos/">Conceitos</a>
+  
+  <a class="badge badge-light" href="/tag/smart/">SMART</a>
+  
+  <a class="badge badge-light" href="/tag/tecnica-dos-cinco-porques/">Técnica dos cinco porquês</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://est125imd.netlify.app/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu9a8ec5fe3348faa62dfb3083e5d95d0c_47798_270x270_fill_lanczos_center_3.png" alt="Introdução à Mineração de Dados"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://est125imd.netlify.app/">Introdução à Mineração de Dados</a></h5>
+      <h6 class="card-subtitle">Semestre 2023-1</h6>
+      <p class="card-text">Disciplina eletiva oferecida pelo <a href="https://deest.ufop.br/" target="_blank" rel="noopener">Departamento de Estatística</a>.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/" >
+        <i class="fas fa-"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/tiagomartin/EST125" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/plano.pdf" >
+        <i class="fas fa-file-pdf"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2023 Tiago Pereira. Este trabalho está licenciado sob <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.d26509351aa0ff874abbee824e982e9b.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/pt/js/wowchemy.min.cb773e06e1906f5cce21cdad5b5cc243.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citação</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copiar
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

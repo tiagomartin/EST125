@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  
+  
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Wowchemy 5.7.0 for Hugo">
+
+  
+    <link rel="manifest" href="/manifest.webmanifest">
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hua3979484500520cd28bce95abdc02363_106305_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua3979484500520cd28bce95abdc02363_106305_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="https://est125imd.netlify.app/slides/pr-processamento-parte-04/">
+
+  <title>Pré-processamento - parte 04 | Introdução à Mineração de Dados</title>
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/white.min.css">
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css">
+  
+
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/reveal_custom.min.css">
+  
+</head>
+<body>
+
+  
+<div class="reveal">
+  <div class="slides">
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color="#54787d"
+  >
+
+<h2 id="transformação-de-dados">Transformação de dados</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p>As bases de dados brutas e integradas a partir de bases distintas podem sofrer, além de valores ausentes, ruídos e inconsistências, de dados não ou pouco padronizados.</p>
+<ul>
+<li>Por exemplo, pode haver valores de um mesmo atributo escritos em maiúsculo e outros em minúsculo, e os formatos e as unidades podem ser diferentes.</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p>Outro tipo de problema encontrado é a não uniformidade dos atributos, ou seja, alguns atributos podem ser numéricos, outros categóricos, e os domínios de cada atributo podem ser muito diferentes.</p>
+</li>
+<li>
+<p>Como podemos resolver esses problemas?</p>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p><a href="http://gph.is/1Vp16TL" target="_blank" rel="noopener noreferrer"><img src="https://media3.giphy.com/media/P4TqKx6NHyLnO/giphy.gif"  width="800" height="500"></a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p><strong>Padronização:</strong> Resolver as diferenças de unidades e escalas dos dados.</p>
+<ul>
+<li><strong>Capitalização:</strong> é usual padronizar as fontes,	normalmente para maiúsculo.</li>
+<li><strong>Padronização de formatos:</strong> observar e padronizar o formato de cada atributo da base, principalmente quando diferentes bases precisam ser integradas.</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p><strong>Conversão de unidades:</strong> todos os dados devem ser convertidos e padronizados em uma mesma unidade de medida.</p>
+</li>
+<li>
+<p><strong>Normalização:</strong> tornar os dados mais apropriados à aplicação de algum algoritmo de mineração.</p>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h4 id="tipos-de-normalização">Tipos de normalização</h4>
+<ul>
+<li><strong>Normalização Max-Min:</strong> Realiza uma transformação linear nos dados originais</li>
+</ul>
+<p><code>$$X' = \dfrac{X - \min(X)}{\max(X) - \min(X)}$$</code></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li><strong>Normalização pelo escore-z:</strong> Útil quando os valores máximo e mínimo de um atributo forem desconhecidos ou quando existe outliers.</li>
+</ul>
+<p><code>$$X' = \dfrac{X - \bar{X}}{s_X}$$</code></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li><strong>Normalização pelo escalonamento decimal:</strong> Move a casa decimal de um atributo <code>\(X\)</code>.</li>
+</ul>
+<p><code>$$X' = \dfrac{X}{10^j}$$</code></p>
+<p>em que <code>\(j\)</code> é o menor inteiro tal que <code>\(\max(|X'|)&lt; 1\)</code>.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li><strong>Normalização pela distância interquartilica:</strong> Toma o valor do atributo, subtrai a mediana e divide pela distância interquartílica ($DIQ = Q_3 - Q_1$)</li>
+</ul>
+<p><code>$$X' =  \dfrac{X - Q_2}{DIQ}$$</code></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h4 id="exemplo-de-uso-das-diferentes-normalizações">Exemplo de uso das diferentes normalizações</h4>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-34fe{background-color:#c0c0c0;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-34fe">ID</th>
+    <th class="tg-34fe">Valor original</th>
+    <th class="tg-34fe">Max-Min</th>
+    <th class="tg-34fe">Escore-z</th>
+    <th class="tg-34fe">Escalonamento decimal</th>
+    <th class="tg-34fe">Distância interquartílica</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">1</td>
+    <td class="tg-c3ow">67</td>
+    <td class="tg-c3ow">0,85</td>
+    <td class="tg-c3ow">0,73</td>
+    <td class="tg-c3ow">0,67</td>
+    <td class="tg-c3ow">0,40</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">2</td>
+    <td class="tg-c3ow">43</td>
+    <td class="tg-c3ow">0,33</td>
+    <td class="tg-c3ow">-0,92</td>
+    <td class="tg-c3ow">0,43</td>
+    <td class="tg-c3ow">-0,80</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">3</td>
+    <td class="tg-c3ow">58</td>
+    <td class="tg-c3ow">0,65</td>
+    <td class="tg-c3ow">0,11</td>
+    <td class="tg-c3ow">0,58</td>
+    <td class="tg-c3ow">-0,05</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">4</td>
+    <td class="tg-c3ow">28</td>
+    <td class="tg-c3ow">0,00</td>
+    <td class="tg-c3ow">-1,96</td>
+    <td class="tg-c3ow">0,28</td>
+    <td class="tg-c3ow">-1,55</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">5</td>
+    <td class="tg-c3ow">74</td>
+    <td class="tg-c3ow">1,00</td>
+    <td class="tg-c3ow">1,21</td>
+    <td class="tg-c3ow">0,74</td>
+    <td class="tg-c3ow">0,75</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">6</td>
+    <td class="tg-c3ow">65</td>
+    <td class="tg-c3ow">0,80</td>
+    <td class="tg-c3ow">0,59</td>
+    <td class="tg-c3ow">0,65</td>
+    <td class="tg-c3ow">0,30</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">7</td>
+    <td class="tg-c3ow">70</td>
+    <td class="tg-c3ow">0,91</td>
+    <td class="tg-c3ow">0,94</td>
+    <td class="tg-c3ow">0,70</td>
+    <td class="tg-c3ow">0,55</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">8</td>
+    <td class="tg-c3ow">42</td>
+    <td class="tg-c3ow">0,30</td>
+    <td class="tg-c3ow">-0,99</td>
+    <td class="tg-c3ow">0,42</td>
+    <td class="tg-c3ow">-0,85</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">9</td>
+    <td class="tg-c3ow">57</td>
+    <td class="tg-c3ow">0,63</td>
+    <td class="tg-c3ow">0,04</td>
+    <td class="tg-c3ow">0,57</td>
+    <td class="tg-c3ow">-0,10</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">10</td>
+    <td class="tg-c3ow">60</td>
+    <td class="tg-c3ow">0,70</td>
+    <td class="tg-c3ow">0,25</td>
+    <td class="tg-c3ow">0,60</td>
+    <td class="tg-c3ow">0,05</td>
+  </tr>
+</tbody>
+</table>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li><strong>Transformação logarítmica:</strong> Usada para reduzir a assimetria e a variância dos dados. É especialmente útil quando os dados estão distribuídos de forma exponencial ou quando há um grande intervalo de valores entre as observações.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li><strong>Transformação de raiz quadrada:</strong> Similar à transformação logarítmica, com o benefício de manter a escala original dos dados, facilitando a interpretação.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>A transformação logarítmica é mais adequada para dados com caudas longas e uma grande variação, enquanto a transformação da raiz quadrada é mais adequada para dados com uma variação moderada. Além disso, a o uso de logarítmos tem o efeito de estabilizar a variância dos dados, enquanto a o uso da raiz quadrada tem o efeito de reduzir a variância dos dados.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color="#54787d"
+  >
+
+<h2 id="discretização-de-dados">Discretização de dados</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p><strong>Discretização</strong> é o processo de transformar uma variável contínua em uma variável categórica ou discreta.</p>
+</li>
+<li>
+<p>É útil quando se deseja agrupar valores contínuos em categorias ou intervalos para simplificar a análise ou reduzir o efeito de valores extremos.</p>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p>Algumas das técnicas comuns de discretização incluem:</p>
+<ul>
+<li><strong>Discretização equi-probabilística:</strong> Essa técnica envolve a divisão dos dados em intervalos de tamanho igual, de modo que cada intervalo contenha aproximadamente a mesma quantidade de observações.</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li><strong>Discretização equi-distante:</strong> Nessa técnica, os dados são divididos em intervalos de tamanho igual, com base em uma distância predefinida.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li><strong>Discretização por quartis:</strong> Os dados são divididos em quartis, com base nos valores de corte que dividem os dados em quatro partes iguais.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li><strong>Discretização por frequência:</strong> Os dados são divididos em intervalos com base na frequência de observações em cada intervalo.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li><strong>Binarização:</strong> A binarização é uma técnica de transformação de dados que converte valores quantitativos em valores binários (0 ou 1) com base em um valor de corte.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h4 id="exemplo-de-binarização">Exemplo de binarização</h4>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Binarização" srcset="
+               /slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_e1a9655242eec606d577c408f55ea7c9.webp 400w,
+               /slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_91fdac6ed31c1b73c1add7b78bd0caf4.webp 760w,
+               /slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/pr-processamento-parte-04/fig05_hub7ca446894cc89171f15829b064b2105_56968_e1a9655242eec606d577c408f55ea7c9.webp"
+               width="410"
+               height="498"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li><strong>One-Hot Encoding:</strong> O One-Hot Encoding é uma técnica de transformação de dados que converte variáveis categóricas em vetores binários para permitir a análise em modelos de machine learning.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h4 id="exemplo-de-one-hot-enconding">Exemplo de one-hot enconding</h4>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="OHE" srcset="
+               /slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_f188e515d74eea0bdbbe1d1bb1bb3531.webp 400w,
+               /slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_6ac49b5ca25303f918575b1986350417.webp 760w,
+               /slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/pr-processamento-parte-04/fig08_huc39a21dfe6e0cf26ed491e19247e8c2e_21015_f188e515d74eea0bdbbe1d1bb1bb3531.webp"
+               width="760"
+               height="277"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+
+    </section>
+    
+
+    
+    
+  </div>
+</div>
+
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/search/search.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/math/math.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
+
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/plugin.js" integrity="sha256-M6JwAjnRAWmi+sbXURR/yAhWZKYhAw7YXnnLvIxrdGs=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js" integrity="sha256-l14dklFcW5mWar6w/9KaW0fWVerf3mYr7Wt0+rXzFAA=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css" integrity="sha256-0fU8HKLaTjgzfaV9CgSqbsN8ilA3zo6zK1M6rlgULd8=" crossorigin="anonymous">
+  
+
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@9.1.3/dist/mermaid.min.js" integrity="sha256-TIYL00Rhw/8WaoUhYTLX9SKIEFdXxg+yMWSLVUbhiLg=" crossorigin="anonymous" title="mermaid"></script>
+  
+
+  
+  
+  <script src="/js/wowchemy-slides.js"></script>
+
+</body>
+</html>

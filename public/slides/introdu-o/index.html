@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  
+  
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Wowchemy 5.7.0 for Hugo">
+
+  
+    <link rel="manifest" href="/manifest.webmanifest">
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hua3979484500520cd28bce95abdc02363_106305_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua3979484500520cd28bce95abdc02363_106305_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="https://est125imd.netlify.app/slides/introdu-o/">
+
+  <title>Pré-processamento - parte 01 | Introdução à Mineração de Dados</title>
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/white.min.css">
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css">
+  
+
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/reveal_custom.min.css">
+  
+</head>
+<body>
+
+  
+<div class="reveal">
+  <div class="slides">
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color="#54787d"
+  >
+
+<h2 id="pré-processamento-de-dados">Pré-processamento de dados</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p><strong>Pré-processamento</strong> de dados se define como um conjunto de técnicas e procedimentos aplicados aos dados <strong>antes</strong> de sua utilização em um modelo ou algoritmo de análise.</p>
+<p>É uma etapa fundamental na análise de dados, pois visa garantir que os dados estejam <strong>corretos</strong>, <strong>completos</strong>, <strong>coerentes</strong> e em um <strong>formato</strong> apropriado para serem analisados.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p>O pré-processamento de dados inclui diversas atividades, como limpeza de dados, transformação de dados, redução de dimensão, seleção de recursos, normalização e amostragem.</p>
+<p>O objetivo geral do pré-processamento de dados é aumentar a qualidade e a precisão da análise de dados, minimizando a influência de ruídos e inconsistências nos resultados finais.</p>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color="#54787d"
+  >
+
+<h2 id="importância-do-pré-processamento">Importância do pré-processamento</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p>O pré-processamento de dados é uma etapa importante e crítica no processo de análise de dados. Algumas razões pelas quais é importante realizar o pré-processamento são&hellip;</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ol>
+<li><strong>Melhoria da qualidade dos dados:</strong> O pré-processamento de dados pode ajudar a melhorar a qualidade dos dados, eliminando dados duplicados, ausentes ou inconsistentes. Isso resulta em dados mais precisos e confiáveis para análise.</li>
+</ol>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ol start="2">
+<li><strong>Ajuste dos dados para a análise:</strong> Muitos modelos e algoritmos de análise de dados requerem que os dados estejam em um formato específico. Na etapa do pré-processamento de dados ajusta-se os dados para que estejam em um formato adequado para a análise.</li>
+</ol>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ol start="3">
+<li><strong>Eliminação de ruídos:</strong> Os dados geralmente contêm ruídos, como outliers e valores extremos, que podem afetar negativamente a precisão dos resultados finais. Nesta etapa, elimina-se esses ruídos, tornando os resultados mais precisos.</li>
+</ol>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ol start="4">
+<li><strong>Redução da complexidade dos dados:</strong> Podemos reduzir a complexidade dos dados, eliminando variáveis desnecessárias e reduzindo o número de dimensões do conjunto de dados. Isso torna mais fácil a análise e interpretação dos dados.</li>
+</ol>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ol start="5">
+<li><strong>Melhoria do desempenho do modelo:</strong> O pré-processamento de dados pode ajudar a melhorar o desempenho do modelo, ao remover dados redundantes, normalizar os dados e selecionar os recursos mais importantes. Isso resulta em modelos mais precisos e confiáveis.</li>
+</ol>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p><a href="https://www.forbes.com/sites/gilpress/2016/03/23/data-preparation-most-time-consuming-least-enjoyable-data-science-task-survey-says/?sh=34ce9abe6f63" target="_blank" rel="noopener noreferrer"><img src="time.jpg"  width="1000" height="400"></a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p><a href="https://gph.is/g/Eq2rpxa" target="_blank" rel="noopener noreferrer"><img src="https://media3.giphy.com/media/9u514UZd57mRhnBCEk/giphy.gif"  width="800" height="500"></a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h4 id="o-que-há-de-errado-nessa-base">O que há de errado nessa base?</h4>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-34fe{background-color:#c0c0c0;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-34fe">Usuário</th>
+    <th class="tg-34fe">Idade</th>
+    <th class="tg-34fe">Cidade</th>
+    <th class="tg-34fe">Data</th>
+    <th class="tg-34fe">Salário</th>
+    <th class="tg-34fe">Npáginas</th>
+    <th class="tg-34fe">Nsessões</th>
+    <th class="tg-34fe">Nprodutos</th>
+    <th class="tg-34fe">Clique</th>
+    <th class="tg-34fe">Comprou</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">user1</td>
+    <td class="tg-c3ow">22</td>
+    <td class="tg-c3ow">Belo Horizonte</td>
+    <td class="tg-c3ow">22/10/21</td>
+    <td class="tg-c3ow">1200</td>
+    <td class="tg-c3ow">5</td>
+    <td class="tg-c3ow">2</td>
+    <td class="tg-c3ow">5</td>
+    <td class="tg-c3ow">no</td>
+    <td class="tg-c3ow">no</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">user2</td>
+    <td class="tg-c3ow">1</td>
+    <td class="tg-c3ow">São paulo</td>
+    <td class="tg-c3ow">20/09/22</td>
+    <td class="tg-c3ow">5000</td>
+    <td class="tg-c3ow">21</td>
+    <td class="tg-c3ow">4</td>
+    <td class="tg-c3ow">11</td>
+    <td class="tg-c3ow">yes</td>
+    <td class="tg-c3ow">yes</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">user 3</td>
+    <td class="tg-c3ow">41</td>
+    <td class="tg-c3ow">BH</td>
+    <td class="tg-c3ow">23 de dezembro 2022</td>
+    <td class="tg-c3ow">12000</td>
+    <td class="tg-c3ow">2</td>
+    <td class="tg-c3ow">1</td>
+    <td class="tg-c3ow">3</td>
+    <td class="tg-c3ow">NA</td>
+    <td class="tg-c3ow">yes</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">user 4</td>
+    <td class="tg-c3ow">32</td>
+    <td class="tg-c3ow">Miami</td>
+    <td class="tg-c3ow">22/10/01</td>
+    <td class="tg-c3ow">50000</td>
+    <td class="tg-c3ow">NA</td>
+    <td class="tg-c3ow">5</td>
+    <td class="tg-c3ow">2</td>
+    <td class="tg-c3ow">yes</td>
+    <td class="tg-c3ow">no</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">user5</td>
+    <td class="tg-c3ow">20</td>
+    <td class="tg-c3ow">Tokyo</td>
+    <td class="tg-c3ow">23/01/25</td>
+    <td class="tg-c3ow">12220</td>
+    <td class="tg-c3ow">5</td>
+    <td class="tg-c3ow">5</td>
+    <td class="tg-c3ow">8</td>
+    <td class="tg-c3ow">no</td>
+    <td class="tg-c3ow">yes</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">user6</td>
+    <td class="tg-c3ow">28</td>
+    <td class="tg-c3ow">NY</td>
+    <td class="tg-c3ow">March 14, 2018</td>
+    <td class="tg-c3ow">250000</td>
+    <td class="tg-c3ow">8</td>
+    <td class="tg-c3ow">NA</td>
+    <td class="tg-c3ow">NA</td>
+    <td class="tg-c3ow">no</td>
+    <td class="tg-c3ow">yes</td>
+  </tr>
+</tbody>
+</table>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h4 id="principais-problemas-com-dados-reais">Principais problemas com dados reais</h4>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Principais problemas" srcset="
+               /slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_c00bd2e75c637541db204e5d95bd12d8.webp 400w,
+               /slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_c9fcdbecc073d3e348652dfb72f57e7e.webp 760w,
+               /slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/introdu-o/tipos_huaac90708742c7aacea712d0299b90f93_33413_c00bd2e75c637541db204e5d95bd12d8.webp"
+               width="760"
+               height="191"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h4 id="tipos-de-dados">Tipos de dados</h4>
+<p>Os dados podem ser classificados em três tipos principais: estruturados, semiestruturados e não estruturados</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h4 id="estruturados">Estruturados</h4>
+<p>São dados organizados em uma estrutura definida, como tabelas, colunas e linhas em um banco de dados.</p>
+<ul>
+<li><strong>Exemplos:</strong> informações de vendas, cadastros de clientes, registros de transações financeiras, entre outros.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p>Para dados estruturados, a técnica de pré-processamento mais comum é a <strong>limpeza de dados</strong>, além da <strong>seleção de atributos relevantes</strong>, <strong>normalização</strong> e <strong>transformação</strong> de dados.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h4 id="semiestruturados">Semiestruturados</h4>
+<p>São dados que não possuem uma estrutura rígida como os dados estruturados, mas possuem algumas formas de organização, como marcadores, tags ou atributos.</p>
+<ul>
+<li><strong>Exemplos:</strong> arquivos XML, JSON, HTML, entre outros.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p>Para dados semiestruturados, a técnica de pré-processamento mais comum é a <strong>extração de informações relevantes</strong>, que envolve a identificação de padrões e estruturas em dados como XML, JSON ou HTML, além da <strong>extração de dados</strong> a partir dessas estruturas.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h4 id="não-estruturados">Não estruturados</h4>
+<p>São dados que não possuem uma estrutura definida e estão em formato livre, como texto, imagens, vídeos, áudios, e-mails, redes sociais, entre outros. Exigem o uso de técnicas mais avançadas de <strong>processamento de linguagem natural</strong>, <strong>reconhecimento de padrões</strong> e <strong>aprendizado de máquina</strong>.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p>Com o aumento da quantidade de dados gerados diariamente, a análise de <strong>dados semiestruturados</strong> e <strong>não estruturados</strong> tem se tornado cada vez mais importante para empresas que desejam obter insights valiosos sobre seus clientes, mercado e tendências.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="processo-de-preparação-da-base-de-dados">Processo de preparação da base de dados</h3>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Preparação da base de dados" srcset="
+               /slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_086e6e28bb3c6727d670ab0d64c57c4e.webp 400w,
+               /slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_d067a00a0db0a1628f8f5fcb476f3a34.webp 760w,
+               /slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/introdu-o/pre_hu2144a45c3cbb9a2f2ad3c5818b55da2c_18071_086e6e28bb3c6727d670ab0d64c57c4e.webp"
+               width="687"
+               height="134"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+
+    </section>
+    
+
+    
+    
+  </div>
+</div>
+
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/search/search.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/math/math.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
+
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/plugin.js" integrity="sha256-M6JwAjnRAWmi+sbXURR/yAhWZKYhAw7YXnnLvIxrdGs=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js" integrity="sha256-l14dklFcW5mWar6w/9KaW0fWVerf3mYr7Wt0+rXzFAA=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css" integrity="sha256-0fU8HKLaTjgzfaV9CgSqbsN8ilA3zo6zK1M6rlgULd8=" crossorigin="anonymous">
+  
+
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@9.1.3/dist/mermaid.min.js" integrity="sha256-TIYL00Rhw/8WaoUhYTLX9SKIEFdXxg+yMWSLVUbhiLg=" crossorigin="anonymous" title="mermaid"></script>
+  
+
+  
+  
+  <script src="/js/wowchemy-slides.js"></script>
+
+</body>
+</html>

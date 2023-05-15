@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Técnica dos cinco porquês | Introdução à Mineração de Dados</title>
+    <link>https://est125imd.netlify.app/tag/tecnica-dos-cinco-porques/</link>
+      <atom:link href="https://est125imd.netlify.app/tag/tecnica-dos-cinco-porques/index.xml" rel="self" type="application/rss+xml" />
+    <description>Técnica dos cinco porquês</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt-br</language><lastBuildDate>Mon, 15 May 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://est125imd.netlify.app/media/icon_hua3979484500520cd28bce95abdc02363_106305_512x512_fill_lanczos_center_3.png</url>
+      <title>Técnica dos cinco porquês</title>
+      <link>https://est125imd.netlify.app/tag/tecnica-dos-cinco-porques/</link>
+    </image>
+    
+    <item>
+      <title>Como a técnica dos cinco porquês e a metodologia SMART podem transformar a resolução de problemas</title>
+      <link>https://est125imd.netlify.app/post/como-a-t-cnica-dos-cinco-porqu-s-e-a-metodologia-smart-podem-transformar-a-resolu-o-de-problemas/</link>
+      <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://est125imd.netlify.app/post/como-a-t-cnica-dos-cinco-porqu-s-e-a-metodologia-smart-podem-transformar-a-resolu-o-de-problemas/</guid>
+      <description>&lt;p&gt;Olá pessoal, beleza?&lt;/p&gt;
+&lt;p&gt;Quando enfrentamos um problema, muitas vezes é difícil identificar a raiz do problema e traçar um plano para resolvê-lo. A técnica dos cinco porquês e a metodologia SMART são duas ferramentas que podem ser usadas em conjunto para ajudar na definição clara do problema e objetivo.&lt;/p&gt;
+&lt;p&gt;A técnica dos cinco porquês é uma técnica de análise de causa e efeito, desenvolvida pelo fundador da Toyota, &lt;a href=&#34;https://pt.wikipedia.org/wiki/Sakichi_Toyoda&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sakichi Toyoda&lt;/a&gt;, para ajudar na identificação da causa raiz de um problema. Essa técnica consiste em perguntar &amp;ldquo;por que?&amp;rdquo; repetidamente até que se chegue à causa raiz do problema. Essas perguntas ajudam a aprofundar a análise, ajudando a entender melhor as conexões entre as causas e efeitos. A técnica dos cinco porquês é uma ferramenta simples e poderosa que pode ser aplicada em vários campos.&lt;/p&gt;
+&lt;p&gt;A metodologia SMART, por sua vez, é um acrônimo para Specific (específico), Measurable (mensurável), Achievable (alcançável), Relevant (relevante) e Time-bound (temporalmente definido). É uma técnica para definir objetivos de forma clara e específica, com prazos realistas e mensuráveis. Isso ajuda a definir metas claras e alcançáveis, tornando mais fácil avaliar o progresso e fazer ajustes quando necessário.&lt;/p&gt;
+&lt;p&gt;Quando usadas juntas, a técnica dos cinco porquês e a metodologia SMART podem ajudar a definir e resolver problemas de forma eficiente. Veja como:&lt;/p&gt;
+&lt;p&gt;Imagine que uma empresa está enfrentando problemas com a produtividade dos funcionários. Os gerentes notaram que os funcionários estão produzindo menos do que o esperado e isso está afetando a qualidade do trabalho. Vamos utilizar a técnica dos cinco porquês e a metodologia SMART para definir o problema e o objetivo.&lt;/p&gt;
+&lt;p&gt;Passo 1: Identifique o problema  -  O problema é a baixa produtividade dos funcionários&lt;/p&gt;
+&lt;p&gt;Passo 2: Utilize a técnica dos cinco porquês&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Por que os funcionários estão produzindo menos do que o esperado? Porque estão demorando muito tempo para concluir as tarefas.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Por que estão demorando muito tempo para concluir as tarefas? Porque estão interrompendo constantemente o trabalho para responder e-mails e telefonemas.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Por que estão interrompendo constantemente o trabalho para responder e-mails e telefonemas? Porque não têm um horário definido para fazer essas tarefas.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Por que não têm um horário definido para fazer essas tarefas? Porque não receberam orientação clara sobre como gerenciar seu tempo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Por que não receberam orientação clara sobre como gerenciar seu tempo? Porque a empresa não tem uma política de gestão de tempo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Passo 3: Identifique o objetivo  -  O objetivo é implementar uma política de gestão de tempo para melhorar a produtividade dos funcionários.&lt;/p&gt;
+&lt;p&gt;Passo 4: Utilize a metodologia SMART&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Específico: Implementar uma política de gestão de tempo para definir quando os funcionários devem responder e-mails e telefonemas.&lt;/li&gt;
+&lt;li&gt;Mensurável: A produtividade será medida pela quantidade de tarefas concluídas em um dia de trabalho.&lt;/li&gt;
+&lt;li&gt;Alcançável: A empresa pode contratar um especialista em gestão de tempo para ajudar a desenvolver a política.&lt;/li&gt;
+&lt;li&gt;Relevante: Melhorar a produtividade dos funcionários é um objetivo importante para a empresa.&lt;/li&gt;
+&lt;li&gt;Temporalmente definido: A política será implementada em um prazo de 3 meses.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Passo 5: Desenvolva um plano de ação&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Contratar um especialista em gestão de tempo para desenvolver a política.&lt;/li&gt;
+&lt;li&gt;Treinar os gerentes e funcionários sobre a nova política.&lt;/li&gt;
+&lt;li&gt;Estabelecer um horário específico para responder e-mails e telefonemas.&lt;/li&gt;
+&lt;li&gt;Monitorar a produtividade dos funcionários e fazer ajustes quando necessário.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Passo 6: Avalie e ajuste&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Avaliar regularmente a produtividade dos funcionários e a eficácia da política de gestão de tempo.&lt;/li&gt;
+&lt;li&gt;Fazer ajustes quando necessário para garantir que o objetivo seja alcançado.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;em-resumo&#34;&gt;Em resumo&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;Ao utilizar a técnica dos cinco porquês e a metodologia SMART juntas, a empresa conseguiu definir claramente o problema e o objetivo, além de desenvolver um plano de ação específico para melhorar a produtividade dos funcionários. A empresa também pode avaliar regularmente a eficácia da política de gestão de tempo e fazer ajustes quando necessário para garantir que o objetivo seja alcançado.&lt;/p&gt;
+&lt;p&gt;Até breve! 👋&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  
+  
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Wowchemy 5.7.0 for Hugo">
+
+  
+    <link rel="manifest" href="/manifest.webmanifest">
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hua3979484500520cd28bce95abdc02363_106305_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua3979484500520cd28bce95abdc02363_106305_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="https://est125imd.netlify.app/slides/pr-processamento-parte-02/">
+
+  <title>Pré-processamento - parte 02 | Introdução à Mineração de Dados</title>
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/white.min.css">
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css">
+  
+
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/reveal_custom.min.css">
+  
+</head>
+<body>
+
+  
+<div class="reveal">
+  <div class="slides">
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color="#54787d"
+  >
+
+<h2 id="limpeza-de-dados">Limpeza de dados</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="o-que-é-limpeza-de-dados">O que é limpeza de dados?</h3>
+<ul>
+<li>
+<p><strong>Limpeza de dados</strong> é o processo de identificar, remover ou corrigir dados imprecisos, incompletos, inconsistentes, duplicados ou irrelevantes em um conjunto de dados.</p>
+</li>
+<li>
+<p>É uma etapa importante no processo de análise de dados, uma vez que dados sujos podem afetar negativamente a qualidade e confiabilidade dos resultados da análise.</p>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="identificação-de-problemas">Identificação de problemas</h3>
+<ul>
+<li>
+<p>Existem várias técnicas para identificar problemas de limpeza de dados em um conjunto de dados. Algumas das técnicas mais comuns incluem:</p>
+</li>
+<li>
+<p><strong>Análise visual:</strong> pode-se inspecionar o conjunto de dados para identificar erros óbvios, como valores ausentes, valores que não fazem sentido ou valores extremos.</p>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li><strong>Estatística descritiva:</strong> realizar uma boa análise descritiva. Valores extremos ou valores que estão muito longe do intervalo interquartil, por exemplo, podem ser indicativos de problemas de limpeza de dados.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li><strong>Gráficos de distribuição:</strong> analisar os gráficos de distribuição para cada variável e observar padrões incomuns na distribuição dos valores, como bimodalidade, assimetria ou outliers.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p><strong>Análise de correlação:</strong> analisar as correlações entre as variáveis e procurar relações que não fazem sentido ou que não deveriam existir.</p>
+</li>
+<li>
+<p><strong>Análise de consistência:</strong> comparar valores em diferentes variáveis para ver se eles são consistentes entre si. Por exemplo, se uma pessoa é descrita como tendo 2 metros de altura e 30 kg de peso, pode haver um problema de limpeza de dados.</p>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color="#54787d"
+  >
+
+<h2 id="tratamento-de-dados-faltantes">Tratamento de dados faltantes</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p><a href="https://gph.is/2Tz7gn7" target="_blank" rel="noopener noreferrer"><img src="https://media2.giphy.com/media/3s0OTExhi8qzSC3nHC/giphy.gif"  width="800" height="500"></a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p><em>“The idea of imputation is both seductive and dangerous” (R.J.A Little &amp; D.B. Rubin)</em></p>
+<ul>
+<li>
+<p>A escolha do método de tratamento de valor ausente depende do tipo de valor ausente identificado.</p>
+</li>
+<li>
+<p>Basicamente, existem dois tipos de valores ausentes: aleatórios e não aleatórios</p>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p><strong>MCAR (missing completely at random):</strong> ocorrem de forma completamente aleatória e não estão relacionados com as outras variáveis do conjunto de dados.</p>
+<ul>
+<li>Por exemplo, em uma pesquisa por telefone algumas das respostas não foram registradas devido a problemas técnicos que ocorreram aleatoriamente durante a coleta dos dados.</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p><strong>MNAR (missing not at random):</strong> são valores ausentes que estão relacionados com outras variáveis do conjunto de dados e podem levar a enviesamento na análise dos dados.</p>
+<ul>
+<li>Por exemplo, em uma pesquisa sobre saúde mental, as pessoas que sofrem de depressão tendem a não responder perguntas sobre sua condição de saúde mental.</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color="#54787d"
+  >
+
+<h2 id="como-identificar-o-mecanismo-gerador-dos-dados-faltantes">Como identificar o mecanismo gerador dos dados faltantes?</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p>Para identificar valores ausentes MCAR, uma técnica é analisar a distribuição de valores ausentes em relação às outras variáveis do conjunto de dados.</p>
+</li>
+<li>
+<p>Se não houver correlação entre a ausência de valores e outras variáveis, é provável que os valores ausentes sejam MCAR.</p>
+</li>
+<li>
+<p>Também é possível realizar testes estatísticos para verificar se a distribuição dos valores ausentes é aleatória ou não.</p>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p>Já a identificação de valores ausentes MNAR é mais complexa, pois eles estão relacionados a outras variáveis do conjunto de dados e, portanto, é mais difícil determinar se eles são completamente aleatórios ou não.</p>
+</li>
+<li>
+<p>Algumas técnicas para identificar valores ausentes MNAR incluem:</p>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li><strong>Análise de padrões de resposta:</strong> é possível analisar como objetos com valores ausentes se diferenciam daqueles que não têm valores ausentes, em termos dos atributos. Se os indivíduos com valores ausentes são significativamente diferentes em relação a essas variáveis, é provável que os valores ausentes sejam MNAR.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li><strong>Análise de correlação:</strong> é possível analisar a correlação entre as variáveis com valores ausentes e outras variáveis no conjunto de dados. Se houver uma correlação significativa entre as variáveis, é possível que os valores ausentes sejam MNAR.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p><strong>Análise visual:</strong> é possível realizar análises gráficas para verificar se há algum padrão de valores ausentes que sugira que eles não são aleatórios.</p>
+<ul>
+<li>Por exemplo, pode-se criar um gráfico de dispersão de uma variável em relação a outra, marcando as observações com valores ausentes. Se houver um padrão na localização dos valores ausentes no gráfico, é possível que eles sejam MNAR.</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color="#54787d"
+  >
+
+<h2 id="tratamento-de-valores-ausentes-completamente-aleatórios">Tratamento de valores ausentes completamente aleatórios</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p>O tratamento de valores ausentes completamente aleatórios (MCAR) é relativamente simples, pois os valores ausentes são independentes das demais variáveis e podem ser tratados sem viés.</p>
+</li>
+<li>
+<p>Algumas técnicas comuns para lidar com valores ausentes MCAR incluem</p>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p><strong>Exclusão de registros com valores ausentes:</strong> Se a proporção de valores ausentes é pequena em relação ao tamanho do conjunto de dados, é possível excluir os registros que contêm valores ausentes sem comprometer a análise.</p>
+<ul>
+<li>No entanto, isso pode levar a uma perda de informações valiosas e reduzir o tamanho do conjunto de dados.</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p><strong>Imputação de valores:</strong> Se o número de valores ausentes é grande, é possível imputar os valores ausentes usando métodos estatísticos, como a média, mediana ou regressão.</p>
+<ul>
+<li>Esses métodos são simples e rápidos, mas podem introduzir um viés nos resultados, dependendo da distribuição dos valores ausentes e da escolha do método de imputação.</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p><strong>Modelagem com técnicas de aprendizado de máquina:</strong> As técnicas de aprendizado de máquina podem ajudar a prever valores ausentes com base em outros dados disponíveis.</p>
+<ul>
+<li>Essa abordagem pode ser mais precisa do que a imputação de valores, mas também pode ser mais complexa e exigir um conjunto de dados de treinamento grande o suficiente para o modelo aprender a relação entre as variáveis.</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color="#54787d"
+  >
+
+<h2 id="tratamento-de-valores-ausentes-não-aleatórios">Tratamento de valores ausentes não aleatórios</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p>O tratamento de valores ausentes não aleatórios (MNAR) é mais complexo do que o tratamento de valores ausentes completamente aleatórios (MCAR), pois os valores ausentes estão relacionados a outras variáveis do conjunto de dados e podem levar a um viés na análise se não forem tratados adequadamente.</p>
+</li>
+<li>
+<p>Algumas técnicas comuns para lidar com valores ausentes MNAR incluem:</p>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li><strong>Modelagem com técnicas de aprendizado de máquina:</strong> Como os valores ausentes MNAR estão relacionados a outras variáveis do conjunto de dados, a modelagem com técnicas de aprendizado de máquina pode ser uma abordagem útil para prever os valores ausentes com base nas informações disponíveis.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p><strong>Imputação baseada em modelos:</strong> A imputação baseada em modelos é uma técnica que envolve a construção de um modelo estatístico para prever os valores ausentes com base nas informações disponíveis.</p>
+<ul>
+<li>Essa abordagem requer um conhecimento prévio da relação entre as variáveis e pode ser mais complexa do que outros métodos de imputação.</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p><strong>Análise de sensibilidade:</strong> A análise de sensibilidade é uma técnica que envolve testar diferentes cenários e valores de imputação para avaliar o impacto nos resultados da análise.</p>
+<ul>
+<li>Essa abordagem pode ajudar a identificar os valores mais plausíveis para a imputação e a avaliar a robustez dos resultados.</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color="#54787d"
+  >
+
+<h2 id="tratamento-de-valores-inconsistentes">Tratamento de valores inconsistentes</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>O tratamento de valores inconsistentes é importante para garantir a qualidade e a confiabilidade dos dados, pois valores inconsistentes podem afetar negativamente a análise e a interpretação dos resultados.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Inconsistência" srcset="
+               /slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_62cad6d558238f06067af9c12cf63f86.webp 400w,
+               /slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_3603cff5b19d917fb9397df2c3f4e69d.webp 760w,
+               /slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/slides/pr-processamento-parte-02/inconsistente_hu37177e6d8562e201653d991553e70d93_69252_62cad6d558238f06067af9c12cf63f86.webp"
+               width="725"
+               height="294"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p>Algumas técnicas comuns para lidar com valores inconsistentes incluem:</p>
+<ul>
+<li><strong>Identificação de valores inconsistentes:</strong> Verifica-se os valores em cada variável, comparando-os com os valores esperados ou com outras fontes de dados. Também é possível usar técnicas de detecção de outliers para identificar valores inconsistentes automaticamente.</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p><strong>Correção manual:</strong> Para valores inconsistentes que podem ser facilmente corrigidos, a correção manual pode ser uma abordagem eficaz.</p>
+<ul>
+<li>Isso pode incluir a revisão manual dos dados e a correção de erros, como erros de digitação ou valores fora do intervalo esperado.</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p><strong>Imputação de valores:</strong> Para valores inconsistentes que não podem ser facilmente corrigidos, a imputação de valores pode ser uma abordagem útil.</p>
+<ul>
+<li>Isso envolve a substituição de valores inconsistentes por valores estimados com base em outras informações disponíveis no conjunto de dados.</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p><strong>Exclusão de registros:</strong> Para valores inconsistentes que não podem ser corrigidos e não podem ser imputados com precisão, a exclusão de registros pode ser uma abordagem apropriada.</p>
+<ul>
+<li>Isso envolve a remoção dos registros com valores inconsistentes do conjunto de dados.</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+  </div>
+</div>
+
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/search/search.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/math/math.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
+
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/plugin.js" integrity="sha256-M6JwAjnRAWmi+sbXURR/yAhWZKYhAw7YXnnLvIxrdGs=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js" integrity="sha256-l14dklFcW5mWar6w/9KaW0fWVerf3mYr7Wt0+rXzFAA=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css" integrity="sha256-0fU8HKLaTjgzfaV9CgSqbsN8ilA3zo6zK1M6rlgULd8=" crossorigin="anonymous">
+  
+
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@9.1.3/dist/mermaid.min.js" integrity="sha256-TIYL00Rhw/8WaoUhYTLX9SKIEFdXxg+yMWSLVUbhiLg=" crossorigin="anonymous" title="mermaid"></script>
+  
+
+  
+  
+  <script src="/js/wowchemy-slides.js"></script>
+
+</body>
+</html>

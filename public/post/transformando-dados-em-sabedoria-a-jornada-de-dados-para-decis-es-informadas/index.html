@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: 15 de maio de 2023 --><html lang="pt-br" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.0f229d4b7ebad1917a9a357cba2effab.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Introdução à Mineração de Dados" />
+
+
+
+
+
+  
+
+<meta name="description" content="Dados são a matéria-prima da informação, que se torna o alicerce do conhecimento, que, por sua vez, pode ser elevado à sabedoria com reflexão e experiência." />
+
+
+
+<link rel="alternate" hreflang="pt-br" href="https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/" />
+<link rel="canonical" href="https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hua3979484500520cd28bce95abdc02363_106305_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hua3979484500520cd28bce95abdc02363_106305_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary_large_image" />
+
+  <meta property="twitter:site" content="@wowchemy" />
+  <meta property="twitter:creator" content="@wowchemy" />
+<meta property="twitter:image" content="https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/featured.jpeg" />
+<meta property="og:site_name" content="Introdução à Mineração de Dados" />
+<meta property="og:url" content="https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/" />
+<meta property="og:title" content="Transformando dados em sabedoria: a jornada de dados para decisões informadas. | Introdução à Mineração de Dados" />
+<meta property="og:description" content="Dados são a matéria-prima da informação, que se torna o alicerce do conhecimento, que, por sua vez, pode ser elevado à sabedoria com reflexão e experiência." /><meta property="og:image" content="https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/featured.jpeg" /><meta property="og:locale" content="pt-br" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2023-04-13T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2023-04-13T11:08:49-03:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/"
+  },
+  "headline": "Transformando dados em sabedoria: a jornada de dados para decisões informadas.",
+  
+  "image": [
+    "https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/featured.jpeg"
+  ],
+  
+  "datePublished": "2023-04-13T00:00:00Z",
+  "dateModified": "2023-04-13T11:08:49-03:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Introdução à Mineração de Dados"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Introdução à Mineração de Dados",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://est125imd.netlify.app/media/icon_hua3979484500520cd28bce95abdc02363_106305_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Dados são a matéria-prima da informação, que se torna o alicerce do conhecimento, que, por sua vez, pode ser elevado à sabedoria com reflexão e experiência."
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Transformando dados em sabedoria: a jornada de dados para decisões informadas. | Introdução à Mineração de Dados</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="9f55f179a3d4491d94bcd7c2b77e7794" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.fe8634e7d00f14d07fb33caf14cc8e55.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Pesquisar</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Pesquisar..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Pesquisar...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Introdução à Mineração de Dados</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Alterar navegação">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Introdução à Mineração de Dados</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#skills-1"><span>Habilidades</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#aulas"><span>Aulas</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#scripts"><span>Scripts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projetos</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/uploads/ementa.pdf"><span>Ementa</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="/"  aria-label="">
+                <i class="fas fa-" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Pesquisar"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Transformando dados em sabedoria: a jornada de dados para decisões informadas.</h1>
+
+  
+  <p class="page-subtitle">Dados são a matéria-prima da informação, que se torna o alicerce do conhecimento, que, por sua vez, pode ser elevado à sabedoria com reflexão e experiência.</p>
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Última atualização em
+      
+    
+    13 de abril de 2023
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 minutos de leitura
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/conceitos/">Conceitos</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 405px;">
+  <div style="position: relative">
+    <img src="/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/featured_huf67f2b9745cc4bad5fe4863f9d3f280e_6397062_720x2500_fit_q75_h2_lanczos.webp" width="720" height="405" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Olá pessoal, beleza?</p>
+<p>Dados, informação, conhecimento e sabedoria são conceitos fundamentais na era da informação. Embora muitas vezes sejam usados de forma intercambiável, eles representam etapas distintas no processo de transformação de informações em conhecimento.</p>
+<p>E aí? Voce sabe a diferênça entre eles? Vamos explorar cada um deles em mais detalhes.</p>
+<h2 id="o-que-são-os-dados">O que são os dados?</h2>
+<p>Dados são fatos brutos, sem contexto ou significado. Eles podem ser representados por números, palavras ou imagens, mas por si só, eles não possuem nenhuma informação útil. Representam apenas o resultado de uma medição. Por exemplo, uma lista de números não informa nada até que sejam interpretados em um contexto específico.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Dados brutos" srcset="
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8351f7e2f141e7292be0b05599490b24.webp 400w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8e563cb469bc998aa5321e04ff4df25b.webp 760w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8351f7e2f141e7292be0b05599490b24.webp"
+               width="760"
+               height="149"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h2 id="informação-dando-significado-aos-dados">Informação: dando significado aos dados</h2>
+<p>Informação é o próximo passo na transformação de dados. É quando os dados são organizados e interpretados, adicionando um contexto significativo. A informação pode ser usada para responder a perguntas específicas ou para fornecer insights úteis. Por exemplo, ao adicionar rótulos a uma lista de números, pode-se entender que eles representam preços de produtos em uma loja.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Informação" srcset="
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/info_hu16cfb768c099dda148a26e58081e7ea7_135401_da83e4ab20ff38ce89fa1d37d194f7d3.webp 400w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/info_hu16cfb768c099dda148a26e58081e7ea7_135401_4120b8b087a6eedd16eaccfa0db5423d.webp 760w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/info_hu16cfb768c099dda148a26e58081e7ea7_135401_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/info_hu16cfb768c099dda148a26e58081e7ea7_135401_da83e4ab20ff38ce89fa1d37d194f7d3.webp"
+               width="760"
+               height="299"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h2 id="familiarizando-se-com-a-informação-conhecimento">Familiarizando-se com a informação: Conhecimento</h2>
+<p>Conhecimento é o entendimento adquirido a partir da informação. É quando a informação é compreendida e aplicada de forma significativa. O conhecimento pode ser usado para tomar decisões, resolver problemas ou criar novas ideias. Por exemplo, ao analisar os preços dos produtos em uma loja, pode-se determinar a melhor estratégia de precificação para maximizar os lucros.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Conhecimento" srcset="
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_84abeb711a0a38699ea0ba5a32b013d4.webp 400w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_48ccff4b1ec29dd443835d3b11ff3dcc.webp 760w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_84abeb711a0a38699ea0ba5a32b013d4.webp"
+               width="760"
+               height="448"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h2 id="após-reflexão-sabedoria">Após reflexão&hellip; Sabedoria!</h2>
+<p>Sabedoria é o nível mais elevado de compreensão, que é obtido a partir da reflexão e da experiência. É quando o conhecimento é aplicado de forma ética e com perspectiva de longo prazo. A sabedoria envolve o julgamento e a tomada de decisões informadas, levando em consideração valores, contexto e consequências. Por exemplo, ao considerar a estratégia de precificação, pode-se optar por aumentar os preços para maximizar os lucros no curto prazo, mas ao mesmo tempo, prejudicar a imagem da empresa no longo prazo.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Sabedoria" srcset="
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/sabedoria_hu7347c2b5bb691b03d1e6d3cb6bcb3332_275474_d172c43ece3e15ae226c2deab3221df8.webp 400w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/sabedoria_hu7347c2b5bb691b03d1e6d3cb6bcb3332_275474_d8c2b5a16a96c357113458406b009e27.webp 760w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/sabedoria_hu7347c2b5bb691b03d1e6d3cb6bcb3332_275474_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/sabedoria_hu7347c2b5bb691b03d1e6d3cb6bcb3332_275474_d172c43ece3e15ae226c2deab3221df8.webp"
+               width="760"
+               height="597"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h2 id="em-resumo">Em resumo&hellip;</h2>
+<p>A transformação de dados em sabedoria é uma jornada que requer tempo, esforço e reflexão. Cada etapa é essencial para a próxima, e o resultado final é um entendimento profundo que pode ser aplicado para resolver problemas complexos, melhorar a vida das pessoas e promover um mundo melhor. Então, vamos continuar explorando e transformando nossos dados em sabedoria.</p>
+<p>Até breve! 👋</p>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/conceitos/">Conceitos</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://est125imd.netlify.app/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu9a8ec5fe3348faa62dfb3083e5d95d0c_47798_270x270_fill_lanczos_center_3.png" alt="Introdução à Mineração de Dados"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://est125imd.netlify.app/">Introdução à Mineração de Dados</a></h5>
+      <h6 class="card-subtitle">Semestre 2023-1</h6>
+      <p class="card-text">Disciplina eletiva oferecida pelo <a href="https://deest.ufop.br/" target="_blank" rel="noopener">Departamento de Estatística</a>.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/" >
+        <i class="fas fa-"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/tiagomartin/EST125" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/plano.pdf" >
+        <i class="fas fa-file-pdf"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2023 Tiago Pereira. Este trabalho está licenciado sob <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.d26509351aa0ff874abbee824e982e9b.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/pt/js/wowchemy.min.cb773e06e1906f5cce21cdad5b5cc243.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citação</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copiar
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

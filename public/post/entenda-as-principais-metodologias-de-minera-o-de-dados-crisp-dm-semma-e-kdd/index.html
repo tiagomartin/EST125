@@ -1,0 +1,1433 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: 15 de maio de 2023 --><html lang="pt-br" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.0f229d4b7ebad1917a9a357cba2effab.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Introdução à Mineração de Dados" />
+
+
+
+
+
+  
+
+<meta name="description" content="CRISP-DM, SEMMA e KDD são metodologias amplamente utilizadas em mineração de dados, cada uma com suas próprias etapas e abordagens para extrair informações valiosas a partir de conjuntos de dados complexos." />
+
+
+
+<link rel="alternate" hreflang="pt-br" href="https://est125imd.netlify.app/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/" />
+<link rel="canonical" href="https://est125imd.netlify.app/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hua3979484500520cd28bce95abdc02363_106305_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hua3979484500520cd28bce95abdc02363_106305_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary_large_image" />
+
+  <meta property="twitter:site" content="@wowchemy" />
+  <meta property="twitter:creator" content="@wowchemy" />
+<meta property="twitter:image" content="https://est125imd.netlify.app/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/featured.jpeg" />
+<meta property="og:site_name" content="Introdução à Mineração de Dados" />
+<meta property="og:url" content="https://est125imd.netlify.app/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/" />
+<meta property="og:title" content="Entenda as principais metodologias de mineração de dados: CRISP-DM, SEMMA e KDD | Introdução à Mineração de Dados" />
+<meta property="og:description" content="CRISP-DM, SEMMA e KDD são metodologias amplamente utilizadas em mineração de dados, cada uma com suas próprias etapas e abordagens para extrair informações valiosas a partir de conjuntos de dados complexos." /><meta property="og:image" content="https://est125imd.netlify.app/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/featured.jpeg" /><meta property="og:locale" content="pt-br" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2023-04-13T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2023-04-13T13:42:56-03:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://est125imd.netlify.app/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/"
+  },
+  "headline": "Entenda as principais metodologias de mineração de dados: CRISP-DM, SEMMA e KDD",
+  
+  "image": [
+    "https://est125imd.netlify.app/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/featured.jpeg"
+  ],
+  
+  "datePublished": "2023-04-13T00:00:00Z",
+  "dateModified": "2023-04-13T13:42:56-03:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Introdução à Mineração de Dados"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Introdução à Mineração de Dados",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://est125imd.netlify.app/media/icon_hua3979484500520cd28bce95abdc02363_106305_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "CRISP-DM, SEMMA e KDD são metodologias amplamente utilizadas em mineração de dados, cada uma com suas próprias etapas e abordagens para extrair informações valiosas a partir de conjuntos de dados complexos."
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Entenda as principais metodologias de mineração de dados: CRISP-DM, SEMMA e KDD | Introdução à Mineração de Dados</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="925e52478beb05fee28c88e948839f88" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.fe8634e7d00f14d07fb33caf14cc8e55.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Pesquisar</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Pesquisar..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Pesquisar...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Introdução à Mineração de Dados</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Alterar navegação">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Introdução à Mineração de Dados</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#skills-1"><span>Habilidades</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#aulas"><span>Aulas</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#scripts"><span>Scripts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projetos</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/uploads/ementa.pdf"><span>Ementa</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="/"  aria-label="">
+                <i class="fas fa-" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Pesquisar"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Entenda as principais metodologias de mineração de dados: CRISP-DM, SEMMA e KDD</h1>
+
+  
+  <p class="page-subtitle">CRISP-DM, SEMMA e KDD são metodologias amplamente utilizadas em mineração de dados, cada uma com suas próprias etapas e abordagens para extrair informações valiosas a partir de conjuntos de dados complexos.</p>
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Última atualização em
+      
+    
+    13 de abril de 2023
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    7 minutos de leitura
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/conceitos/">Conceitos</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 480px;">
+  <div style="position: relative">
+    <img src="/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/featured_hubb3b898c784806dcbed8fdd354dfb5c6_1802972_720x2500_fit_q75_h2_lanczos.webp" width="720" height="480" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Olá pessoal, beleza?</p>
+<p>Quando o assunto é mineração de dados, existem várias metodologias amplamente utilizadas para orientar o processo de extração do conhecimento, incluindo CRISP-DM, SEMMA e KDD.</p>
+<p>Essas metodologias são utilizadas na área de mineração de dados para auxiliar no processo de descoberta de conhecimento a partir dos dados. Cada uma dessas metodologias segue uma abordagem sistemática e orientada por etapas para conduzir um projeto de mineração de dados, desde a compreensão do problema até a implantação dos resultados.</p>
+<h2 id="crisp-dm">CRISP-DM</h2>
+<p>O CRISP-DM (Cross-Industry Standard Process for Data Mining) é uma metodologia amplamente utilizada na indústria e em projetos de mineração de dados. Ela é composta por seis fases: compreensão do problema, compreensão dos dados, preparação dos dados, modelagem, avaliação e implantação. Cada fase é crítica para o sucesso do projeto e envolve atividades específicas para alcançar os objetivos do projeto.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="CRISP-DM" srcset="
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/crisp_hu8e4c7630b1c86417ec477460bbe901f3_256557_8c4c6ef64c9da6c315faa8e25e31ca03.webp 400w,
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/crisp_hu8e4c7630b1c86417ec477460bbe901f3_256557_574232d4f44153b8745bc6e8b5230103.webp 760w,
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/crisp_hu8e4c7630b1c86417ec477460bbe901f3_256557_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/crisp_hu8e4c7630b1c86417ec477460bbe901f3_256557_8c4c6ef64c9da6c315faa8e25e31ca03.webp"
+               width="760"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>A primeira fase do Crisp-DM é a compreensão do problema, que envolve a definição clara do problema de negócios e dos objetivos do projeto. É importante entender o contexto em que os dados estão sendo coletados e quais são as questões-chave que precisam ser respondidas para ajudar na tomada de decisão.</p>
+<p>A segunda fase é a compreensão dos dados, que envolve a coleta dos dados relevantes e a sua análise para entender a qualidade, a estrutura e as limitações dos dados. Nesta fase, é importante identificar quais dados estão disponíveis, quais são as fontes de dados e quais variáveis podem ser úteis para a análise.</p>
+<p>A terceira fase é a preparação dos dados, que envolve a limpeza, a integração e a transformação dos dados em um formato que possa ser usado para análise. Nesta fase, também é importante selecionar as variáveis que serão usadas para análise e tratar os dados ausentes ou inconsistentes.</p>
+<p>A quarta fase é a modelagem, que envolve a aplicação de técnicas de modelagem estatística ou de aprendizado de máquina para criar um modelo preditivo ou descritivo. Nesta fase, também é importante avaliar a adequação do modelo e otimizá-lo para melhorar sua precisão e eficácia.</p>
+<p>A quinta fase é a avaliação, que envolve a avaliação do modelo e a sua validação em um conjunto de dados de teste. Nesta fase, é importante avaliar a precisão, a confiabilidade e a robustez do modelo, além de identificar possíveis problemas e limitações.</p>
+<p>Por fim, a sexta fase é a implantação, que envolve a integração do modelo em sistemas de produção e a sua utilização para tomada de decisão. Nesta fase, é importante garantir que o modelo seja facilmente acessível e utilizável pelos usuários finais.</p>
+<p>O Crisp-DM é uma metodologia flexível e adaptável, que pode ser usada em uma ampla gama de projetos de mineração de dados. Ele ajuda a garantir que os projetos de mineração de dados sejam conduzidos de forma sistemática e eficiente, maximizando a chance de sucesso e minimizando os riscos.</p>
+<h2 id="semma">SEMMA</h2>
+<p>O SEMMA (Sample, Explore, Modify, Model, Assess) é outra metodologia popular de mineração de dados que é amplamente utilizada em projetos de análise preditiva. O SEMMA segue um processo sequencial de cinco etapas: amostragem, exploração, modificação, modelagem e avaliação. Cada uma dessas etapas ajuda a refinar o modelo preditivo e garantir que os resultados sejam precisos e confiáveis.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="SEMMA" srcset="
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/semma_hu87cf17859b230bc1d0bd2687dd723441_340143_84d6a8dd527eda9f16f362db1a3e45c5.webp 400w,
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/semma_hu87cf17859b230bc1d0bd2687dd723441_340143_c918c19ba4249bd863863d7f4c8570d9.webp 760w,
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/semma_hu87cf17859b230bc1d0bd2687dd723441_340143_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/semma_hu87cf17859b230bc1d0bd2687dd723441_340143_84d6a8dd527eda9f16f362db1a3e45c5.webp"
+               width="760"
+               height="609"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>A primeira fase do SEMMA é a amostragem, que envolve a seleção de um conjunto representativo de dados para análise. É importante garantir que a amostra selecionada seja suficientemente grande e representativa para a análise.</p>
+<p>A segunda fase é a exploração, que envolve a análise exploratória dos dados para identificar possíveis padrões e relacionamentos. Nesta fase, é importante visualizar os dados em gráficos e tabelas e identificar quais variáveis são relevantes para a análise.</p>
+<p>A terceira fase é a modificação, que envolve a transformação e limpeza dos dados para melhorar a qualidade e prepará-los para a modelagem. Nesta fase, é importante tratar dados ausentes ou inconsistentes e selecionar as variáveis que serão usadas para análise.</p>
+<p>A quarta fase é a modelagem, que envolve a criação de um modelo preditivo utilizando técnicas estatísticas ou de aprendizado de máquina. Nesta fase, é importante avaliar a adequação do modelo e otimizá-lo para melhorar sua precisão e eficácia.</p>
+<p>Por fim, a quinta fase é a avaliação, que envolve a avaliação do modelo e a sua validação em um conjunto de dados de teste. Nesta fase, é importante avaliar a precisão, a confiabilidade e a robustez do modelo, além de identificar possíveis problemas e limitações.</p>
+<p>O SEMMA é uma metodologia flexível e adaptável, que pode ser usada em uma ampla gama de projetos de análise preditiva. Ele ajuda a garantir que os projetos de mineração de dados sejam conduzidos de forma sistemática e eficiente, maximizando a chance de sucesso e minimizando os riscos. O SEMMA é especialmente útil em projetos de análise preditiva, em que a precisão e a confiabilidade do modelo são fundamentais para a tomada de decisão.</p>
+<h2 id="kdd">KDD</h2>
+<p>Por fim, o KDD (Knowledge Discovery in Databases) é uma abordagem mais ampla para a descoberta de conhecimento a partir de dados, que inclui várias técnicas de mineração de dados e outras etapas, como pré-processamento de dados, seleção de atributos e pós-processamento de resultados. O KDD tem como objetivo descobrir padrões e relacionamentos nos dados que possam levar a insights valiosos e tomadas de decisão informadas.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="KDD" srcset="
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/kdd_hu1376582816733baadb9e68fd1010061b_337965_a02c905c0c5b6c112e9f3a79c3872c2d.webp 400w,
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/kdd_hu1376582816733baadb9e68fd1010061b_337965_5568521ffa05a9a0c183cb6a215634a8.webp 760w,
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/kdd_hu1376582816733baadb9e68fd1010061b_337965_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/kdd_hu1376582816733baadb9e68fd1010061b_337965_a02c905c0c5b6c112e9f3a79c3872c2d.webp"
+               width="760"
+               height="481"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>O processo de KDD é composto por diversas etapas interligadas. A primeira etapa é a seleção de dados, que envolve a identificação dos conjuntos de dados relevantes para a análise. É importante que os dados selecionados sejam representativos e adequados para o objetivo do projeto.</p>
+<p>A segunda etapa é a pré-processamento de dados, que envolve a limpeza, a transformação e a redução dos dados para melhorar sua qualidade e utilidade. Nesta etapa, também é importante selecionar as variáveis que serão usadas para análise e tratar os dados ausentes ou inconsistentes.</p>
+<p>A terceira etapa é a mineração de dados, que envolve a aplicação de técnicas de aprendizado de máquina e análise estatística para descobrir padrões e relacionamentos nos dados. Nesta etapa, é importante utilizar as técnicas mais adequadas para o objetivo do projeto e avaliar a qualidade e a utilidade dos resultados obtidos.</p>
+<p>A quarta etapa é a avaliação dos resultados, que envolve a interpretação e a validação dos padrões e relacionamentos descobertos na etapa anterior. Nesta etapa, é importante avaliar a relevância e a precisão dos resultados obtidos e identificar possíveis limitações e problemas.</p>
+<p>Por fim, a quinta etapa é a utilização dos resultados, que envolve a aplicação do conhecimento descoberto na tomada de decisão ou no desenvolvimento de sistemas inteligentes. Nesta etapa, é importante garantir que o conhecimento descoberto seja facilmente acessível e utilizável pelos usuários finais.</p>
+<p>O KDD é um processo complexo que envolve diversas técnicas e metodologias. Ele é utilizado em diversas áreas, como saúde, finanças, marketing, entre outras, para descobrir informações úteis e significativas a partir de grandes conjuntos de dados. O KDD é especialmente útil em projetos em que a precisão e a confiabilidade do conhecimento descoberto são fundamentais para a tomada de decisão.</p>
+<h2 id="mas-e-aí-qual-metodologia-utilizar">Mas e aí? Qual metodologia utilizar?</h2>
+<p>A escolha da metodologia mais adequada depende das necessidades e objetivos do projeto em questão, bem como do contexto em que está sendo desenvolvido. As três metodologias compartilham alguns elementos em comum. Todas elas envolvem o processo de coleta, preparação, limpeza e transformação de dados brutos em um formato mais útil para a análise de dados. Elas também enfatizam a importância de se ter uma compreensão clara do problema ou objetivo de negócios, antes de iniciar o processo de análise de dados.</p>
+<p>A metodologia CRISP-DM enfatiza a importância do ciclo de vida do projeto e é usada principalmente para projetos de mineração de dados de grande escala. A metodologia SEMMA é semelhante ao CRISP-DM em termos de abordagem iterativa, mas enfatiza mais a exploração de dados e o desenvolvimento de modelos estatísticos. Além disso, é especialmente útil para projetos de análise de dados de pequena a média escala. Já o KDD é mais ampla em escopo e inclui etapas que vão além da análise de dados, como a apresentação do conhecimento descoberto para o usuário final, sendo utilizada para projetos de mineração de dados de grande escala.</p>
+<h2 id="em-resumo">Em resumo&hellip;</h2>
+<p>A escolha da metodologia mais adequada depende das características do projeto em questão, das habilidades e recursos disponíveis da equipe e das necessidades específicas do negócio. É importante avaliar cuidadosamente as diferentes metodologias disponíveis e escolher a que melhor atenda às necessidades do projeto.</p>
+<p>Até breve! 👋</p>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/conceitos/">Conceitos</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://est125imd.netlify.app/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu9a8ec5fe3348faa62dfb3083e5d95d0c_47798_270x270_fill_lanczos_center_3.png" alt="Introdução à Mineração de Dados"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://est125imd.netlify.app/">Introdução à Mineração de Dados</a></h5>
+      <h6 class="card-subtitle">Semestre 2023-1</h6>
+      <p class="card-text">Disciplina eletiva oferecida pelo <a href="https://deest.ufop.br/" target="_blank" rel="noopener">Departamento de Estatística</a>.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/" >
+        <i class="fas fa-"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/tiagomartin/EST125" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/plano.pdf" >
+        <i class="fas fa-file-pdf"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2023 Tiago Pereira. Este trabalho está licenciado sob <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.d26509351aa0ff874abbee824e982e9b.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/pt/js/wowchemy.min.cb773e06e1906f5cce21cdad5b5cc243.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citação</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copiar
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

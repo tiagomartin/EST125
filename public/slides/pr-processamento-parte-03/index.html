@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  
+  
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Wowchemy 5.7.0 for Hugo">
+
+  
+    <link rel="manifest" href="/manifest.webmanifest">
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hua3979484500520cd28bce95abdc02363_106305_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua3979484500520cd28bce95abdc02363_106305_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="https://est125imd.netlify.app/slides/pr-processamento-parte-03/">
+
+  <title>Pré-processamento - parte 03 | Introdução à Mineração de Dados</title>
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/white.min.css">
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css">
+  
+
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/reveal_custom.min.css">
+  
+</head>
+<body>
+
+  
+<div class="reveal">
+  <div class="slides">
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color="#54787d"
+  >
+
+<h2 id="tratamento-de-ruídos">Tratamento de ruídos</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p><a href="https://gph.is/g/ZPBYYOp" target="_blank" rel="noopener noreferrer"><img src="https://media2.giphy.com/media/QFuBzoQdijNFztFEp6/giphy.gif"  width="800" height="500"></a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p>O ruído pode ser causado por vários fatores, como erros de entrada de dados, erros de medição, valores atípicos, variabilidade aleatória ou viés.</p>
+</li>
+<li>
+<p>Existem algumas abordagens comuns para o tratamento de ruídos em um conjunto de dados, incluindo:</p>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p><strong>Identificação e remoção de valores atípicos:</strong> valores que são muito diferentes dos outros valores no conjunto de dados podem ser identificados como valores atípicos.</p>
+<ul>
+<li>Esses valores podem ser removidos do conjunto de dados ou tratados separadamente para minimizar o impacto no resultado da análise.</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li><strong>Correção de erros de entrada de dados:</strong> erros de entrada de dados podem ser corrigidos por meio da revisão manual dos dados ou por meio de algoritmos de detecção e correção automática de erros.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li><strong>Normalização ou padronização de dados:</strong> a normalização ou a padronização de dados pode ser usada para tornar os dados comparáveis e interpretáveis, especialmente quando os dados têm unidades diferentes ou escalas diferentes.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li><strong>Utilização de técnicas de suavização de dados:</strong> técnicas de suavização, como média móvel ou suavização exponencial, podem ser usadas para reduzir o impacto do ruído nos dados.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li><strong>Utilização de técnicas de agrupamento:</strong> técnicas de agrupamento, como análise de cluster, podem ser usadas para identificar padrões em um conjunto de dados e reduzir o impacto do ruído.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h4 id="como-identificar-um-valor-atípico">Como identificar um valor atípico?</h4>
+<ul>
+<li>
+<p><strong>Gráfico box-plot</strong></p>
+</li>
+<li>
+<p><strong>Z-score:</strong> valores com um z-score maior do que um limite (geralmente 3) são considerados valores atípicos.</p>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p><strong>Intervalo interquartil (IQR):</strong> valores abaixo de Q1 - 1,5 x IQR ou acima de Q3 + 1,5 x IQR são considerados valores atípicos.</p>
+</li>
+<li>
+<p><strong>Método de DBSCAN:</strong> é um algoritmo de clusterização que agrupa pontos de dados que estão próximos uns dos outros e identifica valores que não estão próximos a nenhum cluster, o que pode ser um sinal de valores atípicos.</p>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>Quaisquer que sejam as técnicas empregadas, a documentação e o registro das etapas de limpeza de dados são essenciais para garantir a reprodutibilidade, transparência, colaboração, auditabilidade e controle de qualidade em análises de dados.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color="#54787d"
+  >
+
+<h2 id="integração-de-dados">Integração de dados</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p>Integração de dados é o processo de combinar dados de múltiplas fontes em um único conjunto de dados coerente e integrado.</p>
+</li>
+<li>
+<p>O objetivo da integração de dados é criar um conjunto de dados mais completo e preciso, permitindo análises mais abrangentes e informadas.</p>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p>Algumas técnicas comuns para integração de dados são:</p>
+<ul>
+<li>
+<p><strong>Fusão de dados:</strong> é o processo de combinar dois ou mais conjuntos de dados com base em uma chave comum.</p>
+<ul>
+<li>Por exemplo, dados de clientes de uma empresa podem ser fundidos com dados de vendas, com base no número de identificação de cliente.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p><strong>Análise de correspondência:</strong> é uma técnica de integração de dados que permite combinar informações de diferentes fontes, com base em uma análise de correspondência de variáveis.</p>
+<ul>
+<li>Por exemplo, dados de vendas de uma empresa podem ser combinados com dados demográficos, com base em correspondências de variáveis, como localização geográfica ou faixa etária.</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>Independentemente da técnica usada, é importante lembrar que a integração de dados pode ser complexa e demorada e pode envolver a identificação e correção de inconsistências nos dados.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color="#54787d"
+  >
+
+<h2 id="redução-de-dados">Redução de dados</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p>A redução de dados é uma técnica usada para diminuir a dimensão de um conjunto de dados, ou seja, reduzir o número de variáveis ​​ou características que compõem o conjunto de dados.</p>
+</li>
+<li>
+<p>Existem várias razões para reduzir os dados, incluindo:</p>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>Simplificar a análise de dados, tornando-a mais fácil e mais rápida de ser executada;</li>
+<li>Reduzir o tempo de processamento e armazenamento dos dados;</li>
+<li>Melhorar a qualidade dos dados, eliminando variáveis irrelevantes ou redundantes que possam afetar negativamente a análise;</li>
+<li>Preparar os dados para a entrada em um modelo de aprendizado de máquina.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p>Algumas técnicas comuns para redução de dados:</p>
+<ul>
+<li>
+<p>Análise de Componentes Principais</p>
+</li>
+<li>
+<p>Seleção de atributos</p>
+</li>
+<li>
+<p>Amostragem</p>
+</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color="#54787d"
+  >
+
+<h2 id="seleção-de-atributos">Seleção de atributos</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p>A seleção de atributos é um processo de pré-processamento de dados que envolve a escolha dos atributos (variáveis) mais relevantes para a análise.</p>
+</li>
+<li>
+<p>O objetivo da seleção de atributos é reduzir a dimensionalidade dos dados, eliminando características irrelevantes e redundantes, e, assim, melhorar a precisão e a eficiência da análise.</p>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p><strong>Seleção baseada em filtro:</strong> Essa técnica usa métricas estatísticas para avaliar a relevância dos atributos e seleciona aqueles que têm maior correlação com a variável de interesse.</p>
+</li>
+<li>
+<p><strong>Métodos de filtragem:</strong> coeficiente de correlação, ganho de informação e o teste de qui-quadrado.</p>
+</li>
+</ul>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Filtro" srcset="
+               /slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_a33c91194242f82f1a696650b526b006.webp 400w,
+               /slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_59e08447c88a83180be634131aa32392.webp 760w,
+               /slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/pr-processamento-parte-03/fig01_hucf55917b18d9fe6c65409fa0a2f10568_5541_a33c91194242f82f1a696650b526b006.webp"
+               width="760"
+               height="57"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li><strong>Seleção baseada em wrapper:</strong> Essa técnica envolve a seleção de atributos por meio de um modelo de aprendizado de máquina, que é treinado em um conjunto de atributos selecionados. O modelo é avaliado usando validação cruzada e as atributos são selecionados com base no desempenho do modelo.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li><strong>Métodos wrapper:</strong> Forward stepwise selection, Backward Elimination, Bi-directional stepwise selection &amp; elimination.</li>
+</ul>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Wrapper" srcset="
+               /slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_47d26fe3b3ad0181361f8367ccf67872.webp 400w,
+               /slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_8c6c1b9b84296f365b3c5e451e7671b3.webp 760w,
+               /slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/pr-processamento-parte-03/fig02_hua2ab21811dace39e681d4f2b8fb148b2_11505_47d26fe3b3ad0181361f8367ccf67872.webp"
+               width="760"
+               height="147"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li>
+<p><strong>Seleção baseada em incorporação:</strong> Essa técnica envolve a seleção de atributos durante o processo de treinamento do modelo de aprendizado de máquina.</p>
+</li>
+<li>
+<p>O modelo é treinado com todas os atributos e, em seguida, os atributos são removidos com base em sua importância para o modelo.</p>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<ul>
+<li><strong>Métodos de incorporação:</strong> Regressão LASSO, Árvores de decisão&hellip;</li>
+</ul>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Wrapper" srcset="
+               /slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_50f597aa965802a1ca71700b89752a7d.webp 400w,
+               /slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_54cf4763a21a54be2a74936e7d27c4a7.webp 760w,
+               /slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/pr-processamento-parte-03/fig03_hu22bff1d62fd9d6ba36fc0ccef64fc3a1_10917_50f597aa965802a1ca71700b89752a7d.webp"
+               width="591"
+               height="152"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+
+    </section>
+    
+
+    
+    
+  </div>
+</div>
+
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/search/search.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/math/math.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
+
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/plugin.js" integrity="sha256-M6JwAjnRAWmi+sbXURR/yAhWZKYhAw7YXnnLvIxrdGs=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js" integrity="sha256-l14dklFcW5mWar6w/9KaW0fWVerf3mYr7Wt0+rXzFAA=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css" integrity="sha256-0fU8HKLaTjgzfaV9CgSqbsN8ilA3zo6zK1M6rlgULd8=" crossorigin="anonymous">
+  
+
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@9.1.3/dist/mermaid.min.js" integrity="sha256-TIYL00Rhw/8WaoUhYTLX9SKIEFdXxg+yMWSLVUbhiLg=" crossorigin="anonymous" title="mermaid"></script>
+  
+
+  
+  
+  <script src="/js/wowchemy-slides.js"></script>
+
+</body>
+</html>

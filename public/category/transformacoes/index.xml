@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transformações | Introdução à Mineração de Dados</title>
+    <link>https://est125imd.netlify.app/category/transformacoes/</link>
+      <atom:link href="https://est125imd.netlify.app/category/transformacoes/index.xml" rel="self" type="application/rss+xml" />
+    <description>Transformações</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt-br</language><lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://est125imd.netlify.app/media/icon_hua3979484500520cd28bce95abdc02363_106305_512x512_fill_lanczos_center_3.png</url>
+      <title>Transformações</title>
+      <link>https://est125imd.netlify.app/category/transformacoes/</link>
+    </image>
+    
+    <item>
+      <title>Transformações de variáveis: o que são e quando usá-las na análise de dados</title>
+      <link>https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/</guid>
+      <description>&lt;p&gt;Olá pessoal, beleza?&lt;/p&gt;
+&lt;p&gt;Hoje vamos falar sobre um conceito muito importante no contexto de análise de dados: as transformações!&lt;/p&gt;
+&lt;p&gt;As transformações de variáveis são técnicas amplamente utilizadas na estatística e em outras áreas das ciências, como a economia, a psicologia e a medicina, além de ajudar na obtenção de modelos preditivos mais precisos. Neste post, vamos discutir o que são transformações de variáveis, quando elas são usadas e quais são as principais técnicas de transformação.&lt;/p&gt;
+&lt;h2 id=&#34;o-que-são-transformações-de-variáveis&#34;&gt;O que são transformações de variáveis?&lt;/h2&gt;
+&lt;p&gt;As transformações de variáveis envolvem um conjunto de métodos utilizados para alterar a distribuição dos dados, a fim de torná-los mais adequados para uma análise específica. Isso envolve aplicar uma função matemática aos dados originais, em uma ou mais variáveis dentro do conjunto de dados, com a finalidade de normalizar a distribuição dos dados, reduzir a variância, linearizar relações ou tornar a relação entre variáveis mais clara.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.gifbay.com/gif/baller-16126/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;img src=&#34;https://media0.giphy.com/media/Nda9GjMZ6BQpa/giphy.gif&#34;  width=&#34;700&#34; height=&#34;400&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Aplicar uma transformação adequada em modelos preditivos pode melhorar a qualidade do modelo, pois pode corrigir problemas como assimetria, instabilidade de variância e falta de linearidade, permitindo que o modelo se ajuste melhor aos dados e produza previsões mais precisas.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;principais-técnicas-de-transformação&#34;&gt;Principais técnicas de transformação&lt;/h2&gt;
+&lt;h3 id=&#34;transformação-logarítmica&#34;&gt;Transformação logarítmica&lt;/h3&gt;
+&lt;p&gt;A transformação logarítmica é uma técnica que é amplamente utilizada em situações em que a variável tem uma distribuição assimétrica e/ou uma grande variância.&lt;/p&gt;
+&lt;img src=&#34;https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;A transformação logarítmica é definida pela seguinte equação:&lt;/p&gt;
+
+
+
+$$
+y = \log(x)
+$$
+
+&lt;p&gt;onde 
+
+$x$ é a variável a ser transformada e 
+
+$y$ é a variável transformada. A transformação logarítmica é uma transformação monotônica, o que significa que não afeta a ordem dos dados. Isso é importante para modelos preditivos porque garante que a transformação não afete a capacidade do modelo de capturar a relação entre as variáveis.&lt;/p&gt;
+&lt;h3 id=&#34;transformação-raiz-quadrada&#34;&gt;Transformação raiz quadrada&lt;/h3&gt;
+&lt;p&gt;Assim como a transformação logarítmica, a transformação de raiz quadrada é uma transformação matemática simples e não paramétrica que pode ser facilmente aplicada em modelos preditivos.&lt;/p&gt;
+&lt;img src=&#34;https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;A transformação de raiz quadrada é definida pela seguinte equação:&lt;/p&gt;
+
+
+
+$$
+y = \sqrt x
+$$
+
+&lt;p&gt;onde 
+
+$x$ é a variável a ser transformada e 
+
+$y$ é a variável transformada. Assim como a transformação logarítimica, a transformação de raiz quadrada é uma transformação monotônica, o que significa que não afeta a ordem dos dados.&lt;/p&gt;
+&lt;h3 id=&#34;transformação-de-box-cox&#34;&gt;Transformação de Box-Cox&lt;/h3&gt;
+&lt;p&gt;A transformação de Box-Cox é uma técnica para transformar variáveis em modelos preditivos que é amplamente utilizada para melhorar a qualidade da modelagem e a precisão das previsões. É uma técnica paramétrica que depende de um parâmetro lambda que é estimado a partir dos dados, podendo ser usada apenas com variáveis não negativas..&lt;/p&gt;
+&lt;img src=&#34;https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;A transformação de Box-Cox é definida pela seguinte equação:&lt;/p&gt;
+
+
+
+$$
+y = 
+  \begin{cases}
+      \dfrac{(x^\lambda - 1)}{\lambda}, &amp; se \ \lambda \neq  0 \\
+      \log(x), &amp; se \ \lambda = 0 
+  \end{cases}
+$$
+
+&lt;p&gt;onde 
+
+$x$ é a variável a ser transformada e 
+
+$y$ é a variável transformada. Esta é uma técnica de transformação de dados útil usada para estabilizar a variância, tornar os dados mais semelhantes à distribuição normal, por exemplo, quando um atributo tem a aparência de uma curva normal mas está descolado para a direita ou esquerda, melhorar a validade das medidas de associação e para outros procedimentos de estabilização de dados.&lt;/p&gt;
+&lt;h3 id=&#34;transformação-yeo-johnson&#34;&gt;Transformação Yeo-Johnson&lt;/h3&gt;
+&lt;p&gt;A transformação Yeo-Johnson é uma técnica de transformação semelhante à transformação de Box-Cox. No entanto, a transformação Yeo-Johnson é mais flexível porque pode ser usada para variáveis que podem assumir valores negativos.&lt;/p&gt;
+&lt;img src=&#34;https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;A transformação Yeo-Johnson é definida pela seguinte equação:&lt;/p&gt;
+
+
+
+$$
+y = 
+  \begin{cases}
+      \dfrac{(x + 1)^\lambda - 1}{\lambda}, &amp; se \ x \geq  0, \ \lambda \neq 0 \\
+      \ln(x + 1), &amp; se \ x \geq 0 \ \lambda = 0 \\
+      \dfrac{-((-x + 1)^{(2 - \lambda)} - 1)}{(2 - \lambda)}, &amp; se \ x &lt;  0, \ \lambda \neq 2 \\
+      -\ln(-x+1) &amp; se \ x &lt;  0, \ \lambda = 2 
+  \end{cases}
+$$
+
+&lt;p&gt;onde 
+
+$x$ é a variável a ser transformada e 
+
+$y$ é a variável transformada.&lt;/p&gt;
+&lt;h3 id=&#34;em-resumo&#34;&gt;Em resumo&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;Transformar variáveis é útil para melhorar a qualidade da modelagem e a precisão das previsões em modelos preditivos. As transformações são aplicadas às variáveis independentes para melhorar a distribuição, escala e relação com a variável de saída. Existem várias técnicas de transformação disponíveis, incluindo transformação logarítmica, transformação de raiz quadrada, transformação de Box-Cox e a  transformação de Yeo-Johnson.&lt;/p&gt;
+&lt;p&gt;Não há uma única transformação de variáveis que seja a melhor para todos os casos. É importante lembrar que a escolha da transformação deve ser baseada em uma avaliação cuidadosa da natureza dos dados e da relação entre as variáveis. A transformação escolhida deve ajudar a reduzir a heterogeneidade de variância e normalizar a distribuição dos dados, mas também deve ser interpretável e fazer sentido do ponto de vista teórico.&lt;/p&gt;
+&lt;p&gt;Até breve! 👋&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

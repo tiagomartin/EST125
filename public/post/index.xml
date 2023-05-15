@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Introdução à Mineração de Dados</title>
+    <link>https://est125imd.netlify.app/post/</link>
+      <atom:link href="https://est125imd.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt-br</language><lastBuildDate>Mon, 15 May 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://est125imd.netlify.app/media/icon_hua3979484500520cd28bce95abdc02363_106305_512x512_fill_lanczos_center_3.png</url>
+      <title>Posts</title>
+      <link>https://est125imd.netlify.app/post/</link>
+    </image>
+    
+    <item>
+      <title>Como a técnica dos cinco porquês e a metodologia SMART podem transformar a resolução de problemas</title>
+      <link>https://est125imd.netlify.app/post/como-a-t-cnica-dos-cinco-porqu-s-e-a-metodologia-smart-podem-transformar-a-resolu-o-de-problemas/</link>
+      <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://est125imd.netlify.app/post/como-a-t-cnica-dos-cinco-porqu-s-e-a-metodologia-smart-podem-transformar-a-resolu-o-de-problemas/</guid>
+      <description>&lt;p&gt;Olá pessoal, beleza?&lt;/p&gt;
+&lt;p&gt;Quando enfrentamos um problema, muitas vezes é difícil identificar a raiz do problema e traçar um plano para resolvê-lo. A técnica dos cinco porquês e a metodologia SMART são duas ferramentas que podem ser usadas em conjunto para ajudar na definição clara do problema e objetivo.&lt;/p&gt;
+&lt;p&gt;A técnica dos cinco porquês é uma técnica de análise de causa e efeito, desenvolvida pelo fundador da Toyota, &lt;a href=&#34;https://pt.wikipedia.org/wiki/Sakichi_Toyoda&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sakichi Toyoda&lt;/a&gt;, para ajudar na identificação da causa raiz de um problema. Essa técnica consiste em perguntar &amp;ldquo;por que?&amp;rdquo; repetidamente até que se chegue à causa raiz do problema. Essas perguntas ajudam a aprofundar a análise, ajudando a entender melhor as conexões entre as causas e efeitos. A técnica dos cinco porquês é uma ferramenta simples e poderosa que pode ser aplicada em vários campos.&lt;/p&gt;
+&lt;p&gt;A metodologia SMART, por sua vez, é um acrônimo para Specific (específico), Measurable (mensurável), Achievable (alcançável), Relevant (relevante) e Time-bound (temporalmente definido). É uma técnica para definir objetivos de forma clara e específica, com prazos realistas e mensuráveis. Isso ajuda a definir metas claras e alcançáveis, tornando mais fácil avaliar o progresso e fazer ajustes quando necessário.&lt;/p&gt;
+&lt;p&gt;Quando usadas juntas, a técnica dos cinco porquês e a metodologia SMART podem ajudar a definir e resolver problemas de forma eficiente. Veja como:&lt;/p&gt;
+&lt;p&gt;Imagine que uma empresa está enfrentando problemas com a produtividade dos funcionários. Os gerentes notaram que os funcionários estão produzindo menos do que o esperado e isso está afetando a qualidade do trabalho. Vamos utilizar a técnica dos cinco porquês e a metodologia SMART para definir o problema e o objetivo.&lt;/p&gt;
+&lt;p&gt;Passo 1: Identifique o problema  -  O problema é a baixa produtividade dos funcionários&lt;/p&gt;
+&lt;p&gt;Passo 2: Utilize a técnica dos cinco porquês&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Por que os funcionários estão produzindo menos do que o esperado? Porque estão demorando muito tempo para concluir as tarefas.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Por que estão demorando muito tempo para concluir as tarefas? Porque estão interrompendo constantemente o trabalho para responder e-mails e telefonemas.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Por que estão interrompendo constantemente o trabalho para responder e-mails e telefonemas? Porque não têm um horário definido para fazer essas tarefas.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Por que não têm um horário definido para fazer essas tarefas? Porque não receberam orientação clara sobre como gerenciar seu tempo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Por que não receberam orientação clara sobre como gerenciar seu tempo? Porque a empresa não tem uma política de gestão de tempo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Passo 3: Identifique o objetivo  -  O objetivo é implementar uma política de gestão de tempo para melhorar a produtividade dos funcionários.&lt;/p&gt;
+&lt;p&gt;Passo 4: Utilize a metodologia SMART&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Específico: Implementar uma política de gestão de tempo para definir quando os funcionários devem responder e-mails e telefonemas.&lt;/li&gt;
+&lt;li&gt;Mensurável: A produtividade será medida pela quantidade de tarefas concluídas em um dia de trabalho.&lt;/li&gt;
+&lt;li&gt;Alcançável: A empresa pode contratar um especialista em gestão de tempo para ajudar a desenvolver a política.&lt;/li&gt;
+&lt;li&gt;Relevante: Melhorar a produtividade dos funcionários é um objetivo importante para a empresa.&lt;/li&gt;
+&lt;li&gt;Temporalmente definido: A política será implementada em um prazo de 3 meses.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Passo 5: Desenvolva um plano de ação&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Contratar um especialista em gestão de tempo para desenvolver a política.&lt;/li&gt;
+&lt;li&gt;Treinar os gerentes e funcionários sobre a nova política.&lt;/li&gt;
+&lt;li&gt;Estabelecer um horário específico para responder e-mails e telefonemas.&lt;/li&gt;
+&lt;li&gt;Monitorar a produtividade dos funcionários e fazer ajustes quando necessário.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Passo 6: Avalie e ajuste&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Avaliar regularmente a produtividade dos funcionários e a eficácia da política de gestão de tempo.&lt;/li&gt;
+&lt;li&gt;Fazer ajustes quando necessário para garantir que o objetivo seja alcançado.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;em-resumo&#34;&gt;Em resumo&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;Ao utilizar a técnica dos cinco porquês e a metodologia SMART juntas, a empresa conseguiu definir claramente o problema e o objetivo, além de desenvolver um plano de ação específico para melhorar a produtividade dos funcionários. A empresa também pode avaliar regularmente a eficácia da política de gestão de tempo e fazer ajustes quando necessário para garantir que o objetivo seja alcançado.&lt;/p&gt;
+&lt;p&gt;Até breve! 👋&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Transformações de variáveis: o que são e quando usá-las na análise de dados</title>
+      <link>https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/</guid>
+      <description>&lt;p&gt;Olá pessoal, beleza?&lt;/p&gt;
+&lt;p&gt;Hoje vamos falar sobre um conceito muito importante no contexto de análise de dados: as transformações!&lt;/p&gt;
+&lt;p&gt;As transformações de variáveis são técnicas amplamente utilizadas na estatística e em outras áreas das ciências, como a economia, a psicologia e a medicina, além de ajudar na obtenção de modelos preditivos mais precisos. Neste post, vamos discutir o que são transformações de variáveis, quando elas são usadas e quais são as principais técnicas de transformação.&lt;/p&gt;
+&lt;h2 id=&#34;o-que-são-transformações-de-variáveis&#34;&gt;O que são transformações de variáveis?&lt;/h2&gt;
+&lt;p&gt;As transformações de variáveis envolvem um conjunto de métodos utilizados para alterar a distribuição dos dados, a fim de torná-los mais adequados para uma análise específica. Isso envolve aplicar uma função matemática aos dados originais, em uma ou mais variáveis dentro do conjunto de dados, com a finalidade de normalizar a distribuição dos dados, reduzir a variância, linearizar relações ou tornar a relação entre variáveis mais clara.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.gifbay.com/gif/baller-16126/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;img src=&#34;https://media0.giphy.com/media/Nda9GjMZ6BQpa/giphy.gif&#34;  width=&#34;700&#34; height=&#34;400&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Aplicar uma transformação adequada em modelos preditivos pode melhorar a qualidade do modelo, pois pode corrigir problemas como assimetria, instabilidade de variância e falta de linearidade, permitindo que o modelo se ajuste melhor aos dados e produza previsões mais precisas.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;principais-técnicas-de-transformação&#34;&gt;Principais técnicas de transformação&lt;/h2&gt;
+&lt;h3 id=&#34;transformação-logarítmica&#34;&gt;Transformação logarítmica&lt;/h3&gt;
+&lt;p&gt;A transformação logarítmica é uma técnica que é amplamente utilizada em situações em que a variável tem uma distribuição assimétrica e/ou uma grande variância.&lt;/p&gt;
+&lt;img src=&#34;https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;A transformação logarítmica é definida pela seguinte equação:&lt;/p&gt;
+
+
+
+$$
+y = \log(x)
+$$
+
+&lt;p&gt;onde 
+
+$x$ é a variável a ser transformada e 
+
+$y$ é a variável transformada. A transformação logarítmica é uma transformação monotônica, o que significa que não afeta a ordem dos dados. Isso é importante para modelos preditivos porque garante que a transformação não afete a capacidade do modelo de capturar a relação entre as variáveis.&lt;/p&gt;
+&lt;h3 id=&#34;transformação-raiz-quadrada&#34;&gt;Transformação raiz quadrada&lt;/h3&gt;
+&lt;p&gt;Assim como a transformação logarítmica, a transformação de raiz quadrada é uma transformação matemática simples e não paramétrica que pode ser facilmente aplicada em modelos preditivos.&lt;/p&gt;
+&lt;img src=&#34;https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;A transformação de raiz quadrada é definida pela seguinte equação:&lt;/p&gt;
+
+
+
+$$
+y = \sqrt x
+$$
+
+&lt;p&gt;onde 
+
+$x$ é a variável a ser transformada e 
+
+$y$ é a variável transformada. Assim como a transformação logarítimica, a transformação de raiz quadrada é uma transformação monotônica, o que significa que não afeta a ordem dos dados.&lt;/p&gt;
+&lt;h3 id=&#34;transformação-de-box-cox&#34;&gt;Transformação de Box-Cox&lt;/h3&gt;
+&lt;p&gt;A transformação de Box-Cox é uma técnica para transformar variáveis em modelos preditivos que é amplamente utilizada para melhorar a qualidade da modelagem e a precisão das previsões. É uma técnica paramétrica que depende de um parâmetro lambda que é estimado a partir dos dados, podendo ser usada apenas com variáveis não negativas..&lt;/p&gt;
+&lt;img src=&#34;https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;A transformação de Box-Cox é definida pela seguinte equação:&lt;/p&gt;
+
+
+
+$$
+y = 
+  \begin{cases}
+      \dfrac{(x^\lambda - 1)}{\lambda}, &amp; se \ \lambda \neq  0 \\
+      \log(x), &amp; se \ \lambda = 0 
+  \end{cases}
+$$
+
+&lt;p&gt;onde 
+
+$x$ é a variável a ser transformada e 
+
+$y$ é a variável transformada. Esta é uma técnica de transformação de dados útil usada para estabilizar a variância, tornar os dados mais semelhantes à distribuição normal, por exemplo, quando um atributo tem a aparência de uma curva normal mas está descolado para a direita ou esquerda, melhorar a validade das medidas de associação e para outros procedimentos de estabilização de dados.&lt;/p&gt;
+&lt;h3 id=&#34;transformação-yeo-johnson&#34;&gt;Transformação Yeo-Johnson&lt;/h3&gt;
+&lt;p&gt;A transformação Yeo-Johnson é uma técnica de transformação semelhante à transformação de Box-Cox. No entanto, a transformação Yeo-Johnson é mais flexível porque pode ser usada para variáveis que podem assumir valores negativos.&lt;/p&gt;
+&lt;img src=&#34;https://est125imd.netlify.app/post/transforma-es-de-vari-veis-o-que-s-o-e-quando-us-las-na-an-lise-de-dados/index.pt_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;A transformação Yeo-Johnson é definida pela seguinte equação:&lt;/p&gt;
+
+
+
+$$
+y = 
+  \begin{cases}
+      \dfrac{(x + 1)^\lambda - 1}{\lambda}, &amp; se \ x \geq  0, \ \lambda \neq 0 \\
+      \ln(x + 1), &amp; se \ x \geq 0 \ \lambda = 0 \\
+      \dfrac{-((-x + 1)^{(2 - \lambda)} - 1)}{(2 - \lambda)}, &amp; se \ x &lt;  0, \ \lambda \neq 2 \\
+      -\ln(-x+1) &amp; se \ x &lt;  0, \ \lambda = 2 
+  \end{cases}
+$$
+
+&lt;p&gt;onde 
+
+$x$ é a variável a ser transformada e 
+
+$y$ é a variável transformada.&lt;/p&gt;
+&lt;h3 id=&#34;em-resumo&#34;&gt;Em resumo&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;Transformar variáveis é útil para melhorar a qualidade da modelagem e a precisão das previsões em modelos preditivos. As transformações são aplicadas às variáveis independentes para melhorar a distribuição, escala e relação com a variável de saída. Existem várias técnicas de transformação disponíveis, incluindo transformação logarítmica, transformação de raiz quadrada, transformação de Box-Cox e a  transformação de Yeo-Johnson.&lt;/p&gt;
+&lt;p&gt;Não há uma única transformação de variáveis que seja a melhor para todos os casos. É importante lembrar que a escolha da transformação deve ser baseada em uma avaliação cuidadosa da natureza dos dados e da relação entre as variáveis. A transformação escolhida deve ajudar a reduzir a heterogeneidade de variância e normalizar a distribuição dos dados, mas também deve ser interpretável e fazer sentido do ponto de vista teórico.&lt;/p&gt;
+&lt;p&gt;Até breve! 👋&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Entenda as principais metodologias de mineração de dados: CRISP-DM, SEMMA e KDD</title>
+      <link>https://est125imd.netlify.app/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/</link>
+      <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://est125imd.netlify.app/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/</guid>
+      <description>&lt;p&gt;Olá pessoal, beleza?&lt;/p&gt;
+&lt;p&gt;Quando o assunto é mineração de dados, existem várias metodologias amplamente utilizadas para orientar o processo de extração do conhecimento, incluindo CRISP-DM, SEMMA e KDD.&lt;/p&gt;
+&lt;p&gt;Essas metodologias são utilizadas na área de mineração de dados para auxiliar no processo de descoberta de conhecimento a partir dos dados. Cada uma dessas metodologias segue uma abordagem sistemática e orientada por etapas para conduzir um projeto de mineração de dados, desde a compreensão do problema até a implantação dos resultados.&lt;/p&gt;
+&lt;h2 id=&#34;crisp-dm&#34;&gt;CRISP-DM&lt;/h2&gt;
+&lt;p&gt;O CRISP-DM (Cross-Industry Standard Process for Data Mining) é uma metodologia amplamente utilizada na indústria e em projetos de mineração de dados. Ela é composta por seis fases: compreensão do problema, compreensão dos dados, preparação dos dados, modelagem, avaliação e implantação. Cada fase é crítica para o sucesso do projeto e envolve atividades específicas para alcançar os objetivos do projeto.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;CRISP-DM&#34; srcset=&#34;
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/crisp_hu8e4c7630b1c86417ec477460bbe901f3_256557_8c4c6ef64c9da6c315faa8e25e31ca03.webp 400w,
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/crisp_hu8e4c7630b1c86417ec477460bbe901f3_256557_574232d4f44153b8745bc6e8b5230103.webp 760w,
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/crisp_hu8e4c7630b1c86417ec477460bbe901f3_256557_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/crisp_hu8e4c7630b1c86417ec477460bbe901f3_256557_8c4c6ef64c9da6c315faa8e25e31ca03.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;A primeira fase do Crisp-DM é a compreensão do problema, que envolve a definição clara do problema de negócios e dos objetivos do projeto. É importante entender o contexto em que os dados estão sendo coletados e quais são as questões-chave que precisam ser respondidas para ajudar na tomada de decisão.&lt;/p&gt;
+&lt;p&gt;A segunda fase é a compreensão dos dados, que envolve a coleta dos dados relevantes e a sua análise para entender a qualidade, a estrutura e as limitações dos dados. Nesta fase, é importante identificar quais dados estão disponíveis, quais são as fontes de dados e quais variáveis podem ser úteis para a análise.&lt;/p&gt;
+&lt;p&gt;A terceira fase é a preparação dos dados, que envolve a limpeza, a integração e a transformação dos dados em um formato que possa ser usado para análise. Nesta fase, também é importante selecionar as variáveis que serão usadas para análise e tratar os dados ausentes ou inconsistentes.&lt;/p&gt;
+&lt;p&gt;A quarta fase é a modelagem, que envolve a aplicação de técnicas de modelagem estatística ou de aprendizado de máquina para criar um modelo preditivo ou descritivo. Nesta fase, também é importante avaliar a adequação do modelo e otimizá-lo para melhorar sua precisão e eficácia.&lt;/p&gt;
+&lt;p&gt;A quinta fase é a avaliação, que envolve a avaliação do modelo e a sua validação em um conjunto de dados de teste. Nesta fase, é importante avaliar a precisão, a confiabilidade e a robustez do modelo, além de identificar possíveis problemas e limitações.&lt;/p&gt;
+&lt;p&gt;Por fim, a sexta fase é a implantação, que envolve a integração do modelo em sistemas de produção e a sua utilização para tomada de decisão. Nesta fase, é importante garantir que o modelo seja facilmente acessível e utilizável pelos usuários finais.&lt;/p&gt;
+&lt;p&gt;O Crisp-DM é uma metodologia flexível e adaptável, que pode ser usada em uma ampla gama de projetos de mineração de dados. Ele ajuda a garantir que os projetos de mineração de dados sejam conduzidos de forma sistemática e eficiente, maximizando a chance de sucesso e minimizando os riscos.&lt;/p&gt;
+&lt;h2 id=&#34;semma&#34;&gt;SEMMA&lt;/h2&gt;
+&lt;p&gt;O SEMMA (Sample, Explore, Modify, Model, Assess) é outra metodologia popular de mineração de dados que é amplamente utilizada em projetos de análise preditiva. O SEMMA segue um processo sequencial de cinco etapas: amostragem, exploração, modificação, modelagem e avaliação. Cada uma dessas etapas ajuda a refinar o modelo preditivo e garantir que os resultados sejam precisos e confiáveis.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;SEMMA&#34; srcset=&#34;
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/semma_hu87cf17859b230bc1d0bd2687dd723441_340143_84d6a8dd527eda9f16f362db1a3e45c5.webp 400w,
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/semma_hu87cf17859b230bc1d0bd2687dd723441_340143_c918c19ba4249bd863863d7f4c8570d9.webp 760w,
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/semma_hu87cf17859b230bc1d0bd2687dd723441_340143_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/semma_hu87cf17859b230bc1d0bd2687dd723441_340143_84d6a8dd527eda9f16f362db1a3e45c5.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;609&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;A primeira fase do SEMMA é a amostragem, que envolve a seleção de um conjunto representativo de dados para análise. É importante garantir que a amostra selecionada seja suficientemente grande e representativa para a análise.&lt;/p&gt;
+&lt;p&gt;A segunda fase é a exploração, que envolve a análise exploratória dos dados para identificar possíveis padrões e relacionamentos. Nesta fase, é importante visualizar os dados em gráficos e tabelas e identificar quais variáveis são relevantes para a análise.&lt;/p&gt;
+&lt;p&gt;A terceira fase é a modificação, que envolve a transformação e limpeza dos dados para melhorar a qualidade e prepará-los para a modelagem. Nesta fase, é importante tratar dados ausentes ou inconsistentes e selecionar as variáveis que serão usadas para análise.&lt;/p&gt;
+&lt;p&gt;A quarta fase é a modelagem, que envolve a criação de um modelo preditivo utilizando técnicas estatísticas ou de aprendizado de máquina. Nesta fase, é importante avaliar a adequação do modelo e otimizá-lo para melhorar sua precisão e eficácia.&lt;/p&gt;
+&lt;p&gt;Por fim, a quinta fase é a avaliação, que envolve a avaliação do modelo e a sua validação em um conjunto de dados de teste. Nesta fase, é importante avaliar a precisão, a confiabilidade e a robustez do modelo, além de identificar possíveis problemas e limitações.&lt;/p&gt;
+&lt;p&gt;O SEMMA é uma metodologia flexível e adaptável, que pode ser usada em uma ampla gama de projetos de análise preditiva. Ele ajuda a garantir que os projetos de mineração de dados sejam conduzidos de forma sistemática e eficiente, maximizando a chance de sucesso e minimizando os riscos. O SEMMA é especialmente útil em projetos de análise preditiva, em que a precisão e a confiabilidade do modelo são fundamentais para a tomada de decisão.&lt;/p&gt;
+&lt;h2 id=&#34;kdd&#34;&gt;KDD&lt;/h2&gt;
+&lt;p&gt;Por fim, o KDD (Knowledge Discovery in Databases) é uma abordagem mais ampla para a descoberta de conhecimento a partir de dados, que inclui várias técnicas de mineração de dados e outras etapas, como pré-processamento de dados, seleção de atributos e pós-processamento de resultados. O KDD tem como objetivo descobrir padrões e relacionamentos nos dados que possam levar a insights valiosos e tomadas de decisão informadas.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;KDD&#34; srcset=&#34;
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/kdd_hu1376582816733baadb9e68fd1010061b_337965_a02c905c0c5b6c112e9f3a79c3872c2d.webp 400w,
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/kdd_hu1376582816733baadb9e68fd1010061b_337965_5568521ffa05a9a0c183cb6a215634a8.webp 760w,
+               /post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/kdd_hu1376582816733baadb9e68fd1010061b_337965_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/post/entenda-as-principais-metodologias-de-minera-o-de-dados-crisp-dm-semma-e-kdd/kdd_hu1376582816733baadb9e68fd1010061b_337965_a02c905c0c5b6c112e9f3a79c3872c2d.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;481&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;O processo de KDD é composto por diversas etapas interligadas. A primeira etapa é a seleção de dados, que envolve a identificação dos conjuntos de dados relevantes para a análise. É importante que os dados selecionados sejam representativos e adequados para o objetivo do projeto.&lt;/p&gt;
+&lt;p&gt;A segunda etapa é a pré-processamento de dados, que envolve a limpeza, a transformação e a redução dos dados para melhorar sua qualidade e utilidade. Nesta etapa, também é importante selecionar as variáveis que serão usadas para análise e tratar os dados ausentes ou inconsistentes.&lt;/p&gt;
+&lt;p&gt;A terceira etapa é a mineração de dados, que envolve a aplicação de técnicas de aprendizado de máquina e análise estatística para descobrir padrões e relacionamentos nos dados. Nesta etapa, é importante utilizar as técnicas mais adequadas para o objetivo do projeto e avaliar a qualidade e a utilidade dos resultados obtidos.&lt;/p&gt;
+&lt;p&gt;A quarta etapa é a avaliação dos resultados, que envolve a interpretação e a validação dos padrões e relacionamentos descobertos na etapa anterior. Nesta etapa, é importante avaliar a relevância e a precisão dos resultados obtidos e identificar possíveis limitações e problemas.&lt;/p&gt;
+&lt;p&gt;Por fim, a quinta etapa é a utilização dos resultados, que envolve a aplicação do conhecimento descoberto na tomada de decisão ou no desenvolvimento de sistemas inteligentes. Nesta etapa, é importante garantir que o conhecimento descoberto seja facilmente acessível e utilizável pelos usuários finais.&lt;/p&gt;
+&lt;p&gt;O KDD é um processo complexo que envolve diversas técnicas e metodologias. Ele é utilizado em diversas áreas, como saúde, finanças, marketing, entre outras, para descobrir informações úteis e significativas a partir de grandes conjuntos de dados. O KDD é especialmente útil em projetos em que a precisão e a confiabilidade do conhecimento descoberto são fundamentais para a tomada de decisão.&lt;/p&gt;
+&lt;h2 id=&#34;mas-e-aí-qual-metodologia-utilizar&#34;&gt;Mas e aí? Qual metodologia utilizar?&lt;/h2&gt;
+&lt;p&gt;A escolha da metodologia mais adequada depende das necessidades e objetivos do projeto em questão, bem como do contexto em que está sendo desenvolvido. As três metodologias compartilham alguns elementos em comum. Todas elas envolvem o processo de coleta, preparação, limpeza e transformação de dados brutos em um formato mais útil para a análise de dados. Elas também enfatizam a importância de se ter uma compreensão clara do problema ou objetivo de negócios, antes de iniciar o processo de análise de dados.&lt;/p&gt;
+&lt;p&gt;A metodologia CRISP-DM enfatiza a importância do ciclo de vida do projeto e é usada principalmente para projetos de mineração de dados de grande escala. A metodologia SEMMA é semelhante ao CRISP-DM em termos de abordagem iterativa, mas enfatiza mais a exploração de dados e o desenvolvimento de modelos estatísticos. Além disso, é especialmente útil para projetos de análise de dados de pequena a média escala. Já o KDD é mais ampla em escopo e inclui etapas que vão além da análise de dados, como a apresentação do conhecimento descoberto para o usuário final, sendo utilizada para projetos de mineração de dados de grande escala.&lt;/p&gt;
+&lt;h2 id=&#34;em-resumo&#34;&gt;Em resumo&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;A escolha da metodologia mais adequada depende das características do projeto em questão, das habilidades e recursos disponíveis da equipe e das necessidades específicas do negócio. É importante avaliar cuidadosamente as diferentes metodologias disponíveis e escolher a que melhor atenda às necessidades do projeto.&lt;/p&gt;
+&lt;p&gt;Até breve! 👋&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Transformando dados em sabedoria: a jornada de dados para decisões informadas.</title>
+      <link>https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/</link>
+      <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/</guid>
+      <description>&lt;p&gt;Olá pessoal, beleza?&lt;/p&gt;
+&lt;p&gt;Dados, informação, conhecimento e sabedoria são conceitos fundamentais na era da informação. Embora muitas vezes sejam usados de forma intercambiável, eles representam etapas distintas no processo de transformação de informações em conhecimento.&lt;/p&gt;
+&lt;p&gt;E aí? Voce sabe a diferênça entre eles? Vamos explorar cada um deles em mais detalhes.&lt;/p&gt;
+&lt;h2 id=&#34;o-que-são-os-dados&#34;&gt;O que são os dados?&lt;/h2&gt;
+&lt;p&gt;Dados são fatos brutos, sem contexto ou significado. Eles podem ser representados por números, palavras ou imagens, mas por si só, eles não possuem nenhuma informação útil. Representam apenas o resultado de uma medição. Por exemplo, uma lista de números não informa nada até que sejam interpretados em um contexto específico.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Dados brutos&#34; srcset=&#34;
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8351f7e2f141e7292be0b05599490b24.webp 400w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8e563cb469bc998aa5321e04ff4df25b.webp 760w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/dados_huebdd0ebe40abf9f25e3bc63fa187a72a_67774_8351f7e2f141e7292be0b05599490b24.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;149&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;informação-dando-significado-aos-dados&#34;&gt;Informação: dando significado aos dados&lt;/h2&gt;
+&lt;p&gt;Informação é o próximo passo na transformação de dados. É quando os dados são organizados e interpretados, adicionando um contexto significativo. A informação pode ser usada para responder a perguntas específicas ou para fornecer insights úteis. Por exemplo, ao adicionar rótulos a uma lista de números, pode-se entender que eles representam preços de produtos em uma loja.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Informação&#34; srcset=&#34;
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/info_hu16cfb768c099dda148a26e58081e7ea7_135401_da83e4ab20ff38ce89fa1d37d194f7d3.webp 400w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/info_hu16cfb768c099dda148a26e58081e7ea7_135401_4120b8b087a6eedd16eaccfa0db5423d.webp 760w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/info_hu16cfb768c099dda148a26e58081e7ea7_135401_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/info_hu16cfb768c099dda148a26e58081e7ea7_135401_da83e4ab20ff38ce89fa1d37d194f7d3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;299&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;familiarizando-se-com-a-informação-conhecimento&#34;&gt;Familiarizando-se com a informação: Conhecimento&lt;/h2&gt;
+&lt;p&gt;Conhecimento é o entendimento adquirido a partir da informação. É quando a informação é compreendida e aplicada de forma significativa. O conhecimento pode ser usado para tomar decisões, resolver problemas ou criar novas ideias. Por exemplo, ao analisar os preços dos produtos em uma loja, pode-se determinar a melhor estratégia de precificação para maximizar os lucros.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Conhecimento&#34; srcset=&#34;
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_84abeb711a0a38699ea0ba5a32b013d4.webp 400w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_48ccff4b1ec29dd443835d3b11ff3dcc.webp 760w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/conhecimento_huceaf00eea5324cdb90167aacbbeef426_223371_84abeb711a0a38699ea0ba5a32b013d4.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;448&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;após-reflexão-sabedoria&#34;&gt;Após reflexão&amp;hellip; Sabedoria!&lt;/h2&gt;
+&lt;p&gt;Sabedoria é o nível mais elevado de compreensão, que é obtido a partir da reflexão e da experiência. É quando o conhecimento é aplicado de forma ética e com perspectiva de longo prazo. A sabedoria envolve o julgamento e a tomada de decisões informadas, levando em consideração valores, contexto e consequências. Por exemplo, ao considerar a estratégia de precificação, pode-se optar por aumentar os preços para maximizar os lucros no curto prazo, mas ao mesmo tempo, prejudicar a imagem da empresa no longo prazo.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Sabedoria&#34; srcset=&#34;
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/sabedoria_hu7347c2b5bb691b03d1e6d3cb6bcb3332_275474_d172c43ece3e15ae226c2deab3221df8.webp 400w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/sabedoria_hu7347c2b5bb691b03d1e6d3cb6bcb3332_275474_d8c2b5a16a96c357113458406b009e27.webp 760w,
+               /post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/sabedoria_hu7347c2b5bb691b03d1e6d3cb6bcb3332_275474_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://est125imd.netlify.app/post/transformando-dados-em-sabedoria-a-jornada-de-dados-para-decis-es-informadas/sabedoria_hu7347c2b5bb691b03d1e6d3cb6bcb3332_275474_d172c43ece3e15ae226c2deab3221df8.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;597&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;em-resumo&#34;&gt;Em resumo&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;A transformação de dados em sabedoria é uma jornada que requer tempo, esforço e reflexão. Cada etapa é essencial para a próxima, e o resultado final é um entendimento profundo que pode ser aplicado para resolver problemas complexos, melhorar a vida das pessoas e promover um mundo melhor. Então, vamos continuar explorando e transformando nossos dados em sabedoria.&lt;/p&gt;
+&lt;p&gt;Até breve! 👋&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
