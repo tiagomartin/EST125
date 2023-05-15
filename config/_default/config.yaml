@@ -5,7 +5,7 @@ theme: "starter-hugo-academic"
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Introdução à Mineração de Dados # Website name
-baseURL: "https://tiagomartin.github.io/EST125/" # Website URL
+baseURL: "https://est125imd.netlify.app" # Website URL
 
 ############################
 ## LANGUAGE
