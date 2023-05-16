@@ -110,16 +110,13 @@ sections:
 
 
   
-  
 - block: portfolio
   content:
     buttons:
     - name: Todos
       tag: '*'
-    - name: Deep Learning
-      tag: Deep Learning
-    - name: Other
-      tag: Demo
+    - name: Classificação
+      tag: Classificação
     default_button_index: 0
     filters:
       folders:
