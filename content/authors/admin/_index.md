@@ -24,9 +24,6 @@ organizations:
   url: https://www.ufop.br/
 role: Semestre 2023-1
 social:
-- icon: envelope
-  icon_pack: fas
-  link: /#contact
 - display:
     header: true
 - icon: github

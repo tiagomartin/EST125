@@ -161,50 +161,6 @@ sections:
 
 
 
-#   
-# - block: contact
-#   content:
-#     address:
-#       city: Ouro Preto
-#       country: Brasil
-#       country_code: Br
-#       postcode: "35400-000"
-#       region: MG
-#       street: Morro do Cruzeiro
-#     appointment_url: https://calendly.com
-#     autolink: true
-#     contact_links:
-#     # - icon: twitter
-#     #   icon_pack: fab
-#     #   link: https://twitter.com/Twitter
-#     # #   name: DM Me
-#     # - icon: skype
-#     #   icon_pack: fab
-#     #   link: skype:echo123?call
-#     #   name: Skype Me
-#     # - icon: video
-#     #   icon_pack: fas
-#     #   link: https://zoom.com
-#     #   name: Zoom Me
-#     #directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-#     email: tiago.martin@ufop.edu.br
-#     form:
-#       formspree:
-#         id: null
-#       netlify:
-#         captcha: false
-#       provider: netlify
-#     office_hours:
-#     - Segunda-feira 17:10 às 18:50
-#     - Quarta-feira 17:10 às 18:50
-#     phone: (31) 3559-1400
-#     subtitle: null
-#     text: Para dúvidas, comentários ou sugestões, entre em contato através do formulário abaixo
-#     title: Contato
-#   design:
-#     columns: "2"
-#   id: contact
-  
 title: null
 type: landing
 ---

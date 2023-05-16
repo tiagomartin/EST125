@@ -1,5 +1,5 @@
 ---
-title: 'Projeto: Dê-me algum crédito?'
+title: 'Projeto 01: Dê-me algum crédito?'
 author: Tiago Pereira
 date: '2023-05-15'
 slug: projeto-d-me-algum-cr-dito
@@ -22,12 +22,22 @@ url_pdf: ''
 url_slides: ''
 url_video: ''
 slides: ''
-url_dataset: https://github.com/tiagomartin/EST125/tree/main/Dados/Projeto%20-%20De-me%20algum%20credito
+url_dataset: https://github.com/tiagomartin/EST125/tree/main/Dados/Projeto01
 ---
 
 Os bancos desempenham um papel crucial nas economias de mercado. Eles decidem quem pode obter financiamento e em que condições, podendo influenciar decisões de investimento de forma positiva ou negativa. Para que os mercados e a sociedade funcionem, indivíduos e empresas precisam ter acesso ao crédito.
 
-Algoritmos de Credit scoring, que predizem a probabilidade de inadimplência, são utilizados por instituições finaceiras para determinar se um empréstimo deve ou não ser concedido.
+Algoritmos de _Credit scoring_, que predizem a probabilidade de inadimplência, são utilizados por instituições finaceiras para determinar se um empréstimo deve ou não ser concedido.
 
 O objetivo desse projeto é construir um modelo que os mutuários possam usar para ajudar a tomar as melhores decisões financeiras, prevendo se alguém irá ou não enfrentar dificuldades financeiras nos próximos dois anos.
 
+
+## Orientações
+
+São disponibilizados quatro arquivos para a realização deste projeto: a base de dados a ser utilizada para a treinar o modelo, o dicionário dos dados com o significado de cada variável, um arquivo teste e um arquivo modelo de entrega. Neste arquivo deverá conter o **ID** dos indivíduos do arquivo teste e as predições para a variável **SeriousDlqin2yrs** obtidas através do seu modelo.
+
+Junto desse arquivo você deverá enviar um relatório (**.Rmarkdown?**) com todos os passos de sua análise. Dê uma olhada [neste relatório](https://github.com/karinnecristina/Data_Science/blob/master/Projeto%20minerando%20dados/Dados_do_Censo.ipynb) para inspiração!
+
+## Prazo de entrega
+
+Essa atividade deverá ser entregue até o dia **19 de junho de 2023** via Moodle.
