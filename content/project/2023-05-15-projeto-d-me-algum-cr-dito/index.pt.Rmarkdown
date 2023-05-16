@@ -22,7 +22,7 @@ url_pdf: ''
 url_slides: ''
 url_video: ''
 slides: ''
-url_dataset: https://github.com/tiagomartin/EST125/tree/main/Dados/Projeto%20-%20D%C3%AA-me%20algum%20credito
+url_dataset: https://github.com/tiagomartin/EST125/tree/main/Dados/Projeto%20-%20De-me%20algum%20credito
 ---
 
 Os bancos desempenham um papel crucial nas economias de mercado. Eles decidem quem pode obter financiamento e em que condições, podendo influenciar decisões de investimento de forma positiva ou negativa. Para que os mercados e a sociedade funcionem, indivíduos e empresas precisam ter acesso ao crédito.
