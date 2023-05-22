@@ -94,6 +94,8 @@ sections:
     buttons:
       - name: Todas
         tag: '*'
+      - name: Análise Exploratória
+        tag: EDA
       - name: Pré-processamento
         tag: Pre
   design:

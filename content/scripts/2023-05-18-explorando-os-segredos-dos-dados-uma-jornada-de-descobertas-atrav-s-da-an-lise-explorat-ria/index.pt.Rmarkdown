@@ -1,0 +1,638 @@
+---
+title: 'Passo a Passo para uma Análise Exploratória de Dados Eficiente'
+author: Tiago Pereira
+date: '2023-05-18'
+slug: explorando-os-segredos-dos-dados-uma-jornada-de-descobertas-atrav-s-da-an-lise-explorat-ria
+categories:
+  - Análise Exploratória
+  - R
+tags:
+  - plot
+  - EDA
+  - R
+subtitle: 'Exemplo de análise exploratória utilizando a base de dados **Data Science Salaries 2023** do **Kaggle**'
+summary: 'Exemplo de análise exploratória utilizando a base de dados **Data Science Salaries 2023** do **Kaggle**'
+authors: []
+lastmod: '2023-05-18T15:42:03-03:00'
+featured: no
+draft: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+Olá, amantes de dados! 
+
+Você já se deparou com um conjunto de dados e se perguntou por onde começar a extrair informações valiosas? A Análise Exploratória de Dados (EDA) é a resposta para essa pergunta! Neste post, apresentaremos um guia passo a passo que o ajudará a realizar uma EDA eficiente e obter insights significativos dos seus dados.
+
+Para isso, vamos utilizar a base de dados [Data Science Salaries 2023](https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023) do **Kaggle**. Essa base de dados contém informações sobre os salários de profissionais de ciência de dados em diferentes regiões e setores.
+
+## Sobre os dados
+
+O conjunto de dados refere-se aos salários de diferentes profissionais de ciência de dados, mensurados nas seguintes características:
+
+  - **work_year:** O ano em que o salário foi pago.
+  - **experience_level:** O nível de experiência no trabalho durante o ano.
+  - **employment_type:** O tipo de emprego para a função.
+  - **job_title:** O cargo exercido durante o ano.
+  - **salary:** O valor total do salário bruto pago.
+  - **salary_currency:** A moeda do salário pago, representada por um código [ISO 4217](https://pt.wikipedia.org/wiki/ISO_4217).
+  - **salary_in_usd:** O salário em USD (dólares americanos).
+  - **employee_residence:** O país de residência principal do funcionário durante o ano de trabalho, representado por um código [ISO 3166](https://www.iban.com/country-codes).
+  - **remote_ratio:** A quantidade geral de trabalho realizado remotamente.
+  - **company_location:** O país da sede da empresa ou filial contratante.
+  - **company_size:** O número médio de pessoas que trabalharam para a empresa durante o ano.
+
+
+
+## Pacotes utilizados
+
+```{r, message=FALSE, warning=FALSE}
+load <- function(pkg){
+  new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
+  if (length(new.pkg))
+    install.packages(new.pkg, dependencies = TRUE)
+  sapply(pkg, require, character.only = TRUE)
+} 
+
+packages <- c("tidyverse",'tidymodels', 'janitor', 'ggpubr', 'funModeling', 'ggalluvial', 'vip', 'skimr', 
+              'VIM', 'patchwork', 'monochromeR', 'googleVis', 'treemapify')
+
+load(packages)
+```
+
+## Leitura dos dados
+ 
+```{r, warning=FALSE, message=FALSE}
+dados = read.csv('ds_salaries.csv', stringsAsFactors = TRUE) 
+dados %>% 
+  glimpse()
+```
+ 
+ 
+O primeiro passo é entender qual é o objetivo da nossa análise. Neste caso, nosso objetivo pode ser identificar os principais fatores que influenciam os salários de profissionais de ciência de dados e explorar as tendências salariais em diferentes regiões e setores. Tentaremos responder às seguintes perguntas:
+
+  - Qual a dimensão da base de dados?
+  - Quando foram pagos os salários?
+  - Qual o nível de experiência da maioria dos profissionais?
+  - Quais os tipos de contrato de trabalho?
+  - Como está a distribuição dos salários no mercado?
+  - Quais as modalidades de trabalho?
+  - Qual o tamanho das empresas?
+  - onde as empresas estão alocadas?
+  - Onde se pagam os maiores salários médios?
+  - Onde os empregados vivem?
+  - Quais são os principais cargos de trabalho?
+  - Qual a faixa salarial de acordo com o cargo?
+  - Existe alguma relação entre o tamanho da empresa e a faixa salarial?
+  - Existe alguma relação entre o nível de experiência e a faixa salarial?
+  - Qual o valor que separa os 10% maiores salarios recebidos e qual a relação com o nível de experiência do profissional?
+  - Qual a relação entre os maiores salários com o tipo de contrato do profissional?
+  - Qual a relação entre os maiores salários com modalidade de trabalho do profissional?
+  
+
+## Qual a dimensão da base de dados?
+
+```{r, warning=FALSE, message=FALSE}
+dados %>% 
+  dim()
+```
+
+Note que a base de dados possui 3755 registros mensurados nas 11 variáveis.
+
+## Quando foram pagos os salários?
+
+```{r message=FALSE, warning=FALSE}
+dados %>% 
+  ggplot((aes(x=work_year))) +
+  geom_bar(stat = 'count', fill= 'steelblue')+
+  xlab("Ano") +
+  ylab("Frequência Absoluta") +
+  stat_count(geom = "text", aes(label = after_stat(count)), vjust = -0.5) +
+  theme_pubclean()
+```
+
+Perceba que a grande maioria dos salários foram pagos nos anos de 2022 e 2023.
+
+## Qual o nível de experiência da maioria dos profissionais?
+
+```{r message=FALSE, warning=FALSE}
+dados %>% 
+  ggplot((aes(x=experience_level))) +
+  geom_bar(stat = 'count', fill= 'steelblue')+
+  xlab("Nível de experiência") +
+  ylab("Frequência Absoluta") +
+  stat_count(geom = "text", aes(label = after_stat(count)), vjust = -0.5) +
+  theme_pubclean()
+```
+
+O conjunto de dados contém 4 níveis de experiência, dos quais a categoria de nível sênior (SE) tem a representação mais alta, seguida pela categoria pleno (MI), a categoria júnior (EN) é a próxima na linha e a categoria de nível executivo (EX) tem a representação mais baixa.
+
+## Quais os tipos de contrato de trabalho?
+
+```{r message=FALSE, warning=FALSE}
+dados %>% 
+  ggplot((aes(x=employment_type))) +
+  geom_bar(stat = 'count', fill= 'steelblue')+
+  xlab("Modalidade") +
+  ylab("Frequência Absoluta") +
+  stat_count(geom = "text", aes(label = after_stat(count)), vjust = -0.5) +
+  theme_pubclean()
+```
+
+O conjunto de dados contém 4 tipos contrato de trabalho: Contrato (CT), Freelance (FL), Full-Time (FT) e Part-Time (PT). É evidente a partir dos gráficos que a maioria das pessoas trabalha em regime de tempo integral.
+
+## Como está a distribuição dos salários no mercado?
+
+```{r, warning=FALSE, message=FALSE}
+dados %>% 
+  select(salary_in_usd) %>% 
+  summary()
+```
+
+```{r, warning=FALSE, message=FALSE}
+quantile(dados$salary_in_usd)
+```
+
+
+
+```{r, warning=FALSE, message=FALSE}
+dados %>%
+      mutate(
+          salary_range = cut_number(salary_in_usd, 4, labels = c("low", "medium", "high", "very high"))
+      ) %>%
+      group_by(salary_range) %>%
+      summarise(
+          `Qtd de observações` = n(),
+          `Vlr Min` = min(salary_in_usd),
+          `Vlr Max` = max(salary_in_usd)
+      ) 
+```
+
+
+
+
+```{r message=FALSE, warning=FALSE}
+p = dados %>% 
+    ggplot((aes(x=salary_in_usd))) +
+    geom_histogram(color = '#0F4B63', fill ='steelblue', bins=30) +
+    labs(title = "Histograma de Salário ($)",x = "Salário",y = "Frequência Absoluta") +
+    theme_pubclean()
+
+p + geom_vline(xintercept = quantile(dados$salary_in_usd), colour="red", linewidth = 0.6, linetype = 2)
+
+```
+
+A faixa salarial está entre 5132,00 dólares e 450000,00 dólares. O salário médio dos profissionais de Data Science é de aproximadamente 137570,00 dólares. Considerando os quartis, podemos criar uma variável chamada **salary_range** com as faixas salariais, sendo que aproximadamente 25% dos empregados (956 observações) recebem entre 5132,00 e 9500,00 dólares (low), aproximadamente 25% (967 observações) recebem entre 95386,00 e 135000,00 dólares (medium). Aproximadamente 25% (900 observações) recebem entre 135446,00 e 175000,00 dólares (high) e finalmente, aproximadamente 25% (932 observações) recebem entre 175100,00 e 450000,00 dólares (very high).
+
+
+
+
+
+
+## Quais são os principais cargos de trabalho?
+
+```{r}
+dados %>% 
+  select(job_title) %>% 
+  group_by(job_title) %>% 
+  summarise(N = n()) %>% 
+  mutate(Porcentagem = round(N / sum(N), 3)) %>% 
+  arrange(desc(Porcentagem))
+```
+
+
+```{r, warning=FALSE, message=FALSE}
+dados %>% 
+  select(job_title) %>% 
+  group_by(job_title) %>% 
+  summarise(N = n()) %>% 
+  mutate(Porcentagem = round(N / sum(N), 3)) %>% 
+  ggplot(aes(area = N, fill = Porcentagem, label = paste(job_title, paste0(Porcentagem*100, '%'), sep = "\n"))) +
+  geom_treemap()+
+  geom_treemap_text(colour = "white",
+                    place = "centre",
+                    size = 15) +
+  theme(legend.position = "none")
+```
+
+O conjunto de dados mostra que 27,7% (1040 observações) do total de empregados são lotados como Data Engineer, 22,4% (840 observações) são lotados como Data Scientist, 16,3% (612 observações) são lotados como Data Analyst e 7,7% (289 observações) são lotados como Machine Learning Engineer. Outros cargos aparecem na base de dados, mas com porcentagem menores.
+
+
+
+## Qual a faixa salarial de acordo com o cargo?
+
+Existem muitos cargos citados na base de dados. Vamos visualizar apenas as mais citadas e sua relação com as faixas salariais.
+
+```{r, warning=FALSE, message=FALSE}
+dados = dados %>% 
+  mutate(top10Salary = as.factor(ifelse(salary_in_usd > quantile(dados$salary_in_usd, probs = 0.9), 'yes', 'no')),
+         salary_range = cut_number(salary_in_usd, 4, 
+                                   labels = c("low", "medium", "high", "very high")))
+```
+
+```{r, warning=FALSE, message=FALSE}
+job_freq = dados %>% 
+  group_by(job_title) %>% 
+  dplyr::summarise(N=n()) %>% 
+  arrange(desc(N)) %>% 
+  filter(N > 20)
+```
+
+
+```{r, warning=FALSE, message=FALSE}
+dadosT = dados %>% 
+  inner_join(job_freq) %>% 
+  group_by(job_title, salary_range) %>% 
+  dplyr::summarise(N = n()) %>% 
+  arrange(salary_range, N)
+
+## Definir um número de 'barras vazias' para adicionar no final de cada grupo
+empty_bar <- 2
+to_add <- data.frame( matrix(NA, empty_bar*nlevels(dadosT$salary_range), ncol(dadosT)) )
+colnames(to_add) <- colnames(dadosT)
+to_add$salary_range <- rep(levels(dadosT$salary_range), each=empty_bar)
+dadosT <- rbind(dadosT, to_add)
+dadosT <- dadosT %>% arrange(salary_range)
+dadosT$id <- seq(1, nrow(dadosT))
+
+## Obter o nome e a posição y de cada rótulo
+label_dadosT <- dadosT
+number_of_bar <- nrow(label_dadosT)
+angle <- 90 - 360 * (label_dadosT$id-0.5) /number_of_bar     
+label_dadosT$hjust <- ifelse( angle < -90, 1, 0)
+label_dadosT$angle <- ifelse(angle < -90, angle+180, angle)
+
+## Gráfico
+p <- ggplot(dadosT, aes(x=as.factor(id), y=N, fill=salary_range)) +       
+  geom_bar(stat="identity", alpha=0.5) +
+  ylim(-100,120) +
+  theme_minimal() +
+  theme(
+    axis.text = element_blank(),
+    axis.title = element_blank(),
+    panel.grid = element_blank(),
+    plot.margin = unit(rep(-1,4), "cm") 
+  ) +
+  coord_polar() + 
+  geom_text(data=label_dadosT, aes(x=id, y=N+10, label=job_title, hjust=hjust), color="black", fontface="bold",alpha=0.6, size=2.5, angle= label_dadosT$angle, inherit.aes = FALSE ) 
+p
+```
+
+
+
+Note que, em todas as faixas salariais, o cargo mais frequente é o de Machine Learning Engineer, exceto para quem ganha entre 135446,00 e 175000,00 dólares (high) cujo cargo mais frequente é Data Analyst.
+
+## Qual o tamanho das empresas?
+
+```{r, warning=FALSE, message=FALSE}
+dados %>% 
+  group_by(company_size) %>% 
+  summarise(N = n()) %>% 
+  mutate(Porcentagem = round(N / sum(N), 3)) %>% 
+  arrange(desc(Porcentagem))
+```
+
+```{r message=FALSE, warning=FALSE}
+dados %>% 
+  ggplot((aes(x=company_size))) +
+  geom_bar(stat = 'count', fill= 'steelblue')+
+  xlab("Tamanho") +
+  ylab("Frequência Absoluta") +
+  stat_count(geom = "text", aes(label = after_stat(count)), vjust = -0.5) +
+  theme_pubclean()
+```
+
+O conjunto de dados mostra que 3,9% (148 observações) das empresas são de pequeno porte (S), 84,0% (3153 observações) são empresas de médio porte (M) e 12,1% (454 observações) são empresas de grande porte (L).
+
+
+## Existe alguma relação entre o tamanho da empresa e a faixa salarial?
+
+```{r, warning=FALSE, message=FALSE}
+dados %>% 
+  group_by(company_size, salary_range) %>% 
+  dplyr::summarise(N=n())%>% 
+  mutate(Porcentagem = round(N / sum(N), 3))
+```
+
+```{r, warning=FALSE, message=FALSE}
+dados %>% 
+  group_by(company_size, salary_range) %>% 
+  dplyr::summarise(qtd = n()) %>% 
+  ggplot(aes(axis1=company_size, axis2=salary_range, y=qtd, fill= company_size))+
+  geom_alluvium()+
+  geom_stratum()+
+  geom_text(stat = "stratum", aes(label = after_stat(stratum)))+
+  scale_x_discrete(limits = c("company_size", "salary_range"))+
+  theme_pubclean()
+```
+
+Podemos observar que, para as empresas de grande porte (L), 42,5% (193 observações) dos salários pagos são baixos, 21,6% (98 observações) dos salários pagos são medianos, 15% (68 obsevações) são altos e 20,9% (95 observações) são muito altos. Já para as empresas de pequeno porte, a grande maioria (70,9 %) pagam salários considerados baixos. As empresas de porte médio pagam os salários de forma bem distribuída entre as quatro faixas salariais. 
+
+## Existe alguma relação entre o nível de experiência e a faixa salarial?
+
+```{r, warning=FALSE, message=FALSE}
+dados %>% 
+  group_by(experience_level, salary_range) %>% 
+  summarise(N = n()) %>% 
+  mutate(Porcentagem = round(N / sum(N), 3)) 
+```
+
+```{r, warning=FALSE, message=FALSE}
+dados %>% 
+  group_by(experience_level, salary_range) %>% 
+  dplyr::summarise(qtd = n()) %>% 
+  ggplot(aes(axis1=experience_level, axis2=salary_range, y=qtd, fill= experience_level))+
+  geom_alluvium()+
+  geom_stratum()+
+  geom_text(stat = "stratum", aes(label = after_stat(stratum)))+
+  scale_x_discrete(limits = c("experience_level", "salary_range"))+
+  theme_pubclean()
+```
+
+
+Podemos observar que a maioria dos empregados da categoria júnior (EN) (67,8% ou 217 observações) recebem salários considerados baixos (low). O mesmo acontece com os empregados da categoria pleno (MI) (47,1% ou 379 observações). Para os níveis sênior (SE) e executivo (EX), o padrão salarial se inverte. A maioria (31,3% e 57,9%, respectivamente) recebem salários considerados muito altos.
+
+## Quais as modalidades de trabalho?
+
+```{r message=FALSE, warning=FALSE}
+dados %>% 
+  ggplot((aes(x=factor(remote_ratio, labels = c('Presencial', 'Híbrido', 'Remoto'))))) +
+  geom_bar(stat = 'count', fill= 'steelblue')+
+  xlab("Modalidade") +
+  ylab("Frequência Absoluta") +
+  stat_count(geom = "text", aes(label = after_stat(count)), vjust = -0.5) +
+  theme_pubclean()
+```
+
+```{r, warning=FALSE, message=FALSE}
+dados %>%
+    mutate(
+        remote_ratio = factor(remote_ratio, labels = c('Presencial', 'Híbrido', 'Remoto'))
+    ) %>%
+    group_by(remote_ratio) %>%
+    summarise(`Qtd de observações` = n()) %>% 
+    mutate(Porcentagem = round(`Qtd de observações` / sum(`Qtd de observações`), 3)) %>% 
+    arrange(desc(Porcentagem))
+```
+
+O conjunto de dados mostra que cerca de 51,2% (1.923 observações) estão trabalhando presencialmente, 43,8% (1.643 observações) estão trabalhando no modo híbrido e 5% (189 observações) estão trabalhando remotamente.
+
+## Onde os empregados vivem?
+
+```{r, warning=FALSE, message=FALSE}
+dados_g = dados %>% 
+            group_by(employee_residence) %>% 
+            summarise(N = n()) %>% 
+            mutate(num_employee.tooltip = paste("Total de empregados:", N),
+                   Tooltip.header = "") %>% 
+            ungroup()
+```
+
+```{r, warning=FALSE, message=FALSE}
+dados_g %>%
+  select(employee_residence, N) %>% 
+  mutate(Porcentagem = round(N / sum(N), 3)) %>% 
+  arrange(desc(Porcentagem))
+```
+
+```{r results='asis'}
+op = options(gvis.plot.tag = 'chart')
+G = gvisGeoChart(dados_g, "employee_residence", "N",
+                 options=list(projection="kavrayskiy-vii", 
+                              width=800, height=400))
+plot(G) 
+```
+
+Podemos observar que a grande maioria (80,0%) dos empregados moram nos Estados Unidos. Talvez seria interessante avaliar o gráfico acima fora dos Estados Unidos.
+
+```{r, warning=FALSE, message=FALSE}
+dados_sUS = dados %>% 
+            filter(employee_residence != 'US') %>% 
+            group_by(employee_residence) %>% 
+            summarise(N = n()) %>% 
+            mutate(num_employee.tooltip = paste("Total de empregados:", N),
+                   Tooltip.header = "") %>% 
+            ungroup()
+```
+
+```{r, warning=FALSE, message=FALSE}
+dados_sUS %>%
+  select(employee_residence, N) %>% 
+  mutate(Porcentagem = round(N / sum(N), 3)) %>% 
+  arrange(desc(Porcentagem))
+```
+
+```{r results='asis'}
+op = options(gvis.plot.tag = 'chart')
+G = gvisGeoChart(dados_sUS, "employee_residence", "N",
+                 options=list(projection="kavrayskiy-vii", 
+                              width=800, height=400))
+plot(G) 
+```
+
+Note que, fora dos Estados Unidos, a maioria dos empregados vivem na Inglaterra (22,2%), Canadá (11,3%), Espanha (10,7%), Índia (9,5%), Alemanha (6,4%) e França (5,1%).
+
+## Onde as empresas estão alocadas?
+
+```{r, warning=FALSE, message=FALSE}
+dados_c = dados %>% 
+            group_by(company_location) %>% 
+            summarise(N = n()) %>% 
+            mutate(num_company.tooltip = paste("Total de empresas:", N),
+                   Tooltip.header = "") %>% 
+            ungroup()
+```
+
+```{r, warning=FALSE, message=FALSE}
+dados_c %>%
+  select(company_location, N) %>% 
+  mutate(Porcentagem = round(N / sum(N), 3)) %>% 
+  arrange(desc(Porcentagem))
+```
+
+```{r results='asis'}
+op = options(gvis.plot.tag = 'chart')
+E = gvisGeoChart(dados_c, "company_location", "N",
+                 options=list(projection="kavrayskiy-vii", 
+                              width=800, height=400))
+plot(E) 
+```
+
+Podemos observar que a grande maioria (81,0%) das empresas estão situadas nos Estados Unidos. Talvez seria interessante avaliar o gráfico acima fora dos Estados Unidos.
+
+
+```{r, warning=FALSE, message=FALSE}
+dados_sUS = dados %>% 
+            filter(company_location != 'US') %>% 
+            group_by(company_location) %>% 
+            summarise(N = n()) %>% 
+            mutate(num_employee.tooltip = paste("Total de empresas:", N),
+                   Tooltip.header = "") %>% 
+            ungroup()
+```
+
+```{r, warning=FALSE, message=FALSE}
+dados_sUS %>%
+  select(company_location, N) %>% 
+  mutate(Porcentagem = round(N / sum(N), 3)) %>% 
+  arrange(desc(Porcentagem))
+```
+
+```{r results='asis'}
+op = options(gvis.plot.tag = 'chart')
+G = gvisGeoChart(dados_sUS, "company_location", "N",
+                 options=list(projection="kavrayskiy-vii", 
+                              width=800, height=400))
+plot(G) 
+```
+
+
+Note que, fora dos Estados Unidos, a maioria das empresas estão situadas na Inglaterra (24,1%), Canadá (12,2%), Espanha (10,8%), Índia (8,1%), Alemanha (7,8%) e França (4,8%).
+
+
+## Onde se pagam os maiores salários médios?
+
+```{r}
+df = dados %>% 
+  group_by(company_location) %>% 
+  dplyr::summarise(mean_salary = mean(salary_in_usd))
+
+df %>% arrange(desc(mean_salary))
+```
+
+```{r results='asis'}
+op = options(gvis.plot.tag = 'chart')
+G = gvisGeoChart(df, "company_location", "mean_salary",
+                 options=list(projection="kavrayskiy-vii", 
+                              width=800, height=400))
+plot(G) 
+```
+
+Note que o país em que se paga o maior salário médio (em média 271446,00 dólares) para profissionais de Data Science é Israel (IL), seguido por Porto Rico (PR) (em média 167500,00 dólares) e Estados Unidos, que em média paga 151822,01 dólares para esses profissionais. No Brasil, o salário médio pago é de 40579,20 dólares. 
+
+
+## Qual o valor que separa os 10% maiores salarios recebidos e qual a relação com o nível de experiência do profissional?
+
+```{r, warning=FALSE, message=FALSE}
+dados %>% 
+  summarise(top10 = quantile(dados$salary_in_usd, prob = 0.9))
+```
+
+Podemos observar que o salário que separa os 10% maiores salários é de 219000,00 dólares. Qual o nível de experiência dos empregados que ganham mais que esse valor?
+
+
+```{r, warning=FALSE, message=FALSE}
+dados %>% 
+  group_by(experience_level,top10Salary) %>% 
+  dplyr::summarise(N=n())%>% 
+  mutate(Porcentagem = round(N / sum(N), 3))
+```
+
+
+
+```{r, warning=FALSE, message=FALSE}
+dados %>% 
+  group_by(experience_level,top10Salary) %>% 
+  dplyr::summarise(N=n()) %>% 
+  ggplot(aes(fill=top10Salary, y=N, x=experience_level))+ 
+  geom_bar(position="stack", stat="identity")+
+  xlab('Nível de Experiência')+
+  ylab('Frequência')+
+  theme_pubclean() 
+```
+
+
+Observe que, para a categoria júnior (EN), apenas 1,6% (5 observações) dos empregados que recebem salários na faixa dos 10% maiores. Para a categoria pleno (MI), 2,6% (21 observações) recebem salários nessa faixa, enquanto que, para as categorias sênior (SE) e executivo (EX), essa faixa salarial representa 12,3% e 34,2% dos salários recebidos, respectivamente.
+
+## Qual a relação entre os maiores salários com o tipo de contrato do profissional?
+
+```{r, warning=FALSE, message=FALSE}
+dados %>% 
+  group_by(employment_type,top10Salary) %>% 
+  dplyr::summarise(N=n())%>% 
+  mutate(Porcentagem = round(N / sum(N), 3))
+```
+
+
+```{r, warning=FALSE, message=FALSE}
+dados %>% 
+  group_by(employment_type,top10Salary) %>% 
+  dplyr::summarise(N=n()) %>% 
+  ggplot(aes(fill=top10Salary, y=N, x=employment_type))+ 
+  geom_bar(position="stack", stat="identity")+
+  xlab('Tipo de contrato de trabalho')+
+  ylab('Frequência')+
+  theme_pubclean() 
+```
+
+Observe que, para o tipo de trabalho por contrato (CT), 20% dos empregados recebem salários na faixa dos 10% maiores. Já para quem trabalha em regime de tempo integral (FT), 10% recebem salários nessa faixa. Para quem trabalha em regime de meio período (PT) e Freelance (FL), nenhum funcionário recebe salários na faixa dos 10% maiores.
+
+
+## Qual a relação entre os maiores salários com modalidade de trabalho do profissional?
+
+
+```{r, warning=FALSE, message=FALSE}
+dados %>% 
+  group_by(remote_ratio,top10Salary) %>% 
+  dplyr::summarise(N=n())%>% 
+  mutate(Porcentagem = round(N / sum(N), 3))
+```
+
+```{r, warning=FALSE, message=FALSE}
+dados %>% 
+  group_by(remote_ratio,top10Salary) %>% 
+  dplyr::summarise(N=n()) %>% 
+  ggplot(aes(fill=top10Salary, y=N, x= factor(remote_ratio, labels = c('Presencial', 'Híbrido', 'Remoto'))))+ 
+  geom_bar(position="stack", stat="identity")+
+  xlab('Regime de trabalho')+
+  ylab('Frequência')+
+  theme_pubclean() 
+```
+
+
+Aparentemente o regime de trabalho não possui relação com o fato de se ganhar salários na faixa dos 10% maiores.
+
+
+## Qual a relação entre os maiores salários com o tamanho da empresa?
+
+
+
+```{r, warning=FALSE, message=FALSE}
+dados %>% 
+  group_by(company_size,top10Salary) %>% 
+  dplyr::summarise(N=n())%>% 
+  mutate(Porcentagem = round(N / sum(N), 3))
+```
+
+```{r, warning=FALSE, message=FALSE}
+dados %>% 
+  group_by(company_size,top10Salary) %>% 
+  dplyr::summarise(N=n()) %>% 
+  ggplot(aes(fill=top10Salary, y=N, x= company_size))+ 
+  geom_bar(position="stack", stat="identity")+
+  xlab('Tamanho da empresa')+
+  ylab('Frequência')+
+  theme_pubclean() 
+```
+
+Observe que a grande minoria dos funcionários das empresas, independente do tamanho, recebem salários na faixa dos 10% maiores. Aparentemente o tamanho da empresa não influencia no pagamento de salários nessa faixa.
+
+
+## Conclusão 
+
+A área de ciência de dados oferece uma gama diversificada de oportunidades de trabalho, com salários variados, dependendo de vários fatores.Baseados na **análise exploratória de dados (EDA)**, temos as seguintes informações acerca dos salários de profissionais de Data Science em diferentes regiões:
+
+  - A maioria dos profissionais possuem nível de experiência sênior e trabalham em horário integral.
+  - A grande maioria dos profissionais ganham menos de 200000,00 dólares. O salário médio fica em torno de 137570,00 dólares.
+  - Os cargos de Data Engineer, Data Scientist, Data Analyst e Machine Learning Engineer são os mais frequentes no mercado de trabalho.
+  - A maioria das empresas são de médio porte. Além disso, o tamanho da empresa nem sempre determina a faixa salarial, com empresas de médio porte oferecendo salários competitivos para atrair trabalhadores qualificados.
+  - A experiência do profissional, aparentemente é um fator importante na definição do salário. Profissionais da categoria sênior e executivo tendem a ganhar salários mais altos.
+  - A grande maioria das empresas estão situadas nos Estados Unidos. A grande maioria dos empregados residem neste país. Porém, os maiores salários, em média, são pagos por empresas localizadas em Israel e Porto Rico.
+  - Os 10% maiores salários são pagos, em sua maioria, a profissionais das categorias sênior e executivo que trabalham por contrato ou em tempo integral.
+  - Aparentemente, o regime de trabalho (presencial, remoto ou híbrido) não impacta significativamente na determinação do salário.
+  
+Com o uso de técnicas de EDA, tivemos descobertas que enfatizam a importância de alguns fatores relacionados ao trabalho na determinação da remuneração e que podem orientar aspirantes a profissionais de dados na negociação de pacotes salariais melhores.

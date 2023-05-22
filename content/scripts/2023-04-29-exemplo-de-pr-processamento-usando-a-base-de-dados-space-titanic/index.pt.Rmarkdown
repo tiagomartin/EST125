@@ -23,7 +23,6 @@ image:
 projects: []
 ---
 
-
 Olá pessoal, beleza?
 
 *Bem-vindo ao ano de 2912, onde suas habilidades em ciência de dados são necessárias para resolver um mistério cósmico. Recebemos uma transmissão de quatro anos-luz de distância e as coisas não parecem boas.*
