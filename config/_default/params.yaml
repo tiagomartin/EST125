@@ -77,7 +77,7 @@ features:
   comment:
     provider: ''
     disqus:
-      shortname: ''
+      shortname: 'disqus_oqhRSyCmcg'
       show_count: true
     commento:
       url: ''
