@@ -19,7 +19,7 @@ main:
   - name: Aulas
     url: '#aulas'
     weight: 40
-  - name: Scripts
+  - name: Análises de dados
     url: '#scripts'
     weight: 45
   # - name: Agenda
