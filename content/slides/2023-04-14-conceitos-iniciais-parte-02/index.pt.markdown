@@ -7,10 +7,10 @@ categories:
   - Conceitos
 tags:
   - Conceitos
-summary: 'CRISP-DM, SEMMA e KDD'
+summary: 'Tarefas, técnicas, definição do objetivo e técnica dos cinco porquês'
 authors: []
-featured: yes
 slides:
+  widescreen: true
   theme: white
   highlight_style: dracula
   diagram: yes
@@ -33,277 +33,256 @@ slides:
 
 {{<slide background-color="#54787d">}}
 
-## CRISP-DM, SEMMA e KDD
-
+## Tarefas e técnicas de mineração de dados
 
 ---
 
-- Existem várias metodologias para gerenciar projetos de mineração de dados.
+Uma **tarefa** de mineração de dados determina o **tipo de problema** que será resolvido pelo processo de mineração de dados. Podem ser **descritivas** ou **preditivas**.
 
-- Três das metodologias mais comuns são CRISP-DM, SEMMA e KDD.
+&nbsp;
+
+Já a **técnica**, representa o **algoritmo** que pode ser empregado para a execução da tarefa.
+
+---
+
+- As tarefas de mineração de dados incluem: classificação, clustering, regressão, associação e detecção de anomalias.
+
+&nbsp;
+
+- Cada uma dessas tarefas tem um objetivo específico na análise de dados.
 
 ---
 
 {{<slide background-color="#54787d">}}
 
-## CRISP-DM
+## Classificação
 
 ---
 
-- CRISP-DM (**CR**oss **I**ndustry **S**tandard **P**rocess for **D**ata **M**ining) é uma metodologia de mineração de dados amplamente utilizada.
-
-
-- Envolve **seis etapas**: compreensão do negócio, compreensão dos dados, preparação dos dados, modelagem, avaliação e implementação.
-
-
-- É uma abordagem iterativa e pode ser adaptada para atender a necessidades específicas do projeto.
-
----
-
-### CRISP-DM
-
-<img src="crisp.png" width="500" height="500">
-
----
-
-
-#### Compreensão do negócio
-
-
-- Nesta fase, o objetivo é entender os objetivos do projeto, identificar as necessidades do usuário e definir os critérios de sucesso.
+- A **classificação** é uma tarefa de mineração de dados que envolve a atribuição de um rótulo a um conjunto de dados com base em um conjunto de características.
 
 &nbsp;
 
-- É importante definir claramente o escopo do projeto e entender os recursos disponíveis.
+- As técnicas de classificação incluem: árvores de decisão, redes neurais, SVM, Naive Bayes, etc.
 
 ---
 
-#### Compreensão dos Dados
+{{<slide background-color="#54787d">}}
 
+## Clusterização
 
-- Nesta fase, o objetivo é coletar, limpar, integrar e explorar os dados.
+---
+
+- O **clustering** é uma tarefa de mineração de dados que envolve a organização de um conjunto de dados em grupos com base em suas características.
 
 &nbsp;
 
-- É importante identificar a qualidade dos dados, definir as variáveis relevantes e compreender a estrutura dos dados.
+- As técnicas de clustering incluem: k-means, DBSCAN, aglomeração hierárquica, etc.
 
 ---
 
+{{<slide background-color="#54787d">}}
 
-#### Preparação dos Dados
+## Regressão ou predição
 
+---
 
-- Nesta fase, o objetivo é selecionar as variáveis relevantes, transformar os dados e criar conjuntos de dados de treinamento e teste.
+- A **regressão** é uma tarefa de mineração de dados que envolve a identificação de uma relação entre uma variável dependente e uma ou mais variáveis independentes.
 
 &nbsp;
 
-- É importante garantir que os dados estejam limpos, completos e estruturados de maneira adequada para a modelagem.
+- As técnicas de regressão incluem: regressão linear, regressão logística, etc.
 
 ---
 
+{{<slide background-color="#54787d">}}
 
-#### Modelagem
+## Associação
 
+---
 
-- Nesta fase, o objetivo é construir e avaliar modelos que possam prever ou classificar novos casos.
+- A **associação** é uma tarefa de mineração de dados que envolve a descoberta de relações entre itens em um conjunto de dados.
 
 &nbsp;
 
-- É importante selecionar as técnicas de modelagem apropriadas e avaliar a eficácia do modelo usando conjuntos de dados de treinamento e teste.
+- As técnicas de associação incluem: regras de associação, análise de cesta de compras, etc.
 
 ---
+
+{{<slide background-color="#54787d">}}
+
+## Detecção de anomalias
+
+---
+
+- A **detecção de anomalias** é uma tarefa de mineração de dados que envolve a identificação de pontos de dados incomuns em um conjunto de dados.
+
+&nbsp;
+
+- As técnicas de detecção de anomalias incluem: análise de desvio, detecção de outliers, etc.
+
+---
+
+{{<slide background-color="#54787d">}}
+
+## Importância da definição dos objetivos
+
+---
+
+#### Enquanto isso, no país das maravilhas...
+
+
+<a href="https://pt.wikipedia.org/wiki/Lewis_Carroll" target="_blank" rel="noopener noreferrer"><img src="alice.jpeg"  width="800" height="500"></a>
+
+---
+
+### Definição dos objetivos
+
+- Definir claramente os objetivos da análise de dados é fundamental para o sucesso do projeto.
+
+&nbsp;
+
+- Os objetivos devem ser específicos, mensuráveis, alcançáveis, relevantes e ter um prazo estabelecido ([SMART](https://deolhonofuturo.uninter.com/metodologia-smart/?gclid=CjwKCAjw8-OhBhB5EiwADyoY1TeU-iDp_vyUvve_TLMgNiTOO2t_ZZKzN3bCyLVwzB52-c6NrwJLBhoC3tEQAvD_BwE)).
+
+---
+
+- Por exemplo, suponha que uma empresa queira aumentar as vendas em uma determinada região. 
+
+  - Usando a metodologia SMART, a empresa pode definir o objetivo da seguinte maneira: 
+
+---
+
+- **Específico:** O objetivo deve ser específico e detalhado. Por exemplo, "Aumentar as vendas de determinada categoria de produtos na região em 10% no próximo trimestre".
+
+- **Mensurável:** O objetivo deve ser mensurável para que possa ser avaliado. Por exemplo, a empresa pode usar dados de vendas para medir o progresso em relação à meta.
+
+---
+
+- **Alcançável:** O objetivo deve ser alcançável para evitar frustração e desânimo da equipe. A empresa pode avaliar a capacidade da equipe, recursos disponíveis e condições de mercado para determinar se a meta é alcançável.
+
+- **Relevante:** O objetivo deve ser relevante para os objetivos de negócios da empresa. A meta de aumentar as vendas em uma determinada região deve estar alinhada com os objetivos de negócios da empresa.
+
+---
+
+**Temporal:** O objetivo deve ser definido em um prazo determinado. Por exemplo, a meta deve ser alcançada em três meses.
+
+---
+
+- Com a definição clara do objetivo usando a metodologia SMART, a empresa pode traçar um plano de ação, coletar dados relevantes, realizar análises para identificar as causas da queda nas vendas, e implementar medidas para atingir a meta. 
+
+- A empresa também pode monitorar o progresso e ajustar as medidas se necessário para garantir que a meta seja alcançada no prazo estabelecido.
+
+---
+
+{{<slide background-color="#54787d">}} 
+
+![whats+the+problem?](https://media3.giphy.com/media/3ohjV3jMa3xK4Reg5G/giphy.gif) 
+
+## Entenda o problema e depois pense em como resolvê-lo
+
+---
+
+Qual o problema nessa foto?
+
+![Cavalo](fig_01.png)
+
+---
+
+Sendo o cavalo, vamos trocá-lo por um avião!
+
+![Avião](fig_02.png)
+
+---
+
+Compre um mais potente...
+
+![AviãoPotente](fig_03.png)
+
+---
+
+{{<slide background-color="#54787d">}} 
+
+## Técnica dos cinco porquês
+
+---
+
+A **técnica dos cinco porquês** é uma técnica de análise de **causalidade** que pode ser usada para identificar a causa raiz de um problema, através de perguntas sucessivas. 
+
+
+---
+
+- O processo da técnica dos cinco porquês pode ser resumido nas seguintes etapas:
+
+  1. **Identificar o problema:** Comece identificando o problema que precisa ser resolvido.
   
+  2. **Fazer a primeira pergunta:** Pergunte "Por que o problema ocorreu?" e identifique a causa mais provável.
 
-#### Avaliação
+---
 
+  3. **Fazer a segunda pergunta:** Pergunte "Por que a causa identificada na pergunta anterior ocorreu?" e identifique a causa mais provável.
+  
+  4. **Continuar com as perguntas subsequentes:** Continue fazendo perguntas sucessivas até que a causa raiz seja identificada.
 
-- Nesta fase, o objetivo é avaliar a eficácia do modelo em relação aos critérios de sucesso definidos na fase de compreensão do negócio.
+---
+
+  5. **Resolver o problema:** Uma vez que a causa raiz é identificada, é possível implementar soluções para resolver o problema.
+  
+---
+
+É importante notar que, embora a técnica dos cinco porquês seja uma técnica útil, ela não é uma solução universal para todos os problemas. Às vezes, a causa raiz de um problema pode ser mais complexa e exigir técnicas de análise mais avançadas. Além disso, é importante não se limitar a apenas cinco perguntas se necessário para chegar à causa raiz do problema.
+
+---
+
+### Exemplo do uso da técnica dos cinco porquês
 
 &nbsp;
 
-- É importante avaliar o modelo em conjuntos de dados de teste independentes e garantir que ele atenda aos requisitos do usuário.
+**Problema:** O faturamento da empresa diminuiu no último trimestre.
 
 ---
 
-#### Implantação
-
-
-- Nesta fase, o objetivo é implantar o modelo em um ambiente de produção e monitorá-lo regularmente para garantir que continue a atender aos requisitos do usuário.
+1. Por que o faturamento da empresa diminuiu no último trimestre?
 
 &nbsp;
 
-- É importante desenvolver um plano de implantação e treinamento para garantir que o modelo seja adotado pelos usuários.
+**Resposta:** Porque as vendas de um dos produtos mais vendidos caíram.
 
 ---
 
-{{<slide background-color="#54787d">}}
-
-## SEMMA
-
----
-
-- SEMMA (**S**ample, **E**xplore, **M**odify, **M**odel, **A**ssess) é uma metodologia de mineração de dados desenvolvida pela SAS.
-
-- Envolve **cinco etapas**: amostragem, exploração, modificação, modelagem e avaliação.
-
-- SEMMA é uma abordagem focada no modelo e pode ser usada em conjunção com outras metodologias de gerenciamento de projetos.
-
----
-
-### SEMMA
-
-<img src="semma.png" width="650" height="500">
-
----
-
-#### Amostragem
-
-- Nesta fase, o objetivo é selecionar um subconjunto representativo dos dados originais.
+2. Por que as vendas do produto mais vendido caíram?
 
 &nbsp;
 
-- É importante garantir que a amostra seja grande o suficiente para fornecer resultados precisos e confiáveis.
+**Resposta:** Porque a concorrência começou a oferecer preços mais baixos.
 
 ---
 
-#### Exploração
-
-- Nesta fase, o objetivo é explorar os dados selecionados na etapa anterior e identificar padrões ou tendências.
+3. Por que a concorrência começou a oferecer preços mais baixos?
 
 &nbsp;
 
-- É importante visualizar os dados para identificar padrões facilmente e identificar outliers.
+**Resposta:** Porque um novo concorrente entrou no mercado e começou a oferecer preços mais baixos para ganhar participação de mercado.
 
 ---
 
-#### Modificação
-
-- Nesta fase, o objetivo é transformar os dados de forma apropriada para que possam ser usados na modelagem.
+4. Por que o novo concorrente conseguiu oferecer preços mais baixos?
 
 &nbsp;
 
-- É importante realizar a limpeza dos dados, selecionar as variáveis relevantes e transformar os dados para que possam ser usados na modelagem.
+**Resposta:** Porque ele tem custos de produção mais baixos do que a nossa empresa.
 
 ---
 
-#### Modelagem
-
-- Nesta fase, o objetivo é criar e testar modelos usando os dados preparados na etapa anterior.
+5. Por que nossos custos de produção são mais altos do que os do novo concorrente?
 
 &nbsp;
 
-- É importante selecionar as técnicas de modelagem apropriadas e avaliar a eficácia do modelo usando conjuntos de dados de treinamento e teste.
+**Resposta:** Porque não atualizamos nossos equipamentos de produção há anos, o que torna nosso processo menos eficiente e mais caro.
 
 ---
 
-#### Avaliação
-
-- Nesta fase, o objetivo é avaliar a eficácia do modelo em relação aos critérios de sucesso definidos na fase de amostragem.
+- Com essa análise, a causa raiz do problema do faturamento da empresa ter diminuído no último trimestre foi identificada: **a falta de atualização dos equipamentos de produção**. 
 
 &nbsp;
 
-- É importante avaliar o modelo em conjuntos de dados de teste independentes e garantir que ele atenda aos requisitos do usuário.
-
----
-
-{{<slide background-color="#54787d">}}
-
-## KDD
-
----
-
-- KDD (**K**nowledge **D**iscovery in **D**atabases) é uma metodologia mais ampla que CRISP-DM e SEMMA.
-
-- Envolve basicamente **três etapas**: pré-processamento, mineração de dados e pós-processamento.
-
----
-
-Pré-processamento inclui limpeza, integração e transformação de dados. A mineração de dados inclui seleção, pré-processamento e modelagem de dados. O pós-processamento inclui interpretação e avaliação dos resultados.
-
----
-
-### KDD
-
-<img src="kdd.png" width="850" height="500">
-
----
-
-#### Seleção
-
-- Nesta fase, o objetivo é selecionar os dados relevantes para o problema de mineração.
-
-&nbsp;
-
-- É importante identificar as fontes de dados relevantes e escolher as variáveis de interesse.
-
----
-
-#### Pré-processamento
-
-- Nesta fase, o objetivo é preparar os dados para análise.
-
-&nbsp;
-
-- É importante lidar com valores ausentes, tratar outliers e realizar normalização ou padronização de variáveis.
-
----
-
-#### Limpeza
-
-- Nesta fase, o objetivo é identificar e corrigir erros nos dados.
-
-&nbsp;
-
-- É importante lidar com dados duplicados, corrigir erros de digitação e identificar e tratar valores discrepantes.
-
----
-
-#### Transformação
-
-- Nesta fase, o objetivo é transformar os dados em uma forma que seja adequada para a análise.
-
-&nbsp;
-
-- É importante realizar transformações como discretização, agregação, e normalização para que os dados possam ser usados com sucesso na modelagem.
-
----
-
-#### Mineração de dados
-
-- Nesta fase, o objetivo é aplicar técnicas de mineração de dados para identificar padrões e relacionamentos nos dados.
-
-&nbsp;
-
-- É importante escolher as técnicas de mineração de dados apropriadas e avaliar a eficácia dos modelos gerados.
-
----
-
-#### Interpretação e avaliação
-
-- Nesta fase, o objetivo é interpretar os resultados da mineração de dados e avaliar sua relevância para o problema de negócio.
-
-&nbsp;
-
-- É importante avaliar a eficácia dos modelos gerados e determinar se as descobertas são significativas e úteis.
-
----
-
-![dúvida](https://media1.giphy.com/media/XeH1MFu4x3etVsllUN/giphy.gif)
-
----
-
-{{<slide background-color="#54787d">}}
-
-## Qual metodologia utilizar?
-
----
-
-CRISP-DM, SEMMA e KDD são todas metodologias amplamente utilizadas para gerenciamento de projetos de mineração de dados.
-
----
-
-CRISP-DM é uma abordagem iterativa em cascata, SEMMA é uma abordagem em cascata focada no modelo e KDD é uma metodologia mais ampla com três etapas principais.
-
----
-
-A escolha da metodologia dependerá das necessidades específicas do projeto e dos recursos disponíveis para o gerenciamento do projeto.
+- Com essa informação, a empresa pode agora tomar medidas para atualizar seus equipamentos de produção e aumentar sua eficiência para voltar a ter um faturamento maior.
