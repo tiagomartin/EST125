@@ -72,7 +72,7 @@ sections:
 - block: portfolio
   id: scripts
   content:
-    title: Scripts
+    title: Análise de dados
     filters:
     # Folders to display content from
       folders:
