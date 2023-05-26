@@ -273,10 +273,19 @@ Voltando ao Joãozinho...
 {{% /fragment %}}
 
 ---
+Probabilidade de ocorrência das classes
+![exemplo](tabela.jpg)
+
+---
 
 {{< math >}} 
 $$ P(\text{classe = Sim}) = \dfrac{9}{14} \,\,\,\,\,\,\, \text{e}\,\,\,\,\,\,\, P(\text{classe = Não}) = \dfrac{5}{14}$$
 {{< /math >}}
+
+---
+
+{{< math >}}$x_0 = (\leq 30, \text{ Média}, \text{ Sim}, \text{ Bom})${{< /math >}}
+![exemplo](tabela.jpg)
 
 ---
 
@@ -288,12 +297,21 @@ $$ P(\text{Idade} \leq 30 | \text{classe = Sim}) = \dfrac{2}{9} \\ P(\text{Idade
 
 ---
 
+{{< math >}}$x_0 = (\leq 30, \text{ Média}, \text{ Sim}, \text{ Bom})${{< /math >}}
+![exemplo](tabela.jpg)
+
+---
 
 Para o atributo **Renda**
 
 {{< math >}} 
 $$ P(\text{Renda = Média} | \text{classe = Sim}) = \dfrac{4}{9} \\ P(\text{Renda = Média} | \text{classe = Não}) = \dfrac{2}{5}$$
 {{< /math >}}
+
+---
+
+{{< math >}}$x_0 = (\leq 30, \text{ Média}, \text{ Sim}, \text{ Bom})${{< /math >}}
+![exemplo](tabela.jpg)
 
 ---
 
@@ -306,6 +324,10 @@ $$ P(\text{Estudante = Sim} | \text{classe = Sim}) = \dfrac{6}{9} \\ P(\text{Est
 
 ---
 
+{{< math >}}$x_0 = (\leq 30, \text{ Média}, \text{ Sim}, \text{ Bom})${{< /math >}}
+![exemplo](tabela.jpg)
+
+---
 
 Para o atributo **Crédito**
 
@@ -316,18 +338,18 @@ $$ P(\text{Crédito = Bom} | \text{classe = Sim}) = \dfrac{6}{9} \\ P(\text{Cré
 
 ---
 
-Temos então, sob independência...
+Temos então, sob independência:
 
 {{< math >}} 
-`$$P(x_0|\text{Sim}) = P(\leq 30 \cap \text{Média} \cap \text{Sim} \cap \text{Bom}|\text{Sim} ) \\ = \dfrac{2}{9} \times \dfrac{4}{9}\times \dfrac{6}{9}\times \dfrac{6}{9} = \dfrac{32}{729} = 0,044$$`
+`$$P(x_0|\text{Sim}) = P(\leq 30 \cap \text{Média} \cap \text{Sim} \cap \text{Bom}|\text{Sim} ) \\ = \dfrac{2}{9} \times \dfrac{4}{9}\times \dfrac{6}{9}\times \dfrac{6}{9} = \dfrac{32}{729} = 0,044\\$$`
 {{< /math >}}
 
 ---
 
-Temos então, sob independência...
+Temos então, sob independência:
 
 {{< math >}} 
-`$$P(x_0|\text{Não}) = P(\leq 30 \cap \text{Média} \cap \text{Sim} \cap \text{Bom}|\text{Não} ) \\ = \dfrac{3}{5} \times \dfrac{2}{5}\times \dfrac{1}{5}\times \dfrac{2}{5} = \dfrac{12}{625} = 0,019$$`
+`$$P(x_0|\text{Não}) = P(\leq 30 \cap \text{Média} \cap \text{Sim} \cap \text{Bom}|\text{Não} ) \\ = \dfrac{3}{5} \times \dfrac{2}{5}\times \dfrac{1}{5}\times \dfrac{2}{5} = \dfrac{12}{625} = 0,019\\$$`
 {{< /math >}}
 
 ---
@@ -335,7 +357,7 @@ Temos então, sob independência...
 Pelo Teorema da Probabilidade Total:
 
 {{< math >}} 
-`$$P(x_0) = P(x_0|\text{classe = Sim}) \times P(\text{classe = Sim}) + \\ P(x_0|\text{classe = Não}) \times P(\text{classe = Não}) \\ 0,044 \times 0,643 + 0,019 \times 0,357 = 0,035$$`
+`$$P(x_0) = P(x_0|\text{classe = Sim}) \times P(\text{classe = Sim}) + \\ P(x_0|\text{classe = Não}) \times P(\text{classe = Não})  \\ = 0,044 \times 0,643 + 0,019 \times 0,357 = 0,035\\$$`
 {{< /math >}}
 
 ---
@@ -343,7 +365,7 @@ Pelo Teorema da Probabilidade Total:
 Assim, pelo Teorema de Bayes:
 
 {{< math >}} 
-$$P(\text{Sim}|x_0) = \dfrac{P(x_0|\text{classe = Sim}) \times P(\text{classe = Sim})}{P(x_0)} \\ = \dfrac{0,044) \times 0,643}{0,035} = 0,80 \\ $$
+$$P(\text{Sim}|x_0) = \dfrac{P(x_0|\text{classe = Sim}) \times P(\text{classe = Sim})}{P(x_0)} \\ = \dfrac{0,044 \times 0,643}{0,035} = 0,80 \\ $$
 {{< /math >}}
 
 ---
@@ -351,7 +373,7 @@ $$P(\text{Sim}|x_0) = \dfrac{P(x_0|\text{classe = Sim}) \times P(\text{classe = 
 Assim, pelo Teorema de Bayes:
 
 {{< math >}} 
-$$P(\text{Não}|x_0) = \dfrac{P(x_0|\text{classe = Não}) \times P(\text{classe = Não})}{P(x_0)} \\ = \dfrac{0,019) \times 0,357}{0,035} = 0,20 \\ $$
+$$P(\text{Não}|x_0) = \dfrac{P(x_0|\text{classe = Não}) \times P(\text{classe = Não})}{P(x_0)} \\ = \dfrac{0,019 \times 0,357}{0,035} = 0,20 \\ $$
 {{< /math >}}
 
 
