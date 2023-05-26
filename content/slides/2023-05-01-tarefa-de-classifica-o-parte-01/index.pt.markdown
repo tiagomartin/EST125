@@ -147,14 +147,78 @@ Finalmente, o KNN pode ser usado como um modelo de referência para problemas de
 
 {{<slide background-color="#54787d">}} 
 
+## Exemplo
+
+---
+
+### Compra de um computador
+
+![exemplo](tabela.jpg)
+
+---
+João possui as seguintes características
+
+- menos de 30 anos
+- renda média
+- é estudante
+- possuí um bom crédito na praça!
+
+---
+
+João **compraria** ou **não compraria** o computador?
+
+![duvida](https://media2.giphy.com/media/XeH1MFu4x3etVsllUN/giphy.gif)  
+
+
+---
+
+<p style="font-size: 56px">Quem é o João?</p>
+
+&nbsp;
+&nbsp;
+
+{{% fragment %}}
+<p style="color: blue">{{< math >}}$x_0 = \{\leq 30, \text{ Média}, \text{ Sim}, \text{ Bom}\}${{< /math >}}</p>
+{{% /fragment %}}
+
+---
+
+Usando o classificador KNN com k = 5
+
+![tab_dis](tab_dist.jpg)
+
+
+---
+
+Temos então que os **5 vizinhos** mais próximos a João são
+
+
+- <p style="color: red">{{< math >}} $ x_2 = \{\leq 30, \text{ Alta}, \text{ Sim}, \text{ Bom}\}${{< /math >}}</p>
+- <p style="color: red">{{< math >}} $ x_8 = \{\leq 30, \text{Média}, \text{ Não}, \text{ Bom}\}${{< /math >}}</p>
+
+
+---
+
+- <p style="color: green">{{< math >}} $ x_9 = \{\leq 30, \text{ Baixa}, \text{ Sim}, \text{ Bom}\}${{< /math >}}</p>
+- <p style="color: green">{{< math >}} $ x_{10} = \{> 40, \text{ Média}, \text{ Sim}, \text{ Excelente}\}${{< /math >}}</p>
+- <p style="color: green">{{< math >}} $ x_{11} = \{\leq 30, \text{ Média}, \text{ Sim}, \text{ Excelente}\}${{< /math >}}</p>
+
+---
+
+{{< spoiler text= "João comprará o computador?" >}}
+&nbsp;
+<p style="color: green"> De acordo com o KNN: SIM! </p>
+{{< /spoiler >}}
+
+---
+
+{{<slide background-color="#54787d">}} 
+
 ## Classificador Naïve Bayes
 
 ---
 
-- O **Classificador Naïve Bayes** é um algoritmo de aprendizagem supervisionada utilizado para classificação de dados.
-
-
-- Ele se baseia no **Teorema de Bayes**, que afirma que a probabilidade de um evento ocorrer dado que outro evento já ocorreu é proporcional à probabilidade deste último evento ocorrer dado o primeiro.
+Baseia-se no **Teorema de Bayes**, que afirma que a probabilidade de um evento ocorrer dado que outro evento já ocorreu é proporcional à probabilidade deste último evento ocorrer dado o primeiro.
 
 ---
 
@@ -165,14 +229,6 @@ Finalmente, o KNN pode ser usado como um modelo de referência para problemas de
 - Com base nessa **probabilidade**, ele classifica novos dados em uma das categorias pré-definidas.
 
 
----
-
-### Exemplo de uso
-
-  - O Classificador Naïve Bayes pode ser utilizado em tarefas de **análise de sentimentos**, por exemplo, para determinar se um comentário é positivo ou negativo com base em suas palavras-chave.
-
-  - Ele também pode ser usado em tarefas de **classificação de e-mails**, onde é preciso determinar se um e-mail é spam ou não-spam.
-  
 ---
 
 ### Vantagens
@@ -192,3 +248,116 @@ Finalmente, o KNN pode ser usado como um modelo de referência para problemas de
 - Ele pode ser afetado por dados faltantes ou incorretos.
 
 - Não é um bom algoritmo para tarefas que envolvem classes dependentes.
+
+---
+
+{{<slide background-color="#54787d">}} 
+
+## Exemplo
+
+---
+
+### Compra de um computador
+
+![exemplo](tabela.jpg)
+
+---
+
+Voltando ao Joãozinho...
+
+&nbsp;
+&nbsp;
+
+{{% fragment %}}
+<p style="color: blue">{{< math >}}$x_0 = \{\leq 30, \text{ Média}, \text{ Sim}, \text{ Bom}\}${{< /math >}}</p>
+{{% /fragment %}}
+
+---
+
+{{< math >}} 
+$$ P(\text{classe = Sim}) = \dfrac{9}{14} \,\,\,\,\,\,\, \text{e}\,\,\,\,\,\,\, P(\text{classe = Não}) = \dfrac{5}{14}$$
+{{< /math >}}
+
+---
+
+Para o atributo **Idade**
+
+{{< math >}} 
+$$ P(\text{Idade} \leq 30 | \text{classe = Sim}) = \dfrac{2}{9} \\ P(\text{Idade} \leq 30 | \text{classe = Não}) = \dfrac{3}{5}$$
+{{< /math >}}
+
+---
+
+
+Para o atributo **Renda**
+
+{{< math >}} 
+$$ P(\text{Renda = Média} | \text{classe = Sim}) = \dfrac{4}{9} \\ P(\text{Renda = Média} | \text{classe = Não}) = \dfrac{2}{5}$$
+{{< /math >}}
+
+---
+
+
+Para o atributo **Estudante**
+
+{{< math >}} 
+$$ P(\text{Estudante = Sim} | \text{classe = Sim}) = \dfrac{6}{9} \\ P(\text{Estudante = Sim} | \text{classe = Não}) = \dfrac{1}{5}$$
+{{< /math >}}
+
+---
+
+
+Para o atributo **Crédito**
+
+{{< math >}} 
+$$ P(\text{Crédito = Bom} | \text{classe = Sim}) = \dfrac{6}{9} \\ P(\text{Crédito = Bom} | \text{classe = Não}) = \dfrac{2}{5}$$
+
+{{< /math >}}
+
+---
+
+Temos então, sob independência...
+
+{{< math >}} 
+`$$P(x_0|\text{Sim}) = P(\leq 30 \cap \text{Média} \cap \text{Sim} \cap \text{Bom}|\text{Sim} ) \\ = \dfrac{2}{9} \times \dfrac{4}{9}\times \dfrac{6}{9}\times \dfrac{6}{9} = \dfrac{32}{729} = 0,044$$`
+{{< /math >}}
+
+---
+
+Temos então, sob independência...
+
+{{< math >}} 
+`$$P(x_0|\text{Não}) = P(\leq 30 \cap \text{Média} \cap \text{Sim} \cap \text{Bom}|\text{Não} ) \\ = \dfrac{3}{5} \times \dfrac{2}{5}\times \dfrac{1}{5}\times \dfrac{2}{5} = \dfrac{12}{625} = 0,019$$`
+{{< /math >}}
+
+---
+
+Pelo Teorema da Probabilidade Total:
+
+{{< math >}} 
+`$$P(x_0) = P(x_0|\text{classe = Sim}) \times P(\text{classe = Sim}) + \\ P(x_0|\text{classe = Não}) \times P(\text{classe = Não}) \\ 0,044 \times 0,643 + 0,019 \times 0,357 = 0,035$$`
+{{< /math >}}
+
+---
+
+Assim, pelo Teorema de Bayes:
+
+{{< math >}} 
+$$P(\text{Sim}|x_0) = \dfrac{P(x_0|\text{classe = Sim}) \times P(\text{classe = Sim})}{P(x_0)} \\ = \dfrac{0,044) \times 0,643}{0,035} = 0,80 \\ $$
+{{< /math >}}
+
+---
+
+Assim, pelo Teorema de Bayes:
+
+{{< math >}} 
+$$P(\text{Não}|x_0) = \dfrac{P(x_0|\text{classe = Não}) \times P(\text{classe = Não})}{P(x_0)} \\ = \dfrac{0,019) \times 0,357}{0,035} = 0,20 \\ $$
+{{< /math >}}
+
+
+---
+
+{{< spoiler text= "João comprará o computador?" >}}
+&nbsp;
+<p style="color: green"> De acordo com o Naïve Bayes: SIM! </p>
+{{< /spoiler >}}
