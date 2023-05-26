@@ -75,10 +75,10 @@ features:
     gravatar: false
     shape: circle
   comment:
-    provider: ''
+    provider: 'disqus'
     disqus:
-      shortname: 'disqus_oqhRSyCmcg'
-      show_count: true
+      shortname: 'dataimd'
+      show_count: true 
     commento:
       url: ''
     giscus:

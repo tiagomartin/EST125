@@ -21,6 +21,7 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
+commentable: true
 ---
 
 Olá pessoal, beleza?
@@ -124,17 +125,16 @@ dados %>% head()
 
 ```
 ## # A tibble: 6 × 14
-##   PassengerId HomePl…¹ CryoS…² Cabin Desti…³   Age VIP   RoomS…⁴ FoodC…⁵ Shopp…⁶
-##   <fct>       <fct>    <lgl>   <fct> <fct>   <dbl> <lgl>   <dbl>   <dbl>   <dbl>
-## 1 0001_01     Europa   FALSE   B/0/P TRAPPI…    39 FALSE       0       0       0
-## 2 0002_01     Earth    FALSE   F/0/S TRAPPI…    24 FALSE     109       9      25
-## 3 0003_01     Europa   FALSE   A/0/S TRAPPI…    58 TRUE       43    3576       0
-## 4 0003_02     Europa   FALSE   A/0/S TRAPPI…    33 FALSE       0    1283     371
-## 5 0004_01     Earth    FALSE   F/1/S TRAPPI…    16 FALSE     303      70     151
-## 6 0005_01     Earth    FALSE   F/0/P PSO J3…    44 FALSE       0     483       0
-## # … with 4 more variables: Spa <dbl>, VRDeck <dbl>, Name <fct>,
-## #   Transported <lgl>, and abbreviated variable names ¹​HomePlanet, ²​CryoSleep,
-## #   ³​Destination, ⁴​RoomService, ⁵​FoodCourt, ⁶​ShoppingMall
+##   PassengerId HomePlanet CryoSleep Cabin Destination     Age VIP   RoomService
+##   <fct>       <fct>      <lgl>     <fct> <fct>         <dbl> <lgl>       <dbl>
+## 1 0001_01     Europa     FALSE     B/0/P TRAPPIST-1e      39 FALSE           0
+## 2 0002_01     Earth      FALSE     F/0/S TRAPPIST-1e      24 FALSE         109
+## 3 0003_01     Europa     FALSE     A/0/S TRAPPIST-1e      58 TRUE           43
+## 4 0003_02     Europa     FALSE     A/0/S TRAPPIST-1e      33 FALSE           0
+## 5 0004_01     Earth      FALSE     F/1/S TRAPPIST-1e      16 FALSE         303
+## 6 0005_01     Earth      FALSE     F/0/P PSO J318.5-22    44 FALSE           0
+## # ℹ 6 more variables: FoodCourt <dbl>, ShoppingMall <dbl>, Spa <dbl>,
+## #   VRDeck <dbl>, Name <fct>, Transported <lgl>
 ```
 
 

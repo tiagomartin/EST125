@@ -21,6 +21,7 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
+commentable: true
 ---
 
 
@@ -601,14 +602,14 @@ plot(G)
 ```
 
 <!-- GeoChart generated in R 4.2.2 by googleVis 0.7.1 package -->
-<!-- Mon May 22 14:32:16 2023 -->
+<!-- Fri May 26 13:22:28 2023 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataGeoChartID5cbc6a932ed0 () {
+function gvisDataGeoChartID5abcad5db3 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1011,15 +1012,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartGeoChartID5cbc6a932ed0() {
-var data = gvisDataGeoChartID5cbc6a932ed0();
+function drawChartGeoChartID5abcad5db3() {
+var data = gvisDataGeoChartID5abcad5db3();
 var options = {};
 options["width"] = 800;
 options["height"] = 400;
 options["projection"] = "kavrayskiy-vii";
 
     var chart = new google.visualization.GeoChart(
-    document.getElementById('GeoChartID5cbc6a932ed0')
+    document.getElementById('GeoChartID5abcad5db3')
     );
     chart.draw(data,options);
     
@@ -1043,9 +1044,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartGeoChartID5cbc6a932ed0);
+callbacks.push(drawChartGeoChartID5abcad5db3);
 })();
-function displayChartGeoChartID5cbc6a932ed0() {
+function displayChartGeoChartID5abcad5db3() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1069,11 +1070,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoChartID5cbc6a932ed0"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoChartID5abcad5db3"></script>
  
 <!-- divChart -->
   
-<div id="GeoChartID5cbc6a932ed0" 
+<div id="GeoChartID5abcad5db3" 
   style="width: 800; height: 400;">
 </div>
 
@@ -1125,14 +1126,14 @@ plot(G)
 ```
 
 <!-- GeoChart generated in R 4.2.2 by googleVis 0.7.1 package -->
-<!-- Mon May 22 14:32:16 2023 -->
+<!-- Fri May 26 13:22:28 2023 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataGeoChartID5cbc4600226c () {
+function gvisDataGeoChartID5abc268c7682 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1530,15 +1531,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartGeoChartID5cbc4600226c() {
-var data = gvisDataGeoChartID5cbc4600226c();
+function drawChartGeoChartID5abc268c7682() {
+var data = gvisDataGeoChartID5abc268c7682();
 var options = {};
 options["width"] = 800;
 options["height"] = 400;
 options["projection"] = "kavrayskiy-vii";
 
     var chart = new google.visualization.GeoChart(
-    document.getElementById('GeoChartID5cbc4600226c')
+    document.getElementById('GeoChartID5abc268c7682')
     );
     chart.draw(data,options);
     
@@ -1562,9 +1563,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartGeoChartID5cbc4600226c);
+callbacks.push(drawChartGeoChartID5abc268c7682);
 })();
-function displayChartGeoChartID5cbc4600226c() {
+function displayChartGeoChartID5abc268c7682() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1588,11 +1589,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoChartID5cbc4600226c"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoChartID5abc268c7682"></script>
  
 <!-- divChart -->
   
-<div id="GeoChartID5cbc4600226c" 
+<div id="GeoChartID5abc268c7682" 
   style="width: 800; height: 400;">
 </div>
 
@@ -1645,14 +1646,14 @@ plot(E)
 ```
 
 <!-- GeoChart generated in R 4.2.2 by googleVis 0.7.1 package -->
-<!-- Mon May 22 14:32:16 2023 -->
+<!-- Fri May 26 13:22:28 2023 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataGeoChartID5cbc2dbd2e79 () {
+function gvisDataGeoChartID5abc57bf9c9 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -2025,15 +2026,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartGeoChartID5cbc2dbd2e79() {
-var data = gvisDataGeoChartID5cbc2dbd2e79();
+function drawChartGeoChartID5abc57bf9c9() {
+var data = gvisDataGeoChartID5abc57bf9c9();
 var options = {};
 options["width"] = 800;
 options["height"] = 400;
 options["projection"] = "kavrayskiy-vii";
 
     var chart = new google.visualization.GeoChart(
-    document.getElementById('GeoChartID5cbc2dbd2e79')
+    document.getElementById('GeoChartID5abc57bf9c9')
     );
     chart.draw(data,options);
     
@@ -2057,9 +2058,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartGeoChartID5cbc2dbd2e79);
+callbacks.push(drawChartGeoChartID5abc57bf9c9);
 })();
-function displayChartGeoChartID5cbc2dbd2e79() {
+function displayChartGeoChartID5abc57bf9c9() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -2083,11 +2084,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoChartID5cbc2dbd2e79"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoChartID5abc57bf9c9"></script>
  
 <!-- divChart -->
   
-<div id="GeoChartID5cbc2dbd2e79" 
+<div id="GeoChartID5abc57bf9c9" 
   style="width: 800; height: 400;">
 </div>
 
@@ -2140,14 +2141,14 @@ plot(G)
 ```
 
 <!-- GeoChart generated in R 4.2.2 by googleVis 0.7.1 package -->
-<!-- Mon May 22 14:32:16 2023 -->
+<!-- Fri May 26 13:22:28 2023 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataGeoChartID5cbc770964b9 () {
+function gvisDataGeoChartID5abc29f69da () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -2515,15 +2516,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartGeoChartID5cbc770964b9() {
-var data = gvisDataGeoChartID5cbc770964b9();
+function drawChartGeoChartID5abc29f69da() {
+var data = gvisDataGeoChartID5abc29f69da();
 var options = {};
 options["width"] = 800;
 options["height"] = 400;
 options["projection"] = "kavrayskiy-vii";
 
     var chart = new google.visualization.GeoChart(
-    document.getElementById('GeoChartID5cbc770964b9')
+    document.getElementById('GeoChartID5abc29f69da')
     );
     chart.draw(data,options);
     
@@ -2547,9 +2548,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartGeoChartID5cbc770964b9);
+callbacks.push(drawChartGeoChartID5abc29f69da);
 })();
-function displayChartGeoChartID5cbc770964b9() {
+function displayChartGeoChartID5abc29f69da() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -2573,11 +2574,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoChartID5cbc770964b9"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoChartID5abc29f69da"></script>
  
 <!-- divChart -->
   
-<div id="GeoChartID5cbc770964b9" 
+<div id="GeoChartID5abc29f69da" 
   style="width: 800; height: 400;">
 </div>
 
@@ -2623,14 +2624,14 @@ plot(G)
 ```
 
 <!-- GeoChart generated in R 4.2.2 by googleVis 0.7.1 package -->
-<!-- Mon May 22 14:32:16 2023 -->
+<!-- Fri May 26 13:22:28 2023 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataGeoChartID5cbc3ed5276c () {
+function gvisDataGeoChartID5abc3bbe56cd () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -2930,15 +2931,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartGeoChartID5cbc3ed5276c() {
-var data = gvisDataGeoChartID5cbc3ed5276c();
+function drawChartGeoChartID5abc3bbe56cd() {
+var data = gvisDataGeoChartID5abc3bbe56cd();
 var options = {};
 options["width"] = 800;
 options["height"] = 400;
 options["projection"] = "kavrayskiy-vii";
 
     var chart = new google.visualization.GeoChart(
-    document.getElementById('GeoChartID5cbc3ed5276c')
+    document.getElementById('GeoChartID5abc3bbe56cd')
     );
     chart.draw(data,options);
     
@@ -2962,9 +2963,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartGeoChartID5cbc3ed5276c);
+callbacks.push(drawChartGeoChartID5abc3bbe56cd);
 })();
-function displayChartGeoChartID5cbc3ed5276c() {
+function displayChartGeoChartID5abc3bbe56cd() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -2988,11 +2989,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoChartID5cbc3ed5276c"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoChartID5abc3bbe56cd"></script>
  
 <!-- divChart -->
   
-<div id="GeoChartID5cbc3ed5276c" 
+<div id="GeoChartID5abc3bbe56cd" 
   style="width: 800; height: 400;">
 </div>
 

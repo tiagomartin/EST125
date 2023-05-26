@@ -18,6 +18,7 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
+commentable: true
 ---
 
 Olá pessoal, beleza?
