@@ -235,7 +235,7 @@ Baseia-se no **Teorema de Bayes**, que afirma que a probabilidade de um evento o
 
 - O Classificador Naïve Bayes é um algoritmo simples e rápido.
 
-- Ele funciona bem em conjuntos de dados com muitas características e com pouco dados.
+- Funciona bem em conjuntos de dados com muitas características e com pouco dados.
 
 - É um algoritmo eficiente em tarefas de classificação de texto.
 
@@ -243,7 +243,7 @@ Baseia-se no **Teorema de Bayes**, que afirma que a probabilidade de um evento o
 
 ### Desvantagens
 
-- O Classificador Naïve Bayes assume que as características são independentes entre si, o que nem sempre é verdade.
+- Assume que as características são independentes entre si, o que nem sempre é verdade.
 
 - Ele pode ser afetado por dados faltantes ou incorretos.
 
