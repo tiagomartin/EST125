@@ -269,7 +269,7 @@ Voltando ao Joãozinho...
 &nbsp;
 
 {{% fragment %}}
-<p style="color: blue">{{< math >}}$x_0 = \{\leq 30, \text{ Média}, \text{ Sim}, \text{ Bom}\}${{< /math >}}</p>
+<p style="color: blue">{{< math >}}$x_0 = (\leq 30, \text{ Média}, \text{ Sim}, \text{ Bom})${{< /math >}}</p>
 {{% /fragment %}}
 
 ---
