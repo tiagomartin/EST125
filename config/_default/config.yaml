@@ -74,3 +74,15 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+cascade:
+  # Configure blog posts
+  - _target:
+      path: /post/**
+    pager: true
+    reading_time: true
+    commentable: true
+  - _target:
+      path: /scripts/**
+    pager: true
+    reading_time: true
+    commentable: true
