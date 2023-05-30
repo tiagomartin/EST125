@@ -7,7 +7,7 @@ categories:
   - Classificação
 tags:
   - Classificação
-summary: ''
+summary: 'Arvores de decisão: principais algoritmos, critérios de divisão'
 authors: []
 slides:
   theme: white
