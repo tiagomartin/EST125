@@ -30,7 +30,6 @@ slides:
     menu_enabled: yes
 ---
 
-
 {{<slide background-color="#54787d">}} 
 
 ## Árvores de decisão
