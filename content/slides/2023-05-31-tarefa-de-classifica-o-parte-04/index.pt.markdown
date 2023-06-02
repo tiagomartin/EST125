@@ -1,0 +1,446 @@
+---
+title: Tarefa de classificação - parte 04
+author: Tiago Pereira
+date: '2023-05-31'
+slug: tarefa-de-classifica-o-parte-04
+categories:
+  - Classificação
+tags:
+  - Classificação
+summary: ''
+authors: []
+slides:
+  theme: white
+  highlight_style: dracula
+  diagram: yes
+  diagram_options:
+    theme: base
+  reveal_options:
+    controls: yes
+    progress: yes
+    slide_number: c/t
+    center: yes
+    rtl: no
+    mouse_wheel: yes
+    transition: fade
+    transitionSpeed: default
+    background_transition: slide
+    touch: yes
+    loop: no
+    menu_enabled: yes
+---
+
+{{<slide background-color="#54787d">}} 
+
+## Redes Neurais Artificiais
+
+---
+
+**Redes neurais artificiais** são modelos matemáticos e computacionais inspirados no funcionamento do **cérebro humano**.
+
+---
+### Inspiração biológica
+
+![neuronio](neuronio2.png)
+
+---
+
+Os **neurônios** se comunicam através de **sinapses**. Sinapse é a região onde dois neurônios entram em contato e através da qual os **impulsos nervosos** são transmitidos entre eles
+
+---
+
+<img src="sinapse.jpeg" width="500">
+
+---
+
+### Neurônio Artificial
+
+![neuronioMP](neuronioMP.png)
+
+---
+
+{{< math >}} 
+$$ \nu_k = \sum_{i=1}^p w_{ki}x_i +b_k$$
+{{< /math >}}
+
+
+
+{{< math >}} 
+$$ y_k = \varphi(\nu_k)$$
+{{< /math >}}
+
+---
+
+{{<slide background-color="#54787d">}} 
+
+## Funções de ativação
+
+---
+
+A **função de ativação**, denotada por {{< math >}}$\varphi(\nu)${{< /math >}}, define sua saída ou ativação em termos do sinal {{< math >}}$\nu${{< /math >}} . 
+
+---
+
+Essa função é responsável por introduzir **não-linearidades** nas operações realizadas pela rede neural, permitindo que ela aprenda e modele **relações complexas** nos dados.
+
+---
+
+<table>
+<tr>
+<th>Função Threshold</th>
+<th></th>
+</tr>
+<tr>
+<td>
+{{< math >}}
+`$$\varphi(\nu) = \begin{cases}1 & \text{se } \nu \geq 0, \\
+0 & \text{se }\nu < 0\end{cases}$$`
+{{< /math >}}
+</td>
+<td>
+
+![threshold](threshold.jpeg)
+
+</td>
+</tr>
+</table>
+
+Útil em problemas onde se deseja atribuir uma saída binária, como 0 ou 1, com base em um limite.
+
+---
+
+<table>
+<tr>
+<th>Função sigmoidal</th>
+<th></th>
+</tr>
+<tr>
+<td>
+{{< math >}} 
+`$$\varphi(\nu) = \dfrac{1}{1 + \exp(-a\nu)}$$`
+{{< /math >}}
+</td>
+<td>
+
+![threshold](sigmoide.jpg)
+
+</td>
+</tr>
+</table>
+
+Útil em problemas onde a saída representa a probabilidade de pertencer a uma das duas classes.
+
+
+
+---
+
+<table>
+<tr>
+<th>Função Sinal</th>
+<th></th>
+</tr>
+<tr>
+<td>
+{{< math >}} 
+`$$\varphi(\nu) = \begin{cases}1 & \text{se } \nu > 0, \\
+0 & \text{se }\nu = 0, \\
+-1 & \text{se } \nu < 0 \end{cases}$${{< /math >}}
+</td>
+<td>
+
+![threshold](sinal.jpg)
+
+</td>
+</tr>
+</table>
+
+Útil em problemas onde se deseja atribuir uma saída discreta de -1 ou 1 com base na polaridade do valor de entrada.
+
+---
+
+<table>
+<tr>
+<th>Função Tangente Hiperbólica</th>
+<th></th>
+</tr>
+<tr>
+<td>
+{{< math >}} 
+`$$\varphi(\nu) = \dfrac{1-\exp(-\beta \nu)}{1+\exp(-\beta \nu)}$$`{{< /math >}}
+</td>
+<td>
+
+![threshold](tanh.jpg)
+
+</td>
+</tr>
+</table>
+
+É comumente usada em redes neurais para classificação binária ou regressão.
+
+---
+
+<table>
+<tr>
+<th>Função ReLU</th>
+<th></th>
+</tr>
+<tr>
+<td>
+{{< math >}} 
+`$$\varphi(\nu) = \max(0, \nu)$$`{{< /math >}}
+</td>
+<td>
+
+![threshold](relu.jpg)
+
+</td>
+</tr>
+</table>
+
+Amplamente usada em camadas ocultas de redes neurais devido à sua simplicidade computacional 
+
+
+---
+
+<table>
+<tr>
+<th>Função Softmax</th>
+<th></th>
+</tr>
+<tr>
+<td>
+{{< math >}} 
+`$$\varphi(\nu) = \dfrac{\exp({\nu})}{\sum_{k=1}^K \exp(\nu_k) }$$`{{< /math >}}
+</td>
+<td>
+
+![threshold](softmax.jpg)
+
+</td>
+</tr>
+</table>
+
+Usada para classificação multiclasse. As saídas são normalizadas, representando probabilidades.
+
+---
+
+{{<slide background-color="#54787d">}} 
+
+## Arquiteturas de redes
+
+---
+
+Existem **várias arquiteturas** de redes neurais que foram desenvolvidas ao longo dos anos para atender a diferentes **necessidades** e **desafios**.
+
+&nbsp;
+
+A arquitetura de uma RNA, define a sua **especialidade** e qual **tipo de problema** poderá ser utilizada para resolvê-lo.
+
+---
+
+O que define a arquitetura de uma RNA basicamente são as **camadas** (camada única ou múltiplas camadas), **número de neurônios** em cada camada e o tipo de **conexão** entre os neurônios (FeedForward ou feedback)
+
+---
+
+### Perceptron
+
+&nbsp;
+
+O **perceptron** é a arquitetura mais básica de rede neural, composta por **um único neurônio** com conexões diretas (**feedforward**) de entrada e uma função de ativação. 
+
+---
+
+
+
+
+<table>
+<tr>
+<th>Perceptron (1957)</th>
+<th></th>
+</tr>
+<tr>
+<td>
+
+<img src="neuronioMP.png" width="3000">
+
+</td>
+<td>
+
+- **bias:** ajusta a influência das entradas
+- aprimora a flexibilidade do modelo.
+
+
+</td>
+</tr>
+</table>
+
+
+---
+
+Essa arquitetura é usada principalmente para problemas de **classificação linearmente separáveis**.
+
+
+<table>
+<tr>
+<td>
+
+<img src="li.jpg" width="650">
+
+
+</td>
+<td>
+
+<img src="svm01.jpg" width="400">
+
+
+</td>
+</tr>
+</table>
+
+---
+
+### Multi-Layer Perceptron (MLP)
+
+&nbsp;
+
+O **MLP** é uma arquitetura de rede neural **feedforward** com várias **camadas ocultas** entre a **camada de entrada** e a **camada de saída**. 
+
+---
+
+Cada camada possui **vários** neurônios **interconectados**. 
+
+![mlp](mlp.png)
+
+---
+
+
+<img src="rna.png" width="700">
+
+
+
+---
+
+O MLP é capaz de aprender e modelar relações complexas nos dados e é amplamente usado em problemas de classificação e regressão.
+
+---
+
+
+{{<slide background-color="#54787d">}} 
+
+## Treinamento
+
+--- 
+
+O **treinamento** de redes neurais é o processo de ajustar os **pesos** e **bias** (parâmetros) da rede neural para que ela seja capaz de aprender a partir dos dados de treinamento e gerar previsões precisas para novos dados.
+
+---
+
+O treinamento envolve a **minimização** de uma **função de custo** ou perda, que mede a diferença entre as **saídas previstas** pela rede neural e as **saídas desejadas**.
+
+---
+
+
+<table>
+<tr>
+<th>Treinamento supervisionado</th>
+<th></th>
+</tr>
+<tr>
+<td>
+
+![neural+network](https://media3.giphy.com/media/7HAm2aWDviqeQ/giphy-downsized-medium.gif)
+</td>
+<td>
+
+<img src="super.png" width="400">
+
+
+</td>
+</tr>
+</table>
+
+---
+
+### Treinamento do perceptron
+
+&nbsp;
+
+Para cada exemplo de treinamento, o perceptron realiza uma **propagação direta** dos dados de entrada através da função de ativação. 
+
+---
+
+O **resultado** da propagação direta é comparado com a **saída desejada**. 
+
+&nbsp;
+
+Se a **saída do perceptron** corresponder à **saída desejada**, nenhuma atualização nos pesos e bias é necessária e o próximo exemplo de treinamento é processado.
+
+---
+
+Se a saída do perceptron for **diferente** da saída desejada, os pesos e o bias são **atualizados** para ajustar o perceptron. 
+
+---
+
+<p style="text-align: left;">A atualização dos pesos é dada por:</p>
+
+
+{{< math >}}$$\mathbf{w}(n+1) = \mathbf{w}(n) + \eta[\hat{y}(n)-y(n)]\mathbf{x}(n)$${{< /math >}}
+
+---
+
+
+<p style="text-align: left;">E a atualização do bias:</p>
+
+{{< math >}}$$b(n+1) = b(n) + \eta y(n)$${{< /math >}}
+
+
+- {{< math >}}$\hat{y}(n)${{< /math >}} é a saída alvo
+- {{< math >}}$y(n)${{< /math >}} é a saída da rede
+- {{< math >}}$\eta${{< /math >}} é a taxa de aprendizado
+
+---
+
+A **taxa de aprendizagem** ({{< math >}}$\eta${{< /math >}}) é um hiperparâmetro crítico no treinamento do perceptron:
+
+- Se for **muito grande**, pode levar a oscilações e a não convergência do algoritmo. 
+
+- Se for **muito pequena**, o treinamento pode ser lento. 
+
+Geralmente seu valor varia de 0.1 a 1.0
+
+---
+
+### Treinamento de redes mlp
+
+&nbsp;
+
+O algoritmo de aprendizado da MLP é chamado **backpropagation** e é composto, basicamente, de duas etapas
+
+---
+
+**Propagação:** Recebimento dos estímulos que é aplicado aos neurônios da rede, onde seu efeito se **propaga** camada por camada até produzir uma saída como resposta da rede. Neste passo **não há alteração** nos pesos sinápticos.
+
+---
+
+A **saída prevista** pela rede MLP é comparada com a **saída desejada** usando uma **função de custo**. A função de custo mede o quão bem a rede MLP está performando em relação ao objetivo desejado. 
+
+---
+
+**Retropropagação:** Após a saída, os pesos sinápticos são **ajustados** de acordo com a regra de correção de erro. Este sinal é propagado então para toda rede da saída para o entrada (caminho inverso), ou seja, o erro é **retropropagado**.
+
+---
+
+<img src="backpropagation.gif" width="1400">
+
+---
+
+### Vantagens e desvantagens
+
+&nbsp;
+
+- **Vantagens:** capacidade de aprendizado, tolerância a falhas, aplicabilidade em diversos problemas
+
+&nbsp;
+
+- **Desvantagens:** complexidade de treinamento, necessidade de grande quantidade de dados
