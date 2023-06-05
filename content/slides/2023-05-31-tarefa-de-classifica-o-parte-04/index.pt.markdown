@@ -7,7 +7,7 @@ categories:
   - Classificação
 tags:
   - Classificação
-summary: ''
+summary: 'Redes Neurais Artificiais'
 authors: []
 slides:
   theme: white
