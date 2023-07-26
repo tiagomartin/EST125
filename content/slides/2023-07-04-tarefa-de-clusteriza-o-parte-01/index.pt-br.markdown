@@ -31,6 +31,7 @@ slides:
     touch: yes
     loop: no
     menu_enabled: yes
+    
 ---
 
 {{<slide background-color="#54787d">}} 
@@ -163,7 +164,6 @@ Os grupos são formados de maneira a **maximizar** a similaridade entre os eleme
 <img src="relacoes.png" width="700">
 
 ---
-
 
 {{<slide background-color="#54787d">}} 
 
