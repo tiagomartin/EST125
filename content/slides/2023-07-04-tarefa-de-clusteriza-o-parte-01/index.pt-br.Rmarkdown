@@ -31,6 +31,7 @@ slides:
     touch: yes
     loop: no
     menu_enabled: yes
+    
 ---
 
 {{<slide background-color="#54787d">}} 
