@@ -233,7 +233,7 @@ Um **ponto de ruído** (noise point) é um ponto que não é nem um ponto núcle
 
 ---
 
-<img src="points.png" width="700">
+<img src="points2.png" width="700">
 
 ---
 
