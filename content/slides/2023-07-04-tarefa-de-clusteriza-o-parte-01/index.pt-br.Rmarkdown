@@ -39,7 +39,6 @@ slides:
 
 ---
 
-
 Uma das habilidades mais básicas dos organismos vivos é a capacidade de agrupar objetos similares para produzir uma **taxonomia**, uma **classificação**, ou um **agrupamento**.
 
 ---
@@ -68,7 +67,6 @@ Uma das habilidades mais básicas dos organismos vivos é a capacidade de agrupa
 </td>
 </tr>
 </table>
-
 
 ---
 
@@ -312,3 +310,4 @@ Se Eps é **alto suficiente** para que C e D sejam detectados como clusters ent�
 ---
 
 Se Eps é **baixo suficiente** para que A e B sejam detectados como clusters separados então C e D (e os objetos a seu redor) serão considerados **outliers**!
+
