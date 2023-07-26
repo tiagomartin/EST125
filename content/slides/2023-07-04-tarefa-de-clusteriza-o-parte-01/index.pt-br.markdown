@@ -39,7 +39,6 @@ slides:
 
 ---
 
-
 Uma das habilidades mais básicas dos organismos vivos é a capacidade de agrupar objetos similares para produzir uma **taxonomia**, uma **classificação**, ou um **agrupamento**.
 
 ---
@@ -68,7 +67,6 @@ Uma das habilidades mais básicas dos organismos vivos é a capacidade de agrupa
 </td>
 </tr>
 </table>
-
 
 ---
 
