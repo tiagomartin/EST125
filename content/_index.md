@@ -59,6 +59,8 @@ sections:
         tag: Pre
       - name: Classificação
         tag: Classificação
+      - name: Clusterização
+        tag: Cluster
   design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
