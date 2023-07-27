@@ -207,3 +207,4 @@ Os pesos são **atualizados** segundo a **distância** ao neurônio **ganhador**
 
 - O **vetor de pesos** para um cluster serve como um **exemplar dos padrões** de entrada associados com esse cluster.
 
+
