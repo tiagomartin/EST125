@@ -48,6 +48,7 @@ A ideia desse algoritmo é criar uma **região circular**, obtida através da **
 
 ---
 
+
 A região de maior concentração em de objetos determina a **direção de deslocamento** deste círculo na base de dados.
 
 ---
