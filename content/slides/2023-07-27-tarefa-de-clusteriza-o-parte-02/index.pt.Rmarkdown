@@ -169,11 +169,11 @@ A **vizinhança** de cada neurônio pode ser definida de acordo com a **forma ge
 
 ---
 
--   **Hexagonal:** cada neurônio possui 6 vizinhos diretos
+- **Hexagonal:** cada neurônio possui 6 vizinhos diretos
 
 &nbsp;
 
--   **Retangular:** cada neurônio possui 4 vizinhos diretos
+- **Retangular:** cada neurônio possui 4 vizinhos diretos
 
 ---
 
