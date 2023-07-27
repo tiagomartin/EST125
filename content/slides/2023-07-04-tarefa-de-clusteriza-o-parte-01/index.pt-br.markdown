@@ -310,3 +310,4 @@ Se Eps é **alto suficiente** para que C e D sejam detectados como clusters ent�
 ---
 
 Se Eps é **baixo suficiente** para que A e B sejam detectados como clusters separados então C e D (e os objetos a seu redor) serão considerados **outliers**!
+
