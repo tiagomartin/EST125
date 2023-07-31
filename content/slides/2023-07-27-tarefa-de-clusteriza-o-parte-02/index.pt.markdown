@@ -72,6 +72,10 @@ A ideia do algoritmo é calcular a **função densidade de probabilidade** para 
 
 ---
 
+A **média ponderada** é calculada utilizando o kernel, que atribui pesos aos pontos de dados com base em sua proximidade ao ponto central.
+
+---
+
 <img src="fig02.png" width="700">
 
 ---
@@ -80,7 +84,31 @@ A ideia do algoritmo é calcular a **função densidade de probabilidade** para 
 
 ---
 
+A **largura de banda (bandwidth)** define o raio da **vizinhança** que é considerado para calcular a média ponderada.
+
+---
+
 <img src="gif01.gif" width="700">
+
+---
+
+Se o valor do bandwidth for **muito grande**, os pontos de dados de diferentes clusters podem ser misturados, levando a um agrupamento **menos discriminativo**.
+
+---
+
+Se o valor do bandwidth for **muito pequeno**, podem surgir **clusters pequenos e insignificantes** ou até mesmo apenas um **único cluster** que englobe todos os pontos.
+
+---
+
+A **escolha** adequada do valor do bandwidth é **crucial** para obter resultados significativos com o algoritmo Mean Shift. 
+
+---
+
+Geralmente, esse valor é **ajustado empiricamente** ou através de **métodos de validação cruzada** para encontrar o valor que melhor se adapte aos dados específicos em questão. 
+
+---
+
+Uma abordagem comum é **experimentar** diferentes valores e selecionar aquele que produzir os **clusters mais relevantes** e bem definidos para a tarefa em questão.
 
 ---
 
