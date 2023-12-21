@@ -65,7 +65,6 @@ dados <- dummy_cols(dados, select_columns = c("Emprego"), remove_selected_column
 dados
 ```
 
-
 ## Em resumo...
 
 Dominar o Dummy Variable Trap é crucial para a construção de modelos de machine learning robustos. Ignorar essa armadilha pode resultar em resultados imprecisos e dificultar a interpretação do seu modelo.

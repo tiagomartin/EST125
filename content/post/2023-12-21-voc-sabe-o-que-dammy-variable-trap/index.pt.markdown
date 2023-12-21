@@ -99,7 +99,6 @@ dados
 ## 3  8000         0
 ```
 
-
 ## Em resumo...
 
 Dominar o Dummy Variable Trap é crucial para a construção de modelos de machine learning robustos. Ignorar essa armadilha pode resultar em resultados imprecisos e dificultar a interpretação do seu modelo.
