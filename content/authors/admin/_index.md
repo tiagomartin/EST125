@@ -22,7 +22,7 @@ last_name: Pereira
 organizations:
 - name: Universidade Federal de Ouro Preto
   url: https://www.ufop.br/
-role: Semestre 2023-1
+role: Semestre 2024-1
 social:
 - display:
     header: true
